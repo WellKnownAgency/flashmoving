@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/', 'PageController@index');
+Route::get('/family', 'PageController@family');
