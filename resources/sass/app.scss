@@ -30,7 +30,7 @@ a.button-top {
 
 .button-top {
   color: #000000;
-  border: 2px solid #d14321;
+  border: 2px solid $main-color;
   border-radius: 40px;
   -moz-border-radius: 40px;
   -webkit-border-radius: 40px;
@@ -62,7 +62,7 @@ a.button-top {
 }
 
 .nav-item a.nav-link:hover{
-  color: #d14321;
+  color: $main-color;
 }
 
 .nav-item {
@@ -76,6 +76,10 @@ a.button-top {
   white-space: nowrap;
 }
 
+.dropdown-menu {
+  border: 0;
+}
+
 .dropdown-item {
     display: block;
     width: 100%;
@@ -87,6 +91,11 @@ a.button-top {
     white-space: nowrap;
     background-color: transparent;
     border: 0;
+}
+
+.dropdown-item:hover {
+  color: $main-color;
+  background-color: transparent;
 }
 
 @media only screen and (max-width: 991px) {
