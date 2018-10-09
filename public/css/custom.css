@@ -9,7 +9,7 @@
 
 .navbar-our-scroll{
   background-color: rgba(0, 0, 0, 0.8);
-  padding-top: 0;
+  padding-top: 2;
   padding-bottom: 0;
 }
 
@@ -52,8 +52,19 @@
   color: #fff;
 }
 
-@media only screen and (min-width : 991.5px) {
-.display-none {
-  display: none;
+@media only screen and (min-width : 991px) {
+  .navbar-our-scroll {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 2;
+    padding-bottom: 0;
+  }
+  .navbar-brand {
+    margin-right: 100px;
+  }
 }
+
+.navbar-brand {
+  float:left;
+  padding-bottom: 9px;
 }
