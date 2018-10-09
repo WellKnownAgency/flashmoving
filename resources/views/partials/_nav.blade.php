@@ -61,7 +61,7 @@
 <!-- End of Main Navigation -->
 
 <!-- Scrolling Navigation -->
-<nav class="navbar navbar-expand-lg navbar-our-scroll fixed-top display-none" id="scroll-nav">
+<nav class="navbar navbar-expand-lg navbar-our-scroll fixed-top" id="scroll-nav">
   <a class="navbar-brand" href="#"><img src="/images/logo3.png" width="100px"/></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -100,7 +100,7 @@
         <a href="tel:+18572418778" class="nav-link">+1 (857) 241-8778</a>
       </li>
       <li class="nav-item">
-        <a href="" class="button-top-nd float-right" style="padding-top:7px;">Book Now</a>
+        <a href="" class="button-top-nd float-right" style="padding-top:5px;">Book Now</a>
       </li>
     </ul>
   </div>
