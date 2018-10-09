@@ -16,3 +16,5 @@
 <!-- CSS -->
 <link rel="stylesheet" href="/css/app.css" >
 <link rel="stylesheet" href="/css/custom.css" >
+
+<!--Slide Down and Up Effect on Navbar-->
