@@ -1,0 +1,59 @@
+.navbar-our-scroll .navbar-nav .nav-link{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 0 15px 0 15px;
+}
+
+.navbar-our-scroll{
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-our-scroll li {
+  padding: 0;
+}
+
+.button-top-nd{
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: #db4623;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  font-family: Roboto;
+  font-weight: 700;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  height: 40px;
+  font-size: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 10px;
+}
+
+.button-top-nd:hover{
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: #00bc00;
+}
+
+.nav-item a{
+ text-decoration: none !important;
+}
+
+.nav-item a:hover{
+ text-decoration: none;
+}
+
+.navbar-toggler{
+  color: #fff;
+}
+
+@media only screen and (min-width : 991.5px) {
+.display-none {
+  display: none;
+}
+}
