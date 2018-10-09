@@ -3,6 +3,7 @@
   $(document).ready(function(){
 
     // hide .navbar first
+    $("#scroll-nav").hide();
 
     // fade in .navbar
     $(function () {
