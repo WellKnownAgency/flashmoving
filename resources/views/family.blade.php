@@ -6,6 +6,11 @@
 @extends('main')
 
 @section('content')
+<progress value="0" style="z-index: 9999;"></progress>
+
+  <!--
+  Place the rest of your markup here
+  --------------------------------->
 <!-- Header starts -->
 <section>
 
@@ -14,6 +19,63 @@
 
 <!--Section text "Flash Movng Fmaily" starts -->
 <section>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
+<p>b</p>
 
 </section>
 <!--End of Section -->
