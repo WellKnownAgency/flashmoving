@@ -3,7 +3,7 @@
 @section('keywords', '')
 @section('mainimg', '')
 
-@extends('main')
+@extends('layouts.main')
 
 @section('content')
 <progress value="0" style="z-index: 9999;"></progress>
