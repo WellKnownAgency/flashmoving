@@ -61,7 +61,7 @@
 <!-- End of Main Navigation -->
 
 <!-- Scrolling Navigation -->
-<nav class="navbar navbar-expand-lg navbar-our-scroll fixed-top" id="scroll-nav">
+<nav class="navbar navbar-expand-lg navbar-our-scroll fixed-top" id="scroll-nav" style="height=50px;">
   <a class="navbar-brand" href="#"><img src="/images/logo3.png" width="100px"/></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
