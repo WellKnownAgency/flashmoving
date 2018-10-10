@@ -12,9 +12,9 @@
   Place the rest of your markup here
   --------------------------------->
 <!-- Header starts -->
-<header>
+<section>
 
-</header>
+</section>
 <!--End of Header -->
 
 <!--Section text "Flash Movng Fmaily" starts -->
