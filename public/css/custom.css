@@ -9,11 +9,7 @@
 
 .navbar-our-scroll{
   background-color: rgba(0, 0, 0, 0.8);
-<<<<<<< HEAD
-  padding-top: 0;
-=======
   padding-top: 2px;
->>>>>>> e5e1683265a8f2a53160119dac814f9a7a0d4311
   padding-bottom: 0;
 }
 
@@ -55,8 +51,6 @@
 .navbar-toggler{
   color: #fff;
 }
-<<<<<<< HEAD
-=======
 
 progress {
   /* Positioning */
@@ -120,4 +114,3 @@ progress::-moz-progress-bar {
   float:left;
   padding-bottom: 9px;
 }
->>>>>>> e5e1683265a8f2a53160119dac814f9a7a0d4311
