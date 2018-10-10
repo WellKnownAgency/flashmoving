@@ -1,0 +1,102 @@
+//buttons
+a.button-top {
+    text-decoration: none;
+}
+
+.button-top:hover {
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #00bc00;
+}
+
+.button-top {
+    color: #000000;
+    border: 2px solid #d14321;
+    border-radius: 40px;
+    font-weight: 700;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    height: 40px;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 6.5px;
+    margin-left: 10px;
+}
+
+// Icons
+.fa-icon-top {
+    font-size: 20px;
+    padding:0 5px 0 5px;
+}
+
+// Navbar
+.navbar-our .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.nav-item a.nav-link:hover{
+    color: #d14321;
+}
+
+.nav-item {
+    clear: both;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 14px;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #000;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+@media only screen and (max-width: 991px) {
+    #hidewhensm {
+        display: none;
+    }
+}
+
+.top-logo {
+    vertical-align: middle;
+    height:auto;
+    padding: 13.5px 13.5px;
+    text-align: center;
+}
+
+.top-icons {
+    padding-left: 20px;
+}
+
+.icons-padding {
+    padding: 10px 10px;
+}
+
+.top-wrapper {
+    height: 100px;
+}
+
+.container-top {
+    padding:0 20px 0 20px;
+}
+
+.navbar {
+    padding-left: 40px;
+    padding-right: 40px;
+}
