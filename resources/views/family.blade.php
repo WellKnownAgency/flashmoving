@@ -7,9 +7,9 @@
 
 @section('content')
 <!-- Header starts -->
-<header>
+<section>
 
-</header>
+</section>
 <!--End of Header -->
 
 <!--Section text "Flash Movng Fmaily" starts -->
