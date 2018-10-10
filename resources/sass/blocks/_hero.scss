@@ -1,0 +1,80 @@
+.hero {
+    position: relative;
+    height: calc(100vh - 160px - 30px);
+    &__background {
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    &__preview {
+        position: relative;
+        height: calc(100vh - 160px - 30px);
+        overflow: hidden;
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: -1;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2)));
+        }
+    }
+    &__img {
+        //width: auto!important;
+        max-width: none!important;
+        width: 100vw;
+        position: absolute;
+        top: -9999px;
+        bottom: -9999px;
+        left: -9999px;
+        right: -9999px;
+        margin: auto;
+        z-index: -2;
+    }
+    &__container {
+        @extend .container;
+    }
+    &__content {
+        @extend .d-flex;
+        @extend .flex-column;
+        @extend .justify-content-around;
+        height: 100%;
+        position: relative;
+        padding: 0 60px;
+    }
+    &__row {
+        transform: translateY(45px);
+    }
+    &__title {
+        position: relative;
+        top: 70%;
+    }
+    &__description {
+        margin-top: 30px;
+        color: #fff;
+        font-size: 20px;
+        line-height: 1.55;
+        font-weight: 300;
+    }
+    &__button {
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+
+.hero-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 1.23;
+    font-weight: 600;
+    &__dinamic {
+
+    }
+    &__simple {
+
+    }
+}
