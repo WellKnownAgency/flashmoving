@@ -1,0 +1,31 @@
+.btn-hero {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background-color: #d14321;
+    border-radius: 30px;
+    font-weight: 500;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto',Arial,sans-serif;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-image: none;
+    cursor: pointer;
+    user-select: none;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    &:hover {
+        background-color: #db4623;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
