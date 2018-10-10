@@ -9,7 +9,7 @@
 
 .navbar-our-scroll{
   background-color: rgba(0, 0, 0, 0.8);
-  padding-top: 2;
+  padding-top: 2px;
   padding-bottom: 0;
 }
 
@@ -52,7 +52,6 @@
   color: #fff;
 }
 
-<<<<<<< HEAD
 progress {
   /* Positioning */
   position: fixed;
@@ -87,13 +86,14 @@ progress::-webkit-progress-value {
 }
 
 progress::-moz-progress-bar {
-  background-color: red;
-=======
+    background-color: red;
+}
+
 @media only screen and (min-width : 991px) {
   .navbar-our-scroll {
     display: none;
     background-color: rgba(0, 0, 0, 0.8);
-    padding-top: 2;
+    padding-top: 2px;
     padding-bottom: 0;
   }
   .navbar-brand {
@@ -104,5 +104,4 @@ progress::-moz-progress-bar {
 .navbar-brand {
   float:left;
   padding-bottom: 9px;
->>>>>>> 866465f7eb3981824d3d1baab6fb9ed49fdae625
 }
