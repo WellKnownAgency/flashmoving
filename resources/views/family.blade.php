@@ -3,7 +3,7 @@
 @section('keywords', '')
 @section('mainimg', '')
 
-@extends('main')
+@extends('layouts.main')
 
 @section('content')
 <!-- Header starts -->
