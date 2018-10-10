@@ -9,11 +9,7 @@
 
 .navbar-our-scroll{
   background-color: rgba(0, 0, 0, 0.8);
-<<<<<<< HEAD
-  padding-top: 0;
-=======
   padding-top: 2px;
->>>>>>> e5e1683265a8f2a53160119dac814f9a7a0d4311
   padding-bottom: 0;
 }
 
@@ -55,8 +51,6 @@
 .navbar-toggler{
   color: #fff;
 }
-<<<<<<< HEAD
-=======
 
 progress {
   /* Positioning */
@@ -83,31 +77,12 @@ progress {
   color: #db4623;
 }
 
-progress::-webkit-progress-bar {
-  background-color: transparent;
-}
-
-progress::-webkit-progress-value {
-  background-color: #db4623;
-}
-
-progress::-moz-progress-bar {
-<<<<<<< HEAD
-  background-color: #db4623;
-=======
-    background-color: red;
->>>>>>> 0ebd6ec5dae848bf5f794c9bc17a17984375af43
-}
 
 @media only screen and (min-width : 991px) {
   .navbar-our-scroll {
     display: none;
     background-color: rgba(0, 0, 0, 0.8);
-<<<<<<< HEAD
     padding-top: 6;
-=======
-    padding-top: 2px;
->>>>>>> 0ebd6ec5dae848bf5f794c9bc17a17984375af43
     padding-bottom: 0;
   }
   .navbar-brand {
@@ -120,4 +95,3 @@ progress::-moz-progress-bar {
   float:left;
   padding-bottom: 9px;
 }
->>>>>>> e5e1683265a8f2a53160119dac814f9a7a0d4311
