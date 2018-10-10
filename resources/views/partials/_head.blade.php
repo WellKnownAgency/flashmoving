@@ -16,8 +16,5 @@
 <!-- CSS -->
 <link rel="stylesheet" href="/css/app.css" >
 <link rel="stylesheet" href="/css/custom.css" >
-<<<<<<< HEAD
-=======
 
 <!--Slide Down and Up Effect on Navbar-->
->>>>>>> e5e1683265a8f2a53160119dac814f9a7a0d4311
