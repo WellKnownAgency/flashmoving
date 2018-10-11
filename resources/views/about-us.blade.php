@@ -12,9 +12,9 @@
     <div class="about-us-img">
       <img src="/images/about/about-back.jpg" alt="" class="about__img">
     </div>
-    <div class="row" style="padding-top:90px;">
-      <div class="col-md-12">
-        <div class="about__preview">
+    <div class="row justify-content-center" style="padding-top:90px;">
+      <div class="col-md-6 colsm-12">
+        <div class="">
           <div class="about_text">
             <h2 style="font-size: 42px;"><b>About Us</b></h2>
             <p>Out team offers commercial, residential, local and long distance moving services. As well as packing, POD loading/unloading, inside move and storage services.</p>

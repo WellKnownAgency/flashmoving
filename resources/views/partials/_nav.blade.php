@@ -4,10 +4,10 @@
     <div class="col-md-4 align-self-center" style="padding: 0;">
       <div class="top-icons">
         <div class="icons-padding">
-          <i class="fa fa-facebook fa-icon-top"></i>
-          <i class="fa fa-twitter fa-icon-top"></i>
-          <i class="fa fa-instagram fa-icon-top"></i>
-          <i class="fa fa-yelp fa-icon-top"></i>
+          <i class="fa fa-facebook fa-2x"></i>
+          <i class="fa fa-twitter fa-2x"></i>
+          <i class="fa fa-instagram fa-2x"></i>
+          <i class="fa fa-yelp fa-2x"></i>
         </div>
       </div>
     </div>
