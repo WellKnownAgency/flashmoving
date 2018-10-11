@@ -1,3 +1,6 @@
+.fa-2x {
+  font-size: 22px;
+}
 .mb-2{
   height:60px;
   padding: 0px 20px;
@@ -17,7 +20,7 @@
 }
 
 .why-choose-us{
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -28,6 +31,7 @@
 }
 
 .about__img {
+  background-image: url('/images/about/about-back.jpg');
   max-width: none !important;
   height:786px;
   position: absolute;
@@ -36,7 +40,6 @@
   width: 100%;
   filter: brightness(50%);
 }
-
 
 .about__preview{
   background-color: #fff;
@@ -213,7 +216,7 @@ progress {
 }
 
 .contact-form{
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -267,14 +270,10 @@ progress {
   transition: 0.5;
 }
 
-.contact-col p{
-  font-size: 14px;
-  line-height: 1.55;
-  font-family: 'Open Sans', Arial, sans-serif;
-  font-weight: 300;
-  color: #000000;
-  cursor: auto;
+.contact-col {
+  padding-left: 80px;
 }
+
 
 .align-middle{
   padding-top: 70px;
