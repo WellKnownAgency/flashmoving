@@ -24,11 +24,11 @@
             <a href="mailto:info@flashmoving.net" class="a-form" style="">info@flashmoving.net</a>
           </div>
           <p class="address-p">99 Rivermoon St., West Roxbury, MA, 02132</p>
-          <div class="icons-padding">
-            <i class="fa fa-facebook fa-icon-top"></i>
-            <i class="fa fa-twitter fa-icon-top"></i>
-            <i class="fa fa-instagram fa-icon-top"></i>
-            <i class="fa fa-yelp fa-icon-top"></i>
+          <div>
+            <a href="https://www.facebook.com/flashmoversma/"><i class="fa fa-facebook fa-2x"></i></a>
+            <a href="https://twitter.com/flashmoversma"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/flashmoversma/"><i class="fa fa-instagram fa-2x"></i></a>
+            <a href=""><i class="fa fa-yelp fa-2x"></i></a>
           </div>
         </div>
       </div>

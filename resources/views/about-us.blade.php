@@ -7,16 +7,16 @@
 
 @section('content')
 <!-- Header starts -->
-<section>
+<section class="about">
   <div class="about__background">
     <div class="about-us-img">
       <img src="/images/about/about-back.jpg" alt="" class="about__img">
     </div>
     <div class="row justify-content-center" style="padding-top:90px;">
-      <div class="col-md-6 colsm-12">
+      <div class="about_block">
         <div class="">
           <div class="about_text">
-            <h2 style="font-size: 42px;"><b>About Us</b></h2>
+            <h2 class="about_h"><b>About Us</b></h2>
             <p>Out team offers commercial, residential, local and long distance moving services. As well as packing, POD loading/unloading, inside move and storage services.</p>
             <p>We have 5+ years experience in moving business. That is why we aimed our business strategy on providing great quality service and creating excellent team work of professionals in order to make you feel safe and relaxed before, during and after your move day.</p>
             <p>No unexpected surprises or extra charges. Only high quality moving and custom service.</p>
@@ -100,7 +100,7 @@
 <!--End of Section -->
 
 <!--Section text "Be part of Our Family" starts-->
-<section>
+<section class="about__form">
   <div class="container">
     <div class="center" style="height:185px;">
       <h1><b>Be part of our family</b></h1>
@@ -111,16 +111,16 @@
   <div class="container center">
     <form>
       <div class="form-row align-items-center">
-        <div class="col-auto">
+        <div class="col-md-4">
           <label class="sr-only" for="inlineFormInput">Name</label>
-          <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Name">
+          <input type="text" class="form-control mb-4" id="inlineFormInput" placeholder="Name">
         </div>
-        <div class="col-auto">
+        <div class="col-md-4">
           <label class="sr-only" for="inlineFormInput">Name</label>
-          <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Phone">
+          <input type="text" class="form-control mb-4" id="inlineFormInput" placeholder="Phone">
         </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        <div class="col-md-4">
+          <button type="submit" class="btn btn-primary mb-4">Submit</button>
         </div>
       </div>
     </form>
