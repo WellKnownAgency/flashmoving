@@ -1,70 +1,14 @@
 .fa-2x {
   font-size: 22px;
-}
-.mb-2{
-  height:60px;
-  padding: 0px 20px;
-  font-size: 16px;
-  margin: 0;
-  font-family: 'Roboto', Arial, sans-serif;
+  padding-left: 5px;
+  color: #000;
 }
 
-.icon_contact{
-  width: 60px;
-  opacity: 1;
-  height: auto;
-  max-width: 100%;
-  vertical-align: middle;
-  text-align: left;
-  padding-bottom: 23px;
+.fa-2x:hover{
+  color: #00bc00;
 }
 
-.why-choose-us{
-  font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.428571429;
-  color: #333333;
-}
 
-.about__background{
-  height:786px;
-}
-
-.about__img {
-  background-image: url('/images/about/about-back.jpg');
-  max-width: none !important;
-  height:786px;
-  position: absolute;
-  margin: auto;
-  z-index: -2;
-  width: 100%;
-  filter: brightness(50%);
-}
-
-.about__preview{
-  background-color: #fff;
-  height: 620px;
-  margin: auto;
-  width: 50%;
-  text-align: center;
-}
-
-.about_text{
-  background-color: #fff;
-  padding: 80px 86px;
-}
-
-.about_text h1{
-  margin-bottom: 29px;
-  line-height: 1.23;
-}
-
-.about_text p{
-      text-align: left;
-      font-size: 18px;
-      line-height: 1.55;
-      margin-top: 31px;
-}
 
 .navbar-our-scroll .navbar-nav .nav-link{
   color: #fff;
@@ -117,7 +61,7 @@
 }
 
 .navbar-toggler{
-  color: #fff;
+  color: #fff !important;
 }
 
 progress {

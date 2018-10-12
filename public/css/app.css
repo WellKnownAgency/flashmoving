@@ -10786,6 +10786,111 @@ a.button-top {
   font-weight: 600;
 }
 
+.about__form .mb-4 {
+  height: 60px;
+  padding: 0px 20px;
+  font-size: 16px;
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.about__form .btn-primary {
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.why-choose-us {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+}
+
+.why-choose-us .icon_contact {
+  width: 60px;
+  opacity: 1;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  text-align: left;
+  padding-bottom: 23px;
+}
+
+.why-choose-us .icon_contact:hover {
+  opacity: 0.7;
+}
+
+.about__background {
+  height: 786px;
+}
+
+.about__img {
+  background-image: url("/images/about/about-back.jpg");
+  max-width: none !important;
+  height: 786px;
+  position: absolute;
+  margin: auto;
+  z-index: -2;
+  width: 100%;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+
+.about__preview {
+  background-color: #fff;
+  height: 620px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.about_text {
+  background-color: #fff;
+  padding: 80px 86px;
+}
+
+.about_text h1 {
+  margin-bottom: 29px;
+  line-height: 1.23;
+}
+
+.about_text p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.55;
+  margin-top: 31px;
+}
+
+.about_block {
+  width: 760px;
+  height: 586px;
+  padding: 40px 20px;
+}
+
+.about_h {
+  font-size: 42px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 680px) {
+  .about_block {
+    padding: 40px 20px;
+    font-size: 14px;
+    line-height: 1.428571429;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .about_text {
+    padding: 30px 20px 35px;
+    font-size: 14px;
+    line-height: 1.428571429;
+  }
+}
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
