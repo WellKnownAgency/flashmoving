@@ -23,14 +23,30 @@ require('./bootstrap');
 
 window.Typed = require('typed.js');
 
+// ScroolBar
 import ScrollProgress from 'scrollprogress';
-
-/*const progressObserver = new ScrollProgress((x, y) => {
-    console.log(x, y);
-});*/
 
 const progressElement = document.querySelector('.progress-bar');
 
 const progressObserver = new ScrollProgress((x, y) => {
     progressElement.style.width = y * 100 + '%';
 });
+
+// ScrollTop
+$(document).ready(function(){
+    var scrollToTopEl = $('.scroll-to-top');
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 0) {
+            scrollToTopEl.fadeIn();
+        } else {
+            scrollToTopEl.fadeOut();
+        }
+    });
+    scrollToTopEl.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 400);
+        return false;
+    });
+});
+
