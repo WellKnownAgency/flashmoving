@@ -5,7 +5,7 @@
   <body>
     <div class="page">
         <div class="page__header">
-            @include('partials/_header')
+            @include('partials/_nav')
         </div>
         <div class="page__body">
             <div class="body">
