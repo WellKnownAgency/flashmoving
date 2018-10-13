@@ -1,0 +1,33 @@
+.title-decorate {
+    &__top-line {
+        margin: 0 auto;
+        display: block;
+        width: 100px;
+        @include media-breakpoint-up(md) {
+            width: 120px;
+        }
+    }
+    &__bottom-line {
+        margin: 0 auto;
+        display: block;
+        transform: rotate(180deg);
+        width: 100px;
+        @include media-breakpoint-up(md) {
+            width: 120px;
+        }
+    }
+    &__text {
+        font-family: $font-family-second;
+        line-height: 1.5;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 35px 0;
+        font-size: 30px;
+        @include media-breakpoint-up(md) {
+            font-size: 38px;
+            margin: 45px 0;
+        }
+    }
+}
+
