@@ -22,3 +22,15 @@ require('./bootstrap');
 });*/
 
 window.Typed = require('typed.js');
+
+import ScrollProgress from 'scrollprogress';
+
+/*const progressObserver = new ScrollProgress((x, y) => {
+    console.log(x, y);
+});*/
+
+const progressElement = document.querySelector('.progress-bar');
+
+const progressObserver = new ScrollProgress((x, y) => {
+    progressElement.style.width = y * 100 + '%';
+});

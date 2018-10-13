@@ -3,6 +3,7 @@
     @include('partials/_head')
   </head>
   <body>
+    <div class="progress-bar"></div>
     <div class="page">
         <div class="page__header">
             @include('partials/_nav')

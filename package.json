@@ -24,7 +24,8 @@
     },
     "dependencies": {
         "font-awesome": "^4.7.0",
-        "typed.js": "^2.0.9",
-        "npm": "^6.4.1"
+        "npm": "^6.4.1",
+        "scrollprogress": "^3.0.2",
+        "typed.js": "^2.0.9"
     }
 }
