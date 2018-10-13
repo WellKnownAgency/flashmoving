@@ -16,19 +16,21 @@
     <div class="hero__preview">
         <img src="/images/hero/erda-estremera-58145.jpg" alt="" class="hero__img hero__img--brightness-high">
     </div>
-    <div class="hero__container">
-        <div class="hero__content">
-            <div class="hero__row">
-                <div class="hero__title">
-                    <div class="hero-title-big">
-                        <div class="hero-title-big__text">
-                            Flash moving
-                            <span class="hero-title-big__dynamic hero-title-big__text--color-red"></span>
+    <div class="hero__wrapper-content">
+        <div class="hero__container">
+            <div class="hero__content">
+                <div class="hero__row">
+                    <div class="hero__title">
+                        <div class="hero-title-big">
+                            <div class="hero-title-big__text">
+                                <span class="hero-title-big__text-part">Flash moving</span>
+                                <span class="hero-title-big__text-part--dynamic hero-title-big__text-part--color-red"></span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="hero__button">
-                    <a class="btn-hero" href="#">Join</a>
+                    <div class="hero__button">
+                        <a class="btn-hero" href="#">Join</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -453,7 +455,7 @@
 @section('customjs')
     <script>
         // Hero section
-        new Typed('.hero-title-big__dynamic', {
+        new Typed('.hero-title-big__text-part--dynamic', {
             strings: ["Compa", "Family"],
             typeSpeed: 200,
             backSpeed: 10,

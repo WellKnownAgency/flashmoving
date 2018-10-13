@@ -6,17 +6,20 @@
         @extend .clearfix;
     }
     &__row &__item {
-        width: 50%;
         counter-increment: tree;
         border-width: 2px;
-        border-color: #db4623;
+        border-color: $main-color;
+        width: 100%;
+        @include media-breakpoint-up(sm) {
+            width: 50%;
+        }
         &:after {
             content: counter(tree);
             width: 48px;
             height: 48px;
             position: absolute;
             border: 2px solid #fff;
-            background: #db4623;
+            background: $main-color;
             border-radius: 100%;
             color: #fff;
             text-align: center;
@@ -24,8 +27,11 @@
             font-size: 20px;
             line-height: 43px;
             top: 0;
-            left: 50%;
             transform: translateX(-50%);
+            left: 20px;
+            @include media-breakpoint-up(sm) {
+                left: 50%;
+            }
         }
         &:before {
             content: '';
@@ -35,28 +41,34 @@
             position: absolute;
             top: 0;
             bottom: 0;
-            left: 50%;
             transform: translateX(-50%);
-            background-color: #db4623;
+            background-color: $main-color;
+            left: 20px;
+            @include media-breakpoint-up(sm) {
+                left: 50%;
+            }
         }
     }
     &__row:last-child &__item:before {
         content: none;
     }
     &__row:nth-child(odd) &__item {
-        text-align: right;
-        float: left;
-        padding-right: 60px;
-        //border-right-style: solid;
+        text-align: left;
+        float: right;
+        padding-left: 60px;
+        @include media-breakpoint-up(sm) {
+            text-align: right;
+            float: left;
+            padding-right: 60px;
+        }
     }
     &__row:nth-child(even) &__item {
         text-align: left;
         float: right;
         padding-left: 60px;
-        //border-left-style: solid;
     }
     &__row:last-child &__item {
-        ///border: none;
+
     }
 }
 

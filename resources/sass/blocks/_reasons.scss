@@ -4,7 +4,7 @@
         padding: 0;
     }
     &__item {
-        margin-bottom: 55px;
+        margin: 25px 0;
     }
 }
 
@@ -35,5 +35,6 @@
         position: absolute;
         left: 0;
         top: 0;
+        width: 10px;
     }
 }

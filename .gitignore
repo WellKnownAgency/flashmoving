@@ -17,5 +17,5 @@ docker-compose.yml
 yarn.lock
 Makefile
 webpack.mix.az.js
-public/css/app.css
-public/js/app.js
+/public/css/app.css
+/public/js/app.js
