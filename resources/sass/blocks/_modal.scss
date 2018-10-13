@@ -1,0 +1,12 @@
+.modal-content-site {
+    border-radius: 0;
+    &__header {
+        padding: 0;
+    }
+    &__body {
+        font-size: 16px;
+        line-height: 1.55;
+        font-weight: 300;
+        padding: 40px 25px;
+    }
+}

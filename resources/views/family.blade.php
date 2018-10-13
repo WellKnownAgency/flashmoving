@@ -41,25 +41,23 @@
 <!--Section text "Flash Movng Fmaily" starts -->
 <section class="section photo-exposition">
     <div class="container">
-        {{--<div class="row">--}}
-            <div class="photo-exposition__row">
-                <div class="photo-exposition__left">
-                    <div class="photo-exposition-content">
-                        <div class="photo-exposition-content__inner">
-                            <h2 class="photo-exposition-content__title">Flash Moving Family</h2>
-                            <div class="photo-exposition-content__description">
-                                Revolutionary Loyalty Program specially designed to meet our customer's needs and to promote saving possibilities without prejudice to the quality of moving service
-                            </div>
+        <div class="photo-exposition__row">
+            <div class="photo-exposition__left">
+                <div class="photo-exposition-content">
+                    <div class="photo-exposition-content__inner">
+                        <h2 class="photo-exposition-content__title">Flash Moving Family</h2>
+                        <div class="photo-exposition-content__description">
+                            Revolutionary Loyalty Program specially designed to meet our customer's needs and to promote saving possibilities without prejudice to the quality of moving service
                         </div>
                     </div>
                 </div>
-                <div class="photo-exposition__right">
-                    <div class="photo-exposition__preview">
-                        <img src="{{asset('images/family/IMG_7937.jpg')}}" alt="Flash Moving Family" class="photo-exposition__img">
-                    </div>
+            </div>
+            <div class="photo-exposition__right">
+                <div class="photo-exposition__preview">
+                    <img src="{{asset('images/family/IMG_7937.jpg')}}" alt="Flash Moving Family" class="photo-exposition__img">
                 </div>
             </div>
-        {{--</div>--}}
+        </div>
     </div>
 </section>
 <!--End of Section -->
@@ -202,7 +200,7 @@
                     </div>
                     <div class="section__gr-line">
                         <div class="gr-line">
-                            <a href="#" class="section__footer-link">Terms and Conditions</a>
+                            <a href="#" class="section__footer-link" data-toggle="modal" data-target="#termConditionsModal">Terms and Conditions</a>
                         </div>
                     </div>
                 </div>
@@ -210,6 +208,20 @@
         </div>
     </div>
 </section>
+
+{{-- Modal --}}
+<div class="modal fade" id="termConditionsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+        <div class="modal-content modal-content-site">
+            <div class="modal-header modal-content-site__header">
+                <img src="{{asset('images/family/Registration_bonus_1.png')}}" alt="">
+            </div>
+            <div class="modal-body modal-content-site__body">
+                <ul> <li> Flash Moving Loyalty Program is applied to Local Moves; <br> </li> <li> Bonus discounts do not expire;<br> </li> <li> You can use Loyalty Program Bonuses yourself or you can transfer them to your friend's and family member's Accounts;<br> </li> <li> You should contact Flash Moving Company manager directly to transfer your Bonuses;<br> </li> <li> You should contact Flash Moving Company manager two weeks, prior to the move, to redeem your Bonuses;<br> </li> <li> Welcome bonus is a one-time bonus discount which is applied to the very first move with Flash Moving Company;<br> </li> <li> Flash Moving Loyalty Program Bonuses cannot be combined with special offers and deals; A Referral Bonus cannot be combined with a Registration Bonus; </li> <li> Bonuses cannot be applied during High- Peak Season ( 08/27 - 09/03 and 12/24 - 12/25);<br> </li> <li> A Giveaway contest is held the last day of each month;<br> </li> <li> Only Client's Phone Number can be used as a Referral ID <br> </li></ul>
+            </div>
+        </div>
+    </div>
+</div>
 <!--End of Section -->
 
 <!--Section text "join the Family" starts-->
