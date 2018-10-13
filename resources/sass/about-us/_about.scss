@@ -1,0 +1,69 @@
+.about {
+
+        &__background {
+          height:786px;
+        }
+
+        &__img{
+          background-image: url('/images/about/about-back.jpg');
+          max-width: none !important;
+          height:786px;
+          position: absolute;
+          margin: auto;
+          z-index: -2;
+          width: 100%;
+          filter: brightness(50%);
+        }
+
+        &__preview {
+          background-color: #fff;
+          height: 620px;
+          margin: auto;
+          width: 50%;
+          text-align: center;
+        }
+
+        &_text {
+          background-color: #fff;
+          padding: 80px 86px;
+        }
+
+        &_text h1 {
+          margin-bottom: 29px;
+          line-height: 1.23;
+        }
+
+        &_text p {
+          text-align: left;
+          font-size: 18px;
+          line-height: 1.55;
+          margin-top: 31px;
+        }
+
+        &_block {
+          width: 760px;
+          height: 586px;
+          padding: 40px 20px;
+        }
+
+        &_h {
+          font-size: 42px;
+          text-align: center;
+        }
+    }
+
+    @media only screen and (max-width : 680px) {
+      .about_block {
+      padding: 40px 20px;
+      font-size: 14px;
+      line-height: 1.428571429;
+      }
+    }
+
+    @media only screen and (max-width : 680px) {
+    .about_text {
+      padding: 30px 20px 35px;
+      font-size: 14px;
+      line-height: 1.428571429;
+     }
+    }

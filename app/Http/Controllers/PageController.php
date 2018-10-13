@@ -15,4 +15,13 @@ class PageController extends Controller
   {
     return view('family');
   }
+
+  public function contact()
+  {
+    return view('contact-us');
+  }
+  public function about()
+  {
+    return view('about-us');
+  }
 }
