@@ -1,0 +1,39 @@
+.reasons-collection {
+    &__list {
+        list-style: none;
+        padding: 0;
+    }
+    &__item {
+        margin-bottom: 55px;
+    }
+}
+
+.reasons-collection-item {
+    position: relative;
+    &--icon {
+        padding-left: 50px;
+    }
+    &--icon-fix-col {
+        padding-left: 30px;
+    }
+    &--icon-fix-col &__icon {
+        left: -15px;
+    }
+    &__title {
+        font-size: 20px;
+        line-height: 1.35;
+        margin-bottom: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    &__description {
+        font-size: 18px;
+        line-height: 1.55;
+        font-weight: 300;
+    }
+    &__icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}

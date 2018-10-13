@@ -1,0 +1,51 @@
+.services-collection {
+    &__list {
+        @extend .container;
+    }
+    &__row {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    &__item {
+        height: 355px;
+    }
+}
+
+.services-collection-item {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 355px;
+    &:hover &__img {
+        transform: scale(1.05);
+        filter: brightness(85%);
+    }
+    &__background {}
+    &__preview {}
+    &__img {
+        transition: transform ease-in-out .25s, filter ease-in-out .25s;
+        filter: brightness(50%);
+        object-fit: cover;
+        width:100%;
+        height:355px;
+        display: block;
+
+    }
+    &__title {
+        position: absolute;
+        z-index: 3;
+        color: #fff;
+        font-size: 36px;
+        line-height: 1.23;
+        font-weight: 600;
+        top: 50%;
+        left: 0;
+        right: 0;
+        transform: translateY(-50%);
+        text-align: center;
+        &--small {
+            font-size: 24px;
+            line-height: 1.35;
+        }
+    }
+}

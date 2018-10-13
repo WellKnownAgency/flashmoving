@@ -1,0 +1,54 @@
+.accordion-content {
+    &__list {
+
+    }
+    &__item {
+        margin-bottom: 2px;
+    }
+}
+
+.accordion-content-item {
+    &__header {
+        position: relative;
+        background-color: #000000;
+        cursor: pointer;
+        padding: 25px 30px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.35;
+        padding-right: 30px;
+        color: #ffffff;
+    }
+    &__button {
+        position: absolute;
+        right: 18px;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 8px;
+        transition: transform ease-in-out .2s,  background-color ease-in-out .2s;
+        background-color: #9a9a9a;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        transform-origin: 50%;
+        &:hover, &--hover  {
+            background-color: #eee;
+        }
+        &--rotate {
+            transform: translateY(-50%) rotate(-45deg);
+        }
+    }
+    &__body {
+        background-color: #000000;
+        padding: 0 30px 30px;
+        font-size: 16px;
+        line-height: 1.55;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__text {
+        border-top: 1px solid #c9c9c9;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+}

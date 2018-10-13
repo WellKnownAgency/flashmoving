@@ -1,0 +1,43 @@
+.review-item {
+    max-width: 660px;
+    margin: 0 auto;
+    &__preview {
+
+    }
+    &__img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        object-fit: cover;
+    }
+    &__message {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 32px;
+        font-family: $font-family-second;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 1.55;
+        @include media-breakpoint-up(md) {
+            font-size: 20px;
+        }
+    }
+    &__name {
+        font-size: 22px;
+        line-height: 1.35;
+        font-weight: 600;
+        margin-top: 8px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    &__from {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.55;
+        font-weight: 300;
+        text-align: center;
+    }
+}
