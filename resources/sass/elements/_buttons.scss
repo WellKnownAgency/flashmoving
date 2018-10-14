@@ -21,7 +21,36 @@
         text-decoration: none;
         color: #ffffff;
     }
+    &--small {
+        font-size: 1em;
+        font-weight: 700;
+        padding: 0.45em 2.1em;
+        text-transform: none;
+    }
+    &--hover-green:hover {
+        color: #fff;
+        border: 2px solid #fff;
+        background-color: #00bc00;
+    }
 }
+
+.btn-header {
+    color: #000000;
+    border: 2px solid #db4623;
+    border-radius: 3.3rem;
+    font-weight: 700;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    font-size: 1em;
+    padding: 0.47em 1.9em;
+    transition: 0.3s;
+    &:hover {
+        text-decoration: none;
+        color: #fff;
+        border: 2px solid #fff;
+        background-color: #00bc00;
+    }
+}
+
 
 .btn-simple {
     color: #ffffff;
