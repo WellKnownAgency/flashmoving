@@ -9,15 +9,15 @@
 
 <div class="contact">
   <div class="container">
-    <div class="center" style="height:241px;">
+    <div class="contact_intro">
       <h1>Contacts</h1>
       <p class="contact-p">Feel free to write and call us
       <br>
       We really love to communicate with our clients </p>
     </div>
     <div class="row ">
-      <div class="col-lg-6 contact-col" style="padding-left: 80px;">
-        <div class="align-middle">
+      <div class="col-lg-6 contact-col container">
+        <div class="align-middle contact-col-mob">
           <div style="margin-bottom:40px;">
             <a href="tel:+18572418778" style="" class="">+1 857 241 8778</a>
               <br>
@@ -32,7 +32,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6 contact-col">
+      <div class="col-lg-6 contact-col container">
         <div class="contact-form">
           <form method="post" action="" id="cform" autocomplete="on">
             {{ csrf_field() }}
@@ -48,7 +48,7 @@
             <div class="form-group">
                 <textarea class="form-control" name="body" id="body" placeholder="Your comments"></textarea>
             </div>
-              <button type="submit" class="btn btn-default" >Send</button>
+              <button type="submit" class="btn btn-default btn-mob" >Send</button>
             </form>
         </div>
         <p>I agree to the Privacy Policy</p>
