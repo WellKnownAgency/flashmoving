@@ -189,10 +189,6 @@
   transition: 0.5s;
 }
 
-.contact-col {
-  padding-left: 80px;
-}
-
 
 .align-middle{
   padding-top: 70px;
@@ -205,3 +201,23 @@
 .a-form{
   color: #ff8562 !important;
 }
+
+.contact_intro{
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width : 991px) {
+  .contact-col-mob {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  @media only screen and (max-width : 991px) {
+    .btn-mob {
+      width:100%;
+    }
+
+    @media only screen and (max-width : 991px) {
+      .contact_intro {
+        padding-bottom: 0;
+      }

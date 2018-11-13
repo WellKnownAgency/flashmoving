@@ -14,7 +14,7 @@
     </div>
     <div class="row justify-content-center" style="padding-top:90px;">
       <div class="about_block">
-        <div class="">
+        <div>
           <div class="about_text">
             <h2 class="about_h"><b>About Us</b></h2>
             <p>Out team offers commercial, residential, local and long distance moving services. As well as packing, POD loading/unloading, inside move and storage services.</p>
@@ -31,15 +31,15 @@
 <!--Section text "Why People Choose Us" starts -->
 <section style="padding-top:45px;">
   <div class="row">
-    <div class="container" style="padding:0px;">
-      <div class="col-md-12">
-          <h1 style="float:left; height:152px;"><b>Why people choose us</b></h1>
-        </div>
+    <div class="col-md-12">
+      <div class="container">
+          <h5 class="section-title section-title--upper advantages__title" style="padding-bottom:15px;">Why people choose Flash Movers</h5>
       </div>
+    </div>
     <div class="container why-choose-us">
       <div class="row">
         <div class="col-md-4">
-          <div class="">
+          <div class="container">
             <img src="/images/icons/icon_1.svg" alt="" class="icon_contact">
             <h5><b>Fully Licensed and Insured</b></h5>
             <br>
@@ -47,7 +47,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="">
+          <div class="container">
             <img src="/images/icons/icon_2.svg" alt="" class="icon_contact">
             <h5><b>Our Clients Love Us</b></h5>
             <br>
@@ -55,7 +55,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="">
+          <div class="container">
             <img src="/images/icons/icon_3.svg" alt="" class="icon_contact">
             <h5><b>Assembling/Reassembling Furniture</b></h5>
             <br>
@@ -63,7 +63,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="">
+          <div class="container">
             <img src="/images/icons/icon_4.svg" alt="" class="icon_contact">
             <h5><b>Professional and Young Team</b></h5>
             <br>
@@ -71,7 +71,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="">
+          <div class="container">
             <img src="/images/icons/icon_5.svg" alt="" class="icon_contact">
             <h5><b>We Care about Your Stuff</b></h5>
             <br>
@@ -79,7 +79,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="">
+          <div class="container">
             <img src="/images/icons/icon_6.svg" alt="" class="icon_contact">
             <h5><b>Less than 30-minutes Respond Rate</b></h5>
             <br>
