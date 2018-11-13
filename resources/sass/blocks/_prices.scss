@@ -1,7 +1,7 @@
 .prices-collection {
     //@extend .container;
     &__list {
-
+        @extend .container;
     }
     &__row {
         margin-top: 25px;
@@ -20,8 +20,8 @@
 }
 
 .prices-collection-item {
-    border: 1px solid #db4623;
-    border-radius: 15px;
+    border: 2px solid #e0e6ed;
+    border-radius: 9px;
     padding: 40px 30px;
     &--big {
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.10);
@@ -31,24 +31,16 @@
         top: -15px;
     }
     &__title {
-        font-size: 1.5rem;
+        font-size: 30px;
         font-weight: 600;
         text-align: center;
-        text-transform: uppercase;
-    }
-    &__description {
-        text-align: center;
-        font-weight: 100;
-        color: rgb(130, 130, 130);
-        font-size: 1rem;
     }
     &__prices {
-        margin: 1.15em 0; // 30 0
-        font-size: 1.625rem; // 26
-        line-height: 1.4em;
+        margin: 30px 0;
+        font-size: 20px;
+        line-height: 1.23;
         font-weight: 600;
         text-align: center;
-        color: $main-color;
     }
     &__price {
         &--old {
@@ -64,82 +56,16 @@
 }
 
 .prices-collection-item-features {
-    text-align: center;
-    &__title {
-        font-weight: 700;
-        font-size: 1.25rem; // 20
-    }
     &__list {
         list-style: none;
         padding: 0;
     }
     &__item {
         display: block;
-        //text-align: center;
+        text-align: center;
         padding: 10px;
         font-size: 16px;
         line-height: 1.55;
         font-weight: 300;
-    }
-}
-
-
-///
-
-.prices-country-collection {
-    &__item {
-        margin-bottom: 30px;
-    }
-}
-
-.prices-country-collection-item {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 300px;
-    &:hover &__img {
-        transform: scale(1.05);
-        filter: brightness(100%);
-    }
-    &__background {}
-    &__preview {
-        &:after {
-            position: absolute;
-            content:"";
-            height:100%;
-            width:100%;
-            top:0;
-            left:0;
-            background: -webkit-linear-gradient(top, rgba(0,0,0,0.30), rgba(0,0,0,0.30));
-        }
-    }
-    &__img {
-        transition: transform ease-in-out .25s, filter ease-in-out .25s;
-        filter: brightness(95%);
-        object-fit: cover;
-        width:100%;
-        height:300px;
-        display: block;
-
-    }
-    &__content {
-        position: absolute;
-        z-index: 3;
-        color: #fff;
-        top: 50%;
-        left: 0;
-        right: 0;
-        transform: translateY(-50%);
-        text-align: center;
-    }
-    &__title {
-        font-size: 30px;
-        //line-height: 1.23;
-        font-weight: 600;
-        text-transform: uppercase;
-    }
-    &__price {
-        font-size: 18px;
-        font-weight: 500;
     }
 }

@@ -6,20 +6,17 @@
         @extend .clearfix;
     }
     &__row &__item {
+        width: 50%;
         counter-increment: tree;
         border-width: 2px;
-        border-color: $main-color;
-        width: 100%;
-        @include media-breakpoint-up(sm) {
-            width: 50%;
-        }
+        border-color: #db4623;
         &:after {
             content: counter(tree);
             width: 48px;
             height: 48px;
             position: absolute;
             border: 2px solid #fff;
-            background: $main-color;
+            background: #db4623;
             border-radius: 100%;
             color: #fff;
             text-align: center;
@@ -27,11 +24,8 @@
             font-size: 20px;
             line-height: 43px;
             top: 0;
+            left: 50%;
             transform: translateX(-50%);
-            left: 20px;
-            @include media-breakpoint-up(sm) {
-                left: 50%;
-            }
         }
         &:before {
             content: '';
@@ -41,34 +35,28 @@
             position: absolute;
             top: 0;
             bottom: 0;
+            left: 50%;
             transform: translateX(-50%);
-            background-color: $main-color;
-            left: 20px;
-            @include media-breakpoint-up(sm) {
-                left: 50%;
-            }
+            background-color: #db4623;
         }
     }
     &__row:last-child &__item:before {
         content: none;
     }
     &__row:nth-child(odd) &__item {
-        text-align: left;
-        float: right;
-        padding-left: 60px;
-        @include media-breakpoint-up(sm) {
-            text-align: right;
-            float: left;
-            padding-right: 60px;
-        }
+        text-align: right;
+        float: left;
+        padding-right: 60px;
+        //border-right-style: solid;
     }
     &__row:nth-child(even) &__item {
         text-align: left;
         float: right;
         padding-left: 60px;
+        //border-left-style: solid;
     }
     &__row:last-child &__item {
-
+        ///border: none;
     }
 }
 
@@ -88,78 +76,5 @@
         line-height: 1.55;
         font-family: $font-family-second;
         font-weight: 300;
-    }
-}
-
-
-.tree-to-start {
-    text-align: center;
-    &__list {
-        display: inline-block;
-        //margin: 0 auto;
-    }
-    &__item {
-        &:last-child .tree-to-start-item__preview:after {
-            content: none;
-        }
-    }
-}
-
-.tree-to-start-item {
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    &__preview {
-        width: 80px;
-        margin-right: 30px;
-        &:after {
-            content: '';
-            display: block;
-            width: 2px;
-            height: 40px;
-            background-color: #000;
-            position: relative;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-    }
-    &__icon {
-        height: 80px;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 50%;
-        position: relative;
-        z-index: 2;
-        background-color: transparent;
-        border: 2px solid #222;
-        //height: 100%;
-        &--call {
-            background-image: url("/../images/how-to-start/1-how_to_star31231t_.jpg");
-        }
-        &--calendar {
-            background-image: url("/../images/how-to-start/1-how_to_start_mobil.jpg");
-        }
-        &--calc {
-            background-image: url("/../images/how-to-start/1-how_to_start_mobil (1).jpg");
-        }
-        &--delivery {
-            background-image: url("/../images/how-to-start/1-how_to_start_mobil (2).jpg");
-        }
-
-    }
-    &__title {
-        font-size: 1.375rem; // 22
-        line-height: 1.9rem;
-        font-weight: 600;
-        text-transform: uppercase;
-    }
-    &__description {
-        font-size: 0.93rem; // 15
-        font-family: $font-family-second;
-        font-weight: 300;
-    }
-    &__text-red {
-        color: rgb(219, 70, 35);
     }
 }

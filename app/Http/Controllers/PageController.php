@@ -11,11 +11,6 @@ class PageController extends Controller
     return view('index');
   }
 
-    public function prices()
-    {
-        return view('prices');
-    }
-
   public function family()
   {
     return view('family');
