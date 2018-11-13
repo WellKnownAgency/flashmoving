@@ -19,8 +19,8 @@
       </div>
     </div>
     <div class="col-md-4 align-self-center" style="padding: 0; padding-right: 40px;">
-      <a href="mailto:info@flashmoving.net" class="button-top float-right">info@flashmoving.net</a>
-      <a href="tel:+18572418778" class="button-top float-right">+1 (857) 241-8778</a>
+      <a href="mailto:info@flashmoving.net" class="float-right btn-header" style="margin-left: 10px;">info@flashmoving.net</a>
+      <a href="tel:+18572418778" class="float-right btn-header" style="margin-left: 10px;">+1 (857) 241-8778</a>
     </div>
   </div>
 </div>
@@ -99,8 +99,8 @@
       <li class="nav-item" style="padding-top:10px;">
         <a href="tel:+18572418778" class="nav-link">+1 (857) 241-8778</a>
       </li>
-      <li class="nav-item">
-        <a href="" class="button-top-nd float-right" style="padding-top:5px;">Book Now</a>
+      <li class="nav-item" style="margin-left: 10px">
+        <a href="#" class="float-right btn-hero btn-hero--small btn-hero--hover-green">Book Now</a>
       </li>
     </ul>
   </div>

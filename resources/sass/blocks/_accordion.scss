@@ -1,3 +1,47 @@
+$themes-accordion-content: (
+    'black': (
+        'primary': #000000,
+        'secondary': #ffffff,
+        'button-bg': #9a9a9a,
+        'h-paddings': 30px
+    ),
+    'white': (
+        'primary': #ffffff,
+        'secondary': #000000,
+        'button-bg': transparent,
+        'h-paddings': 0
+    )
+) !default;
+
+/// Миксин Themify
+@mixin themify($property, $key, $themes: $themes-accordion-content) {
+    // Проход по темам
+    @each $theme, $colors in $themes {
+        // Создание селектора (типа `.media.theme-unicorn, .theme-unicorn .media`)
+        &.theme-#{$theme},
+        .theme-#{$theme} & {
+            // Вывод декларации
+            #{$property}: map-get($colors, $key);
+        }
+    }
+}
+
+
+@mixin color($arguments...) {
+    @include themify('color', $arguments...);
+}
+
+@mixin h-paddings($arguments...) {
+    @include themify('padding-left', $arguments...);
+    @include themify('padding-right', $arguments...);
+}
+
+@mixin background-color($arguments...) {
+    @include themify('background-color', $arguments...);
+}
+
+//
+
 .accordion-content {
     &__list {
 
@@ -8,16 +52,24 @@
 }
 
 .accordion-content-item {
+    border-top: 1px solid #eee;
     &__header {
         position: relative;
-        background-color: #000000;
+        //background-color: #000000;
+        @include background-color('primary');
         cursor: pointer;
-        padding: 25px 30px;
+        //padding: 25px 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        @include h-paddings('h-paddings');
         font-weight: 600;
         font-size: 24px;
         line-height: 1.35;
-        padding-right: 30px;
-        color: #ffffff;
+        //color: #ffffff;
+        @include color('secondary');
+        &--upper {
+            text-transform: uppercase;
+        }
     }
     &__button {
         position: absolute;
@@ -26,7 +78,8 @@
         transform: translateY(-50%);
         padding: 8px;
         transition: transform ease-in-out .2s,  background-color ease-in-out .2s;
-        background-color: #9a9a9a;
+        //background-color: #9a9a9a;
+        @include background-color('button-bg');
         width: 40px;
         height: 40px;
         border-radius: 100px;
@@ -39,12 +92,17 @@
         }
     }
     &__body {
-        background-color: #000000;
-        padding: 0 30px 30px;
+        //background-color: #000000;
+        @include background-color('primary');
+        //padding: 0 30px 30px;
+        padding-top: 0;
+        padding-bottom: 30px;
+        @include h-paddings('h-paddings');
         font-size: 16px;
         line-height: 1.55;
         font-weight: 300;
-        color: #ffffff;
+        //color: #ffffff;
+        @include color('secondary');
     }
     &__text {
         border-top: 1px solid #c9c9c9;

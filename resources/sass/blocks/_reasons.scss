@@ -4,7 +4,7 @@
         padding: 0;
     }
     &__item {
-        margin-bottom: 55px;
+        margin: 25px 0;
     }
 }
 
@@ -14,10 +14,10 @@
         padding-left: 50px;
     }
     &--icon-fix-col {
-        padding-left: 30px;
+        padding-left: 45px;
     }
     &--icon-fix-col &__icon {
-        left: -15px;
+        left: 0;
     }
     &__title {
         font-size: 20px;
@@ -35,5 +35,6 @@
         position: absolute;
         left: 0;
         top: 0;
+        width: 10px;
     }
 }
