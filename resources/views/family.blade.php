@@ -21,10 +21,10 @@
             <div class="hero__content">
                 <div class="hero__row">
                     <div class="hero__title">
-                        <div class="hero-title-big">
-                            <div class="hero-title-big__text">
-                                <span class="hero-title-big__text-part">Flash moving</span>
-                                <span class="hero-title-big__text-part--dynamic hero-title-big__text-part--color-red"></span>
+                        <div class="hero-title-bg">
+                            <div class="hero-title-bg__text">
+                                <span class="hero-title-bg__text-part">Flash moving</span>
+                                <span class="hero-title-bg__text-part--dynamic hero-title-bg__text-part--color-red"></span>
                             </div>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
         <div class="section__collection">
             <div class="row justify-content-md-center">
                     <div class="col-md-8">
-                        <div class="accordion-content" id="accordionMoneySave">
+                        <div class="accordion-content theme-black" id="accordionMoneySave">
                             <div class="accordion-content__list">
                                 <div class="accordion-content__item">
                                     <div class="accordion-content-item">
@@ -451,6 +451,9 @@
                     <div class="pre-footer__item">
                         <b>E-mail:</b> <a href="mailto:info@flashmoving.net">info@flashmoving.net</a>
                     </div>
+                    <div class="pre-footer__item">
+                        <b>Social Media:</b> <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -463,7 +466,7 @@
 @section('customjs')
     <script>
         // Hero section
-        new Typed('.hero-title-big__text-part--dynamic', {
+        new Typed('.hero-title-bg__text-part--dynamic', {
             strings: ["Compa", "Family"],
             typeSpeed: 200,
             backSpeed: 10,

@@ -16,9 +16,10 @@ yarn-error.log
 /docker-compose.yml
 /yarn.lock
 /Makefile
-/webpack.mix.az.js
+/webpack.mix.docker.js
 /public/css/app.css
 /public/js/app.js
 /composer.lock
 /package-lock.json
 .DS_Store
+_ide_helper.php
