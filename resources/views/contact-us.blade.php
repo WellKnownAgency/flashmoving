@@ -9,7 +9,7 @@
 
 <div class="contact">
   <div class="container">
-    <div class="center contact_intro">
+    <div class="contact_intro">
       <h1>Contacts</h1>
       <p class="contact-p">Feel free to write and call us
       <br>

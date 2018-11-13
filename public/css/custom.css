@@ -204,6 +204,8 @@
 
 .contact_intro{
   padding-bottom: 50px;
+  margin: auto;
+  text-align: center;
 }
 
 @media only screen and (max-width : 991px) {
@@ -220,4 +222,5 @@
     @media only screen and (max-width : 991px) {
       .contact_intro {
         padding-bottom: 0;
+        padding-top: 50px;
       }
