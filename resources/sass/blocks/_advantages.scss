@@ -1,0 +1,29 @@
+.advantages {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ebebeb;
+    &__title {
+        text-align: left;
+    }
+    &__list {
+
+    }
+    &__item {
+        margin-bottom: 2.5rem;
+    }
+}
+
+.advantages-item {
+    &__icon {
+        max-width: 60px;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 1.25rem; // 20
+        margin: 23px 0 20px;
+    }
+    &__description {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}

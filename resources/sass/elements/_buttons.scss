@@ -1,44 +1,60 @@
 .btn-hero {
     color: #ffffff;
     border: 2px solid #ffffff;
-    background-color: #d14321;
-    border-radius: 30px;
+    background-color: darken(saturate($main-color, 0.29), 2.35); // #d14321
+    border-radius: 1.75em;
     font-weight: 500;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1.1em 0 rgba(0, 0, 0, 0.3);
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     text-decoration: none;
     display: inline-block;
-    font-family: 'Roboto',Arial,sans-serif;
-    font-size: 16px;
+    font-size: 1.2em;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-    background-image: none;
     cursor: pointer;
-    user-select: none;
-    box-sizing: border-box;
     text-transform: uppercase;
-    padding-left: 40px;
-    padding-right: 40px;
-    height: 42px;
-    line-height: 42px;
-    @include media-breakpoint-up(md) {
-        padding-left: 60px;
-        padding-right: 60px;
-        height: 60px;
-        line-height: 60px;
-    }
+    padding: 0.83em 3.1em;
     &:hover {
-        background-color: #db4623;
-        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+        background-color: $main-color;
+        box-shadow: 0 0 0.2em 0 rgba(0, 0, 0, 0.5);
         text-decoration: none;
         color: #ffffff;
     }
+    &--small {
+        font-size: 1em;
+        font-weight: 700;
+        padding: 0.45em 2.1em;
+        text-transform: none;
+    }
+    &--hover-green:hover {
+        color: #fff;
+        border: 2px solid #fff;
+        background-color: #00bc00;
+    }
 }
+
+.btn-header {
+    color: #000000;
+    border: 2px solid #db4623;
+    border-radius: 3.3rem;
+    font-weight: 700;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    font-size: 1em;
+    padding: 0.47em 1.9em;
+    transition: 0.3s;
+    &:hover {
+        text-decoration: none;
+        color: #fff;
+        border: 2px solid #fff;
+        background-color: #00bc00;
+    }
+}
+
 
 .btn-simple {
     color: #ffffff;
-    background-color: #db4623;
+    background-color: $main-color;
     border-radius: 30px;
     text-decoration: none;
     font-size: 14px;

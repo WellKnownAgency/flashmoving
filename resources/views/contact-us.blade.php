@@ -63,34 +63,18 @@
           <div class="t-width t-width_100 t-margin_auto">
               <div class="t117_map">
                   <div class="t-map" id="separateMap68019822" data-map-language="" data-map-x="55.751979" data-map-y="37.617499" data-map-zoom="14" data-map-title="Moscow" style="width:100%; height:385px;" data-map-style='[{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#d3d3d3"}]},{"featureType":"transit","stylers":[{"color":"#808080"},{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"on"},{"color":"#b3b3b3"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"weight":1.8}]},{"featureType":"road.local","elementType":"geometry.stroke","stylers":[{"color":"#d7d7d7"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#ebebeb"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"color":"#a7a7a7"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#efefef"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#696969"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"color":"#737373"}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#d6d6d6"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"color":"#dadada"}]}]'></div>
-                  <script type="text/javascript">
-                      var arMapMarkers68019822 = [{
-                          title: "Flash Moving &amp;amp; Storage",
-                          descr: "Main Storage",
-                          lat: "42.279413",
-                          lng: "-71.177038",
-                      }, {
-                          title: "Flash Moving &amp;amp; Storage",
-                          descr: "Main Parking Area",
-                          lat: "42.365719",
-                          lng: "-71.199576",
-                      }, ];
-                      $(document).ready(function() {
-                          t_appendGoogleMap("68019822", "");
-                      });
-                  </script>
               </div>
           </div>
       </div>
       <script type="text/javascript">
-          var fireRefreshEventOnWindow = function() {
+          /*var fireRefreshEventOnWindow = function() {
               var evt = document.createEvent("HTMLEvents");
               evt.initEvent('resize', true, false);
               window.dispatchEvent(evt);
           };
           $('.t117').bind('displayChanged', function() {
               fireRefreshEventOnWindow();
-          });
+          });*/
       </script>
   </div>
 <!--End of Google Map-->
@@ -101,7 +85,22 @@
 @stop
 
 @section('customjs')
-
+    <script type="text/javascript">
+        var arMapMarkers68019822 = [{
+            title: "Flash Moving &amp;amp; Storage",
+            descr: "Main Storage",
+            lat: "42.279413",
+            lng: "-71.177038",
+        }, {
+            title: "Flash Moving &amp;amp; Storage",
+            descr: "Main Parking Area",
+            lat: "42.365719",
+            lng: "-71.199576",
+        }, ];
+        $(document).ready(function() {
+            t_appendGoogleMap("68019822", "");
+        });
+    </script>
 
 
 @stop

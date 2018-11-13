@@ -31,3 +31,13 @@
     }
 }
 
+.section-title {
+    line-height: 1.23;
+    font-weight: 600;
+    text-align: center;
+    font-size: 36px;
+    &--upper {
+        text-transform: uppercase;
+    }
+}
+
