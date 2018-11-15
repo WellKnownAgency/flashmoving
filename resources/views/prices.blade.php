@@ -33,10 +33,10 @@
     {{-- Prices country --}}
     <div class="tabs container">
         <div class="nav mb-3 tabs-nav" id="prices-nav-tab" role="tablist">
-            <a class="tabs-nav__item tabs-nav__link active" id="prices-local-tab" data-toggle="tab" href="#prices-local" role="tab" aria-controls="nav-local" aria-selected="true">Local Moving</a>
-            <a class="tabs-nav__item tabs-nav__link" id="prices-distance-tab" data-toggle="tab" href="#prices-distance" role="tab" aria-controls="nav-distance" aria-selected="false">Long distance</a>
-            <a class="tabs-nav__item tabs-nav__link" id="prices-storage-tab" data-toggle="tab" href="#prices-storage" role="tab" aria-controls="nav-storage" aria-selected="false">Storage</a>
-            <a class="tabs-nav__item tabs-nav__link" id="prices-services-tab" data-toggle="tab" href="#prices-services" role="tab" aria-controls="nav-services" aria-selected="false">Additional Sevices</a>
+            <a class="tabs-nav__item tabs-nav__link active" id="prices-local-tab" data-toggle="tab" href="#prices-local" role="tab" aria-controls="nav-local" aria-selected="true"><span class="tabs-nav__text">Local Moving</span></a>
+            <a class="tabs-nav__item tabs-nav__link" id="prices-distance-tab" data-toggle="tab" href="#prices-distance" role="tab" aria-controls="nav-distance" aria-selected="false"><span class="tabs-nav__text">Long distance</span></a>
+            <a class="tabs-nav__item tabs-nav__link" id="prices-storage-tab" data-toggle="tab" href="#prices-storage" role="tab" aria-controls="nav-storage" aria-selected="false"><span class="tabs-nav__text">Storage</span></a>
+            <a class="tabs-nav__item tabs-nav__link" id="prices-services-tab" data-toggle="tab" href="#prices-services" role="tab" aria-controls="nav-services" aria-selected="false"><span class="tabs-nav__text">Additional Sevices</span></a>
         </div>
         <div class="tab-content" id="prices-nav-tabContent">
             <div class="tab-pane fade show active" id="prices-local" role="tabpanel" aria-labelledby="prices-local-tab">
@@ -60,7 +60,10 @@
                                                     <div class="prices-collection-item__price">from $80/hour</div>
                                                 </div>
                                                 <div class="prices-collection-item__features">
-                                                    <div class="prices-collection-item-features">
+                                                    <div class="prices-collection-item__btn-more">
+                                                        <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice1" aria-expanded="false" aria-controls="collapsePrice1">More</button>
+                                                    </div>
+                                                    <div class="collapse prices-collection-item-features" id="collapsePrice1">
                                                         <div class="prices-collection-item-features__title">What's included?</div>
                                                         <ul class="prices-collection-item-features__list">
                                                             <li class="prices-collection-item-features__item">2 Professional Movers</li>
@@ -90,7 +93,10 @@
                                                     <div class="prices-collection-item__price">from $110/hour</div>
                                                 </div>
                                                 <div class="prices-collection-item__features">
-                                                    <div class="prices-collection-item-features">
+                                                    <div class="prices-collection-item__btn-more">
+                                                        <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice2" aria-expanded="false" aria-controls="collapsePrice2">More</button>
+                                                    </div>
+                                                    <div class="collapse prices-collection-item-features" id="collapsePrice2">
                                                         <div class="prices-collection-item-features__title">What's included?</div>
                                                         <ul class="prices-collection-item-features__list">
                                                             <li class="prices-collection-item-features__item">3 Professional Movers</li>
@@ -120,7 +126,10 @@
                                                     <div class="prices-collection-item__price">from $140/hour</div>
                                                 </div>
                                                 <div class="prices-collection-item__features">
-                                                    <div class="prices-collection-item-features">
+                                                    <div class="prices-collection-item__btn-more">
+                                                        <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice3" aria-expanded="false" aria-controls="collapsePrice3">More</button>
+                                                    </div>
+                                                    <div class="collapse prices-collection-item-features" id="collapsePrice3">
                                                         <div class="prices-collection-item-features__title">What's included?</div>
                                                         <ul class="prices-collection-item-features__list">
                                                             <li class="prices-collection-item-features__item">4 Professional Movers</li>
