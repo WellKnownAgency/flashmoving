@@ -117,7 +117,10 @@
                                         <div class="prices-collection-item__price">from $80/hour</div>
                                     </div>
                                     <div class="prices-collection-item__features">
-                                        <div class="prices-collection-item-features">
+                                        <div class="prices-collection-item__btn-more">
+                                            <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice1" aria-expanded="false" aria-controls="collapsePrice1">More</button>
+                                        </div>
+                                        <div class="collapse prices-collection-item-features" id="collapsePrice1">
                                             <div class="prices-collection-item-features__title">What's included?</div>
                                             <ul class="prices-collection-item-features__list">
                                                 <li class="prices-collection-item-features__item">2 Professional Movers</li>
@@ -147,7 +150,10 @@
                                         <div class="prices-collection-item__price">from $110/hour</div>
                                     </div>
                                     <div class="prices-collection-item__features">
-                                        <div class="prices-collection-item-features">
+                                        <div class="prices-collection-item__btn-more">
+                                            <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice2" aria-expanded="false" aria-controls="collapsePrice2">More</button>
+                                        </div>
+                                        <div class="collapse prices-collection-item-features" id="collapsePrice2">
                                             <div class="prices-collection-item-features__title">What's included?</div>
                                             <ul class="prices-collection-item-features__list">
                                                 <li class="prices-collection-item-features__item">3 Professional Movers</li>
@@ -177,7 +183,10 @@
                                         <div class="prices-collection-item__price">from $140/hour</div>
                                     </div>
                                     <div class="prices-collection-item__features">
-                                        <div class="prices-collection-item-features">
+                                        <div class="prices-collection-item__btn-more">
+                                            <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice3" aria-expanded="false" aria-controls="collapsePrice3">More</button>
+                                        </div>
+                                        <div class="collapse prices-collection-item-features" id="collapsePrice3">
                                             <div class="prices-collection-item-features__title">What's included?</div>
                                             <ul class="prices-collection-item-features__list">
                                                 <li class="prices-collection-item-features__item">4 Professional Movers</li>

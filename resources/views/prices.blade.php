@@ -10,7 +10,7 @@
     {{-- Hero --}}
     <section class="hero mb-5">
         <div class="hero__preview">
-            <img src="/images/hero/IMG_7828.jpg" alt="" class="hero__img hero__img--brightness-high">
+            <img src="/images/hero/IMG_7938.jpg" alt="" class="hero__img hero__img--brightness-high">
         </div>
         <div class="hero__wrapper-content">
             <div class="hero__container">

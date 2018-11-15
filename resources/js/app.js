@@ -48,5 +48,32 @@ $(document).ready(function(){
         }, 400);
         return false;
     });
+
+    var pricesCollection = $('.prices-collection-item');
+
+    var resizeTimer;
+
+    $(window).on('resize', function(e) {
+
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function() {
+
+            pricesCollection.each(function (idx, item) {
+                var btnEl = $(item).find('.js-price-btn-text').first();
+                var btnText = btnEl.text();
+                var hiddenContentEl = $(item).find('.js-price-hidden-content').first();
+
+                if (window.matchMedia("(min-width: 600px)").matches) {
+                    hiddenContentEl.show();
+                } else {
+                    console.log('ffff')
+                    hiddenContentEl.hide();
+                }
+            });
+
+        }, 250);
+
+    });
+
 });
 

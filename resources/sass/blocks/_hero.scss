@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    height: calc(100vh - 160px - 30px);
+    max-height: calc(100vh - 160px - 30px);
     overflow: hidden;
     &--big {
         height: auto;
@@ -71,7 +71,16 @@
         font-size: 1.25rem;
         font-weight: 300;
         &--big {
-            font-size: 1.625rem;
+            font-size: 1.25em;
+            @include media-breakpoint-up(sm) {
+                font-size: 1.5em;
+            }
+            @include media-breakpoint-up(md) {
+                font-size: 1.6em;
+            }
+            @include media-breakpoint-up(lg) {
+                font-size: 1.9em;
+            }
         }
     }
     &__button {
@@ -95,16 +104,16 @@
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 4.5rem;
-    line-height: 5rem;
+    font-size: 4.5em;
+    line-height: 1.3em;
     &__dynamic {
-        font-size: 3.5rem;
+        font-size: 0.8em;
     }
     &__simple {
         //font-size: 4.5em;
     }
     .typed-cursor {
-        line-height: 6rem;
+        line-height: 1.8em;
     }
 }
 
