@@ -35,7 +35,7 @@
     {{-- Services --}}
     <section class="section">
         <div class="section-header">
-            <h2 class="section-title section-title--upper">Flash Moving Services</h2>
+            <h1 class="section-title section-title--upper">Flash Moving Company</h1>
         </div>
         <div class="services-collection">
             <div class="services-collection__list">
@@ -101,7 +101,7 @@
     <section class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title section-title--upper">Local moving prices</h2>
+                <h2 class="section-title section-title--upper">Boston Movers</h2>
             </div>
 
             <div class="section__collection">
@@ -245,7 +245,7 @@
                             </svg>
                         </div>
                         <div class="advantages-item__title">Fully Licensed and Insured</div>
-                        <div class="advantages-item__description">You don't have to worry about anything, everything is under our control</div>
+                        <div class="advantages-item__description">You do not have to worry about anything, everything is under our control</div>
                     </div>
                 </div>
                 <div class="col-md-4 advantages__item">
@@ -318,7 +318,7 @@
     {{-- Section text "We are a part of the family (Reviews)" starts --}}
     <section class="section">
         <div class="container">
-            <h2 class="section__title section__title--uppercase">We are a part of the family</h2>
+            <h2 class="section__title section__title--uppercase">Flash Moving Reviews</h2>
         </div>
         <div class="section__collection">
             <div id="carouselReviews" class="carousel slide carousel-fade" data-ride="carousel">
@@ -430,7 +430,7 @@
     <section class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title section-title--upper">How to start move with us</h2>
+                <h2 class="section-title section-title--upper">How to start move with Flash Movers</h2>
             </div>
 
             <div class="tree-to-start">
@@ -541,7 +541,6 @@
     <!--Section Contacts starts-->
     <section class="section">
         <div class="container">
-            <h2 class="section__title">Contacts</h2>
             <div class="section-description section-description--narrow">
                 We build our business based on strong relationships with the customers. Do not hesitate asking us any moving related questions
             </div>
