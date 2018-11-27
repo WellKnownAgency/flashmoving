@@ -1,46 +1,21 @@
-$themes-accordion-content: (
+$themes: (
     'black': (
         'primary': #000000,
         'secondary': #ffffff,
-        'button-bg': #9a9a9a,
-        'h-paddings': 30px
+        'btn-collapse-bg': #9a9a9a,
+        'header-padding': 25px 30px,
+        'body-padding': 0 25px 30px
     ),
     'white': (
         'primary': #ffffff,
         'secondary': #000000,
-        'button-bg': transparent,
-        'h-paddings': 0
+        'btn-collapse-bg': transparent,
+        'header-padding': 25px 0,
+        'body-padding': 0 0 30px
     )
 ) !default;
 
-/// Миксин Themify
-@mixin themify($property, $key, $themes: $themes-accordion-content) {
-    // Проход по темам
-    @each $theme, $colors in $themes {
-        // Создание селектора (типа `.media.theme-unicorn, .theme-unicorn .media`)
-        &.theme-#{$theme},
-        .theme-#{$theme} & {
-            // Вывод декларации
-            #{$property}: map-get($colors, $key);
-        }
-    }
-}
-
-
-@mixin color($arguments...) {
-    @include themify('color', $arguments...);
-}
-
-@mixin h-paddings($arguments...) {
-    @include themify('padding-left', $arguments...);
-    @include themify('padding-right', $arguments...);
-}
-
-@mixin background-color($arguments...) {
-    @include themify('background-color', $arguments...);
-}
-
-//
+// Style
 
 .accordion-content {
     &__list {
@@ -55,18 +30,13 @@ $themes-accordion-content: (
     border-top: 1px solid #eee;
     &__header {
         position: relative;
-        //background-color: #000000;
-        @include background-color('primary');
         cursor: pointer;
-        //padding: 25px 30px;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        @include h-paddings('h-paddings');
         font-weight: 600;
         font-size: 24px;
         line-height: 1.35;
-        //color: #ffffff;
-        @include color('secondary');
+        @include themify('padding', 'header-padding');
+        @include themify('background-color', 'primary');
+        @include themify('color', 'secondary');
         &--upper {
             text-transform: uppercase;
         }
@@ -78,12 +48,11 @@ $themes-accordion-content: (
         transform: translateY(-50%);
         padding: 8px;
         transition: transform ease-in-out .2s,  background-color ease-in-out .2s;
-        //background-color: #9a9a9a;
-        @include background-color('button-bg');
         width: 40px;
         height: 40px;
         border-radius: 100px;
         transform-origin: 50%;
+        @include themify('background-color', 'btn-collapse-bg');
         &:hover, &--hover  {
             background-color: #eee;
         }
@@ -92,17 +61,14 @@ $themes-accordion-content: (
         }
     }
     &__body {
-        //background-color: #000000;
-        @include background-color('primary');
-        //padding: 0 30px 30px;
         padding-top: 0;
         padding-bottom: 30px;
-        @include h-paddings('h-paddings');
         font-size: 16px;
         line-height: 1.55;
         font-weight: 300;
-        //color: #ffffff;
-        @include color('secondary');
+        @include themify('background-color', 'primary');
+        @include themify('color', 'secondary');
+        @include themify('padding', 'body-padding');
     }
     &__text {
         border-top: 1px solid #c9c9c9;
