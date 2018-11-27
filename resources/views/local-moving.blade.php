@@ -1,9 +1,12 @@
-@section('title', '')
-@section('dscr', '')
+@section('title', 'Local Moving Company | Flash Moving')
+@section('dscr', 'Find a reliable local moving company in the Boston area for your move. Professional fully licensed Movers will help you with any moving service you need.')
 @section('keywords', '')
-@section('mainimg', '')
 
 @extends('layouts.main')
+
+@section('preload')
+<link rel="preload" href="/images/hero/IMG_7908.jpg" as="image">
+@stop
 
 @section('content')
 
@@ -19,7 +22,7 @@
                         <div class="col-md-7">
                             <div class="hero__title">
                                 <div class="hero-title">
-                                    <div class="hero-title__simple">Local moving company</div>
+                                    <h1 class="hero-title__simple">Local moving company</h1>
                                 </div>
                             </div>
                             <div class="hero__description hero__description--big">Without any hidden fees and extra chargers</div>
