@@ -38,7 +38,7 @@
           Services
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Local Moving</a>
+          <a class="dropdown-item" href="{{route('local-moving')}}">Local Moving</a>
           <a class="dropdown-item" href="#">Interstate Moving</a>
           <a class="dropdown-item" href="#">Storage</a>
         </div>

@@ -10,21 +10,19 @@
     {{-- Hero --}}
     <section class="hero mb-5">
         <div class="hero__preview">
-            <img src="/images/hero/IMG_7828.jpg" alt="" class="hero__img hero__img--brightness-high">
+            <img src="/images/hero/IMG_7908.jpg" alt="" class="hero__img hero__img--brightness-high">
         </div>
         <div class="hero__wrapper-content">
             <div class="hero__container">
                 <div class="hero__content">
                     <div class="hero__row">
-                        <div class="col-md-6">
+                        <div class="col-md-7">
                             <div class="hero__title">
                                 <div class="hero-title">
-                                    <div class="hero-title__simple">Flash Moving</div>
-                                    <span class="hero-title__dynamic"></span>
+                                    <div class="hero-title__simple">Movers in Newton, MA</div>
                                 </div>
                             </div>
-                            <div class="hero__description hero__description--big">Insured & Licensed Movers in Boston Area<br>
-                                Without any hidden fees and extra chargers</div>
+                            <div class="hero__description hero__description--big">Without any hidden fees and extra chargers</div>
                         </div>
                     </div>
                 </div>
@@ -32,65 +30,46 @@
         </div>
     </section>
 
-    {{-- Services --}}
-    <section class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title section-title--upper">Flash Moving Services</h2>
-            </div>
-            <div class="services-collection theme-md">
-                <div class="services-collection__list">
-                    <div class="row services-collection__row">
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/IMG_7851.jpg')}}" alt="Local Moving" class="services-collection-item__img">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title">Local Moving</div>
+    {{-- Seo text --}}
+    <section class="section mb-4">
+        <div class="container-fluid">
+            <div class="content-blocks">
+                <div class="content-blocks__list">
+                    <div class="content-blocks__item">
+                        <div class="row content-blocks-item">
+                            <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
+                                <img src="{{asset('images/services/local/content/IMG_7828.jpg')}}" alt="" class="content-blocks-item__img">
                             </div>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/Highwaytrucks.jpg')}}" alt="Interstate Moving" class="services-collection-item__img">
+                            <div class="col-lg-6 order-lg-0 content-blocks-item__body">
+                                <div class="content-blocks-item__body-inner">
+                                    <div class="content-blocks-item__header">
+                                        <div class="content-blocks-item__title-primary">Newton Local Movers</div>
+                                        <div class="content-blocks-item__title-secundare">Seo text</div>
+                                    </div>
+                                    <div class="content-blocks-item__text">
+                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
+                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
                                     </div>
                                 </div>
-                                <div class="services-collection-item__title">Interstate Moving</div>
                             </div>
                         </div>
                     </div>
-                    <div class="row services-collection__row">
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/Public_Storage_doors.jpg')}}" alt="Moving & Storage" class="services-collection-item__img">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Moving & Storage</div>
+                    <div class="content-blocks__item">
+                        <div class="row content-blocks-item">
+                            <div class="col-lg-6 order-lg-0 content-blocks-item__preview">
+                                <img src="{{asset('images/services/local/content/86913f52-0728-45b7-b.jpg')}}" alt="" class="content-blocks-item__img">
                             </div>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/whitehomeoffice.jpg')}}" alt="Local Moving" class="services-collection-item__img">
+                            <div class="col-lg-6 order-lg-1 content-blocks-item__body">
+                                <div class="content-blocks-item__body-inner">
+                                    <div class="content-blocks-item__header">
+                                        <div class="content-blocks-item__title-primary">Affordable Movers in Newton</div>
+                                        <div class="content-blocks-item__title-secundare">Seo text</div>
+                                    </div>
+                                    <div class="content-blocks-item__text">
+                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
+                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
                                     </div>
                                 </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Commercial moving</div>
-                            </div>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/d4f8081d917643ed96bd.jpg')}}" alt="Local Moving" class="services-collection-item__img">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Packing</div>
                             </div>
                         </div>
                     </div>
@@ -99,113 +78,125 @@
         </div>
     </section>
 
-    {{-- Prices --}}
-    <section class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title section-title--upper">Local moving prices</h2>
-            </div>
+    {{-- Prices country --}}
+    <div class="tabs container">
+        <div class="nav mb-3 tabs-nav" id="prices-nav-tab" role="tablist">
+            <a class="tabs-nav__item tabs-nav__link active" id="prices-local-tab" data-toggle="tab" href="#prices-local" role="tab" aria-controls="nav-local" aria-selected="true"><span class="tabs-nav__text">Local Moving</span></a>
+            <a class="tabs-nav__item tabs-nav__link" id="prices-storage-tab" data-toggle="tab" href="#prices-storage" role="tab" aria-controls="nav-storage" aria-selected="false"><span class="tabs-nav__text">Storage</span></a>
+            <a class="tabs-nav__item tabs-nav__link" id="prices-services-tab" data-toggle="tab" href="#prices-services" role="tab" aria-controls="nav-services" aria-selected="false"><span class="tabs-nav__text">Additional Sevices</span></a>
+        </div>
+        <div class="tab-content" id="prices-nav-tabContent">
+            <div class="tab-pane fade show active" id="prices-local" role="tabpanel" aria-labelledby="prices-local-tab">
+                {{-- Prices --}}
+                <div class="section">
+                    <div class="container">
+                        <div class="section-header">
+                            <h2 class="section-title section-title--upper">Local moving prices</h2>
+                        </div>
 
-            <div class="section__collection">
-                <div class="prices-collection">
-                    <div class="prices-collection__list">
-                        <div class="row prices-collection__row">
-                            <div class="col-md-4 prices-collection__item prices-collection__item--narrow">
-                                <div class="prices-collection-item">
-                                    <h3 class="prices-collection-item__title">2 movers</h3>
-                                    <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
-                                    <div class="prices-collection-item__prices">
-                                        <div class="prices-collection-item__price prices-collection-item__price--old">from $100/hour</div>
-                                        <div class="prices-collection-item__price">from $80/hour</div>
-                                    </div>
-                                    <div class="prices-collection-item__features">
-                                        <div class="prices-collection-item__btn-more">
-                                            <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice1" aria-expanded="false" aria-controls="collapsePrice1">More</button>
+                        <div class="section__collection">
+                            <div class="prices-collection">
+                                <div class="prices-collection__list">
+                                    <div class="row prices-collection__row">
+                                        <div class="col-md-4 prices-collection__item prices-collection__item--narrow">
+                                            <div class="prices-collection-item">
+                                                <h3 class="prices-collection-item__title">2 movers</h3>
+                                                <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
+                                                <div class="prices-collection-item__prices">
+                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $100/hour</div>
+                                                    <div class="prices-collection-item__price">from $80/hour</div>
+                                                </div>
+                                                <div class="prices-collection-item__features">
+                                                    <div class="prices-collection-item__btn-more">
+                                                        <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice1" aria-expanded="false" aria-controls="collapsePrice1">More</button>
+                                                    </div>
+                                                    <div class="collapse prices-collection-item-features" id="collapsePrice1">
+                                                        <div class="prices-collection-item-features__title">What's included?</div>
+                                                        <ul class="prices-collection-item-features__list">
+                                                            <li class="prices-collection-item-features__item">2 Professional Movers</li>
+                                                            <li class="prices-collection-item-features__item">Clean 18' Box Truck</li>
+                                                            <li class="prices-collection-item-features__item">Wrapping and Protection of All Furniture</li>
+                                                            <li class="prices-collection-item-features__item">Miles / Gas / Tolls / Taxes</li>
+                                                            <li class="prices-collection-item-features__item">Disassembling / Reassembling of Furniture</li>
+                                                            <li class="prices-collection-item-features__item">Additional Pick up / Drop off</li>
+                                                            <li class="prices-collection-item-features__item">Doors, Walls and Floor Protection</li>
+                                                            <li class="prices-collection-item-features__item">Packing / Unpacking</li>
+                                                            <li class="prices-collection-item-features__item">Basic Insurance</li>
+                                                            <li class="prices-collection-item-features__item">Dollies / Tools / Straps</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="prices-collection-item__button">
+                                                    <a class="btn-simple" href="#">Book now</a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="collapse prices-collection-item-features" id="collapsePrice1">
-                                            <div class="prices-collection-item-features__title">What's included?</div>
-                                            <ul class="prices-collection-item-features__list">
-                                                <li class="prices-collection-item-features__item">2 Professional Movers</li>
-                                                <li class="prices-collection-item-features__item">Clean 18' Box Truck</li>
-                                                <li class="prices-collection-item-features__item">Wrapping and Protection of All Furniture</li>
-                                                <li class="prices-collection-item-features__item">Miles / Gas / Tolls / Taxes</li>
-                                                <li class="prices-collection-item-features__item">Disassembling / Reassembling of Furniture</li>
-                                                <li class="prices-collection-item-features__item">Additional Pick up / Drop off</li>
-                                                <li class="prices-collection-item-features__item">Doors, Walls and Floor Protection</li>
-                                                <li class="prices-collection-item-features__item">Packing / Unpacking</li>
-                                                <li class="prices-collection-item-features__item">Basic Insurance</li>
-                                                <li class="prices-collection-item-features__item">Dollies / Tools / Straps</li>
-                                            </ul>
+                                        <div class="col-md-4 prices-collection__item prices-collection__item--wide">
+                                            <div class="prices-collection-item prices-collection-item--big">
+                                                <h3 class="prices-collection-item__title">3 movers</h3>
+                                                <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
+                                                <div class="prices-collection-item__prices">
+                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $130/hour</div>
+                                                    <div class="prices-collection-item__price">from $110/hour</div>
+                                                </div>
+                                                <div class="prices-collection-item__features">
+                                                    <div class="prices-collection-item__btn-more">
+                                                        <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice2" aria-expanded="false" aria-controls="collapsePrice2">More</button>
+                                                    </div>
+                                                    <div class="collapse prices-collection-item-features" id="collapsePrice2">
+                                                        <div class="prices-collection-item-features__title">What's included?</div>
+                                                        <ul class="prices-collection-item-features__list">
+                                                            <li class="prices-collection-item-features__item">3 Professional Movers</li>
+                                                            <li class="prices-collection-item-features__item">Clean 20' Box Truck</li>
+                                                            <li class="prices-collection-item-features__item">Wrapping and Protection of All Furniture</li>
+                                                            <li class="prices-collection-item-features__item">Miles / Gas / Tolls / Taxes</li>
+                                                            <li class="prices-collection-item-features__item">Disassembling / Reassembling of Furniture</li>
+                                                            <li class="prices-collection-item-features__item">Additional Pick up / Drop off</li>
+                                                            <li class="prices-collection-item-features__item">Doors, Walls and Floor Protection</li>
+                                                            <li class="prices-collection-item-features__item">Packing / Unpacking</li>
+                                                            <li class="prices-collection-item-features__item">Basic Insurance</li>
+                                                            <li class="prices-collection-item-features__item">Dollies / Tools / Straps</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="prices-collection-item__button">
+                                                    <a class="btn-simple" href="#">Book now</a>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="prices-collection-item__button">
-                                        <a class="btn-simple" href="#">Book now</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 prices-collection__item prices-collection__item--wide">
-                                <div class="prices-collection-item prices-collection-item--big">
-                                    <h3 class="prices-collection-item__title">3 movers</h3>
-                                    <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
-                                    <div class="prices-collection-item__prices">
-                                        <div class="prices-collection-item__price prices-collection-item__price--old">from $130/hour</div>
-                                        <div class="prices-collection-item__price">from $110/hour</div>
-                                    </div>
-                                    <div class="prices-collection-item__features">
-                                        <div class="prices-collection-item__btn-more">
-                                            <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice2" aria-expanded="false" aria-controls="collapsePrice2">More</button>
+                                        <div class="col-md-4 prices-collection__item prices-collection__item--narrow">
+                                            <div class="prices-collection-item">
+                                                <h3 class="prices-collection-item__title">4 movers and more</h3>
+                                                <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
+                                                <div class="prices-collection-item__prices">
+                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $160/hour</div>
+                                                    <div class="prices-collection-item__price">from $140/hour</div>
+                                                </div>
+                                                <div class="prices-collection-item__features">
+                                                    <div class="prices-collection-item__btn-more">
+                                                        <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice3" aria-expanded="false" aria-controls="collapsePrice3">More</button>
+                                                    </div>
+                                                    <div class="collapse prices-collection-item-features" id="collapsePrice3">
+                                                        <div class="prices-collection-item-features__title">What's included?</div>
+                                                        <ul class="prices-collection-item-features__list">
+                                                            <li class="prices-collection-item-features__item">4 Professional Movers</li>
+                                                            <li class="prices-collection-item-features__item">Clean 26' Box Truck</li>
+                                                            <li class="prices-collection-item-features__item">Wrapping and Protection of All Furniture</li>
+                                                            <li class="prices-collection-item-features__item">Miles / Gas / Tolls / Taxes</li>
+                                                            <li class="prices-collection-item-features__item">Disassembling / Reassembling of Furniture</li>
+                                                            <li class="prices-collection-item-features__item">Additional Pick up / Drop off</li>
+                                                            <li class="prices-collection-item-features__item">Doors, Walls and Floor Protection</li>
+                                                            <li class="prices-collection-item-features__item">Packing / Unpacking</li>
+                                                            <li class="prices-collection-item-features__item">Basic Insurance</li>
+                                                            <li class="prices-collection-item-features__item">Dollies / Tools / Straps</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="prices-collection-item__button">
+                                                    <a class="btn-simple" href="#">Book now</a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="collapse prices-collection-item-features" id="collapsePrice2">
-                                            <div class="prices-collection-item-features__title">What's included?</div>
-                                            <ul class="prices-collection-item-features__list">
-                                                <li class="prices-collection-item-features__item">3 Professional Movers</li>
-                                                <li class="prices-collection-item-features__item">Clean 20' Box Truck</li>
-                                                <li class="prices-collection-item-features__item">Wrapping and Protection of All Furniture</li>
-                                                <li class="prices-collection-item-features__item">Miles / Gas / Tolls / Taxes</li>
-                                                <li class="prices-collection-item-features__item">Disassembling / Reassembling of Furniture</li>
-                                                <li class="prices-collection-item-features__item">Additional Pick up / Drop off</li>
-                                                <li class="prices-collection-item-features__item">Doors, Walls and Floor Protection</li>
-                                                <li class="prices-collection-item-features__item">Packing / Unpacking</li>
-                                                <li class="prices-collection-item-features__item">Basic Insurance</li>
-                                                <li class="prices-collection-item-features__item">Dollies / Tools / Straps</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="prices-collection-item__button">
-                                        <a class="btn-simple" href="#">Book now</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 prices-collection__item prices-collection__item--narrow">
-                                <div class="prices-collection-item">
-                                    <h3 class="prices-collection-item__title">4 movers and more</h3>
-                                    <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
-                                    <div class="prices-collection-item__prices">
-                                        <div class="prices-collection-item__price prices-collection-item__price--old">from $160/hour</div>
-                                        <div class="prices-collection-item__price">from $140/hour</div>
-                                    </div>
-                                    <div class="prices-collection-item__features">
-                                        <div class="prices-collection-item__btn-more">
-                                            <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice3" aria-expanded="false" aria-controls="collapsePrice3">More</button>
-                                        </div>
-                                        <div class="collapse prices-collection-item-features" id="collapsePrice3">
-                                            <div class="prices-collection-item-features__title">What's included?</div>
-                                            <ul class="prices-collection-item-features__list">
-                                                <li class="prices-collection-item-features__item">4 Professional Movers</li>
-                                                <li class="prices-collection-item-features__item">Clean 26' Box Truck</li>
-                                                <li class="prices-collection-item-features__item">Wrapping and Protection of All Furniture</li>
-                                                <li class="prices-collection-item-features__item">Miles / Gas / Tolls / Taxes</li>
-                                                <li class="prices-collection-item-features__item">Disassembling / Reassembling of Furniture</li>
-                                                <li class="prices-collection-item-features__item">Additional Pick up / Drop off</li>
-                                                <li class="prices-collection-item-features__item">Doors, Walls and Floor Protection</li>
-                                                <li class="prices-collection-item-features__item">Packing / Unpacking</li>
-                                                <li class="prices-collection-item-features__item">Basic Insurance</li>
-                                                <li class="prices-collection-item-features__item">Dollies / Tools / Straps</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="prices-collection-item__button">
-                                        <a class="btn-simple" href="#">Book now</a>
                                     </div>
                                 </div>
                             </div>
@@ -213,18 +204,10 @@
                     </div>
                 </div>
             </div>
-
-            <div class="note-block note-block--offset-left">
-                <div class="note-block__title">Important info about payments</div>
-                <div class="note-block__text">
-                    <p><b>Our Rates</b> are hourly based with <b>15 min.</b> increment charge policy and vary depending on crew size you demand for your move.
-                        <b>Up to 1 hour Travel Time</b> is applied to all jobs in Greater Boston area and minimum 30 min (15 min for our movers to get to you address from our office plus 15 min to get back when the move is finished).</p>
-
-                    <p>We have <b>3 hours minimum</b> charge policy which includes travel time, in case your move takes less then two hours of the Total Time.</p>
-                </div>
-            </div>
+            <div class="tab-pane fade" id="prices-storage" role="tabpanel" aria-labelledby="prices-storage-tab">...</div>
+            <div class="tab-pane fade" id="prices-services" role="tabpanel" aria-labelledby="prices-services-tab">...</div>
         </div>
-    </section>
+    </div>
 
     {{-- Advantages --}}
     <section class="section advantages mb-5">
@@ -570,14 +553,14 @@
 
 @section('customjs')
     <script>
-        // Hero section
-        new Typed('.hero-title__dynamic', {
-            strings: ["Insured", "Licensed", "Bonded"],
-            typeSpeed: 200,
-            backSpeed: 10,
-            startDelay: 600,
-            backDelay: 800,
-            loop: true
-        });
+        // accordion
+        $('#accordionPricesFaq').on('show.bs.collapse', function (e) {
+            var item = e.target;
+            $(item).closest('.accordion-content-item').find('.accordion-content-item__button').addClass('accordion-content-item__button--rotate').addClass('accordion-content-item__button--hover');
+        })
+        $('#accordionPricesFaq').on('hidden.bs.collapse', function (e) {
+            var item = e.target;
+            $(item).closest('.accordion-content-item').find('.accordion-content-item__button').removeClass('accordion-content-item__button--rotate').removeClass('accordion-content-item__button--hover');
+        })
     </script>
 @stop
