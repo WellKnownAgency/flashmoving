@@ -28,7 +28,7 @@
 
 <!-- Main Navigation -->
 <nav class="navbar navbar-expand-lg navbar-our " id="hidewhensm">
-  <div class="justify-content-center center">
+  <div class="justify-content-center center-no-width">
     <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link" href="/">Home</a>
