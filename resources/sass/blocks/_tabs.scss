@@ -41,12 +41,17 @@
         }
     }
     &__link {
-        display: block;
-        font-size: 1.125rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
         font-weight: 400;
-        padding: 14px 22px;
+        padding: 0.77em 1.22em;
         color: #000;
         transition: all 0.3s ease;
+        @include media-breakpoint-up(md) {
+            font-size: 1.125rem;
+        }
         &:hover {
             text-decoration: none;
         }
@@ -58,5 +63,8 @@
                 color: #fff;
             }
         }
+    }
+    &__text {
+
     }
 }

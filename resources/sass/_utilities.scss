@@ -1,0 +1,39 @@
+/// Миксин Themify
+@mixin themify($property, $key, $themes: $themes, $isAddit: false, $addit-operation: null, $key-addit: null, $themes-addit: null) {
+    // Проход по темам
+    @each $theme, $items in $themes {
+        // Создание селектора (типа `.media.theme-unicorn, .theme-unicorn .media`)
+        $theme-value: map-get($items, $key);
+        .theme-#{$theme} & {
+            // Вывод декларации
+            #{$property}: $theme-value;
+        }
+
+        // additional theme
+        @if($isAddit) {
+            @each $theme-addit, $values-addit in $themes-addit {
+                $theme-value-addit: map-get($values-addit, $key-addit);
+                .theme-#{$theme}.theme-#{$theme-addit} & {
+                    // Вывод декларации
+                    @if($addit-operation == '%') {
+                        #{$property}: $theme-value  * $theme-value-addit / 100;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/// Map deep get
+/// @author Hugo Giraudel
+/// @access public
+/// @param {Map} $map - Map
+/// @param {Arglist} $keys - Key chain
+/// @return {*} - Desired value
+@function map-deep-get($map, $keys...) {
+    @each $key in $keys {
+        $map: map-get($map, $key);
+    }
+    @return $map;
+}

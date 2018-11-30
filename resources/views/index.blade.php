@@ -35,7 +35,7 @@
     {{-- Services --}}
     <section class="section">
         <div class="section-header">
-            <h2 class="section-title section-title--upper">Flash Moving Services</h2>
+            <h1 class="section-title section-title--upper">Flash Moving Company</h1>
         </div>
         <div class="services-collection">
             <div class="services-collection__list">
@@ -46,50 +46,50 @@
                                 <div class="services-collection-item__preview">
                                     <img src="{{asset('images/services/IMG_7851.jpg')}}" alt="Local Moving" class="services-collection-item__img">
                                 </div>
+                                <div class="services-collection-item__title">Local Moving</div>
                             </div>
-                            <div class="services-collection-item__title">Local Moving</div>
+                        </div>
+                        <div class="col-sm services-collection__item">
+                            <div class="services-collection-item">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/Highwaytrucks.jpg')}}" alt="Interstate Moving" class="services-collection-item__img">
+                                    </div>
+                                </div>
+                                <div class="services-collection-item__title">Interstate Moving</div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm services-collection__item">
-                        <div class="services-collection-item">
-                            <div class="services-collection-item__background">
-                                <div class="services-collection-item__preview">
-                                    <img src="{{asset('images/services/Highwaytrucks.jpg')}}" alt="Interstate Moving" class="services-collection-item__img">
+                    <div class="row services-collection__row">
+                        <div class="col-sm services-collection__item">
+                            <div class="services-collection-item">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/Public_Storage_doors.jpg')}}" alt="Moving & Storage" class="services-collection-item__img">
+                                    </div>
                                 </div>
+                                <div class="services-collection-item__title services-collection-item__title--small">Moving & Storage</div>
                             </div>
-                            <div class="services-collection-item__title">Interstate Moving</div>
                         </div>
-                    </div>
-                </div>
-                <div class="row services-collection__row">
-                    <div class="col-sm services-collection__item">
-                        <div class="services-collection-item">
-                            <div class="services-collection-item__background">
-                                <div class="services-collection-item__preview">
-                                    <img src="{{asset('images/services/Public_Storage_doors.jpg')}}" alt="Moving & Storage" class="services-collection-item__img">
+                        <div class="col-sm services-collection__item">
+                            <div class="services-collection-item">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/whitehomeoffice.jpg')}}" alt="Local Moving" class="services-collection-item__img">
+                                    </div>
                                 </div>
+                                <div class="services-collection-item__title services-collection-item__title--small">Commercial moving</div>
                             </div>
-                            <div class="services-collection-item__title services-collection-item__title--small">Moving & Storage</div>
                         </div>
-                    </div>
-                    <div class="col-sm services-collection__item">
-                        <div class="services-collection-item">
-                            <div class="services-collection-item__background">
-                                <div class="services-collection-item__preview">
-                                    <img src="{{asset('images/services/whitehomeoffice.jpg')}}" alt="Local Moving" class="services-collection-item__img">
+                        <div class="col-sm services-collection__item">
+                            <div class="services-collection-item">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/d4f8081d917643ed96bd.jpg')}}" alt="Local Moving" class="services-collection-item__img">
+                                    </div>
                                 </div>
+                                <div class="services-collection-item__title services-collection-item__title--small">Packing</div>
                             </div>
-                            <div class="services-collection-item__title services-collection-item__title--small">Commercial moving</div>
-                        </div>
-                    </div>
-                    <div class="col-sm services-collection__item">
-                        <div class="services-collection-item">
-                            <div class="services-collection-item__background">
-                                <div class="services-collection-item__preview">
-                                    <img src="{{asset('images/services/d4f8081d917643ed96bd.jpg')}}" alt="Local Moving" class="services-collection-item__img">
-                                </div>
-                            </div>
-                            <div class="services-collection-item__title services-collection-item__title--small">Packing</div>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
     <section class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title section-title--upper">Local moving prices</h2>
+                <h2 class="section-title section-title--upper">Boston Movers</h2>
             </div>
 
             <div class="section__collection">
@@ -117,7 +117,10 @@
                                         <div class="prices-collection-item__price">from $80/hour</div>
                                     </div>
                                     <div class="prices-collection-item__features">
-                                        <div class="prices-collection-item-features">
+                                        <div class="prices-collection-item__btn-more">
+                                            <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice1" aria-expanded="false" aria-controls="collapsePrice1">More</button>
+                                        </div>
+                                        <div class="collapse prices-collection-item-features" id="collapsePrice1">
                                             <div class="prices-collection-item-features__title">What's included?</div>
                                             <ul class="prices-collection-item-features__list">
                                                 <li class="prices-collection-item-features__item">2 Professional Movers</li>
@@ -147,7 +150,10 @@
                                         <div class="prices-collection-item__price">from $110/hour</div>
                                     </div>
                                     <div class="prices-collection-item__features">
-                                        <div class="prices-collection-item-features">
+                                        <div class="prices-collection-item__btn-more">
+                                            <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice2" aria-expanded="false" aria-controls="collapsePrice2">More</button>
+                                        </div>
+                                        <div class="collapse prices-collection-item-features" id="collapsePrice2">
                                             <div class="prices-collection-item-features__title">What's included?</div>
                                             <ul class="prices-collection-item-features__list">
                                                 <li class="prices-collection-item-features__item">3 Professional Movers</li>
@@ -177,7 +183,10 @@
                                         <div class="prices-collection-item__price">from $140/hour</div>
                                     </div>
                                     <div class="prices-collection-item__features">
-                                        <div class="prices-collection-item-features">
+                                        <div class="prices-collection-item__btn-more">
+                                            <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice3" aria-expanded="false" aria-controls="collapsePrice3">More</button>
+                                        </div>
+                                        <div class="collapse prices-collection-item-features" id="collapsePrice3">
                                             <div class="prices-collection-item-features__title">What's included?</div>
                                             <ul class="prices-collection-item-features__list">
                                                 <li class="prices-collection-item-features__item">4 Professional Movers</li>
@@ -236,7 +245,7 @@
                             </svg>
                         </div>
                         <div class="advantages-item__title">Fully Licensed and Insured</div>
-                        <div class="advantages-item__description">You don't have to worry about anything, everything is under our control</div>
+                        <div class="advantages-item__description">You do not have to worry about anything, everything is under our control</div>
                     </div>
                 </div>
                 <div class="col-md-4 advantages__item">
@@ -309,7 +318,7 @@
     {{-- Section text "We are a part of the family (Reviews)" starts --}}
     <section class="section">
         <div class="container">
-            <h2 class="section__title section__title--uppercase">We are a part of the family</h2>
+            <h2 class="section__title section__title--uppercase">Flash Moving Reviews</h2>
         </div>
         <div class="section__collection">
             <div id="carouselReviews" class="carousel slide carousel-fade" data-ride="carousel">
@@ -421,7 +430,7 @@
     <section class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title section-title--upper">How to start move with us</h2>
+                <h2 class="section-title section-title--upper">How to start move with Flash Movers</h2>
             </div>
 
             <div class="tree-to-start">
@@ -532,7 +541,6 @@
     <!--Section Contacts starts-->
     <section class="section">
         <div class="container">
-            <h2 class="section__title">Contacts</h2>
             <div class="section-description section-description--narrow">
                 We build our business based on strong relationships with the customers. Do not hesitate asking us any moving related questions
             </div>

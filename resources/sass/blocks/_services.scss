@@ -1,13 +1,52 @@
+$themes: (
+    'md': (
+        'base-height': 355px,
+        'media-md-height': 250px
+    ),
+    'sm': (
+        'base-height': 200px,
+        'media-md-height': 120px
+    )
+) !default;
+
+$themes-types: (
+    'same': (
+        'calc-row-2-height': 0,
+        'calc-row-3-height': 0
+    ),
+    'ladder': (
+        'calc-row-2-height': 74,
+        'calc-row-3-height': 62
+    )
+) !default;
+
+
+
+// Style
+
 .services-collection {
     &__list {
-        @extend .container;
+
     }
     &__row {
-        margin-top: 25px;
-        margin-bottom: 25px;
+        &:first-child .services-collection-item__img {
+            @include media-breakpoint-up(lg) {
+                @include themify('height', 'base-height');
+            }
+        }
+        &:nth-child(2) .services-collection-item__img {
+            @include media-breakpoint-up(lg) {
+                @include themify('height', 'base-height', $themes, true, '%', 'calc-row-2-height', $themes-types);
+            }
+        }
+        &:not(:first-child):not(:nth-child(2)) .services-collection-item__img {
+            @include media-breakpoint-up(lg) {
+                @include themify('height', 'base-height', $themes, true, '%', 'calc-row-3-height', $themes-types);
+            }
+        }
     }
     &__item {
-        height: 355px;
+        margin-bottom: 25px;
     }
 }
 
@@ -15,10 +54,13 @@
     overflow: hidden;
     position: relative;
     width: 100%;
-    height: 355px;
+    display: block;
     &:hover &__img {
         transform: scale(1.05);
         filter: brightness(85%);
+        &--brightness-high {
+            filter: brightness(70%);
+        }
     }
     &__background {}
     &__preview {}
@@ -26,16 +68,18 @@
         transition: transform ease-in-out .25s, filter ease-in-out .25s;
         filter: brightness(50%);
         object-fit: cover;
-        width:100%;
-        height:355px;
+        width: 100%;
         display: block;
-
+        @include themify('height', 'media-md-height');
+        &--brightness-high {
+            filter: brightness(40%);
+        }
     }
     &__title {
         position: absolute;
         z-index: 3;
         color: #fff;
-        font-size: 36px;
+        font-size: 24px;
         line-height: 1.23;
         font-weight: 600;
         top: 50%;
@@ -43,6 +87,9 @@
         right: 0;
         transform: translateY(-50%);
         text-align: center;
+        @include media-breakpoint-up(md) {
+            font-size: 36px;
+        }
         &--small {
             font-size: 24px;
             line-height: 1.35;
