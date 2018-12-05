@@ -34,17 +34,19 @@
 
     {{-- Services --}}
     <section class="section">
-        <div class="section-header">
-            <h1 class="section-title section-title--upper">Flash Moving Company</h1>
-        </div>
-        <div class="services-collection">
-            <div class="services-collection__list">
-                <div class="row services-collection__row">
-                    <div class="col-sm services-collection__item">
-                        <div class="services-collection-item">
-                            <div class="services-collection-item__background">
-                                <div class="services-collection-item__preview">
-                                    <img src="{{asset('images/services/IMG_7851.jpg')}}" alt="Local Moving" class="services-collection-item__img">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title section-title--upper">Flash Moving Services</h2>
+            </div>
+            <div class="services-collection theme-md">
+                <div class="services-collection__list">
+                    <div class="row services-collection__row">
+                        <div class="col-sm services-collection__item">
+                            <div class="services-collection-item">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/IMG_7851.jpg')}}" alt="Local Moving" class="services-collection-item__img">
+                                    </div>
                                 </div>
                                 <div class="services-collection-item__title">Local Moving</div>
                             </div>
