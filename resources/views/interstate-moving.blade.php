@@ -13,15 +13,15 @@
     {{-- Hero --}}
     <section class="hero mb-5">
         <div class="hero__preview">
-            <img src="/images/hero/IMG_7908.jpg" alt="" class="hero__img hero__img--brightness-high">
+            <img src="/images/hero/IMG_7828.jpg" alt="" class="hero__img hero__img--brightness-high">
         </div>
         <div class="hero__wrapper-content">
             <div class="hero__container">
                 <div class="hero__content">
                     <div class="hero__row">
-                        <div class="col-md-7">
+                        <div class="col-md-8">
                             <div class="hero__title">
-                                <h1 class="hero-title hero-title__simple">Local moving company</h1>
+                                <h1 class="hero-title hero-title__simple">Long distance <br> flat rate <br> moving company</h1>
                             </div>
                             <div class="hero__description hero__description--big">Without any hidden fees and extra chargers</div>
                         </div>
@@ -35,7 +35,7 @@
     <section class="section mb-5">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title section-title--upper">Services Areas</h2>
+                <h2 class="section-title section-title--upper">Directions</h2>
             </div>
             <div class="services-collection theme-sm theme-ladder">
                 <div class="services-collection__list">
@@ -44,52 +44,20 @@
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Boston.jpg')}}" alt="Boston" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                        <img src="{{asset('images/services/interstate/05b492e2-29f9-4557-9.jpg')}}" alt="New York" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
-                                <div class="services-collection-item__title">Boston</div>
-                            </div>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="{{route('local-moving.area', 'newton')}}">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Newton.JPG')}}" alt="Newton" class="services-collection-item__img">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title">Newton</div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row services-collection__row">
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/adeeea3b-b3ab-47bd-8.jpg')}}" alt="Somerville" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Somerville</div>
+                                <div class="services-collection-item__title services-collection-item__title--upper">New York</div>
                             </div>
                         </div>
                         <div class="col-sm services-collection__item">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/9fc2906b-00c5-4aaf-8.jpg')}}" alt="Brookline" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                        <img src="{{asset('images/services/interstate/Washington.jpg')}}" alt="Washington DC" class="services-collection-item__img">
                                     </div>
                                 </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Brookline</div>
-                            </div>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Cambridge.jpg')}}" alt="Cambridge" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Cambridge</div>
+                                <div class="services-collection-item__title services-collection-item__title--upper">Washington DC</div>
                             </div>
                         </div>
                     </div>
@@ -98,40 +66,30 @@
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Allston.jpg')}}" alt="Allston" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                        <img src="{{asset('images/services/interstate/Philadelphia.jpg')}}" alt="Philadelphia" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Allston</div>
+                                <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Philadelphia</div>
                             </div>
                         </div>
                         <div class="col-sm services-collection__item">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Watertown.jpg')}}" alt="Watertwon" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                        <img src="{{asset('images/services/interstate/Chicago.jpg')}}" alt="Chicago" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Watertwon</div>
+                                <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Chicago</div>
                             </div>
                         </div>
                         <div class="col-sm services-collection__item">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Waltham.jpg')}}" alt="Waltham" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                        <img src="{{asset('images/services/interstate/Miami.jpg')}}" alt="Florida" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Waltham</div>
-                            </div>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Medford.JPG')}}" alt="Medford" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Medford</div>
+                                <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Florida</div>
                             </div>
                         </div>
                     </div>
@@ -155,7 +113,7 @@
                             <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                                 <div class="content-blocks-item__body-inner">
                                     <div class="content-blocks-item__header">
-                                        <div class="content-blocks-item__title-primary">Local Movers (tag #1)</div>
+                                        <div class="content-blocks-item__title-primary">Long Distance Movers (tag #1)</div>
                                         <div class="content-blocks-item__title-secundare">Seo text</div>
                                     </div>
                                     <div class="content-blocks-item__text">
@@ -174,7 +132,7 @@
                             <div class="col-lg-6 order-lg-1 content-blocks-item__body">
                                 <div class="content-blocks-item__body-inner">
                                     <div class="content-blocks-item__header">
-                                        <div class="content-blocks-item__title-primary">Local Movers (tag #1)</div>
+                                        <div class="content-blocks-item__title-primary">Affordable Interstate in Boston (tag #2)</div>
                                         <div class="content-blocks-item__title-secundare">Seo text</div>
                                     </div>
                                     <div class="content-blocks-item__text">
@@ -193,7 +151,7 @@
                             <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                                 <div class="content-blocks-item__body-inner">
                                     <div class="content-blocks-item__header">
-                                        <div class="content-blocks-item__title-primary">Local Movers (tag #1)</div>
+                                        <div class="content-blocks-item__title-primary">Super Duper Intestate Moving Company (tag #3)</div>
                                         <div class="content-blocks-item__title-secundare">Seo text</div>
                                     </div>
                                     <div class="content-blocks-item__text">
