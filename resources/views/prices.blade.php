@@ -40,7 +40,7 @@
         </div>
         <div class="tab-content" id="prices-nav-tabContent">
             <div class="tab-pane fade show active" id="prices-local" role="tabpanel" aria-labelledby="prices-local-tab">
-                {{-- Prices --}}
+                {{-- Local Moving --}}
                 <div class="section">
                     <div class="container">
                         <div class="section-header">
@@ -158,7 +158,7 @@
                 </div>
             </div>
             <div class="tab-pane fade" id="prices-distance" role="tabpanel" aria-labelledby="prices-distance-tab">
-                {{-- Prices --}}
+                {{-- Long distance --}}
                 <div class="section">
                     <div class="container">
                         <div class="section-header">
@@ -249,11 +249,183 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="section__button">
+                            <a href="#" class="btn-simple btn-simple--medium">Get free Estimate</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="prices-storage" role="tabpanel" aria-labelledby="prices-storage-tab">...</div>
-            <div class="tab-pane fade" id="prices-services" role="tabpanel" aria-labelledby="prices-services-tab">...</div>
+            <div class="tab-pane fade" id="prices-storage" role="tabpanel" aria-labelledby="prices-storage-tab">
+                {{-- Storage --}}
+                <div class="section mb-5">
+                    <div class="container">
+                        <div class="section-header">
+                            <h2 class="section-title section-title--upper">Storage solution</h2>
+                        </div>
+                        <div class="prices-list-collection">
+                            <div class="prices-list-collection__list col-xl-10 m-auto">
+                                <div class="prices-list-collection__item">
+                                    <div class="prices-list-collection-item row">
+                                        <div class="col-md-4 order-0">
+                                            <h3 class="prices-list-collection-item__title">Overnight storage</h3>
+                                        </div>
+                                        <div class="col-md-3 order-md-2">
+                                            <div class="prices-list-collection-item__price">
+                                                <div class="prices-list-collection-item__price-value">From $150</div>
+                                                <div class="prices-list-collection-item__price-period">per night/per truck</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 order-md-1">
+                                            <div class="prices-list-collection-item__content">
+                                                <p>In case you have to move out in one day, but are not able to move into your new residence until the next day, we offer low cost Overnight On-Truck Storage. The truck remains locked and stationary in our digitally monitored parking lot. Once you get your keys, your possessions will be safely delivered to your new apartment or home.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="prices-list-collection__item">
+                                    <div class="prices-list-collection-item row">
+                                        <div class="col-md-4 order-0">
+                                            <h3 class="prices-list-collection-item__title">Short-term storage</h3>
+                                        </div>
+                                        <div class="col-md-3 order-md-2">
+                                            <div class="prices-list-collection-item__price">
+                                                <div class="prices-list-collection-item__price-value">From $100</div>
+                                                <div class="prices-list-collection-item__price-period">Per month</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 order-md-1">
+                                            <div class="prices-list-collection-item__content">
+                                                <p>Are you looking for a short-term storage to protect your belongings while renovating your new home? We offer storage facilities for up to 6 months.</p>
+                                                <p>All of your goods will be custom wrapped, loaded into our truck, transported to our warehouse and transferred from our truck directly to the storage.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="prices-list-collection__item">
+                                    <div class="prices-list-collection-item row">
+                                        <div class="col-md-4 order-0">
+                                            <h3 class="prices-list-collection-item__title">Long-term storage</h3>
+                                        </div>
+                                        <div class="col-md-3 order-md-2">
+                                            <div class="prices-list-collection-item__price">
+                                                <div class="prices-list-collection-item__price-value">By request</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 order-md-1">
+                                            <div class="prices-list-collection-item__content">
+                                                <p>Are you temporarily relocating out of state or overseas, or downsizing to a new home? Get <strong>First Month Free</strong> for your <strong>Long-Term Storage</strong>.</p>
+                                                <p>All our storage facilities are clean and climate controlled, equipped with top-notch video security cameras and guards, and have fire sprinklers installed for safety.</p>
+                                                <p><span class="prices-list-collection-item__content--danger">First month free</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section__button">
+                            <a href="#" class="btn-simple btn-simple--medium">Book storage</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="prices-services" role="tabpanel" aria-labelledby="prices-services-tab">
+                <div class="section mb-5">
+                    <div class="container">
+                        <div class="section-header">
+                            <h2 class="section-title section-title--upper">Additional services</h2>
+                        </div>
+                        <div class="prices-list-collection">
+                            <div class="prices-list-collection__list col-xl-10 m-auto">
+                                <div class="prices-list-collection__item">
+                                    <div class="prices-list-collection-item row">
+                                        <div class="col-md-4 order-0">
+                                            <h3 class="prices-list-collection-item__title">Piano and bulky items moving</h3>
+                                        </div>
+                                        <div class="col-md-3 order-md-2">
+                                            <div class="prices-list-collection-item__price">
+                                                <div class="prices-list-collection-item__price-value">From $160</div>
+                                                <div class="prices-list-collection-item__price-period">depending on type of an item</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 order-md-1">
+                                            <div class="prices-list-collection-item__content">
+                                                <p>We are equipped and properly trained with the best practices for moving pianos and bulky items.
+                                                    Our number one goal throughout the entire process is to keep your piano protected as well as to keep our movers safe and secured performing such a tricky and solid job.</p>
+                                                <p>That's why we always use special <strong>piano boards</strong>, <strong>moving straps</strong>, <strong>dollies</strong> and <strong>soft moving blankets</strong> to avoid any possible damages and scratches. And we book <strong>3 or 4 movers crew</strong> for fulfilling bulky stuff moves.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="prices-list-collection__item">
+                                    <div class="prices-list-collection-item row">
+                                        <div class="col-md-4 order-0">
+                                            <h3 class="prices-list-collection-item__title">Hoisting service</h3>
+                                        </div>
+                                        <div class="col-md-3 order-md-2">
+                                            <div class="prices-list-collection-item__price">
+                                                <div class="prices-list-collection-item__price-value">From $40</div>
+                                                <div class="prices-list-collection-item__price-period">plus $20 per item/per flight</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 order-md-1">
+                                            <div class="prices-list-collection-item__content">
+                                                <p>Since the beauty created by our ancestors with its astonishing but tiny staircases doesn't match with moving your favorite King size Bed down from the third floor, the solution is <strong>hand-hoisting service</strong>.
+                                                    <br>It is a delicate procedure that requires training and should be attempted by at least 3 professional movers. There is <strong>$40 service fee</strong> and <strong>$20 charge per flight/per item</strong> for hoisting.
+                                                    We will carefully move your furniture up through the window or over a balcony. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="prices-list-collection__item">
+                                    <div class="prices-list-collection-item row">
+                                        <div class="col-md-4 order-0">
+                                            <h3 class="prices-list-collection-item__title">Parking permits</h3>
+                                        </div>
+                                        <div class="col-md-3 order-md-2">
+                                            <div class="prices-list-collection-item__price">
+                                                <div class="prices-list-collection-item__price-value">From $120</div>
+                                                <div class="prices-list-collection-item__price-period">depending on the area and moving date</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 order-md-1">
+                                            <div class="prices-list-collection-item__content">
+                                                <p>If you don't have available parking spot, loading dock or drive way we recommend you to take a parking permit in the City Hall. Parking permits are needed for Boston area such as North End, Charlestown, Back Bay, and for a one way street with parking slots on both sides of the road.</p>
+                                                <p>We have 20' and 26' box trucks and parking a truck in front of the building or outside the streetoccupies 2 or 3 parking spots.</p>
+                                                <p>If you don't have a time or just busy during the day we would be more than happy to take care of this. We can order the permits for you, but there will be an extra charge.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="prices-list-collection__item">
+                                    <div class="prices-list-collection-item row">
+                                        <div class="col-md-4 order-0">
+                                            <h3 class="prices-list-collection-item__title">Renting moving crates</h3>
+                                        </div>
+                                        <div class="col-md-3 order-md-2">
+                                            <div class="prices-list-collection-item__price">
+                                                <div class="prices-list-collection-item__price-value">By request</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 order-md-1">
+                                            <div class="prices-list-collection-item__content">
+                                                <p>Save time and money. No tape, no driving to HomeDepot or Lowels, no headache with boxes after move. We deliver, you pack and unload, we take it back. Easy.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section__button">
+                            <a href="#" class="btn-simple btn-simple--medium">Request free Estimate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

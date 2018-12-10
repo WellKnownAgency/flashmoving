@@ -9,3 +9,5 @@ Route::get('/about-us', 'PageController@about');
 
 Route::get('local-moving/{slug}', 'PageController@localMovingArea')->name('local-moving.area');
 Route::get('local-moving', 'PageController@localMoving')->name('local-moving');
+
+Route::get('interstate-moving', 'PageController@interstateMoving')->name('interstate-moving');

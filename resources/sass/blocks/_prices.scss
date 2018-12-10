@@ -160,3 +160,41 @@
         font-weight: 500;
     }
 }
+
+.prices-list-collection {
+    &__item {
+        margin: 60px 0;
+    }
+}
+
+.prices-list-collection-item {
+    &__title {
+        font-size: 28px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    &__content {
+        font-size: 18px;
+        font-weight: 300;
+        &--danger {
+            font-weight: 600;
+            text-transform: uppercase;
+            color: rgb(219, 70, 35);
+        }
+    }
+    &__price {
+        margin-bottom: 20px;
+        @include media-breakpoint-up(md) {
+            text-align: right;
+            margin-bottom: 0;
+        }
+    }
+    &__price-value {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    &__price-period {
+        font-size: 14px;
+        font-weight: 300;
+    }
+}

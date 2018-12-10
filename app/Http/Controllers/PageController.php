@@ -21,6 +21,11 @@ class PageController extends Controller
         return view('local-moving-area');
     }
 
+    public function interstateMoving()
+    {
+        return view('interstate-moving');
+    }
+
     public function prices()
     {
         return view('prices');
