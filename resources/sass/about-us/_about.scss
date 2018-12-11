@@ -6,11 +6,13 @@
 
         &__img{
           background-image: url('/images/about/about-back.jpg');
+          background-size: cover;
           max-width: none !important;
           height:786px;
           position: absolute;
           margin: auto;
           z-index: -2;
+          width: 100%;
           filter: brightness(50%);
         }
 
@@ -57,39 +59,24 @@
 
     }
 
-
     @media only screen and (max-width : 680px) {
-      .about_why_us {
-      margin-left: 0;
-      margin-right: 0;
+      .about_block {
+      font-size: 14px;
+      line-height: 1.428571429;
       }
     }
 
     @media only screen and (max-width : 680px) {
       .about_block_main {
       padding-top: 40px;
-      margin-left: 0;
-      margin-right: 0;
       }
     }
 
 
     @media only screen and (max-width : 680px) {
     .about_text {
-      padding: 30px 20px 30px;
+      padding: 30px 20px 35px;
       font-size: 14px;
       line-height: 1.428571429;
-     }
-    }
-
-    @media only screen and (max-width : 320px) {
-    .about_text p{
-      font-size: 16px;
-     }
-    }
-
-    @media only screen and (max-width : 320px) {
-    .about_text h2 {
-      font-size: 32px;
      }
     }
