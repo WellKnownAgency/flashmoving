@@ -10,7 +10,7 @@
 <section class="about">
   <div class="about__background">
     <div class="about-us-img">
-      <img src="/images/about/about-back.jpg" alt="" class="about__img">
+      <img src="/images/about/about-back-opt.jpg" alt="" class="about__img">
     </div>
     <div class="row justify-content-center" style="padding-top:90px;">
       <div class="about_block">

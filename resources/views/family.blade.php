@@ -56,7 +56,7 @@
             </div>
             <div class="photo-exposition__right">
                 <div class="photo-exposition__preview">
-                    <img src="{{asset('images/family/IMG_7937.jpg')}}" alt="Flash Moving Family" class="photo-exposition__img">
+                    <img src="{{asset('images/family/IMG_7937-opt.jpg')}}" alt="Flash Moving Family" class="photo-exposition__img">
                 </div>
             </div>
         </div>
