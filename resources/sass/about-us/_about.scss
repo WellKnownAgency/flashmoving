@@ -50,15 +50,27 @@
           font-size: 42px;
           text-align: center;
         }
+
+        &_block_main {
+          padding-top:90px;
+        }
+
+
     }
 
     @media only screen and (max-width : 680px) {
       .about_block {
-      padding: 40px 20px;
       font-size: 14px;
       line-height: 1.428571429;
       }
     }
+
+    @media only screen and (max-width : 680px) {
+      .about_block_main {
+      padding-top: 40px;
+      }
+    }
+
 
     @media only screen and (max-width : 680px) {
     .about_text {

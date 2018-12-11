@@ -12,7 +12,7 @@
     <div class="about-us-img">
       <img src="/images/about/about-back-opt.jpg" alt="" class="about__img">
     </div>
-    <div class="row justify-content-center" style="padding-top:90px;">
+    <div class="row justify-content-center about_block_main">
       <div class="about_block">
         <div>
           <div class="about_text">
@@ -99,34 +99,6 @@
 </section>
 <!--End of Section -->
 
-<!--Section text "Be part of Our Family" starts-->
-<section class="about__form">
-  <div class="container">
-    <div class="center" style="height:185px;">
-      <h1><b>Be part of our family</b></h1>
-      <br>
-      <p class="contact-p">We really love to communicate with our clients</p>
-    </div>
-  </div>
-  <div class="container center">
-    <form>
-      <div class="form-row align-items-center">
-        <div class="col-md-4">
-          <label class="sr-only" for="inlineFormInput">Name</label>
-          <input type="text" class="form-control mb-4" id="inlineFormInput" placeholder="Name">
-        </div>
-        <div class="col-md-4">
-          <label class="sr-only" for="inlineFormInput">Name</label>
-          <input type="text" class="form-control mb-4" id="inlineFormInput" placeholder="Phone">
-        </div>
-        <div class="col-md-4">
-          <button type="submit" class="btn btn-primary mb-4">Submit</button>
-        </div>
-      </div>
-    </form>
-  </div>
-</section>
-<!--End of Section -->
 
 <!--Section text "First Customer and Terms and Conditions" starts-->
 
