@@ -30,14 +30,14 @@
 
 <!--Section text "Why People Choose Us" starts -->
 <section style="padding-top:45px;">
-  <div class="row about_why_us">
+  <div class="row">
     <div class="col-md-12">
       <div class="container">
           <h5 class="section-title section-title--upper advantages__title" style="padding-bottom:15px;">Why people choose Flash Movers</h5>
       </div>
     </div>
     <div class="container why-choose-us">
-      <div class="row about_why_us">
+      <div class="row">
         <div class="col-md-4">
           <div class="container">
             <img src="/images/icons/icon_1.svg" alt="" class="icon_contact">
