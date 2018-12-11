@@ -15514,7 +15514,6 @@ a.button-top {
   position: absolute;
   margin: auto;
   z-index: -2;
-  width: 100%;
   -webkit-filter: brightness(50%);
           filter: brightness(50%);
 }
