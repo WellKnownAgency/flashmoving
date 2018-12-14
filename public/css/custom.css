@@ -58,10 +58,16 @@
  text-decoration: none;
 }
 
-.navbar-toggler{
+.custom-toggler{
+  border-color: #fff !important;
   color: #fff !important;
 }
 
+.fa.fa-bars {
+  color:white;
+  vertical-align: center;
+  padding-top: 4px;
+}
 
 @media only screen and (min-width : 991px) {
   .navbar-our-scroll {
