@@ -15509,12 +15509,14 @@ a.button-top {
 
 .about__img {
   background-image: url("/images/about/about-back.jpg");
+  background-size: cover;
   max-width: none !important;
   height: 786px;
   width: 100%;
   position: absolute;
   margin: auto;
   z-index: -2;
+  width: 100%;
   -webkit-filter: brightness(50%);
           filter: brightness(50%);
 }
@@ -15560,6 +15562,11 @@ a.button-top {
 }
 
 @media only screen and (max-width: 680px) {
+  .about_block {
+    font-size: 14px;
+    line-height: 1.428571429;
+  }
+
   .about_why_us {
     margin-left: 0;
     margin-right: 0;
@@ -15576,6 +15583,7 @@ a.button-top {
 
 @media only screen and (max-width: 680px) {
   .about_text {
+    padding: 30px 20px 35px;
     padding: 30px 20px 30px;
     font-size: 14px;
     line-height: 1.428571429;
