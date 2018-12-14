@@ -388,49 +388,8 @@
 <!--Section Instagram starts-->
 <section class="section">
     <div class="container photo-collection">
-        <div class="row photo-collection__list">
-            <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                <a href="#" class="photo-collection__link">
-                    <img src="{{asset('images/gallery/41820005_2172064109699170_3076862583886066016_n.jpg')}}" alt="" class="photo-collection__img">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                <a href="#" class="photo-collection__link">
-                    <img src="{{asset('images/gallery/41882030_343641603055547_5230966097571686024_n.jpg')}}" alt="" class="photo-collection__img">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                <a href="#" class="photo-collection__link">
-                    <img src="{{asset('images/gallery/41756491_732463330441130_2774315474169046711_n.jpg')}}" alt="" class="photo-collection__img">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                <a href="#" class="photo-collection__link">
-                    <img src="{{asset('images/gallery/35575124_623136438084862_7336070841857212416_n.jpg')}}" alt="" class="photo-collection__img">
-                </a>
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                <a href="#" class="photo-collection__link">
-                    <img src="{{asset('images/gallery/34477855_1676357599146487_5043478236248408064_n.jpg')}}" alt="" class="photo-collection__img">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                <a href="#" class="photo-collection__link">
-                    <img src="{{asset('images/gallery/21984956_1976363029276200_6037564883812220928_n.jpg')}}" alt="" class="photo-collection__img">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                <a href="#" class="photo-collection__link">
-                    <img src="{{asset('images/gallery/21984662_283261412190973_189828659605929984_n.jpg')}}" alt="" class="photo-collection__img">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                <a href="#" class="photo-collection__link">
-                    <img src="{{asset('images/gallery/21984956_1976363029276200_6037564883812220928_n.jpg')}}" alt="" class="photo-collection__img">
-                </a>
-            </div>
-        </div>
+      <div id="instafeed" class="row photo-collection__list">
+      </div>
     </div>
 </section>
 <!--End of Section -->
