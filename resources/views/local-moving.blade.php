@@ -177,8 +177,8 @@
                             <div class="col-lg-6 order-lg-1 content-blocks-item__body">
                                 <div class="content-blocks-item__body-inner">
                                     <div class="content-blocks-item__header">
-                                        <div class="content-blocks-item__title-primary">Flash Moving Services Local</div>
-                                        <div class="content-blocks-item__title-secundare">your trusted local moving service provider</div>
+                                        <h2 class="content-blocks-item__title-primary">Flash Moving Services Local</h2>
+                                        <h3 class="content-blocks-item__title-secundare">your trusted local moving service provider</h3>
                                     </div>
                                     <div class="content-blocks-item__text">
                                       <p>Flash Moving Company is one of the best local moving services that you can get.</p>
