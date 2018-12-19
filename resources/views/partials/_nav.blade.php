@@ -62,7 +62,7 @@
 
 <!-- Scrolling Navigation -->
 <nav class="navbar navbar-expand-lg navbar-our-scroll fixed-top" id="scroll-nav" style="height=50px;">
-  <a class="navbar-brand" href="#"><img src="/images/logo3.png" width="100px"/></a>
+  <a class="navbar-brand" href="/"><img src="/images/logo3.png" width="100px"/></a>
   <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
   </button>
@@ -77,9 +77,9 @@
           Services
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Local Moving</a>
-          <a class="dropdown-item" href="#">Interstate Moving</a>
-          <a class="dropdown-item" href="#">Storage</a>
+          <a class="dropdown-item" href="/local-moving">Local Moving</a>
+          <a class="dropdown-item" href="/interstate-moving">Interstate Moving</a>
+          <a class="dropdown-item" href="/storage">Storage</a>
         </div>
       </li>
       <li class="nav-item">
@@ -97,10 +97,10 @@
     </ul>
     <ul class="ml-auto navbar-nav">
       <li class="nav-item" style="padding-top:10px;">
-        <a href="tel:+18572418778" class="nav-link">+1 (857) 241-8778</a>
+        <a href="tel:+18572418778" class="nav-link" style="font-size:1.25em; margin-top:-5px;">+1 (857) 241-8778</a>
       </li>
       <li class="nav-item" style="margin-left: 10px">
-        <a href="#" class="float-right btn-hero btn-hero--small btn-hero--hover-green">Book Now</a>
+        <a href="#" class="btn-hero btn-hero--small btn-hero--hover-green">Book Now</a>
       </li>
     </ul>
   </div>

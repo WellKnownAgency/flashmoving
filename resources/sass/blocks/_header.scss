@@ -155,3 +155,10 @@ a.button-top {
     width: 50%;
     text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+    .btn-hero {
+        float:left;
+        margin-bottom: 10px;
+    }
+}
