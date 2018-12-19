@@ -19,7 +19,7 @@
                         <div class="col-md-7">
                             <div class="hero__title">
                                 <div class="hero-title">
-                                    <div class="hero-title__simple">Movers in Newton, MA</div>
+                                    <div class="hero-title__simple hero__title--static">Movers in Newton, MA</div>
                                 </div>
                             </div>
                             <div class="hero__description hero__description--big">Without any hidden fees and extra chargers</div>

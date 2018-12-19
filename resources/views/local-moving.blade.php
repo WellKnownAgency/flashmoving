@@ -20,7 +20,7 @@
                 <div class="hero__content">
                     <div class="hero__row">
                         <div class="col-md-7">
-                            <div class="hero__title">
+                            <div class="hero__title hero__title--static">
                                 <h1 class="hero-title hero-title__simple">Local moving company</h1>
                             </div>
                             <div class="hero__description hero__description--big">Without any hidden fees and extra chargers</div>
