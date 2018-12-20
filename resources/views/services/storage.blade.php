@@ -1,27 +1,26 @@
-@section('title', 'Local Moving Company | Flash Moving')
-@section('dscr', 'Find a reliable local moving company in the Boston area for your move. Professional fully licensed Movers will help you with any moving service you need.')
+@section('title', '')
+@section('dscr', '')
 @section('keywords', '')
+@section('mainimg', '')
 
 @extends('layouts.main')
-
-@section('preload')
-<link rel="preload" href="/images/hero/IMG_7908.jpg" as="image">
-@stop
 
 @section('content')
 
     {{-- Hero --}}
     <section class="hero mb-5">
         <div class="hero__preview">
-            <img src="/images/hero/IMG_7828.jpg" alt="" class="hero__img hero__img--brightness-high">
+            <img src="/images/hero/IMG_7938.jpg" alt="" class="hero__img hero__img--brightness-high">
         </div>
         <div class="hero__wrapper-content">
             <div class="hero__container">
                 <div class="hero__content">
                     <div class="hero__row">
-                        <div class="col-md-8">
-                            <div class="hero__title">
-                                <h1 class="hero-title hero-title__simple">Long distance <br> flat rate <br> moving company</h1>
+                        <div class="col-md-7">
+                            <div class="hero__title hero__title--static">
+                                <div class="hero-title">
+                                    <div class="hero-title__simple">Storage <br> solutions</div>
+                                </div>
                             </div>
                             <div class="hero__description hero__description--big">Without any hidden fees and extra chargers</div>
                         </div>
@@ -31,133 +30,222 @@
         </div>
     </section>
 
-    {{-- Services --}}
-    <section class="section mb-5">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title section-title--upper">Directions</h2>
-            </div>
-            <div class="services-collection theme-sm theme-ladder">
-                <div class="services-collection__list">
-                    <div class="row services-collection__row">
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/interstate/05b492e2-29f9-4557-9.jpg')}}" alt="New York" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--upper">New York</div>
-                            </div>
+    {{-- Prices country --}}
+    <div class="tabs">
+        <div class="nav mb-3 tabs-nav" id="prices-nav-tab" role="tablist">
+            <a class="tabs-nav__item tabs-nav__link active" id="storage-short-tab" data-toggle="tab" href="#storage-short" role="tab" aria-controls="nav-short" aria-selected="true"><span class="tabs-nav__text tabs-nav__text--upper">Short-term storage</span></a>
+            <a class="tabs-nav__item tabs-nav__link" id="storage-long-tab" data-toggle="tab" href="#storage-long" role="tab" aria-controls="nav-long" aria-selected="false"><span class="tabs-nav__text tabs-nav__text--upper">Long-term storage</span></a>
+            <a class="tabs-nav__item tabs-nav__link" id="storage-overnight-tab" data-toggle="tab" href="#storage-overnight" role="tab" aria-controls="nav-overnight" aria-selected="false"><span class="tabs-nav__text tabs-nav__text--upper">Overnight storage</span></a>
+        </div>
+        <div class="tab-content" id="prices-nav-tabContent">
+            <div class="tab-pane fade show active" id="storage-short" role="tabpanel" aria-labelledby="storage-short-tab">
+                {{-- Short-term storage --}}
+                <div class="section container-fluid">
+                    <div class="row content-blocks-item">
+                        <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
+                            <img src="{{asset('images/storage/steve-johnson-541507.jpg')}}" alt="" class="content-blocks-item__img content-blocks-item__img--height-limit">
                         </div>
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/interstate/Washington.jpg')}}" alt="Washington DC" class="services-collection-item__img">
-                                    </div>
+                        <div class="col-lg-6 order-lg-0 content-blocks-item__body">
+                            <div class="content-blocks-item__body-inner">
+                                <div class="content-blocks-item__header">
+                                    <h3 class="content-blocks-item__title-primary content-blocks-item__title-primary--upper content-blocks-item__title-primary--thin">Short-term storage</h3>
+                                    <div class="content-blocks-item__title-secundare ff-second">!!! SEO TEXT !!! + !!! OUR TEXT !!! (Maybe?)</div>
                                 </div>
-                                <div class="services-collection-item__title services-collection-item__title--upper">Washington DC</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row services-collection__row">
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/interstate/Philadelphia.jpg')}}" alt="Philadelphia" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
+                                <div class="content-blocks-item__text ff-second">
+                                    <p>Are you looking for a short-term storage to protect your belongings while renovating your new home? We offer storage facilities for up to 6 months.</p>
+                                    <p>All of your goods will be custom wrapped, loaded into our truck, transported to our warehouse and transferred from our truck directly to the storage.</p>
+                                    <div class="content-blocks-item__price">From $100 (per month)</div>
                                 </div>
-                                <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Philadelphia</div>
-                            </div>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/interstate/Chicago.jpg')}}" alt="Chicago" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Chicago</div>
-                            </div>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/interstate/Miami.jpg')}}" alt="Florida" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Florida</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="section__button">
-                <a href="#" class="btn-simple btn-simple--medium">Get free Estimate</a>
+            <div class="tab-pane fade" id="storage-long" role="tabpanel" aria-labelledby="storage-long-tab">
+                {{-- Long-term storage --}}
+                <div class="section">
+                    <div class="row content-blocks-item">
+                        <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
+                            <img src="{{asset('images/storage/steve-johnson-541507.jpg')}}" alt="" class="content-blocks-item__img content-blocks-item__img--height-limit">
+                        </div>
+                        <div class="col-lg-6 order-lg-0 content-blocks-item__body">
+                            <div class="content-blocks-item__body-inner">
+                                <div class="content-blocks-item__header">
+                                    <h3 class="content-blocks-item__title-primary content-blocks-item__title-primary--upper content-blocks-item__title-primary--thin">Long-term storage</h3>
+                                    <div class="content-blocks-item__title-secundare ff-second">!!! SEO TEXT !!! + !!! OUR TEXT !!! (Maybe?)</div>
+                                </div>
+                                <div class="content-blocks-item__text ff-second">
+                                    <p>Are you temporarily relocating out of state or overseas, or downsizing to a new home? Get <strong>First Month Free</strong> for your
+                                        <strong>Long-Term Storage</strong>.</p>
+                                    <p>All our storage facilities are clean and climate controlled, equipped with top-notch video security cameras and guards, and have fire sprinklers installed for safety.</p>
+                                    <div class="content-blocks-item__price">By request <br><span class="text-danger text-uppercase">FIRST MONTH FREE</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="storage-overnight" role="tabpanel" aria-labelledby="storage-overnight-tab">
+                {{-- Overnight storage --}}
+                <div class="section">
+                    <div class="row content-blocks-item">
+                        <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
+                            <img src="{{asset('images/storage/IMG_7925.jpg')}}" alt="" class="content-blocks-item__img content-blocks-item__img--height-limit">
+                        </div>
+                        <div class="col-lg-6 order-lg-0 content-blocks-item__body">
+                            <div class="content-blocks-item__body-inner">
+                                <div class="content-blocks-item__header">
+                                    <h3 class="content-blocks-item__title-primary content-blocks-item__title-primary--upper content-blocks-item__title-primary--thin">Overnight storage</h3>
+                                    <div class="content-blocks-item__title-secundare ff-second">!!! SEO TEXT !!! + !!! OUR TEXT !!! (Maybe?)</div>
+                                </div>
+                                <div class="content-blocks-item__text ff-second">
+                                    <p>In case you have to move out in one day, but are not able to move into your new residence until the next day, we offer low cost Overnight On-Truck Storage. The truck remains locked and stationary in our digitally monitored parking lot. Once you get your keys, your possessions will be safely delivered to your new apartment or home.</p>
+                                    <div class="content-blocks-item__price">From $150 (per night/per truck)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section class="section mb-4">
-        <div class="container-fluid">
-            <div class="content-blocks">
-                <div class="content-blocks__list">
-                    <div class="content-blocks__item">
-                        <div class="row content-blocks-item">
-                            <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
-                                <img src="{{asset('images/services/local/content/IMG_7828.jpg')}}" alt="" class="content-blocks-item__img">
+    {{-- Prices FAQ --}}
+    <section class="section mb-5">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title section-title--upper">Prices F.A.Q.</h2>
+                <div class="section-description">If you didn't find your question, please,<br>
+                    don't hesitate to call us: +1 857 241 8778</div>
+            </div>
+            <div class="accordion-content theme-white" id="accordionPricesFaq">
+                <div class="accordion-content__list row">
+                    {{--1--}}
+                    <div class="accordion-content__item col-md-6">
+                        <div class="accordion-content-item">
+                            <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingHourlyRate" data-toggle="collapse" data-target="#collapseHourlyRate" aria-expanded="true" aria-controls="collapseHourlyRate">
+                                Hourly rate
+                                <div class="accordion-content-item__button">
+                                    <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
+                                </div>
                             </div>
-                            <div class="col-lg-6 order-lg-0 content-blocks-item__body">
-                                <div class="content-blocks-item__body-inner">
-                                    <div class="content-blocks-item__header">
-                                        <div class="content-blocks-item__title-primary">Long Distance Movers (tag #1)</div>
-                                        <div class="content-blocks-item__title-secundare">Seo text</div>
-                                    </div>
-                                    <div class="content-blocks-item__text">
-                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
-                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
-                                    </div>
+                            <div class="collapse accordion-content-item__body" id="collapseHourlyRate" aria-labelledby="headingHourlyRate" data-parent="#accordionPricesFaq">
+                                <div class="accordion-content-item__text">
+                                    Hourly rate includes professional movers, clean and fully equipped moving truck, moving blankets/pads, disassembling/reassembling of furniture, tolls, gas, mileage, taxes, and basic insurance<br>.<br> <strong>All wrapping supplies will be charged additionally based on the actual usage. </strong><br>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="content-blocks__item">
-                        <div class="row content-blocks-item">
-                            <div class="col-lg-6 order-lg-0 content-blocks-item__preview">
-                                <img src="{{asset('images/services/local/content/86913f52-0728-45b7-b.jpg')}}" alt="" class="content-blocks-item__img">
+                    {{--2--}}
+                    <div class="accordion-content__item col-md-6">
+                        <div class="accordion-content-item">
+                            <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingLaborTime" data-toggle="collapse" data-target="#collapseLaborTime" aria-expanded="true" aria-controls="collapseLaborTime">
+                                Labor time
+                                <div class="accordion-content-item__button">
+                                    <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
+                                </div>
                             </div>
-                            <div class="col-lg-6 order-lg-1 content-blocks-item__body">
-                                <div class="content-blocks-item__body-inner">
-                                    <div class="content-blocks-item__header">
-                                        <div class="content-blocks-item__title-primary">Affordable Interstate in Boston (tag #2)</div>
-                                        <div class="content-blocks-item__title-secundare">Seo text</div>
-                                    </div>
-                                    <div class="content-blocks-item__text">
-                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
-                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
-                                    </div>
+                            <div class="collapse accordion-content-item__body" id="collapseLaborTime" aria-labelledby="headingLaborTime" data-parent="#accordionPricesFaq">
+                                <div class="accordion-content-item__text">
+                                    <img src="{{asset('images/prices/Laborexplainded.jpg')}}">
+                                    <strong>Total Moving Time = Labor Time + Travel Time. </strong><br><br>Labor Time starts once movers arrive to your origin address and ends when movers finish unloading at the destination address. Lunch breaks will be deducted of your Total Moving Time.<br><br><strong>Total moving time can vary in case of undisclosed or unpredicted circumstances.</strong><strong></strong><br>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="content-blocks__item">
-                        <div class="row content-blocks-item">
-                            <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
-                                <img src="{{asset('images/services/local/content/IMG_7937.jpg')}}" alt="" class="content-blocks-item__img">
+                    {{--3--}}
+                    <div class="accordion-content__item col-md-6">
+                        <div class="accordion-content-item">
+                            <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingTravelTime" data-toggle="collapse" data-target="#collapseTravelTime" aria-expanded="true" aria-controls="collapseTravelTime">
+                                Travel time
+                                <div class="accordion-content-item__button">
+                                    <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
+                                </div>
                             </div>
-                            <div class="col-lg-6 order-lg-0 content-blocks-item__body">
-                                <div class="content-blocks-item__body-inner">
-                                    <div class="content-blocks-item__header">
-                                        <div class="content-blocks-item__title-primary">Super Duper Intestate Moving Company (tag #3)</div>
-                                        <div class="content-blocks-item__title-secundare">Seo text</div>
-                                    </div>
-                                    <div class="content-blocks-item__text">
-                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
-                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
-                                    </div>
+                            <div class="collapse accordion-content-item__body" id="collapseTravelTime" aria-labelledby="headingTravelTime" data-parent="#accordionPricesFaq">
+                                <div class="accordion-content-item__text">
+                                    <img src="{{asset('images/prices/Laborexplainded.jpg')}}">
+                                    <strong>Travel time</strong> is the <strong>FIXED TIME</strong> which our crew spent to get from our parking to your location and back to our parking from your last destination. This fixed time will be added at the end of the job additionally to the actual time of the move. <br><br> Up to 1 hour Travel Time is applied to all jobs in Greater Boston area and minimum 30 min. (15 min for our movers to get to your address from our parking plus 15 min to get back when the move is finished). <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{--4--}}
+                    <div class="accordion-content__item col-md-6">
+                        <div class="accordion-content-item">
+                            <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingCharge" data-toggle="collapse" data-target="#collapseCharge" aria-expanded="true" aria-controls="collapseCharge">
+                                Minimum charge
+                                <div class="accordion-content-item__button">
+                                    <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
+                                </div>
+                            </div>
+                            <div class="collapse accordion-content-item__body" id="collapseCharge" aria-labelledby="headingCharge" data-parent="#accordionPricesFaq">
+                                <div class="accordion-content-item__text">
+                                    We have 3 hours minimum charge policy which includes travel time, in case your move takes less then 3 hours of the Total Time. Then our Rates are hourly based with 15 min. increment charge policy. <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{--5--}}
+                    <div class="accordion-content__item col-md-6">
+                        <div class="accordion-content-item">
+                            <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingPayment" data-toggle="collapse" data-target="#collapsePayment" aria-expanded="true" aria-controls="collapsePayment">
+                                Payment options
+                                <div class="accordion-content-item__button">
+                                    <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
+                                </div>
+                            </div>
+                            <div class="collapse accordion-content-item__body" id="collapsePayment" aria-labelledby="headingPayment" data-parent="#accordionPricesFaq">
+                                <div class="accordion-content-item__text">
+                                    For payments we accept <strong>cash, money order, certified check and all kind of cards</strong>. <br>For <strong>credit/debit card </strong>payments there will be a<strong> 3% service fee</strong>. The card should be presented at the time of payment and the name on the card should be the same as on the bill of landing.<br><br><strong>For CASH payments there will be 5% DISCOUNT.</strong><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{--6--}}
+                    <div class="accordion-content__item col-md-6">
+                        <div class="accordion-content-item">
+                            <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingDiscount" data-toggle="collapse" data-target="#collapseDiscount" aria-expanded="true" aria-controls="collapseDiscount">
+                                Cash discount
+                                <div class="accordion-content-item__button">
+                                    <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
+                                </div>
+                            </div>
+                            <div class="collapse accordion-content-item__body" id="collapseDiscount" aria-labelledby="headingDiscount" data-parent="#accordionPricesFaq">
+                                <div class="accordion-content-item__text">
+                                    If you are our <strong>NEW CLIEN</strong> you will get <strong>5% DISCOUNT</strong> as a <strong>"Welcome Bonus"</strong> (applies for labor time+travel time only). <br><br> If you are our <strong>REPEAT CLIENT</strong>, please, contact our manager during working hours (9AM - 6PM) via the phone at <strong>857.241.8778</strong> or 24/7 via the email at <strong>info@flashmoving.net </strong><br><br> <strong>For CASH PAYMENTS we provide ADDITIONAL 5% DISCOUNT</strong> (applies for labor, travel time and packing supplies) <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{--7--}}
+                    <div class="accordion-content__item col-md-6">
+                        <div class="accordion-content-item">
+                            <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingDeposit" data-toggle="collapse" data-target="#collapseDeposit" aria-expanded="true" aria-controls="collapseDeposit">
+                                Deposit
+                                <div class="accordion-content-item__button">
+                                    <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
+                                </div>
+                            </div>
+                            <div class="collapse accordion-content-item__body" id="collapseDeposit" aria-labelledby="headingDeposit" data-parent="#accordionPricesFaq">
+                                <div class="accordion-content-item__text">
+                                    In order to reserve and confirm your moving date, truck, and movers we require a deposit. This deposit will be deducted from your balance in the end of the move. Deposit is non-refundable in case of cancellation of the job. <br><br> The remaining balance is paid in full (cash, certified check or debit/credit cards) upon the end of the move according the actual time plus travel time.<br><br>After confirming the job our manager will send you an invoice. You could pay with Visa, MasterCard, American Express and Discover <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{--8--}}
+                    <div class="accordion-content__item col-md-6">
+                        <div class="accordion-content-item">
+                            <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingReschedule" data-toggle="collapse" data-target="#collapseReschedule" aria-expanded="true" aria-controls="collapseReschedule">
+                                Reschedule / Cancellation
+                                <div class="accordion-content-item__button">
+                                    <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
+                                </div>
+                            </div>
+                            <div class="collapse accordion-content-item__body" id="collapseReschedule" aria-labelledby="headingReschedule" data-parent="#accordionPricesFaq">
+                                <div class="accordion-content-item__text">
+                                    Each rescheduling with less than 5 business days notice is subject to a $150 fee.<br><br>The deposit will not be refunded in the case of cancellation.
                                 </div>
                             </div>
                         </div>

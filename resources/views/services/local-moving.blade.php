@@ -1,9 +1,12 @@
-@section('title', '')
-@section('dscr', '')
+@section('title', 'Local Moving Company | Flash Moving')
+@section('dscr', 'Find a reliable local moving company in the Boston area for your move. Professional fully licensed Movers will help you with any moving service you need.')
 @section('keywords', '')
-@section('mainimg', '')
 
 @extends('layouts.main')
+
+@section('preload')
+<link rel="preload" href="/images/hero/IMG_7908.jpg" as="image">
+@stop
 
 @section('content')
 
@@ -17,10 +20,8 @@
                 <div class="hero__content">
                     <div class="hero__row">
                         <div class="col-md-7">
-                            <div class="hero__title">
-                                <div class="hero-title">
-                                    <div class="hero-title__simple">Movers in Newton, MA</div>
-                                </div>
+                            <div class="hero__title hero__title--static">
+                                <h1 class="hero-title hero-title__simple">Local moving company</h1>
                             </div>
                             <div class="hero__description hero__description--big">Without any hidden fees and extra chargers</div>
                         </div>
@@ -30,7 +31,118 @@
         </div>
     </section>
 
-    {{-- Seo text --}}
+    {{-- Services --}}
+    <section class="section mb-5">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title section-title--upper">Local Moving Services Areas</h2>
+            </div>
+            <div class="services-collection theme-sm theme-ladder">
+                <div class="services-collection__list">
+                    <div class="row services-collection__row">
+                        <div class="col-sm services-collection__item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'boston')}}">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/local/Boston.jpg')}}" alt="Boston" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                    </div>
+                                </div>
+                                <div class="services-collection-item__title">Boston</div>
+                            </a>
+                        </div>
+                        <div class="col-sm services-collection__item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'newton')}}">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/local/Newton.JPG')}}" alt="Newton" class="services-collection-item__img">
+                                    </div>
+                                </div>
+                                <div class="services-collection-item__title">Newton</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row services-collection__row">
+                        <div class="col-sm services-collection__item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'somerville')}}">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/local/adeeea3b-b3ab-47bd-8.jpg')}}" alt="Somerville" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                    </div>
+                                </div>
+                                <div class="services-collection-item__title services-collection-item__title--small">Somerville</div>
+                            </a>
+                        </div>
+                        <div class="col-sm services-collection__item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'brookline')}}">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/local/9fc2906b-00c5-4aaf-8.jpg')}}" alt="Brookline" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                    </div>
+                                </div>
+                                <div class="services-collection-item__title services-collection-item__title--small">Brookline</div>
+                            </a>
+                        </div>
+                        <div class="col-sm services-collection__item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'cambridge')}}">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/local/Cambridge.jpg')}}" alt="Cambridge" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                    </div>
+                                </div>
+                                <div class="services-collection-item__title services-collection-item__title--small">Cambridge</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row services-collection__row">
+                        <div class="col-sm services-collection__item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'allston')}}">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/local/Allston.jpg')}}" alt="Allston" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                    </div>
+                                </div>
+                                <div class="services-collection-item__title services-collection-item__title--small">Allston</div>
+                            </a>
+                        </div>
+                        <div class="col-sm services-collection__item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'watertwon')}}">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/local/Watertown.jpg')}}" alt="Watertwon" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                    </div>
+                                </div>
+                                <div class="services-collection-item__title services-collection-item__title--small">Watertwon</div>
+                            </a>
+                        </div>
+                        <div class="col-sm services-collection__item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'waltham')}}">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/local/Waltham.jpg')}}" alt="Waltham" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                    </div>
+                                </div>
+                                <div class="services-collection-item__title services-collection-item__title--small">Waltham</div>
+                            </a>
+                        </div>
+                        <div class="col-sm services-collection__item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'medford')}}">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/local/Medford.JPG')}}" alt="Medford" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                    </div>
+                                </div>
+                                <div class="services-collection-item__title services-collection-item__title--small">Medford</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section__button">
+                <a href="#" class="btn-simple btn-simple--medium">Get free Estimate</a>
+            </div>
+        </div>
+    </section>
+
     <section class="section mb-4">
         <div class="container-fluid">
             <div class="content-blocks">
@@ -43,12 +155,15 @@
                             <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                                 <div class="content-blocks-item__body-inner">
                                     <div class="content-blocks-item__header">
-                                        <div class="content-blocks-item__title-primary">Newton Local Movers</div>
-                                        <div class="content-blocks-item__title-secundare">Seo text</div>
+                                        <h2 class="content-blocks-item__title-primary">Local Movers</h2>
                                     </div>
                                     <div class="content-blocks-item__text">
-                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
-                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
+                                      It is extremely exciting when it comes to shift to your new house but at the same time there are a lot of important tasks that you need to undertake as well.
+                                      For instance, the most important task is to hire a local moving company in order to transport your goods.
+                                      Moving your goods and belongings is perhaps the most hectic task that you have to undertake at the time of shifting.
+                                      This is something that you cannot do on your own and therefore, taking professional help becomes mandatory.
+                                      In this case, it is important that you choose a good and reliable moving company who can transfer your goods with care and full security.
+                                      Well, this is where Flash Moving Company comes into the picture. This is one of the best local moving company that you can rely on.
                                     </div>
                                 </div>
                             </div>
@@ -62,12 +177,32 @@
                             <div class="col-lg-6 order-lg-1 content-blocks-item__body">
                                 <div class="content-blocks-item__body-inner">
                                     <div class="content-blocks-item__header">
-                                        <div class="content-blocks-item__title-primary">Affordable Movers in Newton</div>
-                                        <div class="content-blocks-item__title-secundare">Seo text</div>
+                                        <h2 class="content-blocks-item__title-primary">Flash Moving Services Local</h2>
+                                        <h3 class="content-blocks-item__title-secundare">your trusted local moving service provider</h3>
                                     </div>
                                     <div class="content-blocks-item__text">
-                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
-                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
+                                      <p>Flash Moving Company is one of the best local moving services that you can get.</p>
+                                      <li>Fully licensed and Insured: Before choosing any moving company it is important to make sure that they have a license and are insured. With Flash Movers you do not have to worry about anything as they have everything under their control.</li>
+
+                                      <li>Clients Love Them: Flash Movers have received over 100 5 star reviews on social media and that too in less than a year. They are known for their excellent moving services and therefore, they make the first choice of every customer when it comes to choosing a local moving company. For them every 3rd customer is a repeat customer.</li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-blocks__item">
+                        <div class="row content-blocks-item">
+                            <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
+                                <img src="{{asset('images/services/local/content/IMG_7937.jpg')}}" alt="" class="content-blocks-item__img">
+                            </div>
+                            <div class="col-lg-6 order-lg-0 content-blocks-item__body">
+                                <div class="content-blocks-item__body-inner">
+                                    <div class="content-blocks-item__text">
+                                      <li><b>Assembling and Reassembling Furniture:</b> Every member of the Flash moving team is a trained professional. They make use of special tools to perform effective and fast job. By hiring them you don’t have to worry about the safety of your goods as they will take care of everything on their own.</li>
+
+                                      <li><b>Professional and Young team:</b> Flash moving services local are known to have a young team of professionals. They have been in this field for over 5 years now and they are very good in what they do.</li>
+                                      <li><b>They care about your stuff:</b> All your goods will be transported with ultimate care. They care about your stuff more than you. They make use premium quality moving blankets and bannister protections to transport your goods.</li>
+                                      <p>To conclude, it can be said that Flash Moving Company is the best that you can get because of the quality of services that they provide. You can also get their local moving quotes before you assign them for the job.</p>
                                     </div>
                                 </div>
                             </div>
@@ -77,137 +212,6 @@
             </div>
         </div>
     </section>
-
-    {{-- Prices country --}}
-    <div class="tabs container">
-        <div class="nav mb-3 tabs-nav" id="prices-nav-tab" role="tablist">
-            <a class="tabs-nav__item tabs-nav__link active" id="prices-local-tab" data-toggle="tab" href="#prices-local" role="tab" aria-controls="nav-local" aria-selected="true"><span class="tabs-nav__text">Local Moving</span></a>
-            <a class="tabs-nav__item tabs-nav__link" id="prices-storage-tab" data-toggle="tab" href="#prices-storage" role="tab" aria-controls="nav-storage" aria-selected="false"><span class="tabs-nav__text">Storage</span></a>
-            <a class="tabs-nav__item tabs-nav__link" id="prices-services-tab" data-toggle="tab" href="#prices-services" role="tab" aria-controls="nav-services" aria-selected="false"><span class="tabs-nav__text">Additional Sevices</span></a>
-        </div>
-        <div class="tab-content" id="prices-nav-tabContent">
-            <div class="tab-pane fade show active" id="prices-local" role="tabpanel" aria-labelledby="prices-local-tab">
-                {{-- Prices --}}
-                <div class="section">
-                    <div class="container">
-                        <div class="section-header">
-                            <h2 class="section-title section-title--upper">Local moving prices</h2>
-                        </div>
-
-                        <div class="section__collection">
-                            <div class="prices-collection">
-                                <div class="prices-collection__list">
-                                    <div class="row prices-collection__row">
-                                        <div class="col-md-4 prices-collection__item prices-collection__item--narrow">
-                                            <div class="prices-collection-item">
-                                                <h3 class="prices-collection-item__title">2 movers</h3>
-                                                <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
-                                                <div class="prices-collection-item__prices">
-                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $100/hour</div>
-                                                    <div class="prices-collection-item__price">from $80/hour</div>
-                                                </div>
-                                                <div class="prices-collection-item__features">
-                                                    <div class="prices-collection-item__btn-more">
-                                                        <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice1" aria-expanded="false" aria-controls="collapsePrice1">More</button>
-                                                    </div>
-                                                    <div class="collapse prices-collection-item-features" id="collapsePrice1">
-                                                        <div class="prices-collection-item-features__title">What's included?</div>
-                                                        <ul class="prices-collection-item-features__list">
-                                                            <li class="prices-collection-item-features__item">2 Professional Movers</li>
-                                                            <li class="prices-collection-item-features__item">Clean 18' Box Truck</li>
-                                                            <li class="prices-collection-item-features__item">Wrapping and Protection of All Furniture</li>
-                                                            <li class="prices-collection-item-features__item">Miles / Gas / Tolls / Taxes</li>
-                                                            <li class="prices-collection-item-features__item">Disassembling / Reassembling of Furniture</li>
-                                                            <li class="prices-collection-item-features__item">Additional Pick up / Drop off</li>
-                                                            <li class="prices-collection-item-features__item">Doors, Walls and Floor Protection</li>
-                                                            <li class="prices-collection-item-features__item">Packing / Unpacking</li>
-                                                            <li class="prices-collection-item-features__item">Basic Insurance</li>
-                                                            <li class="prices-collection-item-features__item">Dollies / Tools / Straps</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="prices-collection-item__button">
-                                                    <a class="btn-simple" href="#">Book now</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 prices-collection__item prices-collection__item--wide">
-                                            <div class="prices-collection-item prices-collection-item--big">
-                                                <h3 class="prices-collection-item__title">3 movers</h3>
-                                                <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
-                                                <div class="prices-collection-item__prices">
-                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $130/hour</div>
-                                                    <div class="prices-collection-item__price">from $110/hour</div>
-                                                </div>
-                                                <div class="prices-collection-item__features">
-                                                    <div class="prices-collection-item__btn-more">
-                                                        <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice2" aria-expanded="false" aria-controls="collapsePrice2">More</button>
-                                                    </div>
-                                                    <div class="collapse prices-collection-item-features" id="collapsePrice2">
-                                                        <div class="prices-collection-item-features__title">What's included?</div>
-                                                        <ul class="prices-collection-item-features__list">
-                                                            <li class="prices-collection-item-features__item">3 Professional Movers</li>
-                                                            <li class="prices-collection-item-features__item">Clean 20' Box Truck</li>
-                                                            <li class="prices-collection-item-features__item">Wrapping and Protection of All Furniture</li>
-                                                            <li class="prices-collection-item-features__item">Miles / Gas / Tolls / Taxes</li>
-                                                            <li class="prices-collection-item-features__item">Disassembling / Reassembling of Furniture</li>
-                                                            <li class="prices-collection-item-features__item">Additional Pick up / Drop off</li>
-                                                            <li class="prices-collection-item-features__item">Doors, Walls and Floor Protection</li>
-                                                            <li class="prices-collection-item-features__item">Packing / Unpacking</li>
-                                                            <li class="prices-collection-item-features__item">Basic Insurance</li>
-                                                            <li class="prices-collection-item-features__item">Dollies / Tools / Straps</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="prices-collection-item__button">
-                                                    <a class="btn-simple" href="#">Book now</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 prices-collection__item prices-collection__item--narrow">
-                                            <div class="prices-collection-item">
-                                                <h3 class="prices-collection-item__title">4 movers and more</h3>
-                                                <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
-                                                <div class="prices-collection-item__prices">
-                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $160/hour</div>
-                                                    <div class="prices-collection-item__price">from $140/hour</div>
-                                                </div>
-                                                <div class="prices-collection-item__features">
-                                                    <div class="prices-collection-item__btn-more">
-                                                        <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice3" aria-expanded="false" aria-controls="collapsePrice3">More</button>
-                                                    </div>
-                                                    <div class="collapse prices-collection-item-features" id="collapsePrice3">
-                                                        <div class="prices-collection-item-features__title">What's included?</div>
-                                                        <ul class="prices-collection-item-features__list">
-                                                            <li class="prices-collection-item-features__item">4 Professional Movers</li>
-                                                            <li class="prices-collection-item-features__item">Clean 26' Box Truck</li>
-                                                            <li class="prices-collection-item-features__item">Wrapping and Protection of All Furniture</li>
-                                                            <li class="prices-collection-item-features__item">Miles / Gas / Tolls / Taxes</li>
-                                                            <li class="prices-collection-item-features__item">Disassembling / Reassembling of Furniture</li>
-                                                            <li class="prices-collection-item-features__item">Additional Pick up / Drop off</li>
-                                                            <li class="prices-collection-item-features__item">Doors, Walls and Floor Protection</li>
-                                                            <li class="prices-collection-item-features__item">Packing / Unpacking</li>
-                                                            <li class="prices-collection-item-features__item">Basic Insurance</li>
-                                                            <li class="prices-collection-item-features__item">Dollies / Tools / Straps</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="prices-collection-item__button">
-                                                    <a class="btn-simple" href="#">Book now</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="prices-storage" role="tabpanel" aria-labelledby="prices-storage-tab">...</div>
-            <div class="tab-pane fade" id="prices-services" role="tabpanel" aria-labelledby="prices-services-tab">...</div>
-        </div>
-    </div>
 
     {{-- Advantages --}}
     <section class="section advantages mb-5">

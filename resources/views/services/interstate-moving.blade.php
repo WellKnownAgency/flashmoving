@@ -13,15 +13,15 @@
     {{-- Hero --}}
     <section class="hero mb-5">
         <div class="hero__preview">
-            <img src="/images/hero/IMG_7908.jpg" alt="" class="hero__img hero__img--brightness-high">
+            <img src="/images/hero/IMG_7828.jpg" alt="" class="hero__img hero__img--brightness-high">
         </div>
         <div class="hero__wrapper-content">
             <div class="hero__container">
                 <div class="hero__content">
                     <div class="hero__row">
-                        <div class="col-md-7">
-                            <div class="hero__title">
-                                <h1 class="hero-title hero-title__simple">Local moving company</h1>
+                        <div class="col-md-8">
+                            <div class="hero__title hero__title--static">
+                                <h1 class="hero-title hero-title__simple">Long distance <br> flat rate <br> moving company</h1>
                             </div>
                             <div class="hero__description hero__description--big">Without any hidden fees and extra chargers</div>
                         </div>
@@ -35,7 +35,7 @@
     <section class="section mb-5">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title section-title--upper">Local Moving Services Areas</h2>
+                <h2 class="section-title section-title--upper">Directions</h2>
             </div>
             <div class="services-collection theme-sm theme-ladder">
                 <div class="services-collection__list">
@@ -44,52 +44,20 @@
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Boston.jpg')}}" alt="Boston" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                        <img src="{{asset('images/services/interstate/05b492e2-29f9-4557-9.jpg')}}" alt="New York" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
-                                <div class="services-collection-item__title">Boston</div>
-                            </div>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="{{route('local-moving.area', 'newton')}}">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Newton.JPG')}}" alt="Newton" class="services-collection-item__img">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title">Newton</div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row services-collection__row">
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/adeeea3b-b3ab-47bd-8.jpg')}}" alt="Somerville" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Somerville</div>
+                                <div class="services-collection-item__title services-collection-item__title--upper">New York</div>
                             </div>
                         </div>
                         <div class="col-sm services-collection__item">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/9fc2906b-00c5-4aaf-8.jpg')}}" alt="Brookline" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                        <img src="{{asset('images/services/interstate/Washington.jpg')}}" alt="Washington DC" class="services-collection-item__img">
                                     </div>
                                 </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Brookline</div>
-                            </div>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Cambridge.jpg')}}" alt="Cambridge" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Cambridge</div>
+                                <div class="services-collection-item__title services-collection-item__title--upper">Washington DC</div>
                             </div>
                         </div>
                     </div>
@@ -98,40 +66,30 @@
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Allston.jpg')}}" alt="Allston" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                        <img src="{{asset('images/services/interstate/Philadelphia.jpg')}}" alt="Philadelphia" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Allston</div>
+                                <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Philadelphia</div>
                             </div>
                         </div>
                         <div class="col-sm services-collection__item">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Watertown.jpg')}}" alt="Watertwon" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                        <img src="{{asset('images/services/interstate/Chicago.jpg')}}" alt="Chicago" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Watertwon</div>
+                                <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Chicago</div>
                             </div>
                         </div>
                         <div class="col-sm services-collection__item">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Waltham.jpg')}}" alt="Waltham" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                        <img src="{{asset('images/services/interstate/Miami.jpg')}}" alt="Florida" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Waltham</div>
-                            </div>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Medford.JPG')}}" alt="Medford" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Medford</div>
+                                <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Florida</div>
                             </div>
                         </div>
                     </div>
@@ -155,15 +113,12 @@
                             <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                                 <div class="content-blocks-item__body-inner">
                                     <div class="content-blocks-item__header">
-                                        <h2 class="content-blocks-item__title-primary">Local Movers</h2>
+                                        <div class="content-blocks-item__title-primary">Long Distance Movers (tag #1)</div>
+                                        <div class="content-blocks-item__title-secundare">Seo text</div>
                                     </div>
                                     <div class="content-blocks-item__text">
-                                      It is extremely exciting when it comes to shift to your new house but at the same time there are a lot of important tasks that you need to undertake as well.
-                                      For instance, the most important task is to hire a local moving company in order to transport your goods.
-                                      Moving your goods and belongings is perhaps the most hectic task that you have to undertake at the time of shifting.
-                                      This is something that you cannot do on your own and therefore, taking professional help becomes mandatory.
-                                      In this case, it is important that you choose a good and reliable moving company who can transfer your goods with care and full security.
-                                      Well, this is where Flash Moving Company comes into the picture. This is one of the best local moving company that you can rely on.
+                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
+                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
                                     </div>
                                 </div>
                             </div>
@@ -177,14 +132,12 @@
                             <div class="col-lg-6 order-lg-1 content-blocks-item__body">
                                 <div class="content-blocks-item__body-inner">
                                     <div class="content-blocks-item__header">
-                                        <h2 class="content-blocks-item__title-primary">Flash Moving Services Local</h2>
-                                        <h3 class="content-blocks-item__title-secundare">your trusted local moving service provider</h3>
+                                        <div class="content-blocks-item__title-primary">Affordable Interstate in Boston (tag #2)</div>
+                                        <div class="content-blocks-item__title-secundare">Seo text</div>
                                     </div>
                                     <div class="content-blocks-item__text">
-                                      <p>Flash Moving Company is one of the best local moving services that you can get.</p>
-                                      <li>Fully licensed and Insured: Before choosing any moving company it is important to make sure that they have a license and are insured. With Flash Movers you do not have to worry about anything as they have everything under their control.</li>
-
-                                      <li>Clients Love Them: Flash Movers have received over 100 5 star reviews on social media and that too in less than a year. They are known for their excellent moving services and therefore, they make the first choice of every customer when it comes to choosing a local moving company. For them every 3rd customer is a repeat customer.</li>
+                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
+                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
                                     </div>
                                 </div>
                             </div>
@@ -197,12 +150,13 @@
                             </div>
                             <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                                 <div class="content-blocks-item__body-inner">
+                                    <div class="content-blocks-item__header">
+                                        <div class="content-blocks-item__title-primary">Super Duper Intestate Moving Company (tag #3)</div>
+                                        <div class="content-blocks-item__title-secundare">Seo text</div>
+                                    </div>
                                     <div class="content-blocks-item__text">
-                                      <li><b>Assembling and Reassembling Furniture:</b> Every member of the Flash moving team is a trained professional. They make use of special tools to perform effective and fast job. By hiring them you don’t have to worry about the safety of your goods as they will take care of everything on their own.</li>
-
-                                      <li><b>Professional and Young team:</b> Flash moving services local are known to have a young team of professionals. They have been in this field for over 5 years now and they are very good in what they do.</li>
-                                      <li><b>They care about your stuff:</b> All your goods will be transported with ultimate care. They care about your stuff more than you. They make use premium quality moving blankets and bannister protections to transport your goods.</li>
-                                      <p>To conclude, it can be said that Flash Moving Company is the best that you can get because of the quality of services that they provide. You can also get their local moving quotes before you assign them for the job.</p>
+                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
+                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
                                     </div>
                                 </div>
                             </div>

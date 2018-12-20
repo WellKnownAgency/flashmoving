@@ -18,7 +18,7 @@
 }
 
 .navbar-our-scroll{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0);
   padding-top: 2px;
   padding-bottom: 0;
 }
@@ -228,8 +228,18 @@
       width:100%;
     }
 
+  @media only screen and (max-width : 991px) {
+    .contact_intro {
+      padding-bottom: 0;
+      padding-top: 50px;
+    }
+
+  @media only screen and (max-width : 991px) {
+    .hero__preview img {
+      margin-top: 50px;
+    }
+
     @media only screen and (max-width : 991px) {
-      .contact_intro {
-        padding-bottom: 0;
-        padding-top: 50px;
+      .btn-hero-nav {
+        margin-bottom: 5px;
       }

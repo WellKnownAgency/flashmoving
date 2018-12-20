@@ -17,7 +17,7 @@
                 <div class="hero__content">
                     <div class="hero__row">
                         <div class="col-md-7">
-                            <div class="hero__title">
+                            <div class="hero__title hero__title--static">
                                 <div class="hero-title">
                                     <div class="hero-title__simple">Moving Prices</div>
                                 </div>
