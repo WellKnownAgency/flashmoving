@@ -7,7 +7,7 @@
 
 @section('content')
 <!-- Header starts -->
-<section class="about">
+<section class="section about">
   <div class="about__background">
     <div class="about-us-img">
       <img src="/images/about/about-back-opt.jpg" alt="About us" class="about__img">
@@ -30,7 +30,7 @@
 
 <!--Section text "Why People Choose Us" starts -->
 {{-- Advantages --}}
-<section class="section advantages mb-5">
+<section class="section advantages mb-5" style="background-color:#fff;">
     <div class="container">
         <div class="section-header">
             <h2 class="section-title section-title--upper advantages__title">Why people choose Flash Movers</h2>
