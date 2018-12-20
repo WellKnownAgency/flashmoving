@@ -79,11 +79,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="/local-moving">Local Moving</a>
           <a class="dropdown-item" href="/interstate-moving">Interstate Moving</a>
-<<<<<<< HEAD
-          <a class="dropdown-item" href="#">Storage</a>
-=======
           <a class="dropdown-item" href="/storage">Storage</a>
->>>>>>> d687643f0cd31386e6e2304d802896cef6ef31c8
         </div>
       </li>
       <li class="nav-item">
