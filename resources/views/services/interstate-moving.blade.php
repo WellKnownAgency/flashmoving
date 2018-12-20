@@ -1,26 +1,27 @@
-@section('title', '')
-@section('dscr', '')
+@section('title', 'Local Moving Company | Flash Moving')
+@section('dscr', 'Find a reliable local moving company in the Boston area for your move. Professional fully licensed Movers will help you with any moving service you need.')
 @section('keywords', '')
-@section('mainimg', '')
 
 @extends('layouts.main')
+
+@section('preload')
+<link rel="preload" href="/images/hero/IMG_7908.jpg" as="image">
+@stop
 
 @section('content')
 
     {{-- Hero --}}
     <section class="hero mb-5">
         <div class="hero__preview">
-            <img src="/images/hero/IMG_7908.jpg" alt="" class="hero__img hero__img--brightness-high">
+            <img src="/images/hero/IMG_7828.jpg" alt="" class="hero__img hero__img--brightness-high">
         </div>
         <div class="hero__wrapper-content">
             <div class="hero__container">
                 <div class="hero__content">
                     <div class="hero__row">
-                        <div class="col-md-7">
-                            <div class="hero__title">
-                                <div class="hero-title">
-                                    <div class="hero-title__simple hero__title--static">Movers in Newton, MA</div>
-                                </div>
+                        <div class="col-md-8">
+                            <div class="hero__title hero__title--static">
+                                <h1 class="hero-title hero-title__simple">Long distance <br> flat rate <br> moving company</h1>
                             </div>
                             <div class="hero__description hero__description--big">Without any hidden fees and extra chargers</div>
                         </div>
@@ -30,7 +31,76 @@
         </div>
     </section>
 
-    {{-- Seo text --}}
+    {{-- Services --}}
+    <section class="section mb-5">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title section-title--upper">Directions</h2>
+            </div>
+            <div class="services-collection theme-sm theme-ladder">
+                <div class="services-collection__list">
+                    <div class="row services-collection__row">
+                        <div class="col-sm services-collection__item">
+                            <div class="services-collection-item">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/interstate/05b492e2-29f9-4557-9.jpg')}}" alt="New York" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                    </div>
+                                </div>
+                                <div class="services-collection-item__title services-collection-item__title--upper">New York</div>
+                            </div>
+                        </div>
+                        <div class="col-sm services-collection__item">
+                            <div class="services-collection-item">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/interstate/Washington.jpg')}}" alt="Washington DC" class="services-collection-item__img">
+                                    </div>
+                                </div>
+                                <div class="services-collection-item__title services-collection-item__title--upper">Washington DC</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row services-collection__row">
+                        <div class="col-sm services-collection__item">
+                            <div class="services-collection-item">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/interstate/Philadelphia.jpg')}}" alt="Philadelphia" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                    </div>
+                                </div>
+                                <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Philadelphia</div>
+                            </div>
+                        </div>
+                        <div class="col-sm services-collection__item">
+                            <div class="services-collection-item">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/interstate/Chicago.jpg')}}" alt="Chicago" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                    </div>
+                                </div>
+                                <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Chicago</div>
+                            </div>
+                        </div>
+                        <div class="col-sm services-collection__item">
+                            <div class="services-collection-item">
+                                <div class="services-collection-item__background">
+                                    <div class="services-collection-item__preview">
+                                        <img src="{{asset('images/services/interstate/Miami.jpg')}}" alt="Florida" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                    </div>
+                                </div>
+                                <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Florida</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section__button">
+                <a href="#" class="btn-simple btn-simple--medium">Get free Estimate</a>
+            </div>
+        </div>
+    </section>
+
     <section class="section mb-4">
         <div class="container-fluid">
             <div class="content-blocks">
@@ -43,7 +113,7 @@
                             <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                                 <div class="content-blocks-item__body-inner">
                                     <div class="content-blocks-item__header">
-                                        <div class="content-blocks-item__title-primary">Newton Local Movers</div>
+                                        <div class="content-blocks-item__title-primary">Long Distance Movers (tag #1)</div>
                                         <div class="content-blocks-item__title-secundare">Seo text</div>
                                     </div>
                                     <div class="content-blocks-item__text">
@@ -62,7 +132,26 @@
                             <div class="col-lg-6 order-lg-1 content-blocks-item__body">
                                 <div class="content-blocks-item__body-inner">
                                     <div class="content-blocks-item__header">
-                                        <div class="content-blocks-item__title-primary">Affordable Movers in Newton</div>
+                                        <div class="content-blocks-item__title-primary">Affordable Interstate in Boston (tag #2)</div>
+                                        <div class="content-blocks-item__title-secundare">Seo text</div>
+                                    </div>
+                                    <div class="content-blocks-item__text">
+                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
+                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-blocks__item">
+                        <div class="row content-blocks-item">
+                            <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
+                                <img src="{{asset('images/services/local/content/IMG_7937.jpg')}}" alt="" class="content-blocks-item__img">
+                            </div>
+                            <div class="col-lg-6 order-lg-0 content-blocks-item__body">
+                                <div class="content-blocks-item__body-inner">
+                                    <div class="content-blocks-item__header">
+                                        <div class="content-blocks-item__title-primary">Super Duper Intestate Moving Company (tag #3)</div>
                                         <div class="content-blocks-item__title-secundare">Seo text</div>
                                     </div>
                                     <div class="content-blocks-item__text">
@@ -77,137 +166,6 @@
             </div>
         </div>
     </section>
-
-    {{-- Prices country --}}
-    <div class="tabs container">
-        <div class="nav mb-3 tabs-nav" id="prices-nav-tab" role="tablist">
-            <a class="tabs-nav__item tabs-nav__link active" id="prices-local-tab" data-toggle="tab" href="#prices-local" role="tab" aria-controls="nav-local" aria-selected="true"><span class="tabs-nav__text">Local Moving</span></a>
-            <a class="tabs-nav__item tabs-nav__link" id="prices-storage-tab" data-toggle="tab" href="#prices-storage" role="tab" aria-controls="nav-storage" aria-selected="false"><span class="tabs-nav__text">Storage</span></a>
-            <a class="tabs-nav__item tabs-nav__link" id="prices-services-tab" data-toggle="tab" href="#prices-services" role="tab" aria-controls="nav-services" aria-selected="false"><span class="tabs-nav__text">Additional Sevices</span></a>
-        </div>
-        <div class="tab-content" id="prices-nav-tabContent">
-            <div class="tab-pane fade show active" id="prices-local" role="tabpanel" aria-labelledby="prices-local-tab">
-                {{-- Prices --}}
-                <div class="section">
-                    <div class="container">
-                        <div class="section-header">
-                            <h2 class="section-title section-title--upper">Local moving prices</h2>
-                        </div>
-
-                        <div class="section__collection">
-                            <div class="prices-collection">
-                                <div class="prices-collection__list">
-                                    <div class="row prices-collection__row">
-                                        <div class="col-md-4 prices-collection__item prices-collection__item--narrow">
-                                            <div class="prices-collection-item">
-                                                <h3 class="prices-collection-item__title">2 movers</h3>
-                                                <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
-                                                <div class="prices-collection-item__prices">
-                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $100/hour</div>
-                                                    <div class="prices-collection-item__price">from $80/hour</div>
-                                                </div>
-                                                <div class="prices-collection-item__features">
-                                                    <div class="prices-collection-item__btn-more">
-                                                        <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice1" aria-expanded="false" aria-controls="collapsePrice1">More</button>
-                                                    </div>
-                                                    <div class="collapse prices-collection-item-features" id="collapsePrice1">
-                                                        <div class="prices-collection-item-features__title">What's included?</div>
-                                                        <ul class="prices-collection-item-features__list">
-                                                            <li class="prices-collection-item-features__item">2 Professional Movers</li>
-                                                            <li class="prices-collection-item-features__item">Clean 18' Box Truck</li>
-                                                            <li class="prices-collection-item-features__item">Wrapping and Protection of All Furniture</li>
-                                                            <li class="prices-collection-item-features__item">Miles / Gas / Tolls / Taxes</li>
-                                                            <li class="prices-collection-item-features__item">Disassembling / Reassembling of Furniture</li>
-                                                            <li class="prices-collection-item-features__item">Additional Pick up / Drop off</li>
-                                                            <li class="prices-collection-item-features__item">Doors, Walls and Floor Protection</li>
-                                                            <li class="prices-collection-item-features__item">Packing / Unpacking</li>
-                                                            <li class="prices-collection-item-features__item">Basic Insurance</li>
-                                                            <li class="prices-collection-item-features__item">Dollies / Tools / Straps</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="prices-collection-item__button">
-                                                    <a class="btn-simple" href="#">Book now</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 prices-collection__item prices-collection__item--wide">
-                                            <div class="prices-collection-item prices-collection-item--big">
-                                                <h3 class="prices-collection-item__title">3 movers</h3>
-                                                <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
-                                                <div class="prices-collection-item__prices">
-                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $130/hour</div>
-                                                    <div class="prices-collection-item__price">from $110/hour</div>
-                                                </div>
-                                                <div class="prices-collection-item__features">
-                                                    <div class="prices-collection-item__btn-more">
-                                                        <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice2" aria-expanded="false" aria-controls="collapsePrice2">More</button>
-                                                    </div>
-                                                    <div class="collapse prices-collection-item-features" id="collapsePrice2">
-                                                        <div class="prices-collection-item-features__title">What's included?</div>
-                                                        <ul class="prices-collection-item-features__list">
-                                                            <li class="prices-collection-item-features__item">3 Professional Movers</li>
-                                                            <li class="prices-collection-item-features__item">Clean 20' Box Truck</li>
-                                                            <li class="prices-collection-item-features__item">Wrapping and Protection of All Furniture</li>
-                                                            <li class="prices-collection-item-features__item">Miles / Gas / Tolls / Taxes</li>
-                                                            <li class="prices-collection-item-features__item">Disassembling / Reassembling of Furniture</li>
-                                                            <li class="prices-collection-item-features__item">Additional Pick up / Drop off</li>
-                                                            <li class="prices-collection-item-features__item">Doors, Walls and Floor Protection</li>
-                                                            <li class="prices-collection-item-features__item">Packing / Unpacking</li>
-                                                            <li class="prices-collection-item-features__item">Basic Insurance</li>
-                                                            <li class="prices-collection-item-features__item">Dollies / Tools / Straps</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="prices-collection-item__button">
-                                                    <a class="btn-simple" href="#">Book now</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 prices-collection__item prices-collection__item--narrow">
-                                            <div class="prices-collection-item">
-                                                <h3 class="prices-collection-item__title">4 movers and more</h3>
-                                                <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
-                                                <div class="prices-collection-item__prices">
-                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $160/hour</div>
-                                                    <div class="prices-collection-item__price">from $140/hour</div>
-                                                </div>
-                                                <div class="prices-collection-item__features">
-                                                    <div class="prices-collection-item__btn-more">
-                                                        <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice3" aria-expanded="false" aria-controls="collapsePrice3">More</button>
-                                                    </div>
-                                                    <div class="collapse prices-collection-item-features" id="collapsePrice3">
-                                                        <div class="prices-collection-item-features__title">What's included?</div>
-                                                        <ul class="prices-collection-item-features__list">
-                                                            <li class="prices-collection-item-features__item">4 Professional Movers</li>
-                                                            <li class="prices-collection-item-features__item">Clean 26' Box Truck</li>
-                                                            <li class="prices-collection-item-features__item">Wrapping and Protection of All Furniture</li>
-                                                            <li class="prices-collection-item-features__item">Miles / Gas / Tolls / Taxes</li>
-                                                            <li class="prices-collection-item-features__item">Disassembling / Reassembling of Furniture</li>
-                                                            <li class="prices-collection-item-features__item">Additional Pick up / Drop off</li>
-                                                            <li class="prices-collection-item-features__item">Doors, Walls and Floor Protection</li>
-                                                            <li class="prices-collection-item-features__item">Packing / Unpacking</li>
-                                                            <li class="prices-collection-item-features__item">Basic Insurance</li>
-                                                            <li class="prices-collection-item-features__item">Dollies / Tools / Straps</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="prices-collection-item__button">
-                                                    <a class="btn-simple" href="#">Book now</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="prices-storage" role="tabpanel" aria-labelledby="prices-storage-tab">...</div>
-            <div class="tab-pane fade" id="prices-services" role="tabpanel" aria-labelledby="prices-services-tab">...</div>
-        </div>
-    </div>
 
     {{-- Advantages --}}
     <section class="section advantages mb-5">
@@ -476,49 +434,8 @@
     <!--Section Instagram starts-->
     <section class="section">
         <div class="container photo-collection">
-            <div class="row photo-collection__list">
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/41820005_2172064109699170_3076862583886066016_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/41882030_343641603055547_5230966097571686024_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/41756491_732463330441130_2774315474169046711_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/35575124_623136438084862_7336070841857212416_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/34477855_1676357599146487_5043478236248408064_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/21984956_1976363029276200_6037564883812220928_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/21984662_283261412190973_189828659605929984_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/21984956_1976363029276200_6037564883812220928_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-            </div>
+          <div id="instafeed" class="row photo-collection__list">
+          </div>
         </div>
     </section>
     <!--End of Section -->

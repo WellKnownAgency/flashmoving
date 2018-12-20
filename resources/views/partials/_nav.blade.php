@@ -38,6 +38,45 @@
           Services
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="{{route('services.local-moving')}}">Local Moving</a>
+          <a class="dropdown-item" href="{{route('services.interstate-moving')}}">Interstate Moving</a>
+          <a class="dropdown-item" href="{{route('services.storage')}}">Storage</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{route('prices')}}">Prices</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{route('family')}}">Family</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{route('about-us')}}">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{route('contact-us')}}">Contact us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- End of Main Navigation -->
+
+<!-- Scrolling Navigation -->
+<nav class="navbar navbar-expand-lg navbar-our-scroll fixed-top" id="scroll-nav" style="height=50px;">
+  <a class="navbar-brand" href="/"><img src="/images/logo3.png" width="100px"/></a>
+  <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="/local-moving">Local Moving</a>
           <a class="dropdown-item" href="/interstate-moving">Interstate Moving</a>
           <a class="dropdown-item" href="/storage">Storage</a>
@@ -56,51 +95,12 @@
         <a class="nav-link" href="/contact-us">Contact us</a>
       </li>
     </ul>
-  </div>
-</nav>
-<!-- End of Main Navigation -->
-
-<!-- Scrolling Navigation -->
-<nav class="navbar navbar-expand-lg navbar-our-scroll fixed-top" id="scroll-nav" style="height=50px;">
-  <a class="navbar-brand" href="#"><img src="/images/logo3.png" width="100px"/></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="/">Home</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Services
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Local Moving</a>
-          <a class="dropdown-item" href="#">Interstate Moving</a>
-          <a class="dropdown-item" href="#">Storage</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/prices">Prices</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/family">Family</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about-us">About us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/contact-us">Contact us</a>
-      </li>
-    </ul>
     <ul class="ml-auto navbar-nav">
       <li class="nav-item" style="padding-top:10px;">
-        <a href="tel:+18572418778" class="nav-link">+1 (857) 241-8778</a>
+        <a href="tel:+18572418778" class="nav-link" style="font-size:1.25em; margin-top:-5px;">+1 (857) 241-8778</a>
       </li>
       <li class="nav-item" style="margin-left: 10px">
-        <a href="#" class="float-right btn-hero btn-hero--small btn-hero--hover-green">Book Now</a>
+        <a href="#" class="btn-hero btn-hero--small btn-hero--hover-green">Book Now</a>
       </li>
     </ul>
   </div>

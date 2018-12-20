@@ -41,17 +41,17 @@
                 <div class="services-collection__list">
                     <div class="row services-collection__row">
                         <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'boston')}}">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/Boston.jpg')}}" alt="Boston" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
                                 <div class="services-collection-item__title">Boston</div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="{{route('local-moving.area', 'newton')}}">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'newton')}}">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/Newton.JPG')}}" alt="Newton" class="services-collection-item__img">
@@ -63,76 +63,76 @@
                     </div>
                     <div class="row services-collection__row">
                         <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'somerville')}}">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/adeeea3b-b3ab-47bd-8.jpg')}}" alt="Somerville" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
                                 <div class="services-collection-item__title services-collection-item__title--small">Somerville</div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'brookline')}}">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/9fc2906b-00c5-4aaf-8.jpg')}}" alt="Brookline" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
                                 <div class="services-collection-item__title services-collection-item__title--small">Brookline</div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'cambridge')}}">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/Cambridge.jpg')}}" alt="Cambridge" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
                                 <div class="services-collection-item__title services-collection-item__title--small">Cambridge</div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="row services-collection__row">
                         <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'allston')}}">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/Allston.jpg')}}" alt="Allston" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
                                 <div class="services-collection-item__title services-collection-item__title--small">Allston</div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'watertwon')}}">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/Watertown.jpg')}}" alt="Watertwon" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
                                 <div class="services-collection-item__title services-collection-item__title--small">Watertwon</div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'waltham')}}">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/Waltham.jpg')}}" alt="Waltham" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
                                 <div class="services-collection-item__title services-collection-item__title--small">Waltham</div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
+                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'medford')}}">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/Medford.JPG')}}" alt="Medford" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
                                 <div class="services-collection-item__title services-collection-item__title--small">Medford</div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -476,49 +476,8 @@
     <!--Section Instagram starts-->
     <section class="section">
         <div class="container photo-collection">
-            <div class="row photo-collection__list">
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/41820005_2172064109699170_3076862583886066016_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/41882030_343641603055547_5230966097571686024_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/41756491_732463330441130_2774315474169046711_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/35575124_623136438084862_7336070841857212416_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/34477855_1676357599146487_5043478236248408064_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/21984956_1976363029276200_6037564883812220928_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/21984662_283261412190973_189828659605929984_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/21984956_1976363029276200_6037564883812220928_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-            </div>
+          <div id="instafeed" class="row photo-collection__list">
+          </div>
         </div>
     </section>
     <!--End of Section -->

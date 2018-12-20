@@ -41,29 +41,29 @@
             <div class="services-collection theme-md">
                 <div class="services-collection__list">
                     <div class="row services-collection__row">
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/IMG_7851.jpg')}}" alt="Local Moving" class="services-collection-item__img">
-                                    </div>
+                      <a href="{{route('services.local-moving')}}" class="col-sm services-collection__item">
+                        <div class="services-collection-item">
+                            <div class="services-collection-item__background">
+                                <div class="services-collection-item__preview">
+                                    <img src="{{asset('images/services/IMG_7851.jpg')}}" alt="Local Moving" class="services-collection-item__img">
                                 </div>
-                                <div class="services-collection-item__title">Local Moving</div>
                             </div>
+                            <div class="services-collection-item__title">Local Moving</div>
                         </div>
-                        <div class="col-sm services-collection__item">
-                            <div class="services-collection-item">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/Highwaytrucks.jpg')}}" alt="Interstate Moving" class="services-collection-item__img">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title">Interstate Moving</div>
-                            </div>
-                        </div>
+                      </a>
+                        <a href="{{route('services.interstate-moving')}}" class="col-sm services-collection__item">
+                          <div class="services-collection-item">
+                              <div class="services-collection-item__background">
+                                  <div class="services-collection-item__preview">
+                                      <img src="{{asset('images/services/Highwaytrucks.jpg')}}" alt="Interstate Moving" class="services-collection-item__img">
+                                  </div>
+                              </div>
+                              <div class="services-collection-item__title">Interstate Moving</div>
+                          </div>
+                        </a>
                     </div>
                     <div class="row services-collection__row">
-                        <div class="col-sm services-collection__item">
+                        <a href="{{route('services.storage')}}" class="col-sm services-collection__item">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
@@ -72,7 +72,7 @@
                                 </div>
                                 <div class="services-collection-item__title services-collection-item__title--small">Moving & Storage</div>
                             </div>
-                        </div>
+                        </a>
                         <div class="col-sm services-collection__item">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
@@ -426,7 +426,6 @@
             </div>
         </div>
     </section>
-    {{-- End of Section --}}
 
 
     <section class="section">
@@ -466,7 +465,7 @@
                             </div>
                             <div class="content">
                                 <div class="tree-to-start-item__title">Get your <span class="tree-to-start-item__text-red">free</span> estimate</div>
-                                <div class="tree-to-start-item__description">You'll get a free estimate by phone or via e-mail</div>
+                                <div class="tree-to-start-item__description">You will get a free estimate by phone or via e-mail</div>
                             </div>
                         </div>
                     </div>
@@ -490,51 +489,10 @@
         </div>
     </section>
     <br>
-    <!--Section Instagram starts-->
+
     <section class="section">
         <div class="container photo-collection">
-            <div class="row photo-collection__list">
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/41820005_2172064109699170_3076862583886066016_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/41882030_343641603055547_5230966097571686024_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/41756491_732463330441130_2774315474169046711_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/35575124_623136438084862_7336070841857212416_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/34477855_1676357599146487_5043478236248408064_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/21984956_1976363029276200_6037564883812220928_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/21984662_283261412190973_189828659605929984_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item">
-                    <a href="#" class="photo-collection__link">
-                        <img src="{{asset('images/gallery/21984956_1976363029276200_6037564883812220928_n.jpg')}}" alt="" class="photo-collection__img">
-                    </a>
-                </div>
+            <div id="instafeed" class="row photo-collection__list">
             </div>
         </div>
     </section>

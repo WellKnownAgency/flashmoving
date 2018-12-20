@@ -13,17 +13,27 @@ class PageController extends Controller
 
     public function localMoving()
     {
-        return view('local-moving');
+        return view('services.local-moving');
     }
 
     public function localMovingArea($slug)
     {
-        return view('local-moving-area');
+        $view = 'services.local-moving-area.' . $slug;
+        if(view()->exists($view)){
+            return view($view);
+        } else {
+            abort(404);
+        }
     }
 
     public function interstateMoving()
     {
-        return view('interstate-moving');
+        return view('services.interstate-moving');
+    }
+
+    public function storage()
+    {
+        return view('services.storage');
     }
 
     public function prices()

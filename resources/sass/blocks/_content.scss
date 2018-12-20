@@ -1,14 +1,5 @@
 .content-blocks {
-    &__item {
-        /*&:nth-child(even) {
-            .content-blocks-item__preview {
-                margin-left: 0;
-            }
-            .content-blocks-item__body {
-                margin-right: 0;
-            }
-        }*/
-    }
+    &__item {}
 }
 
 .content-blocks-item {
@@ -19,6 +10,11 @@
         @include media-breakpoint-up(lg) {
             object-fit: cover;
             height: 700px;
+        }
+        &--height-limit {
+            @include media-breakpoint-up(lg) {
+                max-height: 549px;
+            }
         }
     }
     &__body {
@@ -36,6 +32,15 @@
         @include media-breakpoint-up(md) {
             font-size: 36px;
         }
+        &--upper {
+            text-transform: uppercase;
+        }
+        &--thin {
+            font-size: 30px;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+
     }
     &__title-secundare {
         text-transform: uppercase;
@@ -45,5 +50,9 @@
     &__text {
         font-size: 20px;
         font-weight: 300;
+    }
+    &__price {
+        margin: 20px 0;
+        font-weight: 700;
     }
 }

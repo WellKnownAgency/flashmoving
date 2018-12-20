@@ -8,7 +8,6 @@
             // Вывод декларации
             #{$property}: $theme-value;
         }
-        @debug #{$theme} &;
 
         // additional theme
         @if($isAddit) {
