@@ -13845,7 +13845,6 @@ a:hover {
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  float: right;
   cursor: pointer;
   text-transform: uppercase;
   padding: 0.83em 3.1em;
@@ -14116,13 +14115,6 @@ a.button-top {
   margin: auto;
   width: 50%;
   text-align: center;
-}
-
-@media only screen and (max-width: 768px) {
-  .btn-hero {
-    float: left;
-    margin-bottom: 10px;
-  }
 }
 
 .hero {
