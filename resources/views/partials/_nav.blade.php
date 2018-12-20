@@ -62,7 +62,7 @@
 
 <!-- Scrolling Navigation -->
 <nav class="navbar navbar-expand-lg navbar-our-scroll fixed-top" id="scroll-nav" style="height=50px;">
-  <a class="navbar-brand" href="#"><img src="/images/logo3.png" width="100px"/></a>
+  <a class="navbar-brand" href="/"><img src="/images/logo3.png" width="100px"/></a>
   <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
   </button>
@@ -77,8 +77,8 @@
           Services
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Local Moving</a>
-          <a class="dropdown-item" href="#">Interstate Moving</a>
+          <a class="dropdown-item" href="/local-moving">Local Moving</a>
+          <a class="dropdown-item" href="/interstate-moving">Interstate Moving</a>
           <a class="dropdown-item" href="#">Storage</a>
         </div>
       </li>
