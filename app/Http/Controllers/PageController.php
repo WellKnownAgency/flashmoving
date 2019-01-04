@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Mail;
 
 class PageController extends Controller
 {
@@ -54,5 +55,30 @@ class PageController extends Controller
     public function about()
     {
         return view('about-us');
+    }
+
+    public function contactUs(Request $request) {
+      $this->validate($request, [
+        'name'  => 'required',
+        'email'     => 'required|email',
+        'phone'     => 'required',
+        'body'      => 'required'
+      ]);
+
+      $data = array(
+        'name' => $request->name,
+        'email'     => $request->email,
+        'phone'     => $request->phone,
+        'body'      => $request->body
+      );
+
+      Mail::send('emails.notification', $data, function($message) use ($data){
+        $message->from($data['email']);
+        $message->to('info@wknown.com');
+        $message->subject('Contact Request');
+
+      });
+
+      return back();
     }
 }

@@ -15495,7 +15495,7 @@ a.button-top {
 }
 
 .content-blocks-item__text {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
 }
 
@@ -18730,3 +18730,4 @@ a.button-top {
   overflow: visible;
   clip: auto;
 }
+

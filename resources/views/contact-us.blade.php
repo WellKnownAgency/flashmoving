@@ -34,7 +34,7 @@
       </div>
       <div class="col-lg-6 contact-col container">
         <div class="contact-form">
-          <form method="post" action="" id="cform" autocomplete="on">
+          <form method="post" action="{{ url('contact-us') }}" id="cform" autocomplete="on">
             {{ csrf_field() }}
             <div class="form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Full Name" required>
@@ -48,7 +48,7 @@
             <div class="form-group">
                 <textarea class="form-control" name="body" id="body" placeholder="Your comments"></textarea>
             </div>
-              <button type="submit" class="btn btn-default btn-mob" >Send</button>
+              <button type="submit" class="btn btn-default btn-mob">Send</button>
             </form>
         </div>
         <p>I agree to the Privacy Policy</p>
