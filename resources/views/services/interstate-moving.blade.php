@@ -93,6 +93,25 @@
                             </div>
                         </div>
                     </div>
+                    <div style="padding-top:20px;padding-bottom:20px;font-size: 1.5em;">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <div style="text-align:center;">Los Angeles<br>San Francisco<br>San Diego</div>
+                          </div>
+                          <div class="col-md-3">
+                            <div style="text-align:center;">Seattle<br>Las Vegas<br>Denver</div>
+                          </div>
+                          <div class="col-md-3">
+                            <div style="text-align:center;">Huston<br>Austin<br>Phoenix</div>
+                          </div>
+                          <div class="col-md-3">
+                            <div style="text-align:center;">Hartford<br>New Haven<br>Baltimore</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
                 </div>
             </div>
             <div class="section__button">

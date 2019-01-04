@@ -93,7 +93,26 @@
                             </a>
                         </div>
                     </div>
-                    <div class="row services-collection__row">
+                <div style="padding-top:20px;padding-bottom:20px;font-size: 1.5em;">
+                	<div class="container">
+                		<div class="row">
+                			<div class="col-md-3">
+                				<div style="text-align:center;">Allston Movers<br>Norwood Movers<br>Revere Movers</div>
+                			</div>
+                      <div class="col-md-3">
+                				<div style="text-align:center;">Watertown Movers<br>Quincy Movers<br>Arlington Movers</div>
+                			</div>
+                      <div class="col-md-3">
+                				<div style="text-align:center;">Waltham Movers<br>Needham Movers<br>South Boston Movers</div>
+                			</div>
+                      <div class="col-md-3">
+                				<div style="text-align:center;">Medford Movers<br>North End Movers<br>Fenway Movers</div>
+                			</div>
+                		</div>
+                	</div>
+              	</div>
+                <!--Local moving services-->
+              <!--<div class="row services-collection__row">
                         <div class="col-sm services-collection__item">
                             <a class="services-collection-item" href="{{route('services.local-moving.area', 'allston')}}">
                                 <div class="services-collection-item__background">
@@ -134,7 +153,7 @@
                                 <div class="services-collection-item__title services-collection-item__title--small">Medford</div>
                             </a>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
             <div class="section__button">
