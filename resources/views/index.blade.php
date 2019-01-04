@@ -490,7 +490,7 @@
     </section>
     <br>
 
-    <section class="section">
+    <section class="section" style="background-color:#ebebeb;">
         <div class="container photo-collection">
             <div id="instafeed" class="row photo-collection__list">
             </div>
