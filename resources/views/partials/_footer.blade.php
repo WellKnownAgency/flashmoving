@@ -32,6 +32,8 @@
       © All Rights Reserved. Flash Moving Company. 2017-2018 </span>
         <br>
       <a href="/pravacy" style="opacity: 0.7;">Privacy policy</a>
+      <br>
+      by <a href="https://wknown.com" target="_blank" style="opacity: 0.7;">WellKnown Agency</a>
     </div>
   </div>
 </div>
