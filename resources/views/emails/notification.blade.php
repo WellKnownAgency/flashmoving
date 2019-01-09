@@ -13,7 +13,6 @@
               Phone: {{$phone}}<br>
               Message: {{$body}}<br>
 
-          <a href="https://flashmoving.com/" style="	display: inline-block;  padding: 10px 20px  color: #fff;  background: #dc3741;  text-decoration: none;  letter-spacing: 2px;  text-transform: uppercase;  border-radius: 5px;  font-size: 13px;">View Website</a>
         </div>
       </div>
       <div style="padding: 20px;  font-size: 10px;">
