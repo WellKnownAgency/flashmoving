@@ -78,7 +78,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="/local-moving">Local Moving</a>
-          <a class="dropdown-item" href="/interstate-moving">Long Distance</a>
+          <a class="dropdown-item" href="{{route('services.interstate-moving')}}">Long Distance</a>
           <a class="dropdown-item" href="/storage">Storage</a>
         </div>
       </li>
