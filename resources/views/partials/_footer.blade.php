@@ -7,19 +7,16 @@
             <a class="nav-link" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/">Services</a>
+            <a class="nav-link" href="/prices">Prices</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/">Prices</a>
+            <a class="nav-link" href="/family">Family</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/">Family</a>
+            <a class="nav-link" href="/about-us">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/">Contact Us</a>
+            <a class="nav-link" href="/contact-us">Contact Us</a>
           </li>
         </ul>
       </nav>

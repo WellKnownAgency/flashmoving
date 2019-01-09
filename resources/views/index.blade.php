@@ -55,10 +55,10 @@
                           <div class="services-collection-item">
                               <div class="services-collection-item__background">
                                   <div class="services-collection-item__preview">
-                                      <img src="{{asset('images/services/Highwaytrucks.jpg')}}" alt="Interstate Moving" class="services-collection-item__img">
+                                      <img src="{{asset('images/services/Highwaytrucks.jpg')}}" alt="Long Distance Moving" class="services-collection-item__img">
                                   </div>
                               </div>
-                              <div class="services-collection-item__title">Interstate Moving</div>
+                              <div class="services-collection-item__title">Long Distance Moving</div>
                           </div>
                         </a>
                     </div>
