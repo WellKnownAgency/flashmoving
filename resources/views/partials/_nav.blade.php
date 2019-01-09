@@ -40,7 +40,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="{{route('services.local-moving')}}">Local Moving</a>
           <a class="dropdown-item" href="{{route('services.interstate-moving')}}">Long Distance Moving</a>
-          <a class="dropdown-item" href="{{route('services.storage')}}">Storage</a>
+          <a class="dropdown-item" href="{{route('services.storage')}}">Moving and Storage</a>
         </div>
       </li>
       <li class="nav-item">
@@ -79,7 +79,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="/local-moving">Local Moving</a>
           <a class="dropdown-item" href="{{route('services.interstate-moving')}}">Long Distance</a>
-          <a class="dropdown-item" href="/storage">Storage</a>
+          <a class="dropdown-item" href="/storage">Moving and Storage</a>
         </div>
       </li>
       <li class="nav-item">
