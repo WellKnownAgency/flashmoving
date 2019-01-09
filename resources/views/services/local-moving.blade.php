@@ -177,12 +177,25 @@
                                         <h2 class="content-blocks-item__title-primary">Local Movers</h2>
                                     </div>
                                     <div class="content-blocks-item__text">
-                                      If you still think of moving belongings yourself or hiring <b>professional local movers</b>, there are some important things to consider before making final moving decision.
-                                      Professional movers, who perform in Greater Boston Local Moving services area, will sure be better in almost every moving aspect.
-                                      Movers are familiar with the particular street locations and neighborhood hindrances, including truck restrictions, parking permits, traffic appearances and workarounds.
-                                      <b>Flash Movers</b> will send a representative for a visual estimate before the moving date, making sure the quote, a moving manager provided, is accurate and you are not overcharged.
-                                      What’s also important, Flash moving company will be able to send additional movers and moving equipment any time extra help is required during the moving process.
-                                      Hiring professionals movers means you won’t have to worry about any moving related difficulties, as well as the safety of your goods, extra packing materials, covers, and waste of your time and money.
+                                      <p>If you still think of moving belongings yourself instead of hiring professional <b>local movers</b>,
+                                        there are some important things to consider before making the final moving decision.</p>
+
+                                      <p>Professional movers, who perform in
+                                        Greater Boston Local Moving services area, will surely be better in almost every moving aspect.</p>
+
+                                      <p>
+                                        Movers are familiar with the particular street locations and neighborhood hindrances, including truck restrictions,
+                                        parking permits, traffic appearances, and workarounds.
+                                        <b><a href="/about-us" target="_blank">Flash Movers</a></b> will send a representative for a visual estimate before the moving date,
+                                        making sure the quote, a moving manager provided, is accurate and you are not overcharged.
+                                        What’s also important, Flash Moving Company will be able to send additional movers and moving
+                                        equipment any time extra help is required during the moving process.
+                                      </p>
+                                      <p>
+                                        Hiring professionals movers means you won’t have to worry about any
+                                        moving related difficulties, as well as the safety of your goods,
+                                        extra packing materials, covers, and waste of your time and money.
+                                      </p>
                                     </div>
                                 </div>
                             </div>
@@ -200,9 +213,24 @@
                                         <h3 class="content-blocks-item__title-secundare">your trusted local moving service provider</h3>
                                     </div>
                                     <div class="content-blocks-item__text">
-                                      Flash Moving <b>Local Services</b> areas include most well-known and popular locations such as Boston, Newton, Somerville, Brookline, and Cambridge. We also perform local services in the entire Greater Boston area and throughout New England.
-                                      Since moving is a part of our everyday life, Flash Movers are experienced in everything that comes along with a word “moving”.  Including accurate moving estimates, on-time appearance, professional packing services, moving equipment and moving materials, storage facilities, moving affordability, goods safety and protection during the moving process.
-                                      Hiring professional movers to perform <b>Local Moving Services</b> can really be cost effective. There are too many things and expenses customers normally forget to take into consideration when moving themselves, such as gas, tolls, truck rental and insurance costs. Choosing cheap wrapping materials and covers could also lead to unexpected damages and moving expenses. That is why one of the advantages of hiring Flash Moving Company is that our  movers know how to perform safe and stress free moving process. Flash movers are professionally trained and prepared to handle just about any unpredictable moving situation.
+                                      <p>
+                                        <b>Flash Moving Local Services</b> areas include the most well-known and popular locations such as
+                                        Boston, Newton, Somerville, Brookline, and Cambridge.<br>
+                                        We also perform local services in the entire Greater Boston area and throughout New England.
+                                      </p>
+                                      <p>
+                                        Since moving is a part of our everyday life, our Flash Movers are experienced in everything that comes
+                                        along with a word “moving”. Including accurate moving estimates, on time appearance,
+                                        professional packing services, moving equipment, and moving materials,
+                                        storage facilities, moving affordability, goods safety and protection during the moving process.
+                                      </p>
+                                      <p>
+                                        Hiring professional movers to perform <b>Local Moving Services</b> can really be cost effective.
+                                        There are too many things and expenses customers normally
+                                        forget to take into consideration when moving by themselves: gas, tolls, truck rental,
+                                        insurance costs, and etc. Choosing cheap wrapping materials and covers could also lead to
+                                        unexpected damages and moving expenses.
+                                      </p>
                                     </div>
                                 </div>
                             </div>
@@ -216,10 +244,19 @@
                             <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                                 <div class="content-blocks-item__body-inner">
                                     <div class="content-blocks-item__text">
-                                      When it comes to <b>local moving</b>, especially <a href="">Boston</a>, <a href="">Newton</a>, <a href="">Somerville</a>, <a href="">Brookline</a>, and <a href="">Cambridge</a>,  it is very important to take into account its architectural merits and local building attributions, such as narrow staircases and doorways. <b>Local Moving Services</b> performed by Flash Movers include hoisting service that cannot be accompolished by customers without the help of professional movers with relevant moving experience and moving equipment.
-                                      <br>
-                                      Let’s face it. Hiring profession movers from <b>Local Moving Company</b> to perform the job they were trained to do is the best moving decision one can make.  It is all about admitting the fact that Flash Movers are more experienced in moving process than you are. And there is nothing to be ashamed of. Our moving staff will do their best to provide you peace of mind. Being customer oriented professionals, our movers will assist you with all necessary moving services, moving consulting and solutions to your moving problems and special moving needs.
-                                      The limitless advantages of hiring local movers, such as <a href="/">Flash Movers</a>, will always outweigh the move-it-yourself decision. Relax and enjoy a stress free moving process, while professional movers do their job.
+                                      <p>
+                                        That is why one of the advantages of hiring Flash Moving Company is that our movers know how to
+                                        perform a safe and a stress-free moving process. Flash movers are professionally
+                                        trained and prepared to handle just about any unpredictable moving situation.
+                                      </p>
+                                      <p>
+                                        When it comes to <b>local moving</b>, especially Boston, Newton, Somerville, Brookline, and Cambridge, it is very important to take into account its architectural merits and local building attributions, such as narrow staircases and doorways.
+                                        Local Moving Services performed by Flash Movers include hoisting service that cannot be accomplished by customers without the help of professional movers with relevant moving experience and moving equipment.
+                                      </p>
+                                      <p>
+                                        Let’s face it.<br> Hiring professional movers from Local Moving Company to perform the job they were trained to do is the best moving decision one can make.
+                                        It is all about admitting the fact that Flash Movers are more experienced in the moving process than you are. And there is nothing to be ashamed of. Our moving staff will do their best to provide you with peace of mind. Being customer-oriented professionals, our movers will assist you with all necessary moving services, moving consulting and solutions to your moving problems and special moving needs.
+                                      </p>
                                     </div>
                                 </div>
                             </div>

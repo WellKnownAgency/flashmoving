@@ -21,9 +21,9 @@
                     <div class="hero__row">
                         <div class="col-md-8">
                             <div class="hero__title hero__title--static">
-                                <h1 class="hero-title hero-title__simple">Long distance <br> flat rate <br> moving company</h1>
+                                <h1 class="hero-title hero-title__simple">Long distance Movers</h1>
                             </div>
-                            <div class="hero__description hero__description--big">Without any hidden fees and extra chargers</div>
+                            <div class="hero__description hero__description--big">Flat Rates without any hidden fees and extra chargers</div>
                         </div>
                     </div>
                 </div>
@@ -132,12 +132,19 @@
                             <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                                 <div class="content-blocks-item__body-inner">
                                     <div class="content-blocks-item__header">
-                                        <div class="content-blocks-item__title-primary">Long Distance Movers (tag #1)</div>
-                                        <div class="content-blocks-item__title-secundare">Seo text</div>
+                                        <div class="content-blocks-item__title-primary">Long Distance Movers</div>
                                     </div>
                                     <div class="content-blocks-item__text">
-                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
-                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
+                                      <p>There are things for which you can watch forever: fire burning, water flowing,
+                                        shining starry sky, and professional movers packing your <b>Long Distance Move</b>.</p>
+
+                                      <p>Have you ever heard one old storytelling about the hassle you’ll face while relocating from
+                                      Boston to another state or moving across the country? Well, that's an ancient myth.
+                                      At least when it comes to Flash Movers. Our <b>Long Distance Moving Company</b> will take the stress out of any Interstate Move.</p>
+
+                                      <p>Choosing our Long Distance Moving Service you choose complete, guaranteed,
+                                        a one-price move based on a flat rate from Boston to a destination of your choice.
+                                        No more changing estimates, headaches, and moving surprises.</p>
                                     </div>
                                 </div>
                             </div>
@@ -151,12 +158,26 @@
                             <div class="col-lg-6 order-lg-1 content-blocks-item__body">
                                 <div class="content-blocks-item__body-inner">
                                     <div class="content-blocks-item__header">
-                                        <div class="content-blocks-item__title-primary">Affordable Interstate in Boston (tag #2)</div>
-                                        <div class="content-blocks-item__title-secundare">Seo text</div>
+                                        <div class="content-blocks-item__title-primary">Interstate Moving Company</div>
                                     </div>
                                     <div class="content-blocks-item__text">
-                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
-                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
+                                      <p>You may spend hours trying to find the best tips for preparing for long distance move,
+                                      spend days looking for hacks on relocating yourself, and weeks on packing your belongings.
+                                      No more meetings with friends, no more leisure activities.
+                                      It’s just you vs. empty boxes one-on-one fight. Sounds exciting, doesn’t it?</p>
+
+                                      <p>Contrariwise, you may be drinking cocktails at your farewell party, while
+                                        Flash Movers keep you updated on every step of your move.</p>
+
+                                        <p>We offer licensed, insured, full-service interstate moves from Boston,
+                                          which means the best long distance movers will come to your place,
+                                          package all of your items correctly, secured and safe, load them into one of our
+                                          moving trucks, deliver them to your new home, unload them, unpack them and arrange
+                                          them in places.</p>
+
+                                          <p>Flash Moving professionals have numerous local and long distance moving reviews
+                                            on social media. We represent one of the most reputable and trustworthy
+                                            moving companies in Boston, making sure all customer needs are satisfied.</p>
                                     </div>
                                 </div>
                             </div>
@@ -170,12 +191,14 @@
                             <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                                 <div class="content-blocks-item__body-inner">
                                     <div class="content-blocks-item__header">
-                                        <div class="content-blocks-item__title-primary">Super Duper Intestate Moving Company (tag #3)</div>
-                                        <div class="content-blocks-item__title-secundare">Seo text</div>
+                                        <div class="content-blocks-item__title-primary">Long Distance Moving Company</div>
                                     </div>
                                     <div class="content-blocks-item__text">
-                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
-                                        <p>This year's Architecture Expo will be held in the fabulous Hong Kong City Hall. The Expo is constantly developing and demonstrating effective cooperation between the development market and the architects. This year's record-breaking edition of the Expo will feature 230 exhibitors and 25 speakers from over 30 countries.</p>
+                                      <p><b>Interstate Moves</b> could be very tricky.<br>
+                                      Packing and delivering fragile and valuable items across the country requires more attention and experience than moving the same pieces locally.
+                                      There is a bunch of little things you should take into consideration, including proper documentation, insurance coverage, gas, tolls, meals, and non-stop driving ability.
+                                      <b>Moving from Boston</b> itself could be very stressful. Relocating all by yourself, while keeping all the requirements and details in your head, yet still spending lots of money, nerves and wasting your time, is not worth the hassle.
+                                      Let Long Distance Moving professionals handle it.</p>
                                     </div>
                                 </div>
                             </div>
