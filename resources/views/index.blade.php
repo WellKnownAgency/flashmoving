@@ -8,7 +8,7 @@
 @section('content')
 
     {{-- Hero --}}
-    <section class="hero mb-5">
+    <section class="hero">
         <div class="hero__preview">
             <img src="/images/hero/IMG_7828.jpg" alt="" class="hero__img hero__img--brightness-high">
         </div>
@@ -18,7 +18,7 @@
                     <div class="hero__row">
                         <div class="col-md-6">
                             <div class="hero__title">
-                                <div class="hero-title">
+                                <div class="hero-title" style="line-height: 0.2em;">
                                     <div class="hero-title__simple">Flash Moving</div>
                                     <span class="hero-title__dynamic"></span>
                                 </div>
@@ -33,9 +33,9 @@
     </section>
 
     {{-- Services --}}
-    <section class="section">
+    <section class="section" style="padding-top: 70px; padding-bottom: 0;">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header" style="    margin-bottom: 55px;">
                 <h2 class="section-title section-title--upper">Flash Moving Services</h2>
             </div>
             <div class="services-collection theme-md">
@@ -490,7 +490,7 @@
     </section>
     <br>
 
-    <section class="section" style="background-color:#ebebeb;">
+    <section class="section" style="background-color:#ebebeb; padding-bottom: 0px;">
         <div class="container photo-collection">
             <div id="instafeed" class="row photo-collection__list">
             </div>
@@ -529,7 +529,7 @@
     <script>
         // Hero section
         new Typed('.hero-title__dynamic', {
-            strings: ["Insured", "Licensed", "Bonded"],
+            strings: ["Insured", "Licensed"],
             typeSpeed: 200,
             backSpeed: 10,
             startDelay: 600,

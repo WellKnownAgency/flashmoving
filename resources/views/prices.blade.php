@@ -87,7 +87,7 @@
                                         <div class="col-md-4 prices-collection__item prices-collection__item--wide">
                                             <div class="prices-collection-item prices-collection-item--big">
                                                 <h3 class="prices-collection-item__title">3 movers</h3>
-                                                <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
+                                                <div class="prices-collection-item__description">2-3 bedroom apartment</div>
                                                 <div class="prices-collection-item__prices">
                                                     <div class="prices-collection-item__price prices-collection-item__price--old">from $130/hour</div>
                                                     <div class="prices-collection-item__price">from $110/hour</div>
@@ -119,8 +119,8 @@
                                         </div>
                                         <div class="col-md-4 prices-collection__item prices-collection__item--narrow">
                                             <div class="prices-collection-item">
-                                                <h3 class="prices-collection-item__title">4 movers and more</h3>
-                                                <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
+                                                <h3 class="prices-collection-item__title">4 movers & more</h3>
+                                                <div class="prices-collection-item__description">4+ bedroom house</div>
                                                 <div class="prices-collection-item__prices">
                                                     <div class="prices-collection-item__price prices-collection-item__price--old">from $160/hour</div>
                                                     <div class="prices-collection-item__price">from $140/hour</div>

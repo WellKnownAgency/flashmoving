@@ -4,10 +4,10 @@
     <div class="col-md-4 align-self-center" style="padding: 0;">
       <div class="top-icons">
         <div class="icons-padding">
-          <a href="https://www.facebook.com/flashmoversma/"><i class="fa fa-facebook fa-2x"></i></a>
-          <a href="https://twitter.com/flashmoversma"><i class="fa fa-twitter fa-2x"></i></a>
-          <a href="https://www.instagram.com/flashmoversma/"><i class="fa fa-instagram fa-2x"></i></a>
-          <a href=""><i class="fa fa-yelp fa-2x"></i></a>
+          <a href="https://www.facebook.com/flashmoversma/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+          <a href="https://twitter.com/flashmoversma" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+          <a href="https://www.instagram.com/flashmoversma/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+          <a href="https://www.yelp.com/biz/flash-moving-company-newton" target="_blank"><i class="fa fa-yelp fa-2x"></i></a>
         </div>
       </div>
     </div>

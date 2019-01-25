@@ -1,5 +1,5 @@
-@section('title', '')
-@section('dscr', '')
+@section('title', 'Moving and Storage Company | Flash Moving')
+@section('dscr', 'Any type of storage for your Moving! Moving and stroage service solutions: Short Term Storage, Long-Term Storage and Overnight Storage')
 @section('keywords', '')
 @section('mainimg', '')
 
@@ -17,11 +17,9 @@
                 <div class="hero__content">
                     <div class="hero__row">
                         <div class="col-md-7">
-                            <div class="hero__title hero__title--static">
-                                <div class="hero-title">
-                                    <div class="hero-title__simple">Storage <br> solutions</div>
-                                </div>
-                            </div>
+													<div class="hero__title hero__title--static">
+															<h1 class="hero-title hero-title__simple">Moving and Storage</h1>
+													</div>
                             <div class="hero__description hero__description--big">Without any hidden fees and extra chargers</div>
                         </div>
                     </div>
@@ -48,13 +46,23 @@
                         <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                             <div class="content-blocks-item__body-inner">
                                 <div class="content-blocks-item__header">
-                                    <h3 class="content-blocks-item__title-primary content-blocks-item__title-primary--upper content-blocks-item__title-primary--thin">Short-term storage</h3>
-                                    <div class="content-blocks-item__title-secundare ff-second">!!! SEO TEXT !!! + !!! OUR TEXT !!! (Maybe?)</div>
+                                    <h3 class="content-blocks-item__title-primary content-blocks-item__title-primary--upper content-blocks-item__title-primary--thin">Short-Term Storage</h3>
                                 </div>
                                 <div class="content-blocks-item__text ff-second">
-                                    <p>Are you looking for a short-term storage to protect your belongings while renovating your new home? We offer storage facilities for up to 6 months.</p>
-                                    <p>All of your goods will be custom wrapped, loaded into our truck, transported to our warehouse and transferred from our truck directly to the storage.</p>
-                                    <div class="content-blocks-item__price">From $100 (per month)</div>
+																	<p>Choosing a moving company that would store your belongings is almost the same as choosing a bank to open a saving account.
+																		It should be reliable; it should be trustworthy and, of course, safe and secured.</p>
+
+																	<p>Flash Movers can offer you all of the above and even more.
+																		Our Moving and Storage Company provides a wide range of storage options: short-term storage, long-term storage, and overnight storage in the Boston area.</p>
+																	<p>
+																		Every time it comes to short-term storage, people underestimate the importance of choosing an appropriate, well-maintained and climate-controlled storage unit for their needs. There are too many things to consider before making a storage decision.
+																		It is obvious that you should pay attention to the size of the storage unit you’ll need to rent, but it is also essential to consider the weather outside, the type of items you’re going to store and the quality of wrapping materials you’re going to use.
+																		Even a week of extremely hot or cold temperatures could damage your possessions.
+																	</p>
+																	<p>
+																		Whenever you need temporary storage, it is crucial to find moving professionals, experienced enough to take necessary care of your items and offer a storage solution that is right for you.
+																	</p>
+																		<div class="content-blocks-item__price">From $100 (per month)</div>
                                 </div>
                             </div>
                         </div>
@@ -72,12 +80,18 @@
                             <div class="content-blocks-item__body-inner">
                                 <div class="content-blocks-item__header">
                                     <h3 class="content-blocks-item__title-primary content-blocks-item__title-primary--upper content-blocks-item__title-primary--thin">Long-term storage</h3>
-                                    <div class="content-blocks-item__title-secundare ff-second">!!! SEO TEXT !!! + !!! OUR TEXT !!! (Maybe?)</div>
                                 </div>
                                 <div class="content-blocks-item__text ff-second">
-                                    <p>Are you temporarily relocating out of state or overseas, or downsizing to a new home? Get <strong>First Month Free</strong> for your
-                                        <strong>Long-Term Storage</strong>.</p>
-                                    <p>All our storage facilities are clean and climate controlled, equipped with top-notch video security cameras and guards, and have fire sprinklers installed for safety.</p>
+                                    <p>
+																			People are looking for a long-term storage solution for a variety of reasons. Whatever lies behind those reasons does not matter much, because the only thing that matters most stays the same – the safety of their possessions.
+																			Long-term storage furniture protection and placement requires additional attention and expert knowledge.
+																			Your belongings should not be affected and deformed under its weight, dust or humidity factors. They should be kept in safe, secured, climate-controlled and constantly monitored long-term storage units.
+																			When hiring Flash Movers, you are avoiding and minimizing the risk of mold appearance, furniture defect occurrence and probability of loss.
+																		</p>
+																		<p>
+																			Flash Moving and Storage Company provides competitive and affordable long term storage fees. The prices are already pre-calculated and, in most cases, depend only on the size of the storage required and duration of using a storage unit.
+																			Despite a forever growing demand for long-term storage units in Boston and its neighborhood, Flash Moving storage facilities are committed to their prices that do not change throughout the entire storage period.
+																		</p>
                                     <div class="content-blocks-item__price">By request <br><span class="text-danger text-uppercase">FIRST MONTH FREE</span></div>
                                 </div>
                             </div>
@@ -95,11 +109,21 @@
                         <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                             <div class="content-blocks-item__body-inner">
                                 <div class="content-blocks-item__header">
-                                    <h3 class="content-blocks-item__title-primary content-blocks-item__title-primary--upper content-blocks-item__title-primary--thin">Overnight storage</h3>
-                                    <div class="content-blocks-item__title-secundare ff-second">!!! SEO TEXT !!! + !!! OUR TEXT !!! (Maybe?)</div>
+                                    <h3 class="content-blocks-item__title-primary content-blocks-item__title-primary--upper content-blocks-item__title-primary--thin">Overnight Storage</h3>
                                 </div>
                                 <div class="content-blocks-item__text ff-second">
-                                    <p>In case you have to move out in one day, but are not able to move into your new residence until the next day, we offer low cost Overnight On-Truck Storage. The truck remains locked and stationary in our digitally monitored parking lot. Once you get your keys, your possessions will be safely delivered to your new apartment or home.</p>
+                                    <p>
+																			Do you know what makes people most terrified when it comes to moving?
+																			Overnight storage in Boston.
+																			Whether it is a real estate closing or a moving in-and-out dates mismatch, the need to find a moving company with an overnight storage service sounds like a death sentence.
+																			However, it is one of the most common and frequently requested moving and storage services in Boston.
+																		</p>
+																		<p>
+																			Flash Movers offer overnight storage units, which are fully secured and climate-controlled. Moreover, every unit has easy access, making the unloading and reloading process more effective. Packing the furniture and other belongings into a truck in a proper way, as well as its professional placement in the storage, could save lots of time and tons of money.
+																		</p>
+																		<p>
+																			Any time you need a short-term, long-term or overnight storage units, Flash Movers guarantee your moving and storage needs covered.
+																		</p>
                                     <div class="content-blocks-item__price">From $150 (per night/per truck)</div>
                                 </div>
                             </div>

@@ -12,7 +12,6 @@
               Email: {{$email}}<br>
               Phone: {{$phone}}<br>
               Message: {{$body}}<br>
-
         </div>
       </div>
       <div style="padding: 20px;  font-size: 10px;">
