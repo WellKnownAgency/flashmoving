@@ -35,7 +35,7 @@
     {{-- Services --}}
     <section class="section" style="padding-top: 70px; padding-bottom: 0;">
         <div class="container">
-            <div class="section-header" style="    margin-bottom: 55px;">
+            <div class="section-header" style="margin-bottom: 55px;">
                 <h2 class="section-title section-title--upper">Flash Moving Services</h2>
             </div>
             <div class="services-collection theme-md">

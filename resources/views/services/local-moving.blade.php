@@ -41,7 +41,7 @@
                 <div class="services-collection__list">
                     <div class="row services-collection__row">
                         <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'boston')}}">
+                            <a class="services-collection-item" href="">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/Boston.jpg')}}" alt="Boston" class="services-collection-item__img services-collection-item__img--brightness-high">
@@ -51,7 +51,7 @@
                             </a>
                         </div>
                         <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'newton')}}">
+                            <a class="services-collection-item" href="">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/Newton.JPG')}}" alt="Newton" class="services-collection-item__img">
@@ -63,7 +63,7 @@
                     </div>
                     <div class="row services-collection__row">
                         <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'somerville')}}">
+                            <a class="services-collection-item" href="">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/adeeea3b-b3ab-47bd-8.jpg')}}" alt="Somerville" class="services-collection-item__img services-collection-item__img--brightness-high">
@@ -73,7 +73,7 @@
                             </a>
                         </div>
                         <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'brookline')}}">
+                            <a class="services-collection-item" href="">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/9fc2906b-00c5-4aaf-8.jpg')}}" alt="Brookline" class="services-collection-item__img services-collection-item__img--brightness-high">
@@ -83,7 +83,7 @@
                             </a>
                         </div>
                         <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'cambridge')}}">
+                            <a class="services-collection-item" href="">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/Cambridge.jpg')}}" alt="Cambridge" class="services-collection-item__img services-collection-item__img--brightness-high">

@@ -35,7 +35,7 @@
     <section class="section mb-5">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title section-title--upper">Directions</h2>
+                <h2 class="section-title section-title--upper">Long Distance Destinations</h2>
             </div>
             <div class="services-collection theme-sm theme-ladder">
                 <div class="services-collection__list">
