@@ -17,7 +17,7 @@
                 <div class="hero__content">
                     <div class="hero__row">
                         <div class="col-md-6">
-                            <div class="hero__title">
+                            <div class="hero__title" style="padding-top:38px;">
                                 <div class="hero-title" style="line-height: 0.2em">
                                     <div class="hero-title__simple">Flash Moving</div>
                                     <span class="hero-title__dynamic"></span>
