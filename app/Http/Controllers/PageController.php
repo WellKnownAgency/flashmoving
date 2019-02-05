@@ -51,6 +51,10 @@ class PageController extends Controller
     {
         return view('contact-us');
     }
+		public function quote()
+    {
+        return view('quote');
+    }
 
     public function about()
     {

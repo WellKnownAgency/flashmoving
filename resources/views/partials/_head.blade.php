@@ -11,3 +11,4 @@
 <link rel="stylesheet" href="/css/custom.css" >
 
 @yield('preload')
+@yield('customcss')

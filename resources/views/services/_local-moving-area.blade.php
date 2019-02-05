@@ -426,7 +426,7 @@
             </div>
             <br>
             <div class="section__button">
-                <a href="#" class="btn-simple btn-simple--medium">Get free Estimate</a>
+                <a href="/moving-quote" class="btn-simple btn-simple--medium">Get free Estimate</a>
             </div>
         </div>
     </section>

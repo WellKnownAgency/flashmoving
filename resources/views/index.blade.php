@@ -1,5 +1,5 @@
-@section('title', '')
-@section('dscr', '')
+@section('title', 'Flash Moving Company | Boston Movers')
+@section('dscr', 'Flash Moving Company is fully Licensed and Insured movers serving local Boston area and Long Distance moves across United States. Call for a Free Estimate now.')
 @section('keywords', '')
 @section('mainimg', '')
 
@@ -18,20 +18,37 @@
                     <div class="hero__row">
                         <div class="col-md-6">
                             <div class="hero__title">
-                                <div class="hero-title" style="line-height: 0.2em;">
+                                <div class="hero-title" style="line-height: 0.2em">
                                     <div class="hero-title__simple">Flash Moving</div>
                                     <span class="hero-title__dynamic"></span>
                                 </div>
                             </div>
                             <div class="hero__description hero__description--big">Insured & Licensed Movers in Boston Area<br>
                                 Without any hidden fees and extra chargers</div>
+
                         </div>
                     </div>
+										<div class="hero__row">
+											<div class="col-md-12 text-center">
+												<a href="#" data-toggle="modal" data-target="#termConditionsModal" class="btn-hero btn-hero-nav btn-hero--large btn-hero--hover-green">Free Estimate</a>
+											</div>
+										</div>
+
                 </div>
+
             </div>
         </div>
     </section>
-
+		{{-- Modal --}}
+		<div class="modal fade" id="termConditionsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		    <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+		        <div class="modal-content modal-content-site">
+		            <div class="modal-body modal-content-site__body" style="padding: 0;">
+		                <iframe src="https://flashmoving.moveitpro.com/iframe/get_moving_quote?b_id=380" height="900" width="100%" allowfullscreen="" frameborder="0"></iframe>
+		            </div>
+		        </div>
+		    </div>
+		</div>
     {{-- Services --}}
     <section class="section" style="padding-top: 70px; padding-bottom: 0;">
         <div class="container">
@@ -139,14 +156,14 @@
                                         </div>
                                     </div>
                                     <div class="prices-collection-item__button">
-                                        <a class="btn-simple" href="#">Book now</a>
+                                        <a class="btn-simple" href="/moving-quote">Book now</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 prices-collection__item prices-collection__item--wide">
                                 <div class="prices-collection-item prices-collection-item--big">
                                     <h3 class="prices-collection-item__title">3 movers</h3>
-                                    <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
+                                    <div class="prices-collection-item__description">2-3 bedroom apartment</div>
                                     <div class="prices-collection-item__prices">
                                         <div class="prices-collection-item__price prices-collection-item__price--old">from $130/hour</div>
                                         <div class="prices-collection-item__price">from $110/hour</div>
@@ -172,14 +189,14 @@
                                         </div>
                                     </div>
                                     <div class="prices-collection-item__button">
-                                        <a class="btn-simple" href="#">Book now</a>
+                                        <a class="btn-simple" href="/moving-quote">Book now</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 prices-collection__item prices-collection__item--narrow">
                                 <div class="prices-collection-item">
                                     <h3 class="prices-collection-item__title">4 movers and more</h3>
-                                    <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
+                                    <div class="prices-collection-item__description">4+ bedroom house</div>
                                     <div class="prices-collection-item__prices">
                                         <div class="prices-collection-item__price prices-collection-item__price--old">from $160/hour</div>
                                         <div class="prices-collection-item__price">from $140/hour</div>
@@ -205,7 +222,7 @@
                                         </div>
                                     </div>
                                     <div class="prices-collection-item__button">
-                                        <a class="btn-simple" href="#">Book now</a>
+                                        <a class="btn-simple" href="/moving-quote">Book now</a>
                                     </div>
                                 </div>
                             </div>
@@ -431,61 +448,9 @@
     <section class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title section-title--upper">How to start move with Flash Movers</h2>
+                <h2 class="section-title section-title--upper">Get a Free Moving Estimate</h2>
             </div>
-
-            <div class="tree-to-start">
-                <div class="tree-to-start__list">
-                    <div class="tree-to-start__item">
-                        <div class="tree-to-start-item">
-                            <div class="tree-to-start-item__preview">
-                                <div class="tree-to-start-item__icon tree-to-start-item__icon--call"></div>
-                            </div>
-                            <div class="content">
-                                <div class="tree-to-start-item__title">Call us at <span class="tree-to-start-item__text-red">857.241.8778</span></div>
-                                <div class="tree-to-start-item__description">Our manager will ask a few questions<br> regarding the move</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tree-to-start__item">
-                        <div class="tree-to-start-item">
-                            <div class="tree-to-start-item__preview">
-                                <div class="tree-to-start-item__icon tree-to-start-item__icon--calendar"></div>
-                            </div>
-                            <div class="content">
-                                <div class="tree-to-start-item__title">Choose date & time <br> for you move</div>
-                                <div class="tree-to-start-item__description">Select a desired moving date and time</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tree-to-start__item">
-                        <div class="tree-to-start-item">
-                            <div class="tree-to-start-item__preview">
-                                <div class="tree-to-start-item__icon tree-to-start-item__icon--calc"></div>
-                            </div>
-                            <div class="content">
-                                <div class="tree-to-start-item__title">Get your <span class="tree-to-start-item__text-red">free</span> estimate</div>
-                                <div class="tree-to-start-item__description">You will get a free estimate by phone or via e-mail</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tree-to-start__item">
-                        <div class="tree-to-start-item">
-                            <div class="tree-to-start-item__preview">
-                                <div class="tree-to-start-item__icon tree-to-start-item__icon--delivery"></div>
-                            </div>
-                            <div class="content">
-                                <div class="tree-to-start-item__title">Start your move with us</div>
-                                <div class="tree-to-start-item__description">Are you ready? Excellent! We are on our way!</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="section__button">
-                <a href="#" class="btn-simple btn-simple--medium">Get free Estimate</a>
-            </div>
+						<iframe src="https://flashmoving.moveitpro.com/iframe/contact_move_info?b_id=380" height="980" width="100%" allowfullscreen="" frameborder="0"></iframe>
         </div>
     </section>
     <br>
@@ -522,6 +487,7 @@
         </div>
     </section>
     <!--End of Section -->
+
 @stop
 
 

@@ -1,5 +1,5 @@
-@section('title', '')
-@section('dscr', '')
+@section('title', 'Contact us | Flash Moving Company')
+@section('dscr', 'Contact our Flash Moving Company anytime. Our High Quality Customer Service Proven by years of experience and by many customers always ready to help you with any question.')
 @section('keywords', '')
 @section('mainimg', '')
 

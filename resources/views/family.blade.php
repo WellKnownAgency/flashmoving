@@ -1,5 +1,5 @@
-@section('title', '')
-@section('dscr', '')
+@section('title', 'Flash Moving Family | Join Us')
+@section('dscr', 'Flash Movign Family is a great way to get additional perks and always have a great moving service. Join us now and Save.')
 @section('keywords', '')
 @section('mainimg', '')
 
@@ -29,7 +29,7 @@
                         </div>
                     </div>
                     <div class="hero__button">
-                        <a class="btn-hero" href="#">Join</a>
+                        <a class="btn-hero" href="/moving-quote">Join</a>
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@
             </div>
         </div>
         <div class="section__button">
-            <a href="#" class="btn-simple btn-simple--border btn-simple--medium">Join</a>
+            <a href="/moving-quote" class="btn-simple btn-simple--border btn-simple--medium">Join</a>
         </div>
     </div>
 </section>
@@ -287,7 +287,7 @@
                 </div>
         </div>
         <div class="section__button">
-            <a href="#" class="btn-simple btn-simple--border btn-simple--medium">Join</a>
+            <a href="/moving-quote" class="btn-simple btn-simple--border btn-simple--medium">Join</a>
         </div>
     </div>
 </section>

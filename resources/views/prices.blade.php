@@ -1,5 +1,5 @@
-@section('title', '')
-@section('dscr', '')
+@section('title', 'Moving Prices | Flash Moving Company')
+@section('dscr', 'Flat Rates for Long Distance and Hourly Rates for Local Moving. Find all information on how Flash Moving Company charge their clients. Make sure it is transparent and without any hidden fees.')
 @section('keywords', '')
 @section('mainimg', '')
 
@@ -80,7 +80,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="prices-collection-item__button">
-                                                    <a class="btn-simple" href="#">Book now</a>
+                                                    <a class="btn-simple" href="/moving-quote">Book now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -113,7 +113,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="prices-collection-item__button">
-                                                    <a class="btn-simple" href="#">Book now</a>
+                                                    <a class="btn-simple" href="/moving-quote">Book now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -146,7 +146,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="prices-collection-item__button">
-                                                    <a class="btn-simple" href="#">Book now</a>
+                                                    <a class="btn-simple" href="/moving-quote">Book now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -250,7 +250,7 @@
                             </div>
                         </div>
                         <div class="section__button">
-                            <a href="#" class="btn-simple btn-simple--medium">Get free Estimate</a>
+                            <a href="/moving-quote" class="btn-simple btn-simple--medium">Get free Estimate</a>
                         </div>
                     </div>
                 </div>
@@ -325,7 +325,7 @@
                             </div>
                         </div>
                         <div class="section__button">
-                            <a href="#" class="btn-simple btn-simple--medium">Book storage</a>
+                            <a href="/moving-quote" class="btn-simple btn-simple--medium">Book storage</a>
                         </div>
                     </div>
                 </div>
@@ -421,7 +421,7 @@
                             </div>
                         </div>
                         <div class="section__button">
-                            <a href="#" class="btn-simple btn-simple--medium">Request free Estimate</a>
+                            <a href="/moving-quote" class="btn-simple btn-simple--medium">Request free Estimate</a>
                         </div>
                     </div>
                 </div>
@@ -833,7 +833,7 @@
             </div>
             <br>
             <div class="section__button">
-                <a href="#" class="btn-simple btn-simple--medium">Get free Estimate</a>
+                <a href="/moving-quote" class="btn-simple btn-simple--medium">Get free Estimate</a>
             </div>
         </div>
     </section>
