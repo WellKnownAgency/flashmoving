@@ -1,8 +1,8 @@
 <div class="footer">
   <div class="container">
-    <div class="center" style="padding-top:30px;">
-      <nav class="navbar-expand-lg navbar-footer ">
-        <ul class="navbar-nav">
+    <div style="padding-top:30px; display: flex; justify-content: center; align-items: center;">
+      <nav class="navbar-expand-lg navbar-footer" >
+        <ul class="navbar-nav" style="text-align:center;">
           <li class="nav-item">
             <a class="nav-link" href="/">Home</a>
           </li>

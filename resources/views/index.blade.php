@@ -43,6 +43,16 @@
 		<div class="modal fade" id="termConditionsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 		    <div class="modal-dialog modal-dialog-centered modal-md" role="document">
 		        <div class="modal-content modal-content-site">
+							<div style="text-align:right; margin: 5px;">
+                  <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+										<g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square">
+											<g transform="translateY(-50%) rotate(-45deg);" stroke="#222222">
+												<path d="M0,11 L22,11"></path>
+												<path d="M11,0 L11,22"></path>
+											</g>
+										</g>
+									</svg>
+              </div>
 		            <div class="modal-body modal-content-site__body" style="padding: 0;">
 		                <iframe src="https://flashmoving.moveitpro.com/iframe/get_moving_quote?b_id=380" height="900" width="100%" allowfullscreen="" frameborder="0"></iframe>
 		            </div>
