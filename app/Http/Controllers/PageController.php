@@ -85,4 +85,8 @@ class PageController extends Controller
 
       return back();
     }
+		public function sitemap()
+    {
+      return response()->view('sitemap')->header('Content-Type', 'text/xml');
+    }
 }

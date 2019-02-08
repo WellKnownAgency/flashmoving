@@ -8,7 +8,7 @@ Route::get('/about-us', 'PageController@about')->name('about-us');
 Route::get('/moving-quote', 'PageController@quote');
 
 Route::post('contact-us', 'PageController@contactUs');
-
+Route::get('/sitemap.xml', 'PageController@sitemap');
 
 Route::name('services.')->group(function () {
     Route::get('local-moving/{slug}', 'PageController@localMovingArea')->name('local-moving.area');

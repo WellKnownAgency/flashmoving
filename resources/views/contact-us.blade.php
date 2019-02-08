@@ -25,10 +25,10 @@
           </div>
           <p class="address-p">99 Rivermoon St., West Roxbury, MA, 02132</p>
           <div>
-            <a href="https://www.facebook.com/flashmoversma/"><i class="fa fa-facebook fa-2x"></i></a>
-            <a href="https://twitter.com/flashmoversma"><i class="fa fa-twitter fa-2x"></i></a>
-            <a href="https://www.instagram.com/flashmoversma/"><i class="fa fa-instagram fa-2x"></i></a>
-            <a href=""><i class="fa fa-yelp fa-2x"></i></a>
+            <a href="https://www.facebook.com/flashmoversma/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+            <a href="https://twitter.com/flashmoversma" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/flashmoversma/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+            <a href="https://www.yelp.com/biz/flash-moving-company-newton" target="_blank"><i class="fa fa-yelp fa-2x"></i></a>
           </div>
         </div>
       </div>

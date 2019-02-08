@@ -30,7 +30,7 @@
                     </div>
 										<div class="hero__row">
 											<div class="col-md-12 text-center">
-												<a href="#" data-toggle="modal" data-target="#termConditionsModal" class="btn-hero btn-hero-nav btn-hero--large btn-hero--hover-green">Free Estimate</a>
+												<a href="moving-quote" class="btn-hero btn-hero-nav btn-hero--large btn-hero--hover-green">Free Estimate</a>
 											</div>
 										</div>
 
@@ -40,7 +40,7 @@
         </div>
     </section>
 		{{-- Modal --}}
-		<div class="modal fade" id="termConditionsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<!--<div class="modal fade" id="termConditionsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 		    <div class="modal-dialog modal-dialog-centered modal-md" role="document">
 		        <div class="modal-content modal-content-site">
 							<div style="text-align:right; margin: 5px;">
@@ -58,7 +58,7 @@
 		            </div>
 		        </div>
 		    </div>
-		</div>
+		</div>-->
     {{-- Services --}}
     <section class="section" style="padding-top: 70px; padding-bottom: 0;">
         <div class="container">
@@ -489,7 +489,7 @@
                             <b>E-mail:</b> <a href="mailto:info@flashmoving.net">info@flashmoving.net</a>
                         </div>
                         <div class="pre-footer__item">
-                            <b>Social Media:</b> <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+                            <b>Social Media:</b> <a href="https://www.facebook.com/flashmoversma/" target="_blank">Facebook</a> | <a href="https://www.instagram.com/flashmoversma/" target="_blank">Instagram</a> | <a href="https://twitter.com/flashmoversma" target="_blank">Twitter</a>
                         </div>
                     </div>
                 </div>
