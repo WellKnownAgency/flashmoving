@@ -460,39 +460,14 @@
             <div class="section-header">
                 <h2 class="section-title section-title--upper">Get a Free Moving Estimate</h2>
             </div>
-						<iframe src="https://flashmoving.moveitpro.com/iframe/contact_move_info?b_id=380" height="980" width="100%" allowfullscreen="" frameborder="0"></iframe>
+						<iframe src="https://flashmoving.moveitpro.com/iframe/contact_move_info?b_id=380" height="960" width="100%" allowfullscreen="" frameborder="0"></iframe>
         </div>
     </section>
     <br>
 
-    <section class="section" style="background-color:#ebebeb; padding-bottom: 0px;">
+    <section class="section" style="background-color:#ebebeb; padding-bottom: 0px; padding-top: 0px;">
         <div class="container photo-collection">
             <div id="instafeed" class="row photo-collection__list">
-            </div>
-        </div>
-    </section>
-    <!--End of Section -->
-
-    <!--Section Contacts starts-->
-    <section class="section">
-        <div class="container">
-            <div class="section-description section-description--narrow">
-                We build our business based on strong relationships with the customers. Do not hesitate asking us any moving related questions
-            </div>
-            <div class="section__collection">
-                <div class="pre-footer">
-                    <div class="pre-footer__list">
-                        <div class="pre-footer__item">
-                            <b>Phone:</b> <a class="link-marked" href="tel:+18572418778">+1 857 241 8778</a>
-                        </div>
-                        <div class="pre-footer__item">
-                            <b>E-mail:</b> <a href="mailto:info@flashmoving.net">info@flashmoving.net</a>
-                        </div>
-                        <div class="pre-footer__item">
-                            <b>Social Media:</b> <a href="https://www.facebook.com/flashmoversma/" target="_blank">Facebook</a> | <a href="https://www.instagram.com/flashmoversma/" target="_blank">Instagram</a> | <a href="https://twitter.com/flashmoversma" target="_blank">Twitter</a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>

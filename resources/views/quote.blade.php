@@ -17,7 +17,7 @@ iframe .btn-primary {
 
 <div class="contact">
   <div class="container">
-		<iframe src="https://flashmoving.moveitpro.com/iframe/get_moving_quote?b_id=380" height="640" width="100%" allowfullscreen="" frameborder="0"></iframe>
+		<iframe src="https://flashmoving.moveitpro.com/iframe/contact_move_info?b_id=380" height="960" width="100%" allowfullscreen="" frameborder="0"></iframe>
   </div>
 </div>
 
