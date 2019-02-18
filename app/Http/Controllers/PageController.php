@@ -55,6 +55,10 @@ class PageController extends Controller
     {
         return view('quote');
     }
+		public function privacy()
+    {
+        return view('privacy');
+    }
 
     public function about()
     {
