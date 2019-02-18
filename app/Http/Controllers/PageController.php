@@ -78,7 +78,7 @@ class PageController extends Controller
 
       Mail::send('emails.notification', $data, function($message) use ($data){
         $message->from('support@flashmoving.net');
-        $message->to('kimtaras@gmail.com');
+        $message->to('info@flashmoving.net');
         $message->subject('Contact Request');
 
       });

@@ -23,7 +23,7 @@
                                     <span class="hero-title__dynamic"></span>
                                 </div>
                             </div>
-                            <div class="hero__description hero__description--big">Insured & Licensed Movers in Boston Area<br>
+                            <div class="hero__description hero__description--big">Movers in Boston Area<br>
                                 Without any hidden fees and extra chargers</div>
 
                         </div>

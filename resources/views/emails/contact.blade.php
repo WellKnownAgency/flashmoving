@@ -5,7 +5,7 @@
       You receive this email because you have requested us to contact you!
       </div>
       <div style="max-width: 500px;  background: #fff;  margin: 0 auto;  overflow: hidden;  border-radius: 5px;">
-        <img style="max-width: 100%; display: block;" src="https://wknown.com/images/bgmain/seo.jpg">
+        <img style="max-width: 100%; display: block;" src="https://flashmoving.net/images/logo.png">
         <div style="padding: 0 5% 40px; display: inline-block;">
           <p style="font-size: 16px; line-height: 1.5; color: darken(#eee, 30);  margin-bottom: 30px;">	Hello <strong>{{$firstname}} {{$lastname}}</strong>,<br />
                 Thank you for contacting our Agency. <br />
@@ -15,7 +15,7 @@
                 Boston, MA <br />
                 (857) 265-3644 <br />
                 www.wknown.com <br /></p>
-          <a href="https://wknown.com/blog/" style="	display: inline-block;  padding: 10px 20px  color: #fff;  background: #dc3741;  text-decoration: none;  letter-spacing: 2px;  text-transform: uppercase;  border-radius: 5px;  font-size: 13px;">Read Blog</a>
+          <a href="https://flashmoving.net" style="	display: inline-block;  padding: 10px 20px  color: #fff;  background: #dc3741;  text-decoration: none;  letter-spacing: 2px;  text-transform: uppercase;  border-radius: 5px;  font-size: 13px;">Go to website</a>
         </div>
       </div>
       <div style="padding: 20px;  font-size: 10px;">

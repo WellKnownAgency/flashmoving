@@ -5,7 +5,7 @@
       Someone Send a message to you!
       </div>
       <div style="max-width: 500px;  background: #fff;  margin: 0 auto;  overflow: hidden;  border-radius: 5px;">
-        <img style="max-width: 100%; display: block;" src="http://167.99.62.3/images/hero/IMG_7828.jpg">
+        <img style="max-width: 100%; display: block;" src="https://flashmoving.net/images/logo.png">
         <div style="padding: 0 5% 40px; display: inline-block;">
           <p style="font-size: 16px; line-height: 1.5; color: darken(#eee, 30);  margin-bottom: 30px;">
               Name: {{$name}}<br>
