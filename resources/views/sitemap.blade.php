@@ -16,7 +16,7 @@
         </url>
         <url>
             <loc>https://flashmoving.net/long-distance-movers</loc>
-            <lastmod>2019-02-08</lastmod>
+            <lastmod>2019-02-19</lastmod>
 						<priority>1.00</priority>
         </url>
 				<url>
