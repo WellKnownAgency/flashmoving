@@ -27,6 +27,16 @@ class PageController extends Controller
         }
     }
 
+		public function longDistanceArea($slug)
+    {
+        $view = 'services.long-distance-area.' . $slug;
+        if(view()->exists($view)){
+            return view($view);
+        } else {
+            abort(404);
+        }
+    }
+
     public function interstateMoving()
     {
         return view('services.interstate-moving');

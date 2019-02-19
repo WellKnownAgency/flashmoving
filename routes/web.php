@@ -19,6 +19,8 @@ Route::name('services.')->group(function () {
     Route::get('local-moving/{slug}', 'PageController@localMovingArea')->name('local-moving.area');
     Route::get('local-moving', 'PageController@localMoving')->name('local-moving');
 
+		Route::get('long-distance-movers/{slug}', 'PageController@longDistanceArea')->name('long-distance.area');
     Route::get('long-distance-movers', 'PageController@interstateMoving')->name('interstate-moving');
+
     Route::get('storage', 'PageController@storage')->name('storage');
 });

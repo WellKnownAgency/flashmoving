@@ -393,32 +393,6 @@
     </div>
 </section>
 <!--End of Section -->
-
-<!--Section Contacts starts-->
-<section class="section">
-    <div class="container">
-        <h2 class="section__title">Contacts</h2>
-        <div class="section-description section-description--narrow">
-            We build our business based on strong relationships with the customers. Do not hesitate asking us any moving related questions
-        </div>
-        <div class="section__collection">
-            <div class="pre-footer">
-                <div class="pre-footer__list">
-                    <div class="pre-footer__item">
-                        <b>Phone:</b> <a class="link-marked" href="tel:+18572418778">+1 857 241 8778</a>
-                    </div>
-                    <div class="pre-footer__item">
-                        <b>E-mail:</b> <a href="mailto:info@flashmoving.net">info@flashmoving.net</a>
-                    </div>
-                    <div class="pre-footer__item">
-                        <b>Social Media:</b> <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--End of Section -->
 @stop
 
 

@@ -40,7 +40,7 @@
             <div class="services-collection theme-sm theme-ladder">
                 <div class="services-collection__list">
                     <div class="row services-collection__row">
-                        <div class="col-sm services-collection__item">
+                        <a class="col-sm services-collection__item" href="/long-distance-movers/boston-new-york-moving">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
@@ -49,7 +49,7 @@
                                 </div>
                                 <div class="services-collection-item__title services-collection-item__title--upper">New York</div>
                             </div>
-                        </div>
+                        </a>
                         <div class="col-sm services-collection__item">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
@@ -478,32 +478,6 @@
         <div class="container photo-collection">
           <div id="instafeed" class="row photo-collection__list">
           </div>
-        </div>
-    </section>
-    <!--End of Section -->
-
-    <!--Section Contacts starts-->
-    <section class="section">
-        <div class="container">
-            <h2 class="section__title">Contacts</h2>
-            <div class="section-description section-description--narrow">
-                We build our business based on strong relationships with the customers. Do not hesitate asking us any moving related questions
-            </div>
-            <div class="section__collection">
-                <div class="pre-footer">
-                    <div class="pre-footer__list">
-                        <div class="pre-footer__item">
-                            <b>Phone:</b> <a class="link-marked" href="tel:+18572418778">+1 857 241 8778</a>
-                        </div>
-                        <div class="pre-footer__item">
-                            <b>E-mail:</b> <a href="mailto:info@flashmoving.net">info@flashmoving.net</a>
-                        </div>
-                        <div class="pre-footer__item">
-                            <b>Social Media:</b> <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
     <!--End of Section -->

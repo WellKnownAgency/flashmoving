@@ -1,29 +1,23 @@
-@section('title', 'Local Moving Company | Flash Moving')
-@section('dscr', 'Find a reliable local moving company in the Boston area for your move. Professional fully licensed Movers will help you with any moving service you need.')
-@section('keywords', '')
-
 @extends('layouts.main')
-
-@section('preload')
-<link rel="preload" href="/images/hero/IMG_7908.jpg" as="image">
-@stop
 
 @section('content')
 
     {{-- Hero --}}
     <section class="hero mb-5">
         <div class="hero__preview">
-            <img src="/images/hero/IMG_7908.jpg" alt="" class="hero__img hero__img--brightness-high">
+					@yield('hero-image')
         </div>
         <div class="hero__wrapper-content">
             <div class="hero__container">
                 <div class="hero__content">
                     <div class="hero__row">
                         <div class="col-md-7">
-                            <div class="hero__title hero__title--static">
-                                <h1 class="hero-title hero-title__simple">Local moving company</h1>
+                            <div class="hero__title">
+                                <div class="hero-title">
+                                    <div class="hero-title__simple hero__title--static">@yield('hero-title')</div>
+                                </div>
                             </div>
-                            <div class="hero__description hero__description--big">Without any hidden fees and extra chargers</div>
+                            <div class="hero__description hero__description--big">@yield('hero-description')</div>
                         </div>
                     </div>
                 </div>
@@ -31,241 +25,21 @@
         </div>
     </section>
 
-    {{-- Services --}}
-    <section class="section mb-5">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title section-title--upper">Local Moving Services Areas</h2>
-            </div>
-            <div class="services-collection theme-sm theme-ladder">
-                <div class="services-collection__list">
-                    <div class="row services-collection__row">
-                        <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Boston.jpg')}}" alt="Boston" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title">Boston</div>
-                            </a>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Newton.JPG')}}" alt="Newton" class="services-collection-item__img">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title">Newton</div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row services-collection__row">
-                        <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/adeeea3b-b3ab-47bd-8.jpg')}}" alt="Somerville" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Somerville</div>
-                            </a>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/9fc2906b-00c5-4aaf-8.jpg')}}" alt="Brookline" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Brookline</div>
-                            </a>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Cambridge.jpg')}}" alt="Cambridge" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Cambridge</div>
-                            </a>
-                        </div>
-                    </div>
-                <div style="padding-top:20px;padding-bottom:20px;font-size: 1.5em;">
-                	<div class="container">
-                		<div class="row">
-                			<div class="col-md-3">
-                				<div style="text-align:center;">Allston Movers<br>Norwood Movers<br>Revere Movers</div>
-                			</div>
-                      <div class="col-md-3">
-                				<div style="text-align:center;">Watertown Movers<br>Quincy Movers<br>Arlington Movers</div>
-                			</div>
-                      <div class="col-md-3">
-                				<div style="text-align:center;">Waltham Movers<br>Needham Movers<br>South Boston Movers</div>
-                			</div>
-                      <div class="col-md-3">
-                				<div style="text-align:center;">Medford Movers<br>North End Movers<br>Fenway Movers</div>
-                			</div>
-                		</div>
-                	</div>
-              	</div>
-                <!--Local moving services-->
-              <!--<div class="row services-collection__row">
-                        <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'allston')}}">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Allston.jpg')}}" alt="Allston" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Allston</div>
-                            </a>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'watertwon')}}">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Watertown.jpg')}}" alt="Watertwon" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Watertwon</div>
-                            </a>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'waltham')}}">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Waltham.jpg')}}" alt="Waltham" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Waltham</div>
-                            </a>
-                        </div>
-                        <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="{{route('services.local-moving.area', 'medford')}}">
-                                <div class="services-collection-item__background">
-                                    <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/local/Medford.JPG')}}" alt="Medford" class="services-collection-item__img services-collection-item__img--brightness-high">
-                                    </div>
-                                </div>
-                                <div class="services-collection-item__title services-collection-item__title--small">Medford</div>
-                            </a>
-                        </div>
-                    </div>-->
-                </div>
-            </div>
-            <div class="section__button">
-                <a href="/moving-quote" class="btn-simple btn-simple--medium">Get free Estimate</a>
-            </div>
-        </div>
-    </section>
-
+    {{-- Seo text --}}
     <section class="section mb-4">
         <div class="container-fluid">
             <div class="content-blocks">
                 <div class="content-blocks__list">
-                    <div class="content-blocks__item">
-                        <div class="row content-blocks-item">
-                            <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
-                                <img src="{{asset('images/services/local/content/IMG_7828.jpg')}}" alt="" class="content-blocks-item__img">
-                            </div>
-                            <div class="col-lg-6 order-lg-0 content-blocks-item__body">
-                                <div class="content-blocks-item__body-inner">
-                                    <div class="content-blocks-item__header">
-                                        <h2 class="content-blocks-item__title-primary">Local Movers</h2>
-                                    </div>
-                                    <div class="content-blocks-item__text">
-                                      <p>If you still think of moving belongings yourself instead of hiring professional <b>local movers</b>,
-                                        there are some important things to consider before making the final moving decision.</p>
-
-                                      <p>Professional movers, who perform in
-                                        Greater Boston Local Moving services area, will surely be better in almost every moving aspect.</p>
-
-                                      <p>
-                                        Movers are familiar with the particular street locations and neighborhood hindrances, including truck restrictions,
-                                        parking permits, traffic appearances, and workarounds.
-                                        <b><a href="/about-us" target="_blank">Flash Movers</a></b> will send a representative for a visual estimate before the moving date,
-                                        making sure the quote, a moving manager provided, is accurate and you are not overcharged.
-                                        What’s also important, Flash Moving Company will be able to send additional movers and moving
-                                        equipment any time extra help is required during the moving process.
-                                      </p>
-                                      <p>
-                                        Hiring professionals movers means you won’t have to worry about any
-                                        moving related difficulties, as well as the safety of your goods,
-                                        extra packing materials, covers, and waste of your time and money.
-                                      </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-blocks__item">
-                        <div class="row content-blocks-item">
-                            <div class="col-lg-6 order-lg-0 content-blocks-item__preview">
-                                <img src="{{asset('images/services/local/content/86913f52-0728-45b7-b.jpg')}}" alt="" class="content-blocks-item__img">
-                            </div>
-                            <div class="col-lg-6 order-lg-1 content-blocks-item__body">
-                                <div class="content-blocks-item__body-inner">
-                                    <div class="content-blocks-item__header">
-                                        <h2 class="content-blocks-item__title-primary">Flash Moving Services Local</h2>
-                                        <h3 class="content-blocks-item__title-secundare">your trusted local moving service provider</h3>
-                                    </div>
-                                    <div class="content-blocks-item__text">
-                                      <p>
-                                        <b>Flash Moving Local Services</b> areas include the most well-known and popular locations such as
-                                        Boston, Newton, Somerville, Brookline, and Cambridge.<br>
-                                        We also perform local services in the entire Greater Boston area and throughout New England.
-                                      </p>
-                                      <p>
-                                        Since moving is a part of our everyday life, our Flash Movers are experienced in everything that comes
-                                        along with a word “moving”. Including accurate moving estimates, on time appearance,
-                                        professional packing services, moving equipment, and moving materials,
-                                        storage facilities, moving affordability, goods safety and protection during the moving process.
-                                      </p>
-                                      <p>
-                                        Hiring professional movers to perform <b>Local Moving Services</b> can really be cost effective.
-                                        There are too many things and expenses customers normally
-                                        forget to take into consideration when moving by themselves: gas, tolls, truck rental,
-                                        insurance costs, and etc. Choosing cheap wrapping materials and covers could also lead to
-                                        unexpected damages and moving expenses.
-                                      </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-blocks__item">
-                        <div class="row content-blocks-item">
-                            <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
-                                <img src="{{asset('images/services/local/content/IMG_7937.jpg')}}" alt="" class="content-blocks-item__img">
-                            </div>
-                            <div class="col-lg-6 order-lg-0 content-blocks-item__body">
-                                <div class="content-blocks-item__body-inner">
-                                    <div class="content-blocks-item__text">
-                                      <p>
-                                        That is why one of the advantages of hiring Flash Moving Company is that our movers know how to
-                                        perform a safe and a stress-free moving process. Flash movers are professionally
-                                        trained and prepared to handle just about any unpredictable moving situation.
-                                      </p>
-                                      <p>
-                                        When it comes to <b>local moving</b>, especially Boston, Newton, Somerville, Brookline, and Cambridge, it is very important to take into account its architectural merits and local building attributions, such as narrow staircases and doorways.
-                                        Local Moving Services performed by Flash Movers include hoisting service that cannot be accomplished by customers without the help of professional movers with relevant moving experience and moving equipment.
-                                      </p>
-                                      <p>
-                                        Let’s face it.<br> Hiring professional movers from Local Moving Company to perform the job they were trained to do is the best moving decision one can make.
-                                        It is all about admitting the fact that Flash Movers are more experienced in the moving process than you are. And there is nothing to be ashamed of. Our moving staff will do their best to provide you with peace of mind. Being customer-oriented professionals, our movers will assist you with all necessary moving services, moving consulting and solutions to your moving problems and special moving needs.
-                                      </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @yield('content-list')
                 </div>
             </div>
         </div>
     </section>
+
+    {{-- Prices country --}}
+    <div class="tabs container">
+        @yield('tabs')
+    </div>
 
     {{-- Advantages --}}
     <section class="section advantages mb-5">
@@ -539,6 +313,7 @@
         </div>
     </section>
     <!--End of Section -->
+
 @stop
 
 
