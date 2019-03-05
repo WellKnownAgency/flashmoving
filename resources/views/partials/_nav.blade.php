@@ -19,7 +19,7 @@
     </div>
     <div class="col-md-4 align-self-center" style="padding: 0; padding-right: 40px;">
       <a href="mailto:info@flashmoving.net" class="float-right btn-header" style="margin-left: 10px;">info@flashmoving.net</a>
-      <a itemprop="telephone" href="tel:+18572418778" class="float-right btn-header" style="margin-left: 10px;">+1 (857) 241-8778</a>
+      <a href="tel:+18572418778" class="float-right btn-header" style="margin-left: 10px;"><span itemprop="telephone">+1 (857) 241-8778</span></a>
     </div>
   </div>
 </div>
