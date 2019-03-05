@@ -51,7 +51,7 @@
                             </a>
                         </div>
                         <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="">
+                            <a class="services-collection-item" href="/local-moving/newton-movers">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/Newton.JPG')}}" alt="Newton" class="services-collection-item__img">

@@ -27,7 +27,7 @@
       </a>
     </div>
     <div class="pad-30 center">
-      <span>123B Olde Derby Road, Norwood, MA, 02062. Licensing information: US DOT #3025065, MDPU #31853, MC #36474
+      <span>12R Cook St, Newton, MA, 02458. Licensing information: US DOT #3025065, MDPU #31853, MC #36474
         <br>
       © All Rights Reserved. Flash Moving Company. 2017-2018 </span>
         <br>

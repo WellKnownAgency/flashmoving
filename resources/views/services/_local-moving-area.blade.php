@@ -5,7 +5,7 @@
     {{-- Hero --}}
     <section class="hero mb-5">
         <div class="hero__preview">
-            <img src="/images/hero/IMG_7908.jpg" alt="" class="hero__img hero__img--brightness-high">
+            @yield('hero-image')
         </div>
         <div class="hero__wrapper-content">
             <div class="hero__container">
@@ -38,11 +38,6 @@
 
     {{-- Prices country --}}
     <div class="tabs container">
-        <div class="nav mb-3 tabs-nav" id="prices-nav-tab" role="tablist">
-            <a class="tabs-nav__item tabs-nav__link active" id="prices-local-tab" data-toggle="tab" href="#prices-local" role="tab" aria-controls="nav-local" aria-selected="true"><span class="tabs-nav__text">Local Moving</span></a>
-            <a class="tabs-nav__item tabs-nav__link" id="prices-storage-tab" data-toggle="tab" href="#prices-storage" role="tab" aria-controls="nav-storage" aria-selected="false"><span class="tabs-nav__text">Storage</span></a>
-            <a class="tabs-nav__item tabs-nav__link" id="prices-services-tab" data-toggle="tab" href="#prices-services" role="tab" aria-controls="nav-services" aria-selected="false"><span class="tabs-nav__text">Additional Sevices</span></a>
-        </div>
         <div class="tab-content" id="prices-nav-tabContent">
             <div class="tab-pane fade show active" id="prices-local" role="tabpanel" aria-labelledby="prices-local-tab">
                 {{-- Prices --}}
@@ -436,32 +431,6 @@
         <div class="container photo-collection">
           <div id="instafeed" class="row photo-collection__list">
           </div>
-        </div>
-    </section>
-    <!--End of Section -->
-
-    <!--Section Contacts starts-->
-    <section class="section">
-        <div class="container">
-            <h2 class="section__title">Contacts</h2>
-            <div class="section-description section-description--narrow">
-                We build our business based on strong relationships with the customers. Do not hesitate asking us any moving related questions
-            </div>
-            <div class="section__collection">
-                <div class="pre-footer">
-                    <div class="pre-footer__list">
-                        <div class="pre-footer__item">
-                            <b>Phone:</b> <a class="link-marked" href="tel:+18572418778">+1 857 241 8778</a>
-                        </div>
-                        <div class="pre-footer__item">
-                            <b>E-mail:</b> <a href="mailto:info@flashmoving.net">info@flashmoving.net</a>
-                        </div>
-                        <div class="pre-footer__item">
-                            <b>Social Media:</b> <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
     <!--End of Section -->

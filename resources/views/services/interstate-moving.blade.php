@@ -1,5 +1,5 @@
-@section('title', 'Local Moving Company | Flash Moving')
-@section('dscr', 'Find a reliable local moving company in the Boston area for your move. Professional fully licensed Movers will help you with any moving service you need.')
+@section('title', 'Long Distance Moving Company | Flash Moving')
+@section('dscr', 'Professional fully licensed Long Distance Movers will help you with moving across United States. Call Now to get a free Interstate Movign Quote.')
 @section('keywords', '')
 
 @extends('layouts.main')
