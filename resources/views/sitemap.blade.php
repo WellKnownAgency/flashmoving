@@ -24,6 +24,11 @@
             <lastmod>2019-02-19</lastmod>
 						<priority>1.00</priority>
         </url>
+				<url>
+            <loc>https://flashmoving.net/local-moving/newton-movers</loc>
+            <lastmod>2019-03-03</lastmod>
+						<priority>1.00</priority>
+        </url>
         <url>
             <loc>https://flashmoving.net/storage</loc>
             <lastmod>2019-02-08</lastmod>
