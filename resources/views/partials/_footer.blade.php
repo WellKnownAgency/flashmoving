@@ -27,7 +27,7 @@
       </a>
     </div>
     <div class="pad-30 center">
-      <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">12R Cook St</span>, <span itemprop="addressLocality">Newton</span>, <span itemprop="addressRegion">MA</span>, <span itemprop="postalCode">02458</span>. Licensing information: US DOT #3025065, MDPU #31853, MC #36474
+      <span><span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">12R Cook St</span>, <span itemprop="addressLocality">Newton</span>, <span itemprop="addressRegion">MA</span>, <span itemprop="postalCode">02458</span></span>. Licensing information: US DOT #3025065, MDPU #31853, MC #36474
         <br>
       © All Rights Reserved. <span itemprop="name">Flash Moving Company</span>.  </span>
         <br>
