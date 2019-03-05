@@ -27,9 +27,9 @@
       </a>
     </div>
     <div class="pad-30 center">
-      <span>12R Cook St, Newton, MA, 02458. Licensing information: US DOT #3025065, MDPU #31853, MC #36474
+      <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">12R Cook St</span>, <span itemprop="addressLocality">Newton</span>, <span itemprop="addressRegion">MA</span>, <span itemprop="postalCode">02458</span>. Licensing information: US DOT #3025065, MDPU #31853, MC #36474
         <br>
-      © All Rights Reserved. Flash Moving Company. 2017-2018 </span>
+      © All Rights Reserved. <span itemprop="name">Flash Moving Company</span>.  </span>
         <br>
       <a href="/privacy-policy" style="opacity: 0.7;">Privacy policy</a>
       <br>

@@ -2,7 +2,7 @@
   <head>
     @include('partials/_head')
   </head>
-  <body>
+  <body itemscope itemtype="http://schema.org/LocalBusiness">
     <div class="progress-bar"></div>
     <div class="page">
         <div class="page__header">

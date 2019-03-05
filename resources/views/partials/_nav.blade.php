@@ -13,13 +13,13 @@
     <div class="col-md-4" style="padding: 0;">
       <div class="top-logo">
         <a href="/">
-          <img src="/images/logo.png" width="200px"/>
+          <img itemprop="image" src="/images/logo.png" width="200px"/>
         </a>
       </div>
     </div>
     <div class="col-md-4 align-self-center" style="padding: 0; padding-right: 40px;">
       <a href="mailto:info@flashmoving.net" class="float-right btn-header" style="margin-left: 10px;">info@flashmoving.net</a>
-      <a href="tel:+18572418778" class="float-right btn-header" style="margin-left: 10px;">+1 (857) 241-8778</a>
+      <a itemprop="telephone" href="tel:+18572418778" class="float-right btn-header" style="margin-left: 10px;">+1 (857) 241-8778</a>
     </div>
   </div>
 </div>
