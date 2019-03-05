@@ -288,7 +288,7 @@
                             </svg>
                         </div>
                         <div class="advantages-item__title">Fully Licensed and Insured</div>
-                        <div class="advantages-item__description">You don't have to worry about anything, everything is under our control</div>
+                        <div class="advantages-item__description">You do not have to worry about anything, everything is under our control</div>
                     </div>
                 </div>
                 <div class="col-md-4 advantages__item">
@@ -365,6 +365,11 @@
         </div>
         <div class="section__collection">
             <div id="carouselReviews" class="carousel slide carousel-fade" data-ride="carousel">
+								<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating" display:none;>
+				            <meta itemprop="itemReviewed" content="Flash Moving Company" />
+				            <meta itemprop="ratingValue" content="5.0" />
+				            <meta itemprop="reviewCount" content="60" />
+				        </div>
                 <ol class="carousel-indicators">
                     <li data-target="#carouselReviews" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselReviews" data-slide-to="1"></li>
@@ -429,8 +434,7 @@
                 <a class="carousel-control-prev" href="#carouselReviews" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true">
                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
-                        <path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
-        c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>
+                        <path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>
                     </svg>
                 </span>
                     <span class="sr-only">Previous</span>
