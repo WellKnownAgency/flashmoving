@@ -1,4 +1,4 @@
-@section('title', 'Boston to New York Movers, NYC - Bosont Moving | Flash Moving Company')
+@section('title', 'Boston to New York Movers, NYC - Boston Moving | Flash Moving Company')
 @section('dscr', 'Reliable and fully licensed movers from Boston to New York and Nyc to Boston. No hiden fees, delivery in 1 day. Call now for a free estimate.')
 @section('keywords', '')
 @section('mainimg', '')

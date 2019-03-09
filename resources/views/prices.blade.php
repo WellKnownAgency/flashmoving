@@ -595,7 +595,7 @@
                             </svg>
                         </div>
                         <div class="advantages-item__title">Fully Licensed and Insured</div>
-                        <div class="advantages-item__description">You don't have to worry about anything, everything is under our control</div>
+                        <div class="advantages-item__description">You do not have to worry about anything, everything is under our control</div>
                     </div>
                 </div>
                 <div class="col-md-4 advantages__item">
@@ -672,6 +672,11 @@
         </div>
         <div class="section__collection">
             <div id="carouselReviews" class="carousel slide carousel-fade" data-ride="carousel">
+								<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating" display:none;>
+										<meta itemprop="itemReviewed" content="Flash Moving Company" />
+										<meta itemprop="ratingValue" content="5.0" />
+										<meta itemprop="reviewCount" content="60" />
+								</div>
                 <ol class="carousel-indicators">
                     <li data-target="#carouselReviews" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselReviews" data-slide-to="1"></li>
