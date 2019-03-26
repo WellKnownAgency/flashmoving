@@ -1,50 +1,129 @@
+@section('title', 'Packers and Movers Boston | Flash Moving')
+@section('dscr', 'Packers in Boston. Flash Moving Company provides packing solution for your moving, including packing and moving service and all materials you need for a perfect and safe move.')
+@section('keywords', '')
+
 @extends('layouts.main')
+
+@section('preload')
+<link rel="preload" href="/images/hero/IMG_7908.jpg" as="image">
+@stop
 
 @section('content')
 
     {{-- Hero --}}
     <section class="hero mb-5">
         <div class="hero__preview">
-					@yield('hero-image')
+            <img src="/images/hero/IMG_7908.jpg" alt="" class="hero__img hero__img--brightness-high">
         </div>
         <div class="hero__wrapper-content">
             <div class="hero__container">
                 <div class="hero__content">
                     <div class="hero__row">
                         <div class="col-md-7">
-                            <div class="hero__title">
-                                <div class="hero-title">
-                                    <div class="hero-title__simple hero__title--static">@yield('hero-title')</div>
-                                </div>
+                            <div class="hero__title hero__title--static">
+                                <h1 class="hero-title hero-title__simple">Packers and Movers Boston</h1>
                             </div>
-                            <div class="hero__description hero__description--big">@yield('hero-description')</div>
+                            <div class="hero__description hero__description--big">Without any hidden fees and extra chargers</div>
                         </div>
                     </div>
-										<div class="hero__row">
-											<div class="col-md-12 text-center">
-												<a href="/moving-quote" class="btn-hero btn-hero-nav btn-hero--large btn-hero--hover-green">Free Estimate</a>
-											</div>
-										</div>
                 </div>
             </div>
         </div>
     </section>
 
-    {{-- Seo text --}}
     <section class="section mb-4">
         <div class="container-fluid">
             <div class="content-blocks">
                 <div class="content-blocks__list">
-                    @yield('content-list')
+                    <div class="content-blocks__item">
+                        <div class="row content-blocks-item">
+                            <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
+                                <img src="{{asset('images/services/local/content/IMG_7828.jpg')}}" alt="" class="content-blocks-item__img">
+                            </div>
+                            <div class="col-lg-6 order-lg-0 content-blocks-item__body">
+                                <div class="content-blocks-item__body-inner">
+                                    <div class="content-blocks-item__header">
+                                        <h2 class="content-blocks-item__title-primary">Packing Services</h2>
+                                    </div>
+                                    <div class="content-blocks-item__text">
+                                      <p>
+																				If you are trying to avoid extra costs and save some money on your move, you should consider hiring professional packers. It’ll save your time, your money and will leave the stress out of your move.
+																			</p>
+																			<p>
+																				Any moving company that provides home packing services will send experienced, professional packers to your place and will deliver all necessary equipment such as boxes, packing paper, bubble wrap, stretch and shrink wrap, rolls of tape, blankets, and home protection.
+																			</p>
+																			<p>
+																				Packers will use special techniques and skills to make sure your belongings are delivered safe and secured to any desired destination, whether it is a local move within Boston area or a long-distance journey.
+																			</p>
+																			<p>
+																				With Flash Movers, you are guaranteed to receive an outstanding, top-notch packing service and moving experience at affordable pricing with no hidden fees.
+																			</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-blocks__item">
+                        <div class="row content-blocks-item">
+                            <div class="col-lg-6 order-lg-0 content-blocks-item__preview">
+                                <img src="{{asset('images/services/local/content/86913f52-0728-45b7-b.jpg')}}" alt="" class="content-blocks-item__img">
+                            </div>
+                            <div class="col-lg-6 order-lg-1 content-blocks-item__body">
+                                <div class="content-blocks-item__body-inner">
+                                    <div class="content-blocks-item__header">
+                                        <h2 class="content-blocks-item__title-primary">Packers and Movers</h2>
+                                    </div>
+                                    <div class="content-blocks-item__text">
+                                      <p>
+																				With all of the buzz that comes with moving, one of the most crucial aspects of the entire process is to find a moving help or hire reliable moving companies that pack for you.
+																				Experienced packing movers will make sure that nothing is overlooked, missed or forgotten.
+                                      </p>
+                                      <p>
+                                        Whenever you are ready for packing to move, our professional packers will provide you with any packing service requested: full packing, partial packing or unpacking services. We’ll be there to pack as much or as little as you need. We’ll also be happy to assist you with packing even if you aren’t moving or need packing service for storage or some packing supplies.
+                                      </p>
+                                      <p>
+                                        Flash Moving Company guarantees no extra costs for packing services. The price for packing services is the same as the hourly rate for moving and is priced accordingly to the time spent, keeping it simple and consistent for you.
+                                      </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-blocks__item">
+                        <div class="row content-blocks-item">
+                            <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
+                                <img src="{{asset('images/services/local/content/IMG_7937.jpg')}}" alt="" class="content-blocks-item__img">
+                            </div>
+                            <div class="col-lg-6 order-lg-0 content-blocks-item__body">
+                                <div class="content-blocks-item__body-inner">
+																	<div class="content-blocks-item__header">
+																			<h2 class="content-blocks-item__title-primary">Packing and Unpacking</h2>
+																	</div>
+                                    <div class="content-blocks-item__text">
+                                      <p>
+																				Should you hire a professional crew to perform a full packing service, partial packing or just unpacking is entirely up to you, your time, and budget.
+																				To make the right decision, you should have an idea what kind of packing services are out there in the market.
+                                      </p>
+                                      <p>
+																				Full Packing Service takes all the worries out of your move.
+																				We will send experienced and professional packers to your home to pack up everything from the attic to the basement. Most of the time, we can pack your home in a day or less, taking necessary care of your specialty items, valuable, and fragile items as well.
+                                      </p>
+                                      <p>
+                                        Partial Moving Service is usually performed when you are willing to pack the stuff yourself, but still want to leave tricky areas as such as the basement, kitchen or attic to professionals.
+                                      </p>
+																			<p>
+																				Unpacking is the point you’ll definitely get to.
+																			In most cases, people are too exhausted to perform this tiresome business themselves. If you are looking for some assistance settling into your new home, our professional packers will undertake the entire job and will be happy to provide a few hours of unpacking service.
+																			</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
-    {{-- Prices country --}}
-    <div class="tabs container">
-        @yield('tabs')
-    </div>
 
     {{-- Advantages --}}
     <section class="section advantages mb-5">
@@ -145,10 +224,10 @@
         <div class="section__collection">
             <div id="carouselReviews" class="carousel slide carousel-fade" data-ride="carousel">
 								<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating" display:none;>
-										<meta itemprop="itemReviewed" content="Flash Moving Company" />
-										<meta itemprop="ratingValue" content="5.0" />
-										<meta itemprop="reviewCount" content="60" />
-								</div>
+				            <meta itemprop="itemReviewed" content="Flash Moving Company" />
+				            <meta itemprop="ratingValue" content="5.0" />
+				            <meta itemprop="reviewCount" content="60" />
+				        </div>
                 <ol class="carousel-indicators">
                     <li data-target="#carouselReviews" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselReviews" data-slide-to="1"></li>
@@ -213,8 +292,7 @@
                 <a class="carousel-control-prev" href="#carouselReviews" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true">
                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
-                        <path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
-        c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>
+                        <path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>
                     </svg>
                 </span>
                     <span class="sr-only">Previous</span>
@@ -323,7 +401,6 @@
         </div>
     </section>
     <!--End of Section -->
-
 @stop
 
 

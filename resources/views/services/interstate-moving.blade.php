@@ -62,7 +62,7 @@
                         </div>
                     </div>
                     <div class="row services-collection__row">
-                        <div class="col-sm services-collection__item">
+                        <a class="col-sm services-collection__item" href="/long-distance-movers/boston-philadelphia-moving">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
@@ -71,7 +71,7 @@
                                 </div>
                                 <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Philadelphia</div>
                             </div>
-                        </div>
+                        </a>
                         <div class="col-sm services-collection__item">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">

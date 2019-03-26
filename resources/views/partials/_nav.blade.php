@@ -40,6 +40,7 @@
           <a class="dropdown-item" href="{{route('services.local-moving')}}">Local Moving</a>
           <a class="dropdown-item" href="{{route('services.interstate-moving')}}">Long Distance Moving</a>
           <a class="dropdown-item" href="{{route('services.storage')}}">Moving and Storage</a>
+					<a class="dropdown-item" href="{{route('services.packing')}}">Packing</a>
         </div>
       </li>
       <li class="nav-item">

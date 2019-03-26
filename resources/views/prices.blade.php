@@ -516,7 +516,7 @@
                             </div>
                             <div class="collapse accordion-content-item__body" id="collapsePayment" aria-labelledby="headingPayment" data-parent="#accordionPricesFaq">
                                 <div class="accordion-content-item__text">
-                                    For payments we accept <strong>cash, money order, certified check and all kind of cards</strong>. <br>For <strong>credit/debit card </strong>payments there will be a<strong> 3% service fee</strong>. The card should be presented at the time of payment and the name on the card should be the same as on the bill of landing.<br><br><strong>For CASH payments there will be 5% DISCOUNT.</strong><br>
+                                    For payments we accept <strong>cash, money order, certified check and all kind of cards</strong>. <br>For <strong>credit/debit card </strong>payments there will be a<strong> 3% service fee</strong>. The card should be presented at the time of payment and the name on the card should be the same as on the bill of landing.<br>
                                 </div>
                             </div>
                         </div>
@@ -532,7 +532,7 @@
                             </div>
                             <div class="collapse accordion-content-item__body" id="collapseDiscount" aria-labelledby="headingDiscount" data-parent="#accordionPricesFaq">
                                 <div class="accordion-content-item__text">
-                                    If you are our <strong>NEW CLIEN</strong> you will get <strong>5% DISCOUNT</strong> as a <strong>"Welcome Bonus"</strong> (applies for labor time+travel time only). <br><br> If you are our <strong>REPEAT CLIENT</strong>, please, contact our manager during working hours (9AM - 6PM) via the phone at <strong>857.241.8778</strong> or 24/7 via the email at <strong>info@flashmoving.net </strong><br><br> <strong>For CASH PAYMENTS we provide ADDITIONAL 5% DISCOUNT</strong> (applies for labor, travel time and packing supplies) <br>
+                                    If you are our <strong>NEW CLIEN</strong> you will get <strong>5% DISCOUNT</strong> as a <strong>"Welcome Bonus"</strong> (applies for labor time+travel time only). <br><br> If you are our <strong>REPEAT CLIENT</strong>, please, contact our manager during working hours (9AM - 6PM) via the phone at <strong>857.241.8778</strong> or 24/7 via the email at <strong>info@flashmoving.net </strong>
                                 </div>
                             </div>
                         </div>

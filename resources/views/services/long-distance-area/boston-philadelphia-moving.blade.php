@@ -1,11 +1,11 @@
-@section('title', 'Boston to New York Movers, NYC - Boston Moving | Flash Moving Company')
-@section('dscr', 'Reliable and fully licensed movers from Boston to New York and Nyc to Boston. No hiden fees, delivery in 1 day. Call now for a free estimate.')
+@section('title', 'Movers from Boston to Philadelphia, Philly to Boston Moving')
+@section('dscr', 'Fully Licensed Moving Company from Boston to Philadelphia. Our reliable movers will make your move from Philly to Boston smooth and easy.')
 @section('keywords', '')
 @section('mainimg', '')
 
 @extends('services._long-distance-area')
 
-@section('hero-title', 'Boston to New York Movers')
+@section('hero-title', 'Movers from Boston to Philadelphia')
 @section('hero-description', 'Reliable and fully licensed movers.')
 @section('hero-image')
 <img src="/images/services/interstate/IMG_7929.jpg" alt="" class="hero__img hero__img--brightness-high">
@@ -19,21 +19,24 @@
             <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                 <div class="content-blocks-item__body-inner">
                     <div class="content-blocks-item__header">
-                        <h2 class="content-blocks-item__title-primary">Boston to New York movers</h2>
+                        <h2 class="content-blocks-item__title-primary">Moving Company from Boston to Philadelphia</h2>
                     </div>
                     <div class="content-blocks-item__text">
-											<p>Are you looking for <strong>Movers from Boston to New York</strong>? Look no more!
-												<br>In addition to servicing the Greater Boston Area, <strong>Flash Moving Company</strong> has FMCSA license to perform long distance moving services and cross country moves.</p>
-
-											<p>Moving from Boston to New York City is one of the most common and frequently requested moves we get.
-												Being a trusted moving company in interstate moves, Flash Movers care about mapping out an ideal plan for your Boston to NYC move.
-												We offer a free consultation, free on-site estimates, reliable and efficient drivers and employees, as well as years of experience and guaranteed flat rates.
-											<br>
-											Knowing our customers and the problems they used to face while relocating from Boston to New York, Flash Moving Company decided to take care of all unexpected and unconsidered expenses one may get.
-												That is why our flat rate system includes everything you will ever need: mileage and tolls, moving insurance, labor and equipment, tracking system, taxes, and safe delivery.</p>
-
-											<p>When choosing Flash Moving as your ‘<strong>Boston to NYC moving company</strong>,’ you can be sure that our movers will be the one to offer a smooth, stress-free, top notch moving experience.</p>
-
+											<p>
+												If you are moving from Boston to Philadelphia and still have concerns about the decision you’ve made, forget about all the worries. You are moving from one magnificent city to another; from one of the oldest cities to the fifth largest megalopolis in the country.
+											</p>
+											<p>
+												To make the journey comfortable and exciting, make sure you’ve prepared a list of <strong>Boston to Philly movers</strong> and compared long-distance companies and the services they provide.
+											</p>
+											<p>
+												<p>
+											Flash Moving Company is a reliable relocation provider who will get you from Boston to Philadelphia with no hassle at all.</p>
+											<p>
+											Flash movers are happy to handle all the hard work while offering guaranteed flat rates for long-distance moves you can afford.</p>
+											<p>
+											We did our best to make your move from Boston to Philadelphia as smooth as possible. We’ve included everything into the fixed rate we offer:
+											Complete Boston to Philadelphia moving service with clean, fully equipped moving truck and professionally trained and insured moving crew.
+											</p>
 										</div>
                 </div>
             </div>
@@ -47,21 +50,20 @@
             <div class="col-lg-6 order-lg-1 content-blocks-item__body">
                 <div class="content-blocks-item__body-inner">
                     <div class="content-blocks-item__header">
-                        <div class="content-blocks-item__title-primary">Moving Company from NYC to Boston</div>
+                        <div class="content-blocks-item__title-primary">Movers from Philadelphia to Boston</div>
                     </div>
                     <div class="content-blocks-item__text">
-											<p>Are you looking for a reliable moving company from NYC to Boston?
-											<br>Or maybe you are in need for the fastest <strong>New york to Boston Moving</strong>?
-											<br>Do you wonder what it takes to choose the right moving company for your upcoming move?
+											<p>
+												There are thousands of people moving to Boston every year. Philadelphia is one of the most popular cities people come from due to a variety of reasons: job relocation, schools, and a fantastic Fall season in New England you cannot get enough of.
 											</p>
 											<p>
-											The secret of making unmistakable decision lies at the heart of understanding the moving process. Luckily, this process has never been easier.
-
-											<br>Flash Movers are among the best New York City to Boston movers.
-
-											<br>We will provide a free, detailed consultation on moving from New York to Boston. We will also help you to prepare everything for the moving date by sharing a full list of moving hacks and tips.
-
-											<br>Whether it is a same-day delivery or a next day delivery, we’ll figure out the best route and timing options for you.
+												To make the journey less stressful and a fresh start more joyful, you should hire a mover who will deliver your belongings from Philadelphia to Boston safely and quickly.
+											</p>
+											<p>
+												Whether you are moving for personal or professional reasons, Flash Movers will make sure you move on time without exceeding your own or your employer’s set budget.
+											</p>
+											<p>
+												Since we are experts in <a href="/long-distance-movers">long-distance moves</a>, we also guarantee a stress-free and seamless relocation from Philadelphia to Boston.
 											</p>
 										</div>
                 </div>
@@ -76,17 +78,24 @@
             <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                 <div class="content-blocks-item__body-inner">
                     <div class="content-blocks-item__text">
-												<p>The most common criterion for googling in attempts to find a company performing moving services from Boston to NYC is based on the budget.
-												</p>
-												<p>Taking into consideration the prices, you may ignore the quality of service and the experience offered. That’s what matters.
-												</p>
-												<p>The market is oversaturated with companies offering moving services. However, the quality of the service performed is incomparably different. Especially, when moving from Boston to NYC and other long-distance destinations. The risk of loss and damage is a lot higher when it comes to a long highway drive.
-
-												<br>Proper wrapping, packaging, and transportation is crucial.
+												<p>
+													If you are reading this article, you are probably half way on making your decision to move from Boston to Philadelphia or consider moving from Philly to Boston.
 												</p>
 												<p>
-												Before making any decisions, don’t hesitate to ask a manager about materials they use to protect your belongings, tracking system and insurance used to make sure your items are safe and secured, and whether or not they are licensed to perform interstate moving services.
-											</p>
+													Both cities are popular destinations among tourists, professionals, students, and people seeking a perfect place to live with their families.
+												</p>
+												<p>
+													Boston and Philadelphia both have a rich history, lots of historical and architectural sightseeing, and great destination points.
+												</p>
+												<p>
+												Moreover, Philadelphians and Bostonians share the same endless troubles navigating narrow streets of Downtown and its neighborhood and dealing with tight stairways of row houses throughout the city.
+												</p>
+												<p>
+													Flash Moving company offers its relocation expertise to help you move between cities without a hassle.
+												</p>
+												<p>
+													Not only do we know how to handle those tangled streets and narrow staircases, but we also know how to take professional care of your furniture and fragile items on their Philadelphia to Boston and Boston to Philadelphia Moving Journey.
+												</p>
 										</div>
                 </div>
             </div>
@@ -104,7 +113,7 @@
 				<div class="section">
 						<div class="container">
 								<div class="section-header">
-										<h2 class="section-title section-title--upper">Boston to NEw York Moving Rates</h2>
+										<h2 class="section-title section-title--upper">Boston to Philadelphia Moving Rates</h2>
 								</div>
 
 								<div class="section__collection">
@@ -115,7 +124,7 @@
 																		<div class="prices-collection-item">
 																				<h3 class="prices-collection-item__title">Room or Less</h3>
 																				<div class="prices-collection-item__prices">
-																						<div class="prices-collection-item__price">from $900</div>
+																						<div class="prices-collection-item__price">from $1100</div>
 																				</div>
 																				<div class="prices-collection-item__features">
 																						<div class="prices-collection-item__btn-more">
@@ -144,7 +153,7 @@
 																		<div class="prices-collection-item prices-collection-item--big">
 																				<h3 class="prices-collection-item__title">Studio / 1 Bedroom</h3>
 																				<div class="prices-collection-item__prices">
-																						<div class="prices-collection-item__price">from $1150</div>
+																						<div class="prices-collection-item__price">from $1400</div>
 																				</div>
 																				<div class="prices-collection-item__features">
 																						<div class="prices-collection-item__btn-more">
@@ -173,7 +182,7 @@
 																		<div class="prices-collection-item">
 																				<h3 class="prices-collection-item__title">2 Bedroom and More</h3>
 																				<div class="prices-collection-item__prices">
-																						<div class="prices-collection-item__price">from $1450</div>
+																						<div class="prices-collection-item__price">from $1650</div>
 																				</div>
 																				<div class="prices-collection-item__features">
 																						<div class="prices-collection-item__btn-more">

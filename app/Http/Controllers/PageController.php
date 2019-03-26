@@ -47,6 +47,11 @@ class PageController extends Controller
         return view('services.storage');
     }
 
+		public function packing()
+    {
+        return view('services.packing');
+    }
+
     public function prices()
     {
         return view('prices');

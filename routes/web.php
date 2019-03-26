@@ -11,9 +11,6 @@ Route::get('/moving-quote', 'PageController@quote');
 Route::post('contact-us', 'PageController@contactUs');
 Route::get('/sitemap.xml', 'PageController@sitemap');
 
-Route::get('/fancy-flowers', function(){
-    return Redirect::to('/case-studies/fancy-flowers', 301);
-});
 
 Route::name('services.')->group(function () {
     Route::get('local-moving/{slug}', 'PageController@localMovingArea')->name('local-moving.area');
@@ -23,4 +20,6 @@ Route::name('services.')->group(function () {
     Route::get('long-distance-movers', 'PageController@interstateMoving')->name('interstate-moving');
 
     Route::get('storage', 'PageController@storage')->name('storage');
+
+		Route::get('packers-and-movers', 'PageController@packing')->name('packing');
 });

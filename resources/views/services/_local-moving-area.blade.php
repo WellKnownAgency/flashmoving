@@ -20,6 +20,11 @@
                             <div class="hero__description hero__description--big">@yield('hero-description')</div>
                         </div>
                     </div>
+										<div class="hero__row">
+											<div class="col-md-12 text-center">
+												<a href="/moving-quote" class="btn-hero btn-hero-nav btn-hero--large btn-hero--hover-green">Free Estimate</a>
+											</div>
+										</div>
                 </div>
             </div>
         </div>

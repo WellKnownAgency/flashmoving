@@ -19,18 +19,17 @@
                         <div class="col-md-6">
                             <div class="hero__title" style="padding-top:38px;">
                                 <div class="hero-title" style="line-height: 0.2em">
-                                    <div class="hero-title__simple">Flash Moving</div>
                                     <span class="hero-title__dynamic"></span>
                                 </div>
                             </div>
-                            <div class="hero__description hero__description--big">Movers in Boston Area<br>
+                            <div class="hero__description hero__description--big">Licensed and Insured Movers in Boston Area<br>
                                 Without any hidden fees and extra chargers</div>
 
                         </div>
                     </div>
 										<div class="hero__row">
 											<div class="col-md-12 text-center">
-												<a href="moving-quote" class="btn-hero btn-hero-nav btn-hero--large btn-hero--hover-green">Free Estimate</a>
+												<a href="/moving-quote" class="btn-hero btn-hero-nav btn-hero--large btn-hero--hover-green">Free Estimate</a>
 											</div>
 										</div>
 
@@ -63,7 +62,7 @@
     <section class="section" style="padding-top: 70px; padding-bottom: 0;">
         <div class="container">
             <div class="section-header" style="margin-bottom: 55px;">
-                <h2 class="section-title section-title--upper">Flash Moving Services</h2>
+                <h1 class="section-title section-title--upper">Flash Moving Services</h1>
             </div>
             <div class="services-collection theme-md">
                 <div class="services-collection__list">
@@ -480,7 +479,7 @@
     <script>
         // Hero section
         new Typed('.hero-title__dynamic', {
-            strings: ["Insured", "Licensed"],
+            strings: ["Flash Moving"],
             typeSpeed: 200,
             backSpeed: 10,
             startDelay: 600,
