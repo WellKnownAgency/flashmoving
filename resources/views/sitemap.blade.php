@@ -14,6 +14,11 @@
             <lastmod>2019-02-08</lastmod>
 						<priority>1.00</priority>
         </url>
+				<url>
+            <loc>https://flashmoving.net/packers-and-movers</loc>
+            <lastmod>2019-03-25</lastmod>
+						<priority>1.00</priority>
+        </url>
         <url>
             <loc>https://flashmoving.net/long-distance-movers</loc>
             <lastmod>2019-02-19</lastmod>
@@ -22,6 +27,11 @@
 				<url>
             <loc>https://flashmoving.net/long-distance-movers/boston-new-york-moving</loc>
             <lastmod>2019-02-19</lastmod>
+						<priority>1.00</priority>
+        </url>
+				<url>
+            <loc>https://flashmoving.net/long-distance-movers/boston-philadelphia-moving</loc>
+            <lastmod>2019-03-25</lastmod>
 						<priority>1.00</priority>
         </url>
 				<url>

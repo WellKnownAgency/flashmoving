@@ -109,7 +109,7 @@
                                 <div class="services-collection-item__title services-collection-item__title--small">Commercial moving</div>
                             </div>
                         </div>
-                        <div class="col-sm services-collection__item">
+                        <a class="col-sm services-collection__item" href="/packers-and-movers">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
@@ -118,7 +118,7 @@
                                 </div>
                                 <div class="services-collection-item__title services-collection-item__title--small">Packing</div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
