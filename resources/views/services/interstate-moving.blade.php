@@ -72,7 +72,7 @@
                                 <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Philadelphia</div>
                             </div>
                         </a>
-                        <div class="col-sm services-collection__item">
+                        <a href="/long-distance-movers/boston-chicago-movers" class="col-sm services-collection__item">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
@@ -81,7 +81,7 @@
                                 </div>
                                 <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Chicago</div>
                             </div>
-                        </div>
+                        </a>
                         <div class="col-sm services-collection__item">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">

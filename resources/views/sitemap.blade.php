@@ -35,6 +35,11 @@
 						<priority>1.00</priority>
         </url>
 				<url>
+            <loc>https://flashmoving.net/long-distance-movers/boston-chicago-movers</loc>
+            <lastmod>2019-04-8</lastmod>
+						<priority>1.00</priority>
+        </url>
+				<url>
             <loc>https://flashmoving.net/local-moving/newton-movers</loc>
             <lastmod>2019-03-03</lastmod>
 						<priority>1.00</priority>

@@ -80,6 +80,7 @@
           <a class="dropdown-item" href="/local-moving">Local Moving</a>
           <a class="dropdown-item" href="{{route('services.interstate-moving')}}">Long Distance</a>
           <a class="dropdown-item" href="/storage">Moving and Storage</a>
+					<a class="dropdown-item" href="/packers-and-movers">Packing</a>
         </div>
       </li>
       <li class="nav-item">

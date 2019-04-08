@@ -10,7 +10,7 @@
         <div class="hero__wrapper-content">
             <div class="hero__container">
                 <div class="hero__content">
-                    <div class="hero__row">
+                    <div class="hero__row mt-40">
                         <div class="col-md-7">
                             <div class="hero__title">
                                 <div class="hero-title">
