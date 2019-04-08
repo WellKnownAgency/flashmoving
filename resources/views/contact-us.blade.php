@@ -6,7 +6,7 @@
 @extends('layouts.main')
 
 @section('content')
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <div class="contact">
   <div class="container">
     <div class="contact_intro">
@@ -81,7 +81,9 @@
           $('.t117').bind('displayChanged', function() {
               fireRefreshEventOnWindow();
           });*/
+
       </script>
+
   </div>
 <!--End of Google Map-->
 </div>
