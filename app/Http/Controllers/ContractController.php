@@ -14,7 +14,8 @@ class ContractController extends Controller
       'name'=>'required|max:255',
       'body'=>'required|max:3000',
       'email'=>'required|email|max:100',
-      'phone'=>'required|max:255'
+      'phone'=>'required|max:255',
+			'g-recaptcha-response' => 'required|captcha'
     ));
 
     $contact = new Contact;

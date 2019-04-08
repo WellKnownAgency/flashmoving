@@ -48,6 +48,12 @@
             <div class="form-group">
                 <textarea class="form-control" name="body" id="body" placeholder="Your comments"></textarea>
             </div>
+						@if ($errors->has('g-recaptcha-response'))
+						    <span class="help-block">
+						        <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
+						    </span>
+						@endif
+							{!! NoCaptcha::display() !!}
               <button type="submit" class="btn btn-default btn-mob">Send</button>
             </form>
         </div>
