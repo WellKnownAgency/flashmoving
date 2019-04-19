@@ -50,7 +50,7 @@
                                 <div class="services-collection-item__title services-collection-item__title--upper">New York</div>
                             </div>
                         </a>
-                        <div class="col-sm services-collection__item">
+                        <a href="/long-distance-movers/boston-washington-dc-moving" class="col-sm services-collection__item">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
@@ -59,7 +59,7 @@
                                 </div>
                                 <div class="services-collection-item__title services-collection-item__title--upper">Washington DC</div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="row services-collection__row">
                         <a class="col-sm services-collection__item" href="/long-distance-movers/boston-philadelphia-moving">

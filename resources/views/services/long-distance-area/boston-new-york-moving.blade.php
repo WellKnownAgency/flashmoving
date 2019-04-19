@@ -104,7 +104,7 @@
 				<div class="section">
 						<div class="container">
 								<div class="section-header">
-										<h2 class="section-title section-title--upper">Boston to NEw York Moving Rates</h2>
+										<h2 class="section-title section-title--upper">Boston to New York Moving Rates</h2>
 								</div>
 
 								<div class="section__collection">

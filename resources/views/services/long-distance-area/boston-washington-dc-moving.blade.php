@@ -1,11 +1,11 @@
-@section('title', 'Movers from Boston to Philadelphia, Philly to Boston Moving')
-@section('dscr', 'Fully Licensed Moving Company from Boston to Philadelphia. Our reliable movers will make your move from Philly to Boston smooth and easy.')
+@section('title', 'Movers from Boston to Washington, DC, Washinton, DC to Boston Moving')
+@section('dscr', 'Fully Licensed Moving Company from Boston to Washington, DC. Our professional movers will make your move from Capital of the US to Boston smooth and easy.')
 @section('keywords', '')
 @section('mainimg', '')
 
 @extends('services._long-distance-area')
 
-@section('hero-title', 'Movers from Boston to Philadelphia')
+@section('hero-title', 'Movers from Boston to Washington, DC')
 @section('hero-description', 'Reliable and fully licensed movers.')
 @section('hero-image')
 <img src="/images/services/interstate/IMG_7929.jpg" alt="" class="hero__img hero__img--brightness-high">
@@ -19,23 +19,22 @@
             <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                 <div class="content-blocks-item__body-inner">
                     <div class="content-blocks-item__header">
-                        <h2 class="content-blocks-item__title-primary">Movers from Boston to Philadelphia</h2>
+                        <h2 class="content-blocks-item__title-primary">Movers from Boston to WAshington, DC</h2>
                     </div>
                     <div class="content-blocks-item__text">
 											<p>
-												If you are moving from Boston to Philadelphia and still have concerns about the decision you’ve made, forget about all the worries. You are moving from one magnificent city to another; from one of the oldest cities to the fifth largest megalopolis in the country.
+												Today is a perfect day to make your move come true.
+											If you are looking for <strong>Movers from Boston to Washington, DC</strong> consider this challenging task completed.
+											Flash Moving Company will be happy to haul your belongings to any location you wish, including a 440-miles long move from Boston to Washington, DC.
 											</p>
 											<p>
-												To make the journey comfortable and exciting, make sure you’ve prepared a list of <strong>Boston to Philly movers</strong> and compared long-distance companies and the services they provide.
+												Our professional and friendly team of experienced movers and moving managers will help you to plan a perfect and hassle free move from Boston to Washington.
 											</p>
 											<p>
-												<p>
-											Flash Moving Company is a reliable relocation provider who will get you from Boston to Philadelphia with no hassle at all.</p>
+												Flash Moving Company is a fully licensed and FMCSA approved company that will coordinate and perform your Boston to Washington move, making sure you are fully satisfied on every step of this exciting and life-changing way.
+											</p>
 											<p>
-											Flash movers are happy to handle all the hard work while offering guaranteed flat rates for long-distance moves you can afford.</p>
-											<p>
-											We did our best to make your move from Boston to Philadelphia as smooth as possible. We’ve included everything into the fixed rate we offer:
-											Complete Boston to Philadelphia moving service with clean, fully equipped moving truck and professionally trained and insured moving crew.
+												Get a free Quote via our website or call our <strong>Boston to Washington, DC movers</strong> to learn more about current offers and flat-rate fees.
 											</p>
 										</div>
                 </div>
@@ -50,20 +49,18 @@
             <div class="col-lg-6 order-lg-1 content-blocks-item__body">
                 <div class="content-blocks-item__body-inner">
                     <div class="content-blocks-item__header">
-                        <div class="content-blocks-item__title-primary">Movers from Philadelphia to Boston</div>
+                        <div class="content-blocks-item__title-primary">Moving Company Boston to Washington, DC</div>
                     </div>
                     <div class="content-blocks-item__text">
 											<p>
-												There are thousands of people moving to Boston every year. Philadelphia is one of the most popular cities people come from due to a variety of reasons: job relocation, schools, and a fantastic Fall season in New England you cannot get enough of.
+												When ending up with the decision to move from Boston to Washington, DC, you want to rest assured that your belongings will travel safely and the movers you hire to perform a smooth and a streamlined moving service from Boston to Washington are professional, efficient, and licensed to perform interstate moves.
 											</p>
 											<p>
-												To make the journey less stressful and a fresh start more joyful, you should hire a mover who will deliver your belongings from Philadelphia to Boston safely and quickly.
+												There are numerous challenges everyone faces in terms of relocation. You may expect those challenges to double, when it comes to interstate move.
+Packing, storage, delivery, and unpacking are one of the things we are ready to take care of for you. Our local managers will contact you to schedule a visual estimate, consult and plan your Boston to Washington move from the beginning to the very end.
 											</p>
 											<p>
-												Whether you are moving for personal or professional reasons, Flash Movers will make sure you move on time without exceeding your own or your employer’s set budget.
-											</p>
-											<p>
-												Since we are experts in <a href="/long-distance-movers">long-distance moves</a>, we also guarantee a stress-free and seamless relocation from Philadelphia to Boston.
+												No hidden fee, no extra charges. Flash Moving Company offers a flat rate fee for Boston to Washington, DC moving service with gas, tolls and miles already included in the rate provided in advance.
 											</p>
 										</div>
                 </div>
@@ -79,22 +76,12 @@
                 <div class="content-blocks-item__body-inner">
                     <div class="content-blocks-item__text">
 												<p>
-													If you are reading this article, you are probably half way on making your decision to move from Boston to Philadelphia or consider moving from Philly to Boston.
+													Boston to Washington, DC moving request is among the most frequent requests we get.
+Even though Boston, MA is considered one of the best cities to offer high-quality living conditions as well as well-paid job opportunities, Washington, DC stays a historically important, politically crucial city, which has a lot to offer in regards for career options, entertainment, and the quality of its residents’ life.
 												</p>
 												<p>
-													Both cities are popular destinations among tourists, professionals, students, and people seeking a perfect place to live with their families.
-												</p>
-												<p>
-													Boston and Philadelphia both have a rich history, lots of historical and architectural sightseeing, and great destination points.
-												</p>
-												<p>
-												Moreover, Philadelphians and Bostonians share the same endless troubles navigating narrow streets of Downtown and its neighborhood and dealing with tight stairways of row houses throughout the city.
-												</p>
-												<p>
-													Flash Moving company offers its relocation expertise to help you move between cities without a hassle.
-												</p>
-												<p>
-													Not only do we know how to handle those tangled streets and narrow staircases, but we also know how to take professional care of your furniture and fragile items on their Philadelphia to Boston and Boston to Philadelphia Moving Journey.
+													Whatever your motive for moving from Boston to Washington, DC is, Flash Movers will work on this significant transition taking into consideration your relocation needs and budget.
+You can send us a free estimate quote to find out more about Boston to Washington moving service and to learn more about our interstate moves in general.
 												</p>
 										</div>
                 </div>
@@ -113,7 +100,7 @@
 				<div class="section">
 						<div class="container">
 								<div class="section-header">
-										<h2 class="section-title section-title--upper">Boston to Philadelphia Moving Rates</h2>
+										<h2 class="section-title section-title--upper">Boston to Washington, DC Moving Rates</h2>
 								</div>
 
 								<div class="section__collection">

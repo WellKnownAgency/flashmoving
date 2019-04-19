@@ -3,6 +3,7 @@
     @include('partials/_head')
   </head>
   <body itemscope itemtype="http://schema.org/LocalBusiness">
+		@include('partials/_alert')
     <div class="progress-bar"></div>
     <div class="page">
         <div class="page__header">
