@@ -122,25 +122,7 @@
 
 
 <section class="section">
-<div class="rating-company">
-    <div class="rating-company__list">
-        <a href="#" class="rating-company__item">
-            <img src="{{asset('images/rating-company/Top-Pro-Badge.jpg')}}" alt="thumbtack">
-        </a>
-        <a href="#" class="rating-company__item">
-            <img src="{{asset('images/rating-company/Google-My-Business-L.jpg')}}" alt="Google My Business">
-        </a>
-        <a href="#" class="rating-company__item">
-            <img src="{{asset('images/rating-company/BBB-Logo.png')}}" alt="BBB">
-        </a>
-        <a href="#" class="rating-company__item">
-            <img src="{{asset('images/rating-company/top-rated-fishing-ch.png')}}" alt="Yelp">
-        </a>
-        <a href="#" class="rating-company__item">
-            <img src="{{asset('images/rating-company/seal_215x187.png')}}" alt="Home Advisor">
-        </a>
-    </div>
-</div>
+@include('partials/companies')
 
 </section>
 <!--End of Section -->

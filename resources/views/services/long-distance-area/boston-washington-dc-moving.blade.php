@@ -111,7 +111,7 @@ You can send us a free estimate quote to find out more about Boston to Washingto
 																		<div class="prices-collection-item">
 																				<h3 class="prices-collection-item__title">Room or Less</h3>
 																				<div class="prices-collection-item__prices">
-																						<div class="prices-collection-item__price">from $1100</div>
+																						<div class="prices-collection-item__price">from $1500</div>
 																				</div>
 																				<div class="prices-collection-item__features">
 																						<div class="prices-collection-item__btn-more">
@@ -140,7 +140,7 @@ You can send us a free estimate quote to find out more about Boston to Washingto
 																		<div class="prices-collection-item prices-collection-item--big">
 																				<h3 class="prices-collection-item__title">Studio / 1 Bedroom</h3>
 																				<div class="prices-collection-item__prices">
-																						<div class="prices-collection-item__price">from $1400</div>
+																						<div class="prices-collection-item__price">from $1750</div>
 																				</div>
 																				<div class="prices-collection-item__features">
 																						<div class="prices-collection-item__btn-more">
@@ -169,7 +169,7 @@ You can send us a free estimate quote to find out more about Boston to Washingto
 																		<div class="prices-collection-item">
 																				<h3 class="prices-collection-item__title">2 Bedroom and More</h3>
 																				<div class="prices-collection-item__prices">
-																						<div class="prices-collection-item__price">from $1650</div>
+																						<div class="prices-collection-item__price">from $2050</div>
 																				</div>
 																				<div class="prices-collection-item__features">
 																						<div class="prices-collection-item__btn-more">
