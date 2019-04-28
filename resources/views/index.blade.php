@@ -19,10 +19,10 @@
                         <div class="col-md-6">
                             <div class="hero__title" style="padding-top:38px;">
                                 <div class="hero-title" style="line-height: 0.2em">
-                                    <span class="hero-title__dynamic"></span>
+                                    <span class="hero-title__dynamic">Flash Moving</span>
                                 </div>
                             </div>
-                            <div class="hero__description hero__description--big">Licensed and Insured Movers in Boston Area<br>
+                            <div class="hero__description hero__description--big"><b class="dynamic_licensed"></b> Movers in Boston Area<br>
                                 Without any hidden fees and extra chargers</div>
 
                         </div>
@@ -460,8 +460,8 @@
 @section('customjs')
     <script>
         // Hero section
-        new Typed('.hero-title__dynamic', {
-            strings: ["Flash Moving"],
+        new Typed('.dynamic_licensed', {
+            strings: ["Licensed", "Insured"],
             typeSpeed: 200,
             backSpeed: 10,
             startDelay: 600,
