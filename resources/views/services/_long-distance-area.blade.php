@@ -13,8 +13,8 @@
                     <div class="hero__row mt-40">
                         <div class="col-md-7">
                             <div class="hero__title">
-                                <div class="hero-title">
-                                    <div class="hero-title__simple hero__title--static">@yield('hero-title')</div>
+                                <div class="newhero-title">
+                                    <div class="newhero-title__simple hero__title--static">@yield('hero-title')</div>
                                 </div>
                             </div>
                             <div class="hero__description hero__description--big">@yield('hero-description')</div>

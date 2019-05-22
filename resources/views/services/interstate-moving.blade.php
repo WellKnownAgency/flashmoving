@@ -82,16 +82,16 @@
                                 <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Chicago</div>
                             </div>
                         </a>
-                        <div class="col-sm services-collection__item">
+                        <a href="/long-distance-movers/boston-miami-florida-moving" class="col-sm services-collection__item">
                             <div class="services-collection-item">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
-                                        <img src="{{asset('images/services/interstate/Miami.jpg')}}" alt="Florida" class="services-collection-item__img services-collection-item__img--brightness-high">
+                                        <img src="{{asset('images/services/interstate/Miami.jpg')}}" alt="Miami, Florida" class="services-collection-item__img services-collection-item__img--brightness-high">
                                     </div>
                                 </div>
-                                <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Florida</div>
+                                <div class="services-collection-item__title services-collection-item__title--upper services-collection-item__title--small">Miami, Florida</div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div style="padding-top:20px;padding-bottom:20px;font-size: 1.5em;">
                       <div class="container">

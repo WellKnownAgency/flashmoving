@@ -1,12 +1,12 @@
-@section('title', 'Mover from Boston to Chicago, Chicago to Boston Moving')
-@section('dscr', 'Fully Licensed Moving Company from Boston to Chicago. Our reliable movers will make your move from Chicago to Boston simple and with no stress. Get a FREE Moving Estimate.')
+@section('title', 'Movers from Boston to Miami, Florida | Miami to Boston Moving')
+@section('dscr', 'Fully Licensed Moving Company from Boston to Miami, Florida. Our professional movers will make your move from rainy Boston to sunny Miami, Florida in 3 days.')
 @section('keywords', '')
 @section('mainimg', '')
 
 @extends('services._long-distance-area')
 
-@section('hero-title', 'Boston to Chicago Movers')
-@section('hero-description', 'Reliable and fully licensed moving company.')
+@section('hero-title', 'Movers from Boston to Miami, Florida')
+@section('hero-description', 'Express delivery in 1 day from $900 Licensed and Insured.')
 @section('hero-image')
 <img src="/images/services/interstate/IMG_7929.jpg" alt="" class="hero__img hero__img--brightness-high">
 @stop
@@ -19,21 +19,17 @@
             <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                 <div class="content-blocks-item__body-inner">
                     <div class="content-blocks-item__header">
-                        <h2 class="content-blocks-item__title-primary">Boston to Chicago Movers</h2>
+                        <h2 class="content-blocks-item__title-primary">Moving from Boston to Miami</h2>
                     </div>
                     <div class="content-blocks-item__text">
-											<p>
-												If you are looking for <strong>Boston to Chicago movers</strong> or <strong>Chicago to Boston movers</strong>, do not ever look for the cheapest movers out there in the market. Look for a reliable and trusted moving company, which offers professional moving service and help.
-												If your move is poorly planned or incorrectly calculated, you can end up paying for add-ons and extra services you were not aware of.
+											<p>If you are <b>moving to Miami</b>, don’t bother yourself thinking about anything, but packing a swimsuit.
+												Flash Moving Company will pack all your belongings here in Boston and will carefully perform a next-day delivery to Miami. Whether you are planning to move your favorite king-size bed and a TV screen or are moving an entire 4-bedroom house, we’ll pack and protect every single piece of furniture and every item you wish to take down there. By the way, we’ll also pack your 	swimsuit, if needed.
+												Flash Movers have moved people to a variety of different destinations throughout the States so many times so that we could be qualified as travel bloggers without a doubt.
+												We manage to perform a safe and secure express <b>moving from Boston to Miami</b>, based on your specific needs, circumstances, schedule, and budget. 
 											</p>
 											<p>
-												To avoid getting trapped, consider hiring Flash Moving Company as your long-distance provider.
-Flash movers will calculate a flat rate fee for any long-distance move, whether it is a pure Boston to Chicago or Chicago to Boston move or a more complicated moving service that requires additional stops, pick-up, and drop-off locations.
-											</p>
-											<p>
-												Please fill out a free estimate quote or call us to schedule an on-site visual estimate.
-Our moving managers will do their best to plan the smoothest and most cost-efficient move for you in advance.
-											</p>
+												Choosing Flash Movers as the <a href="https://flashmoving.net/long-distance-movers">long-distance moving service</a> providers, you select quality, efficiency and guaranteed security in addition to excellent customer service and  24-hour assistance in the moving process.
+											 </p>
 										</div>
                 </div>
             </div>
@@ -47,21 +43,16 @@ Our moving managers will do their best to plan the smoothest and most cost-effic
             <div class="col-lg-6 order-lg-1 content-blocks-item__body">
                 <div class="content-blocks-item__body-inner">
                     <div class="content-blocks-item__header">
-                        <div class="content-blocks-item__title-primary">Moving from Chicago to Boston</div>
+                        <div class="content-blocks-item__title-primary">Flash Moving Company Service Boston to Miami</div>
                     </div>
                     <div class="content-blocks-item__text">
 											<p>
-												No matter how small or how huge your belongings are, moving them from one city to another will seem like one of the most complicated and confusing tasks you’ve ever had.
-											</p>
-											<p>
-												That is why Flash Moving Company offers its moving service to plan, coordinate and complete your Boston to Chicago to Boston move</strong>.
-											</p>
-											<p>
-												Specializing in <a href="/long-distance-movers">Long Distance Moving Services</a> between Chicago and Boston for many years, we provide you with free on-site estimates and consulting on an upcoming move with absolutely no obligations. We also offer a 100% safe, cost-efficient and guaranteed on-time delivery.
-											</p>
-											<p>
-												Flash Moving Team will take care of every step of your Chicago to Boston move, making sure to provide you full packing services and supply with wrapping and packing materials needed to get your stuff ready for the upcoming journey; offer disassembling and reassembling furniture services for free; loading and unloading your belongings safe and secure.
-We’ll also offer a live GPS tracking with no charge and will make sure all fuel, mileage, and tolls fees are already included in the flat rate provided well in advance.
+												The idea of moving your entire home, your entire life in a sense, to a completely different part of the country, such as Boston to Miami move, may sound crazy, complicated, and scary. But with the help of our moving professionals, there is nothing to be worried about.
+<br>There is one thing needed from your side to have a stress-free moving experience - an ability to trust the team you hire.
+<br>We know for sure that once you called our moving managers to get a flat rate quote for the upcoming move from Boston to Miami, you will realize you have just established one the most reliable, trusting and long-lasting relationships in your life.
+<br>We will provide you with detailed explanation and consultation about every step of the moving process, suggestions on packing, timing and convenient scheduling.
+<br>We will dedicate our time to work on the best plan that will eventually destroy your moving fears, will fit your budget, and exceed your expectations.
+<br>Don’t waste your time. <br><b>Call our office today to get your Boston to Miami move done tomorrow<b>.
 											</p>
 										</div>
                 </div>
@@ -77,13 +68,19 @@ We’ll also offer a live GPS tracking with no charge and will make sure all fue
                 <div class="content-blocks-item__body-inner">
                     <div class="content-blocks-item__text">
 												<p>
-													Chicago and Boston are big multicultural cities popular among young professionals and families with children.<br>
-You will be impressed by museums, world-class architecture and top-ranked universities both cities can offer.<br>
-When moving to Chicago or moving to Boston, consider your upcoming journey as a life-changing opportunity and a life-long investment into a bright future.
-
+													Whatever reasons you have behind the decision to move from Boston to Miami… Wait, what? Do you, indeed, need a reason to move to a Sunshine State?
 												</p>
 												<p>
-													Flash Moving Company will be more than happy to join you on your first and most important steps towards a new life. We will do our best to make the relocation an exciting and memorable experience that would mark the beginning of an unforgettable journey.
+													In case you haven’t made up your mind yet, we’d like to share some of the reasons why our customers choose to <b>move from Massachusetts to Florida</b>.
+												</p>
+												<p>
+													Miami and Florida, in general, offer a completely different cultural experience, unique lifestyle and exceptional climate.
+												</p>
+												<p>
+													Above all the benefits you get from an ocean breeze flavored with an average year-round 70-degree temperature, you’ll also get access to America’s best schools, mass transit, and unforgettable, most instagramable destinations.
+												</p>
+												<p>
+													As for professionals and those seeking career opportunities, Miami offers an impressive concentration of international and national banks and companies, as well as infinitely growing and incredibly attractive tourism and real estate business.
 												</p>
 										</div>
                 </div>
@@ -92,7 +89,7 @@ When moving to Chicago or moving to Boston, consider your upcoming journey as a 
     </div>
 @endsection
 @section('tabs')
-<div class="nav mb-3 tabs-nav" id="prices-nav-tab" role="tablist">
+<!-- <div class="nav mb-3 tabs-nav" id="prices-nav-tab" role="tablist">
 		<a class="tabs-nav__item tabs-nav__link active" id="prices-local-tab" data-toggle="tab" href="#prices-local" role="tab" aria-controls="nav-local" aria-selected="true"><span class="tabs-nav__text">Rates</span></a>
 		<a class="tabs-nav__item tabs-nav__link" id="prices-storage-tab" data-toggle="tab" href="#prices-storage" role="tab" aria-controls="nav-storage" aria-selected="false"><span class="tabs-nav__text">FAQ</span></a>
 </div>
@@ -102,7 +99,7 @@ When moving to Chicago or moving to Boston, consider your upcoming journey as a 
 				<div class="section">
 						<div class="container">
 								<div class="section-header">
-										<h2 class="section-title section-title--upper">Boston to Chicago Moving Rates</h2>
+										<h2 class="section-title section-title--upper">Boston to Miami, Florida Moving Rates</h2>
 								</div>
 
 								<div class="section__collection">
@@ -142,7 +139,7 @@ When moving to Chicago or moving to Boston, consider your upcoming journey as a 
 																		<div class="prices-collection-item prices-collection-item--big">
 																				<h3 class="prices-collection-item__title">Studio / 1 Bedroom</h3>
 																				<div class="prices-collection-item__prices">
-																						<div class="prices-collection-item__price">from $1850</div>
+																						<div class="prices-collection-item__price">from $1750</div>
 																				</div>
 																				<div class="prices-collection-item__features">
 																						<div class="prices-collection-item__btn-more">
@@ -171,7 +168,7 @@ When moving to Chicago or moving to Boston, consider your upcoming journey as a 
 																		<div class="prices-collection-item">
 																				<h3 class="prices-collection-item__title">2 Bedroom and More</h3>
 																				<div class="prices-collection-item__prices">
-																						<div class="prices-collection-item__price">from $2450</div>
+																						<div class="prices-collection-item__price">from $2050</div>
 																				</div>
 																				<div class="prices-collection-item__features">
 																						<div class="prices-collection-item__btn-more">
@@ -204,7 +201,7 @@ When moving to Chicago or moving to Boston, consider your upcoming journey as a 
 				</div>
 		</div>
 		<div class="tab-pane fade" id="prices-storage" role="tabpanel" aria-labelledby="prices-storage-tab">
-			<!-- <div class="accordion-content theme-white" id="accordionPricesFaq">
+			<div class="accordion-content theme-white" id="accordionPricesFaq">
 					<div class="accordion-content__list row">
 							{{--1--}}
 							<div class="accordion-content__item col-md-6">
@@ -340,5 +337,5 @@ When moving to Chicago or moving to Boston, consider your upcoming journey as a 
 					</div>
 			</div> -->
 		</div>
-</div>
+</div> -->
 @stop

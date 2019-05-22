@@ -12,7 +12,7 @@
 				<a href="https://www.yelp.com/biz/flash-moving-company-newton" target="_blank" class="rating-company__item">
 						<img src="{{asset('/images/rating-company/top-rated-fishing-ch.png')}}" alt="Yelp">
 				</a>
-				<a href="https://nextdoor.com/pages/flash-moving-company-newton-ma/recommend/" class="rating-company__item">
+				<a href="https://nextdoor.com/pages/flash-moving-company-newton-ma/recommend/" target="_blank" class="rating-company__item">
 						<img src="{{asset('/images/rating-company/NextdoorLogo_green.png')}}"  alt="Nextdoor">
 				</a>
 		</div>
