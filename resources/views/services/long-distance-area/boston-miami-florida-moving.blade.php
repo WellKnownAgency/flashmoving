@@ -6,7 +6,7 @@
 @extends('services._long-distance-area')
 
 @section('hero-title', 'Movers from Boston to Miami, Florida')
-@section('hero-description', 'Express delivery in 1 day from $900 Licensed and Insured.')
+@section('hero-description', 'Fully Licensed and Insured Interstate Movers')
 @section('hero-image')
 <img src="/images/services/interstate/IMG_7929.jpg" alt="" class="hero__img hero__img--brightness-high">
 @stop
