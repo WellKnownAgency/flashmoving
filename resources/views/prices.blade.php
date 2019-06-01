@@ -56,7 +56,7 @@
                                                 <h3 class="prices-collection-item__title">2 movers</h3>
                                                 <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
                                                 <div class="prices-collection-item__prices">
-                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $100/hour</div>
+                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $119/hour</div>
                                                     <div class="prices-collection-item__price">from $99/hour</div>
                                                 </div>
                                                 <div class="prices-collection-item__features">
@@ -89,7 +89,7 @@
                                                 <h3 class="prices-collection-item__title">3 movers</h3>
                                                 <div class="prices-collection-item__description">2-3 bedroom apartment</div>
                                                 <div class="prices-collection-item__prices">
-                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $130/hour</div>
+                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $149/hour</div>
                                                     <div class="prices-collection-item__price">from $129/hour</div>
                                                 </div>
                                                 <div class="prices-collection-item__features">
@@ -122,7 +122,7 @@
                                                 <h3 class="prices-collection-item__title">4 movers & more</h3>
                                                 <div class="prices-collection-item__description">4+ bedroom house</div>
                                                 <div class="prices-collection-item__prices">
-                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $160/hour</div>
+                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $179/hour</div>
                                                     <div class="prices-collection-item__price">from $159/hour</div>
                                                 </div>
                                                 <div class="prices-collection-item__features">
