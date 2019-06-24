@@ -31,7 +31,7 @@
         <br>
       © All Rights Reserved. <span itemprop="name">Flash Moving Company</span>.  </span>
         <br>
-				<a href="https://goborntomove.com" target="_blank" style="opacity: 0.7;">Boston Movers</a><br>
+				<a href="https://goborntomove.com" target="_blank" style="opacity: 0.7; color: #000;">Boston Movers</a><br>
       <a href="/privacy-policy" style="opacity: 0.7;">Privacy policy</a>
       <br>
       by <a href="https://wknown.com" target="_blank" style="opacity: 0.7;">WellKnown Agency</a>
