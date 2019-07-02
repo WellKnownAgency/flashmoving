@@ -8,7 +8,7 @@
 @section('hero-title', 'Newton Movers')
 @section('hero-description', 'Without any hidden fees and extra chargers')
 @section('hero-image')
-<img src="/images/services/interstate/IMG_7929.jpg" alt="" class="hero__img hero__img--brightness-high">
+<img src="/images/services/interstate/IMG_7929.jpg" alt="" style="min-height: 550px;" class="hero__img hero__img--brightness-high">
 @stop
 
 @section('content-list')

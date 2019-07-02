@@ -1,0 +1,136 @@
+.newlp {
+	&-main-title {
+		&-bg-o {
+			background-color: #db4623;
+		}
+		opacity: 0.9;
+		background-position: center center;
+		border-color: transparent;
+		border-style: solid;
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+		-webkit-text-size-adjust: 100%;
+		-moz-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+		position: absolute;
+		box-sizing: border-box;
+		display: table;
+		z-index: 3;
+		@media (max-width: 479px){
+				width: auto;
+				left: 11px;
+				top: 261px;
+				height: 109px;
+		}
+		@media (max-width: 639px){
+			width: auto;
+			left: 47px;
+			top: 164px;
+			height: 114px;
+		}
+		@media (max-width: 959px){
+			width: auto;
+			left: 11px;
+			top: 164px;
+			height: 114px;
+		}
+		@media (min-width: 1199px){
+			width: auto;
+			left: 84px;
+			top: 248px;
+			height: 102px;
+
+		}
+		&-text {
+			@media screen and (max-width: 639px){
+			    font-size: 28px;
+			}
+			@media screen and (max-width: 959px){
+			    line-height: 1.25;
+			}
+			@media screen and (max-width: 1199px){
+			    font-size: 32px;
+			}
+
+			color: #ffffff;
+	    font-size: 36px;
+	    font-family: 'Arial',Arial,sans-serif;
+	    line-height: 1.2;
+	    font-weight: 700;
+	    background-position: center center;
+	    border-color: transparent;
+	    border-style: solid;
+			display: table-cell;
+			vertical-align: middle;
+			width: 100%;
+		}
+
+	}
+	&-main-pretitle {
+		&-bg-w {
+			background-color: #fff;
+		}
+		opacity: 0.9;
+		background-position: center center;
+		border-color: transparent;
+		border-style: solid;
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+		-webkit-text-size-adjust: 100%;
+		-moz-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+		position: absolute;
+		box-sizing: border-box;
+		display: table;
+		z-index: 3;
+		@media screen and  (max-width: 479px){
+				width: auto;
+				left: 11px;
+				top: 261px;
+				height: 109px;
+		}
+		@media screen and  (max-width: 639px){
+			width: auto;
+			left: 47px;
+			top: 164px;
+			height: 114px;
+		}
+		@media screen and  (max-width: 959px){
+			width: auto;
+	    left: 11px;
+	    top: 295px;
+	    height: 36px;
+		}
+		@media screen and (max-width: 1199px){
+			width: auto;
+			left: 84px;
+			top: 359px;
+			height: 46px;
+	}
+	&-text {
+		@media screen and (max-width: 639px){
+				font-size: 16px;
+		}
+		@media screen and (max-width: 959px){
+				line-height: 1.25;
+		}
+		@media screen and (max-width: 1199px){
+				font-size: 32px;
+		}
+
+		color: #000000;
+	  font-size: 22px;
+	  line-height: 1.5;
+	  font-weight: 500;
+	  background-position: center center;
+	  border-color: transparent;
+	  border-style: solid;
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+	}
+}
+
+}

@@ -8,7 +8,17 @@
             @yield('hero-image')
         </div>
         <div class="hero__wrapper-content">
-            <div class="hero__container">
+						<div class="newlp-main-title newlp-main-title-bg-o">
+							<div class="newlp-main-title-text">
+								@yield('hero-title')
+							</div>
+						</div>
+						<div class="newlp-main-pretitle newlp-main-pretitle-bg-w">
+							<div class="newlp-main-pretitle-text">
+								@yield('hero-description')
+							</div>
+						</div>
+            {{-- <div class="hero__container">
                 <div class="hero__content">
                     <div class="hero__row">
                         <div class="col-md-7">
@@ -26,7 +36,7 @@
 											</div>
 										</div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
 
