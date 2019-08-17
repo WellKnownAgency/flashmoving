@@ -32,6 +32,17 @@ const progressObserver = new ScrollProgress((x, y) => {
     progressElement.style.width = y * 100 + '%';
 });
 
+// ScroolBar
+import Tooltipster from 'tooltipster';
+
+$(document).ready(function() {
+    $('.tooltipp').tooltipster({
+        theme: 'tooltipster-borderless',
+        maxWidth: '300',
+        side: 'bottom'
+    });
+});
+
 // ScrollTop
 $(document).ready(function(){
     var scrollToTopEl = $('.scroll-to-top');

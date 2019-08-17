@@ -103,7 +103,7 @@
     </div>
 @endsection
 @section('tabs')
-<div class="nav mb-3 tabs-nav" id="prices-nav-tab" role="tablist">
+<!-- <div class="nav mb-3 tabs-nav" id="prices-nav-tab" role="tablist">
 		<a class="tabs-nav__item tabs-nav__link active" id="prices-local-tab" data-toggle="tab" href="#prices-local" role="tab" aria-controls="nav-local" aria-selected="true"><span class="tabs-nav__text">Rates</span></a>
 		<a class="tabs-nav__item tabs-nav__link" id="prices-storage-tab" data-toggle="tab" href="#prices-storage" role="tab" aria-controls="nav-storage" aria-selected="false"><span class="tabs-nav__text">FAQ</span></a>
 </div>
@@ -349,7 +349,7 @@
 									</div>
 							</div>
 					</div>
-			</div> -->
+			</div>
 		</div>
-</div>
+</div> -->
 @stop

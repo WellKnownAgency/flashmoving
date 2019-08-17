@@ -26,6 +26,7 @@
         "font-awesome": "^4.7.0",
         "npm": "^6.4.1",
         "scrollprogress": "^3.0.2",
+        "tooltipster": "^4.2.6",
         "typed.js": "^2.0.9"
     }
 }

@@ -8,23 +8,27 @@
 					@yield('hero-image')
         </div>
         <div class="hero__wrapper-content">
-            <div class="hero__container">
+             <div class="hero__container">
                 <div class="hero__content">
-                    <div class="hero__row mt-40">
-                        <div class="col-md-7">
-                            <div class="hero__title">
-                                <div class="newhero-title">
-                                    <div class="newhero-title__simple hero__title--static">@yield('hero-title')</div>
+                    <div class="hero__row hero__custom">
+                        <div class="col-md-5">
+                            <div class="hero__newtitle-bg">
+                                <div class="hero__newtitle-text">
+                                    <h1>@yield('hero-title')</h1>
                                 </div>
                             </div>
-                            <div class="hero__description hero__description--big">@yield('hero-description')</div>
+                            <div class="hero__newdscr-bg">
+                                <div class="hero__newdscr-text">
+                                @yield('hero-description')
+                                </div>
+                            </div>
+                            <div class="hero__abutton-wrapper">
+                                <a href="/moving-quote" class="hero__abutton">
+                                    Get a Free Estimate
+                                </a>
+                            </div>
                         </div>
                     </div>
-										<div class="hero__row">
-											<div class="col-md-12 text-center">
-												<a href="/moving-quote" class="btn-hero btn-hero-nav btn-hero--large btn-hero--hover-green">Free Estimate</a>
-											</div>
-										</div>
                 </div>
             </div>
         </div>

@@ -17,7 +17,7 @@
         </a>
       </div>
     </div>
-    <div class="col-md-4 align-self-center" style="padding: 0; padding-right: 40px;">
+    <div class="col-md-4 align-self-center" style="padding: 0;">
       <a href="mailto:info@flashmoving.net" class="float-right btn-header" style="margin-left: 10px;">info@flashmoving.net</a>
       <a href="tel:+18572418778" class="float-right btn-header" style="margin-left: 10px;"><span itemprop="telephone">+1 (857) 241-8778</span></a>
     </div>
@@ -47,7 +47,17 @@
         <a class="nav-link" href="{{route('prices')}}">Prices</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{route('family')}}">Family</a>
+        <a class="nav-link tooltipp" data-tooltip-content="#tooltip_content" href="{{route('family')}}">Family</a>
+        <div class="tooltip_templates">
+            <span id="tooltip_content">
+                <div style="padding:15px 15px;">
+                  <h4>Flash Moving Family</h4>
+                  <p style="font-size: 14px; line-heoght: 20px;">
+                  Revolutionary Loyalty Program specially designed to meet our customer's needs and to promote saving possibilities without prejudice to the quality of moving service
+                  </p>
+                </div>
+            </span>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{{route('about-us')}}">About us</a>

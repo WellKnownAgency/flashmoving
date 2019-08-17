@@ -23,7 +23,7 @@
               <br>
             <a href="mailto:info@flashmoving.net" class="a-form" style="">info@flashmoving.net</a>
           </div>
-          <p class="address-p">99 Rivermoon St., West Roxbury, MA, 02132</p>
+          <p class="address-p">12R Cook St, Newton, MA, 02458</p>
           <div>
             <a href="https://www.facebook.com/flashmoversma/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
             <a href="https://twitter.com/flashmoversma" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>

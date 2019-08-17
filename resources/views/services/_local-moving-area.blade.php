@@ -8,16 +8,29 @@
             @yield('hero-image')
         </div>
         <div class="hero__wrapper-content">
-						<div class="newlp-main-title newlp-main-title-bg-o">
-							<div class="newlp-main-title-text">
-								@yield('hero-title')
-							</div>
-						</div>
-						<div class="newlp-main-pretitle newlp-main-pretitle-bg-w">
-							<div class="newlp-main-pretitle-text">
-								@yield('hero-description')
-							</div>
-						</div>
+            <div class="hero__container">
+                <div class="hero__content">
+                    <div class="hero__row hero__custom">
+                        <div class="col-md-5">
+                            <div class="hero__newtitle-bg">
+                                <div class="hero__newtitle-text">
+                                    <h1>@yield('hero-title')</h1>
+                                </div>
+                            </div>
+                            <div class="hero__newdscr-bg">
+                                <div class="hero__newdscr-text">
+                                @yield('hero-description')
+                                </div>
+                            </div>
+                            <div class="hero__abutton-wrapper">
+                                <a href="/moving-quote" class="hero__abutton">
+                                    Get a Free Estimate
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             {{-- <div class="hero__container">
                 <div class="hero__content">
                     <div class="hero__row">
@@ -30,11 +43,11 @@
                             <div class="hero__description hero__description--big">@yield('hero-description')</div>
                         </div>
                     </div>
-										<div class="hero__row">
-											<div class="col-md-12 text-center">
-												<a href="/moving-quote" class="btn-hero btn-hero-nav btn-hero--large btn-hero--hover-green">Free Estimate</a>
-											</div>
-										</div>
+                    <div class="hero__row">
+                        <div class="col-md-12 text-center">
+                            <a href="/moving-quote" class="btn-hero btn-hero-nav btn-hero--large btn-hero--hover-green">Free Estimate</a>
+                        </div>
+                    </div>
                 </div>
             </div> --}}
         </div>
@@ -71,8 +84,7 @@
                                                 <h3 class="prices-collection-item__title">2 movers</h3>
                                                 <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
                                                 <div class="prices-collection-item__prices">
-                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $100/hour</div>
-                                                    <div class="prices-collection-item__price">from $80/hour</div>
+                                                    <div class="prices-collection-item__price">from $99/hour</div>
                                                 </div>
                                                 <div class="prices-collection-item__features">
                                                     <div class="prices-collection-item__btn-more">
@@ -104,8 +116,7 @@
                                                 <h3 class="prices-collection-item__title">3 movers</h3>
                                                 <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
                                                 <div class="prices-collection-item__prices">
-                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $130/hour</div>
-                                                    <div class="prices-collection-item__price">from $110/hour</div>
+                                                    <div class="prices-collection-item__price">from $129/hour</div>
                                                 </div>
                                                 <div class="prices-collection-item__features">
                                                     <div class="prices-collection-item__btn-more">
@@ -137,8 +148,7 @@
                                                 <h3 class="prices-collection-item__title">4 movers and more</h3>
                                                 <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
                                                 <div class="prices-collection-item__prices">
-                                                    <div class="prices-collection-item__price prices-collection-item__price--old">from $160/hour</div>
-                                                    <div class="prices-collection-item__price">from $140/hour</div>
+                                                    <div class="prices-collection-item__price">from $159/hour</div>
                                                 </div>
                                                 <div class="prices-collection-item__features">
                                                     <div class="prices-collection-item__btn-more">

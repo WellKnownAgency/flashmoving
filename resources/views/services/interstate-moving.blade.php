@@ -21,7 +21,7 @@
                     <div class="hero__row">
                         <div class="col-md-8">
                             <div class="hero__title hero__title--static">
-                                <h1 class="hero-title hero-title__simple">Long distance Movers</h1>
+                                <h1 class="hero-title hero-title__simple">Long Distance Movers</h1>
                             </div>
                             <div class="hero__description hero__description--big">Flat Rates without any hidden fees and extra chargers</div>
                         </div>

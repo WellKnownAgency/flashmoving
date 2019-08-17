@@ -2,6 +2,76 @@
     position: relative;
     max-height: calc(100vh - 160px);
     overflow: hidden;
+    &__custom {
+        position: relative;
+        top: 20%;
+    }
+    &__newtitle {
+        &-bg {
+            opacity: 0.9;
+            background-color: #db4623;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+        }
+        &-text {
+            font-size: 32px;
+            line-height: 1.2;
+            font-weight: 600;
+            padding: 10px 10px;
+            color: #fff;
+            & h1 {
+                font-size: 32px;
+                margin-bottom: 0;
+                font-family: inherit;
+                font-weight: 500;
+                line-height: 1.2;
+                color: inherit;
+            }
+        }
+    }
+    &__newdscr {
+        &-bg {
+            margin-top: 8px;
+            opacity: 0.9;
+            background-color: #fff;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+        }
+        &-text {
+            padding: 10px 10px;
+            font-size: 22px;
+            line-height: 1.55;
+            font-weight: 500;
+        }
+    }
+    &__abutton {
+        &:hover{
+            text-decoration: none;
+            color: #fff;
+
+        }
+        color: #ffffff;
+        font-size: 14px;
+        font-family: 'Arial',Arial,sans-serif;
+        line-height: 1.55;
+        font-weight: 500;
+        border-width: 2px;
+        background-color: #ca4425;
+        background-position: center center;
+        border-color: #ffffff;
+        border-style: solid;
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+        padding: 15px 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        &-wrapper {
+            margin-top: 60px;
+            width: 190px;
+            height: 50px;
+        }
+    }
     &--big {
         height: auto;
     }
@@ -12,7 +82,7 @@
     &__img {
         max-width: none!important;
         width: 100%;
-        max-height: 750px;
+        height: 71vh;
         z-index: -2;
         filter: brightness(80%);
         object-fit: cover;

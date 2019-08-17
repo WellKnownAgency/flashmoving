@@ -92,7 +92,7 @@ When moving to Chicago or moving to Boston, consider your upcoming journey as a 
     </div>
 @endsection
 @section('tabs')
-<div class="nav mb-3 tabs-nav" id="prices-nav-tab" role="tablist">
+<!-- <div class="nav mb-3 tabs-nav" id="prices-nav-tab" role="tablist">
 		<a class="tabs-nav__item tabs-nav__link active" id="prices-local-tab" data-toggle="tab" href="#prices-local" role="tab" aria-controls="nav-local" aria-selected="true"><span class="tabs-nav__text">Rates</span></a>
 		<a class="tabs-nav__item tabs-nav__link" id="prices-storage-tab" data-toggle="tab" href="#prices-storage" role="tab" aria-controls="nav-storage" aria-selected="false"><span class="tabs-nav__text">FAQ</span></a>
 </div>
@@ -204,7 +204,7 @@ When moving to Chicago or moving to Boston, consider your upcoming journey as a 
 				</div>
 		</div>
 		<div class="tab-pane fade" id="prices-storage" role="tabpanel" aria-labelledby="prices-storage-tab">
-			<!-- <div class="accordion-content theme-white" id="accordionPricesFaq">
+			<div class="accordion-content theme-white" id="accordionPricesFaq">
 					<div class="accordion-content__list row">
 							{{--1--}}
 							<div class="accordion-content__item col-md-6">
@@ -338,7 +338,7 @@ When moving to Chicago or moving to Boston, consider your upcoming journey as a 
 									</div>
 							</div>
 					</div>
-			</div> -->
+			</div>
 		</div>
-</div>
+</div> -->
 @stop
