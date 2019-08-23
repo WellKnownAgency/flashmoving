@@ -107,7 +107,7 @@
                 '</div>'+
                 '<h4 id="firstHeading" class="firstHeading">Flash Moving &amp;amp; Storage</h4>'+
                 '<div id="bodyContent">'+
-                '<p>3602 Greenwood Terrace, Chalfont, PA, USA</p>'+
+                '<p>12R Cook St, Newton, MA, 02458</p>'+
                 '</div>'+
                 '</div>';
 
@@ -118,7 +118,7 @@
             var marker = new google.maps.Marker({
                 position: myLatLng,
                 map: map,
-                title: 'Fancy Flowers (Philadelphia)'
+                title: 'Flash Moving'
             });
             marker.addListener('click', function() {
                 infowindow.open(map, marker);
