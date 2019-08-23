@@ -72,17 +72,17 @@
               </div>
           </div>
       </div>
-      <script type="text/javascript">
-          /*var fireRefreshEventOnWindow = function() {
+      <!-- <script type="text/javascript">
+          var fireRefreshEventOnWindow = function() {
               var evt = document.createEvent("HTMLEvents");
               evt.initEvent('resize', true, false);
               window.dispatchEvent(evt);
           };
           $('.t117').bind('displayChanged', function() {
               fireRefreshEventOnWindow();
-          });*/
+          });
 
-      </script>
+      </script> -->
 
   </div>
 <!--End of Google Map-->
@@ -93,22 +93,39 @@
 @stop
 
 @section('customjs')
-    <script type="text/javascript">
-        var arMapMarkers68019822 = [{
-            title: "Flash Moving &amp;amp; Storage",
-            descr: "Main Storage",
-            lat: "42.279413",
-            lng: "-71.177038",
-        }, {
-            title: "Flash Moving &amp;amp; Storage",
-            descr: "Main Parking Area",
-            lat: "42.365719",
-            lng: "-71.199576",
-        }, ];
-        $(document).ready(function() {
-            t_appendGoogleMap("68019822", "");
-        });
+<script>
+        function initMap() {
+            var myLatLng = {lat: 42.279413, lng: -71.177038};
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 8,
+                center: myLatLng
+            });
+
+            var contentString = '<div id="content">'+
+                '<div id="siteNotice">'+
+                '</div>'+
+                '<h4 id="firstHeading" class="firstHeading">Flash Moving &amp;amp; Storage</h4>'+
+                '<div id="bodyContent">'+
+                '<p>3602 Greenwood Terrace, Chalfont, PA, USA</p>'+
+                '</div>'+
+                '</div>';
+
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: 'Fancy Flowers (Philadelphia)'
+            });
+            marker.addListener('click', function() {
+                infowindow.open(map, marker);
+            });
+        }
     </script>
-
-
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZt6lJ7pP7_eED-fkZjIK8G9ps3qQFgew&callback=initMap">
+    </script>
 @stop
