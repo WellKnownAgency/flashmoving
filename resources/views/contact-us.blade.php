@@ -105,7 +105,7 @@
             var contentString = '<div id="content">'+
                 '<div id="siteNotice">'+
                 '</div>'+
-                '<h4 id="firstHeading" class="firstHeading">Flash Moving &amp;amp; Storage</h4>'+
+                '<h4 id="firstHeading" class="firstHeading">Flash Moving & Storage</h4>'+
                 '<div id="bodyContent">'+
                 '<p>12R Cook St, Newton, MA, 02458</p>'+
                 '</div>'+
