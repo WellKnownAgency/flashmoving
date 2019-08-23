@@ -30,7 +30,7 @@
   <div class="justify-content-center center-no-width">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" id="border-bot" href="/">Home</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -44,7 +44,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{route('prices')}}">Prices</a>
+        <a class="nav-link" id="border-bot" href="{{route('prices')}}">Prices</a>
       </li>
       <li class="nav-item">
         <a class="nav-link tooltipp" data-tooltip-content="#tooltip_content" href="{{route('family')}}">Family</a>
@@ -60,10 +60,10 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{route('about-us')}}">About us</a>
+        <a class="nav-link" id="border-bot" href="{{route('about-us')}}">About us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{route('contact-us')}}">Contact us</a>
+        <a class="nav-link" id="border-bot" href="{{route('contact-us')}}">Contact us</a>
       </li>
     </ul>
   </div>
