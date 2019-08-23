@@ -7,7 +7,7 @@
 
 @section('content')
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<div class="contact">
+<div class="contact" style="padding-bottom: 0px;">
   <div class="container">
     <div class="contact_intro">
       <h1>Contacts</h1>
