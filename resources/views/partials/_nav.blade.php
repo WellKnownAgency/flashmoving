@@ -97,7 +97,7 @@
         <a class="nav-link" href="/prices">Prices</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/family">Family</a>
+        <a class="nav-link tooltipp" data-tooltip-content="#tooltip_content" href="/family">Family</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/about-us">About us</a>
