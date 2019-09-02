@@ -49,6 +49,11 @@
             <lastmod>2019-05-23</lastmod>
 						<priority>1.00</priority>
         </url>
+        <url>
+            <loc>https://flashmoving.net/long-distance-movers/moving-boston-to-los-angeles</loc>
+            <lastmod>2019-09-02</lastmod>
+						<priority>1.00</priority>
+        </url>
 				<url>
             <loc>https://flashmoving.net/local-moving/newton-movers</loc>
             <lastmod>2019-03-03</lastmod>
