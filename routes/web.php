@@ -23,3 +23,20 @@ Route::name('services.')->group(function () {
 
 		Route::get('packers-and-movers', 'PageController@packing')->name('packing');
 });
+
+Auth::routes();
+
+// Route::get('/blog', function () {
+//   $posts = App\Post::latest()->paginate(9);
+//   return view('blog/index')->withPosts($posts);
+// });
+// Route::get('/blog/{slug}', ['as' => 'post.single', 'uses' => 'PostController@getSingle' ]) -> where('slug', '[\w\d\-\_]+');
+
+Route::middleware('auth:web')->group(function () {
+  Route::get('/admin', ['uses' => 'PageController@admin', 'as' => 'admin.index']);
+  Route::resource('/admin/posts', 'PostController');
+  Route::get('/admin/posts/{id}/delete', ['uses' => 'PostController@destroy', 'as' => 'post.delete']);
+  Route::post('/admin/posts/{id}','PostController@update');
+  Route::resource('/admin/prices', 'PriceController');
+  Route::post('/admin/prices/{id}','PriceController@update');
+});

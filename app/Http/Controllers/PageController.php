@@ -3,13 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Price;
 use Mail;
 
 class PageController extends Controller
 {
     public function index()
-    {
-        return view('index');
+    {   
+        $price1 = Price::where('name', '=', '2 movers')->first();
+        $price2 = Price::where('name', '=', '3 movers')->first();
+        $price3 = Price::where('name', '=', '4 movers')->first();
+        return view('index')->withPrice1($price1)->withPrice2($price2)->withPrice3($price3);
     }
 
     public function localMoving()
@@ -53,8 +57,11 @@ class PageController extends Controller
     }
 
     public function prices()
-    {
-        return view('prices');
+    {   
+        $price1 = Price::where('name', '=', '2 movers')->first();
+        $price2 = Price::where('name', '=', '3 movers')->first();
+        $price3 = Price::where('name', '=', '4 movers')->first();
+        return view('prices')->withPrice1($price1)->withPrice2($price2)->withPrice3($price3);
     }
 
     public function family()
@@ -107,5 +114,10 @@ class PageController extends Controller
 		public function sitemap()
     {
       return response()->view('sitemap')->header('Content-Type', 'text/xml');
+    }
+
+    public function admin()
+    {
+        return view('admin/index');
     }
 }
