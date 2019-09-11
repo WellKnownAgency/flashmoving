@@ -24,7 +24,7 @@ Route::name('services.')->group(function () {
 		Route::get('packers-and-movers', 'PageController@packing')->name('packing');
 });
 
-Auth::routes();
+// Auth::routes();
 
 // Route::get('/blog', function () {
 //   $posts = App\Post::latest()->paginate(9);
@@ -40,3 +40,16 @@ Route::middleware('auth:web')->group(function () {
   Route::resource('/admin/prices', 'PriceController');
   Route::post('/admin/prices/{id}','PriceController@update');
 });
+
+// Authentication Routes...
+Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
+Route::post('login', 'Auth\LoginController@login');
+Route::post('logout', 'Auth\LoginController@logout')->name('logout');
+
+
+
+// Password Reset Routes...
+Route::get('password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm')->name('password.request');
+Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.email');
+Route::get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm')->name('password.reset');
+Route::post('password/reset', 'Auth\ResetPasswordController@reset');

@@ -17,15 +17,18 @@ class PageController extends Controller
     }
 
     public function localMoving()
-    {
+    {   
         return view('services.local-moving');
     }
 
     public function localMovingArea($slug)
-    {
+    {   
+        $price1 = Price::where('name', '=', '2 movers')->first();
+        $price2 = Price::where('name', '=', '3 movers')->first();
+        $price3 = Price::where('name', '=', '4 movers')->first();
         $view = 'services.local-moving-area.' . $slug;
         if(view()->exists($view)){
-            return view($view);
+            return view($view)->withPrice1($price1)->withPrice2($price2)->withPrice3($price3);
         } else {
             abort(404);
         }

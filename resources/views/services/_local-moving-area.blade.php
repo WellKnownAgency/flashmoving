@@ -84,7 +84,7 @@
                                                 <h3 class="prices-collection-item__title">2 movers</h3>
                                                 <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
                                                 <div class="prices-collection-item__prices">
-                                                    <div class="prices-collection-item__price">from $99/hour</div>
+                                                    <div class="prices-collection-item__price">from ${{$price1->price}}/hour</div>
                                                 </div>
                                                 <div class="prices-collection-item__features">
                                                     <div class="prices-collection-item__btn-more">
@@ -116,7 +116,7 @@
                                                 <h3 class="prices-collection-item__title">3 movers</h3>
                                                 <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
                                                 <div class="prices-collection-item__prices">
-                                                    <div class="prices-collection-item__price">from $129/hour</div>
+                                                    <div class="prices-collection-item__price">from ${{$price2->price}}/hour</div>
                                                 </div>
                                                 <div class="prices-collection-item__features">
                                                     <div class="prices-collection-item__btn-more">
@@ -148,7 +148,7 @@
                                                 <h3 class="prices-collection-item__title">4 movers and more</h3>
                                                 <div class="prices-collection-item__description">Studio/1 bedroom apartment</div>
                                                 <div class="prices-collection-item__prices">
-                                                    <div class="prices-collection-item__price">from $159/hour</div>
+                                                    <div class="prices-collection-item__price">from ${{$price3->price}}/hour</div>
                                                 </div>
                                                 <div class="prices-collection-item__features">
                                                     <div class="prices-collection-item__btn-more">
