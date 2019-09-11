@@ -6,6 +6,13 @@
 
 @section('customjsh')
 <script src="{!! asset('js/tinymce/tinymce.min.js') !!}"></script>
+<style>
+.disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #D3D3D3;
+}
+</style>
 @stop
 @section('content')
 <div class="container-fluid">
@@ -29,7 +36,7 @@
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="title">Name</label>
-                <input type="text" name="name" class="form-control" id="title" placeholder="Title" value="{{$price->name}}">
+                <input type="text" name="name" class="form-control disabled" id="title" placeholder="Title" value="{{$price->name}}" >
               </div>
               <div class="form-group col-md-6">
                 <label for="slug">Price</label>
