@@ -26,11 +26,11 @@ Route::name('services.')->group(function () {
 
 // Auth::routes();
 
-// Route::get('/blog', function () {
-//   $posts = App\Post::latest()->paginate(9);
-//   return view('blog/index')->withPosts($posts);
-// });
-// Route::get('/blog/{slug}', ['as' => 'post.single', 'uses' => 'PostController@getSingle' ]) -> where('slug', '[\w\d\-\_]+');
+ Route::get('/blog', function () {
+   $posts = App\Post::latest()->paginate(9);
+   return view('blog/index')->withPosts($posts);
+ });
+ Route::get('/blog/{slug}', ['as' => 'post.single', 'uses' => 'PostController@getSingle' ]) -> where('slug', '[\w\d\-\_]+');
 
 Route::middleware('auth:web')->group(function () {
   Route::get('/admin', ['uses' => 'PageController@admin', 'as' => 'admin.index']);

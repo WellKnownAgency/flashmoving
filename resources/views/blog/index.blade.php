@@ -1,68 +1,47 @@
-@section('title', "Moving Blog from Born to Move Moving Company")
-@section('dscr', "Get tips, ideas and and everything you can learn about local and interstate moving, Moving Packing and more.")
+@section('title', "Moving Blog Flash Moving Company")
+@section('dscr', "Blog Articles about moving from Flash Moving Company. Smart ideas and tips to help you make your move smooth and stress-free.")
 @section('keywords', '')
 
 @extends('layouts.main')
 
 @section('content')
-<div id="wrapper" class="">
-    <header id="header" class="blog-header ">
-        <div style="color: #fff;" class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
-            <div class="container"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Etalon Moving." href="https://goborntomove.com/" class="home"><span property="name">Home</span></a>
-                <meta property="position" content="1">
-              </span><span class="fa fa-angle-right"></span><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Services." href="https://goborntomove.com/about-us/" class="post post-page"><span property="name">About us</span></a>
-                <meta property="position" content="2">
-              </span>
-            </div>
+<div class="blog" style="padding-bottom: 0px;">
+    <div class="container">
+        <div class="contact_intro" >
+        <h1 style="font-size: 48px;">BLOG</h1>
         </div>
-    </header>
-    <section id="single-page" class="section corporate-moving" style="">
-        <div class="row single-page-heading ">
-            <div class="header-overlay parallax-overlay darkend" style="background-image:url('/images/blog.jpg')"></div>
-            <div class="container">
-                <h1 class="section-heading" style=" color:#fff;">Moving Blog</h1></div>
-        </div>
-        <div class="container ">
-            <div class="row single-page-content">
-                <div class="vc_row wpb_row vc_row-fluid">
-                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-12 vc_col-md-12 vc_col-xs-12">
-                        <div class="vc_column-inner vc_custom_1499437250775">
-                            <div class="wpb_wrapper">
-                              <div class="row">
-                                @foreach ($posts as $post)
-                                <div class="col-md-4" style="padding-bottom: 20px">
-                                  <div class="card__blog radius shadowDepth1">
-                              			<div class="card__image border-tlr-radius">
-                              				<div style="background:url(/images/blog/{{ $post->image }})" alt="image" class="image border-tlr-radius"></div>
-                                    </div>
-                              			<div class="card__content card__padding">
-                              				<article class="card__article">
-                          	    				<h3 style="height: 75px;"><a href="/blogs/{{$post->slug}}">
-                                        {{ str_limit($post->title, 57) }}</a></h3>
-    											               <div class="description">
-                                           {{ str_limit($post->excerpt, 150) }}
-                                        </div>
-                          	    			</article>
-                              			</div>
 
-                              			<div class="card__action">
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+            @foreach ($posts as $post)
+                <div class="col-md-4">
+                    <div  style="height: 200px;">
+                        <a href="/blog/{{$post->slug}}">
+                            <div class="blog-card-image" style="background-image:url(/images/blog/{{ $post->image }});">
 
-                              				<div class="card__author" style="padding-bottom:10px;">
-                              					<a class="tt_button kd-animated zoomIn" href="/blogs/{{$post->slug}}">Read more</a>
-                              				</div>
-                              			</div>
-                              		</div>
-                                </div>
-                                @endforeach
-                                <div class="col-md-12 text-center">{{$posts->links()}}</div>
-                              </div>
                             </div>
-
+                        </a>
+                     </div>
+                    <div class="blog-card-text">
+                        <div class="blog-card-date">
+                        {{date("l, F j ", strtotime($post->created_at))}}
+                        </div>
+                        <div class="blog-card-title">
+                            <a href="/blog/{{$post->slug}}"> {{ str_limit($post->title, 57) }}</a>
+                        </div>
+                        <div class="blog-card-p">
+                        {{ str_limit($post->excerpt, 150) }}
+                        <br>
+                            <a class="tt_button kd-animated zoomIn" href="/blog/{{$post->slug}}">Read more</a>
                         </div>
                     </div>
                 </div>
+            @endforeach
+                <div class="col-md-12 text-center">{{$posts->links()}}</div>
             </div>
         </div>
-    </section>
+    </div>
 </div>
 @stop

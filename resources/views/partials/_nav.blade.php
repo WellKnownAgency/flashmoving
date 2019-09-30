@@ -65,6 +65,9 @@
       <li class="nav-item">
         <a class="nav-link" id="border-bot" href="{{route('contact-us')}}">Contact us</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" id="border-bot" href="/blog">Blog</a>
+      </li>
     </ul>
   </div>
 </nav>
@@ -104,6 +107,9 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/contact-us">Contact us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/blog">Blog</a>
       </li>
     </ul>
     <ul class="ml-auto navbar-nav">
