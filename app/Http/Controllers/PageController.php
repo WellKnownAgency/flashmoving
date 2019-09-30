@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Post;
 use Illuminate\Http\Request;
 use App\Price;
 use Mail;
@@ -115,8 +116,9 @@ class PageController extends Controller
       return back();
     }
 		public function sitemap()
-    {
-      return response()->view('sitemap')->header('Content-Type', 'text/xml');
+    { 
+      $posts = Post::orderBy('updated_at', 'DESC')->get();
+      return response()->view('sitemap', compact('posts'))->header('Content-Type', 'text/xml');
     }
 
     public function admin()

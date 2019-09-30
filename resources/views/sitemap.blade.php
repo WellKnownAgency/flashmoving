@@ -84,4 +84,11 @@
             <lastmod>2019-02-08</lastmod>
 						<priority>1.00</priority>
         </url>
+        @foreach ($posts as $post)
+        <url>
+            <loc>https://flashmoving.net/blog/{{$post->slug}}</loc>
+            <lastmod>{{ date('Y-m-d', strtotime($post->updated_at)) }}</lastmod>
+						<priority>0.80</priority>
+        </url>
+        @endforeach
     </urlset>
