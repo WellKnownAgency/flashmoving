@@ -1,5 +1,5 @@
-@section('title', '')
-@section('dscr', '')
+@section('title', 'About us | Flash Moving')
+@section('dscr', 'About Flash Moving Company ')
 @section('keywords', '')
 @section('mainimg', '')
 
