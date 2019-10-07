@@ -17,7 +17,10 @@ iframe .btn-primary {
 
 <div class="contact">
   <div class="container">
-		<iframe src="https://flashmoving.moveitpro.com/iframe/contact_move_info?b_id=380" height="960" width="100%" allowfullscreen="" frameborder="0"></iframe>
+  <iframe frameBorder="0"
+        src="https://portal.smartmoving.com/embedded/?companyId=e7d3ec4b-b894-41c1-85db-aad101615386&mode=full"
+        style="width: 100%; height: 100%; min-height: 880px; min-width: 400px; max-width: 100%; margin:0px; border-width: 0;">
+</iframe>
   </div>
 </div>
 
