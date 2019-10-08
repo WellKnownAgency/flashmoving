@@ -1,6 +1,7 @@
 <html lang="en">
   <head>
     @include('partials/_head')
+    @yield('extracss')
   </head>
   <body itemscope itemtype="http://schema.org/LocalBusiness">
 		@include('partials/_alert')

@@ -5,6 +5,14 @@
 
 @extends('layouts.main')
 
+@section('extracss')
+<style>
+.testt {
+    background-color: #EBEBEB !important;
+}
+</style>
+@stop
+
 @section('content')
 
     {{-- Hero --}}
@@ -438,7 +446,7 @@
             <div class="section-header">
                 <h2 class="section-title section-title--upper">Get a Free Moving Estimate</h2>
             </div>
-            <iframe frameBorder="0"
+            <iframe frameBorder="0" class="testt"
         src="https://portal.smartmoving.com/embedded/?companyId=e7d3ec4b-b894-41c1-85db-aad101615386&mode=full"
         style="width: 100%; height: 100%; min-height: 880px; min-width: 400px; max-width: 100%; margin:0px; border-width: 0;">
 </iframe>        </div>
