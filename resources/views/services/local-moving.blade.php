@@ -73,7 +73,7 @@
                             </a>
                         </div>
                         <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="">
+                            <a class="services-collection-item" href="/local-moving/brookline-movers">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/9fc2906b-00c5-4aaf-8.jpg')}}" alt="Brookline" class="services-collection-item__img services-collection-item__img--brightness-high">
