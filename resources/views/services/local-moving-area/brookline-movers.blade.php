@@ -24,7 +24,7 @@
                     </div>
                     <div class="content-blocks-item__text">
                         <p>
-                        Flashmoving Company is located close to Brookline MA and that’s why it’s a perfect solution for your local moving. Our company service Boston and surrounded areas, including not only Brookline for a long time. We have developed a system we help our customers with any moving service they can have - local moving, packing, long-distance moving, storage, piano moving, hoisting and more. Our Brookline Moving company is fully licensed and insured. Moving Services we provide include a 24 hours customer service to make sure your moving in Brookline MA goes smoothly.
+                        Flashmoving Company is located close to Brookline MA and that’s why it’s a perfect solution for your local moving. Our company service Boston and surrounded areas, including Brookline for a long time. We have developed a system where we help our customers with any moving service they need - local moving, packing, long-distance moving, storage, piano moving, hoisting and more. Our Brookline Moving company is fully licensed and insured. Moving Services we provide include a 24 hours customer service to make sure your moving in Brookline MA goes smoothly.
                         </p>
                         <p>
                         After you send request through our website or simply call us, our dedicated manager will give you all the information you need to get prepared for your upcoming Brookline Move. 
@@ -54,7 +54,7 @@
                         <p>
                         One of the important aspects of any moving company Brookline ma is insurance. Flash Moving is fully insured for both Interstate and Local moves, so you can simply rely on us.
                         <br>
-                        Contact us now to get a quick moving quote for your Brookline Movers.
+                        Contact us now to get a quick moving quote from your Brookline Movers.
                         </p>
                     </div>
                 </div>
