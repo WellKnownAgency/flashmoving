@@ -83,7 +83,7 @@
                             </a>
                         </div>
                         <div class="col-sm services-collection__item">
-                            <a class="services-collection-item" href="">
+                            <a class="services-collection-item" href="/local-moving/cambridge-movers">
                                 <div class="services-collection-item__background">
                                     <div class="services-collection-item__preview">
                                         <img src="{{asset('images/services/local/Cambridge.jpg')}}" alt="Cambridge" class="services-collection-item__img services-collection-item__img--brightness-high">
