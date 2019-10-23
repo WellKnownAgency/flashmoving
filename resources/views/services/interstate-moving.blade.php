@@ -97,7 +97,8 @@
                       <div class="container">
                         <div class="row">
                           <div class="col-md-3">
-                            <div style="text-align:center;"><a href="/long-distance-movers/moving-boston-to-los-angeles">Los Angeles</a><br>San Francisco<br>San Diego</div>
+                            <div style="text-align:center;"><a href="/long-distance-movers/moving-boston-to-los-angeles">Los Angeles</a><br>
+                            <a href="/long-distance-movers/moving-boston-to-san-frncisco">San Francisco</a><br>San Diego</div>
                           </div>
                           <div class="col-md-3">
                             <div style="text-align:center;">Seattle<br>Las Vegas<br>Denver</div>
