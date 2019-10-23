@@ -351,199 +351,201 @@
             <div class="section-header">
                 <h2 class="section-title">Flash Movers VS Other Ways</h2>
             </div>
-            <div class="t-col_10">
-                <div class="t614__mobile">
-                <div class="t614__wrapper">
-                <div class="t614__header">
-                <div class="t614__left" style="min-width: 260px;width: 260px;">
-                    <div class="t614__title t614__header_title t-name t-name_xs" style="font-size:22px;" field="title">Features</div>          </div>
-                            <div class="t614__col t614__width_33 t-align_center" style="border-color: #8c8c8c;">
-                    <div class="t614__title t614__header_title t-name t-name_xs" style="font-size:22px;" field="title2"><div style="color:#db4623;" data-customstyle="yes"><strong>Flash Movers</strong></div></div>
-                </div>
-                                    <div class="t614__col t614__width_33 t-align_center" style="border-color: #8c8c8c;">
-                    <div class="t614__title t614__header_title t-name t-name_xs" style="font-size:22px;" field="title3"><div style="color:#a4a4a4;" data-customstyle="yes">Do It YourSelf</div></div>
-                </div>
-                                    <div class="t614__col t614__width_33 t-align_center" style="border-color: #8c8c8c;">
-                    <div class="t614__title t614__header_title t-name t-name_xs" style="font-size:22px;" field="title4"><div style="color:#a4a4a4;" data-customstyle="yes">VAN Lines</div></div>
-                </div>
-                                    </div>
+            <div class="tcontainer">
+                <div class="t-col_10">
+                    <div class="t614__mobile">
+                    <div class="t614__wrapper">
+                    <div class="t614__header">
+                    <div class="t614__left" style="min-width: 260px;width: 260px;">
+                        <div class="t614__title t614__header_title t-name t-name_xs" style="font-size:22px;" field="title">Features</div>          </div>
+                                <div class="t614__col t614__width_33 t-align_center" style="border-color: #8c8c8c;">
+                        <div class="t614__title t614__header_title t-name t-name_xs" style="font-size:22px;" field="title2"><div style="color:#db4623;" data-customstyle="yes"><strong>Flash Movers</strong></div></div>
+                    </div>
+                                        <div class="t614__col t614__width_33 t-align_center" style="border-color: #8c8c8c;">
+                        <div class="t614__title t614__header_title t-name t-name_xs" style="font-size:22px;" field="title3"><div style="color:#a4a4a4;" data-customstyle="yes">Do It YourSelf</div></div>
+                    </div>
+                                        <div class="t614__col t614__width_33 t-align_center" style="border-color: #8c8c8c;">
+                        <div class="t614__title t614__header_title t-name t-name_xs" style="font-size:22px;" field="title4"><div style="color:#a4a4a4;" data-customstyle="yes">VAN Lines</div></div>
+                    </div>
+                                        </div>
 
-                <div class="t614__body" style="border-radius: 8px;">
-                <div class="t614__middle">
-                    <div class="t614__middle_item " style="background-color: #efefef;">
-                    <div class="t614__left t-valign_middle" style="min-width: 260px;width: 260px;">
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title__1485805746242">Same Day Delivery</div>              </div>
-                                    <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
-                        
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title2__1485805746242">
-                                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <circle fill="#25B309" cx="12" cy="12" r="12"></circle>
-                                <polygon fill="#FFFFFF" points="10.776 16.32 5.184 10.728 5.688 10.2 10.776 15.288 18.792 7.272 19.296 7.8"></polygon>
-                                </g>
-                            </svg>
-                                                            </div>
-                    </div>
-                                                <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
-                        
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title3__1485805746242">
-                                            <div style="font-size:20px;" data-customstyle="yes">Maybe</div>
-                                        </div>
-                    </div>
-                                                <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
-                        
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title4__1485805746242">
-                                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <circle fill="#F24611" cx="12" cy="12" r="12"></circle>
-                                <polygon fill="#FFFFFF" points="17.28 7.32 16.8 6.84 12.072 11.592 7.32 6.84 6.84 7.32 11.592 12.072 6.84 16.8 7.32 17.28 12.072 12.528 16.8 17.28 17.28 16.8 12.528 12.072"></polygon>
-                            </g>
-                            </svg>
-                                                            </div>
-                    </div>
-                                                </div>
-                                                    <div class="t614__middle_item t614__middle_item-secondchild" style="background-color:#fff ;">
-                    <div class="t614__left t-valign_middle" style="min-width: 260px;width: 260px;">
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title__1485805780697">Affordable Price / Flat Rate</div>              </div>
-                                    <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
-                        
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title2__1485805780697">
-                                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <circle fill="#25B309" cx="12" cy="12" r="12"></circle>
-                                <polygon fill="#FFFFFF" points="10.776 16.32 5.184 10.728 5.688 10.2 10.776 15.288 18.792 7.272 19.296 7.8"></polygon>
-                                </g>
-                            </svg>
-                                                            </div>
-                    </div>
-                                                <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
-                        
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title3__1485805780697">
-                                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <circle fill="#25B309" cx="12" cy="12" r="12"></circle>
-                                <polygon fill="#FFFFFF" points="10.776 16.32 5.184 10.728 5.688 10.2 10.776 15.288 18.792 7.272 19.296 7.8"></polygon>
-                                </g>
-                            </svg>
-                                                            </div>
-                    </div>
-                                                <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
-                        
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title4__1485805780697">
-                                            <span style="font-size: 20px;">Maybe</span>
-                                        </div>
-                    </div>
-                                                </div>
-                                                    <div class="t614__middle_item " style="background-color: #efefef;">
-                    <div class="t614__left t-valign_middle" style="min-width: 260px;width: 260px;">
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title__1485818956543">Same Professional Team</div>              </div>
-                                    <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
-                        
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title2__1485818956543">
-                                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <circle fill="#25B309" cx="12" cy="12" r="12"></circle>
-                                <polygon fill="#FFFFFF" points="10.776 16.32 5.184 10.728 5.688 10.2 10.776 15.288 18.792 7.272 19.296 7.8"></polygon>
-                                </g>
-                            </svg>
-                                                            </div>
-                    </div>
-                                                <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
-                        
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title3__1485818956543">
-                                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <circle fill="#F24611" cx="12" cy="12" r="12"></circle>
-                                <polygon fill="#FFFFFF" points="17.28 7.32 16.8 6.84 12.072 11.592 7.32 6.84 6.84 7.32 11.592 12.072 6.84 16.8 7.32 17.28 12.072 12.528 16.8 17.28 17.28 16.8 12.528 12.072"></polygon>
-                            </g>
-                            </svg>
-                                                            </div>
-                    </div>
-                                                <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
-                        
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title4__1485818956543">
-                                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <circle fill="#F24611" cx="12" cy="12" r="12"></circle>
-                                <polygon fill="#FFFFFF" points="17.28 7.32 16.8 6.84 12.072 11.592 7.32 6.84 6.84 7.32 11.592 12.072 6.84 16.8 7.32 17.28 12.072 12.528 16.8 17.28 17.28 16.8 12.528 12.072"></polygon>
-                            </g>
-                            </svg>
-                                                            </div>
-                    </div>
-                                                </div>
-                                                    <div class="t614__middle_item t614__middle_item-secondchild" style="background-color:#fff ;">
-                    <div class="t614__left t-valign_middle" style="min-width: 260px;width: 260px;">
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title__1485818976579">Highest level of protection</div>              </div>
-                                    <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
-                        
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title2__1485818976579">
-                                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <circle fill="#25B309" cx="12" cy="12" r="12"></circle>
-                                <polygon fill="#FFFFFF" points="10.776 16.32 5.184 10.728 5.688 10.2 10.776 15.288 18.792 7.272 19.296 7.8"></polygon>
-                                </g>
-                            </svg>
-                                                            </div>
-                    </div>
-                                                <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
-                        
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title3__1485818976579">
-                                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <circle fill="#F24611" cx="12" cy="12" r="12"></circle>
-                                <polygon fill="#FFFFFF" points="17.28 7.32 16.8 6.84 12.072 11.592 7.32 6.84 6.84 7.32 11.592 12.072 6.84 16.8 7.32 17.28 12.072 12.528 16.8 17.28 17.28 16.8 12.528 12.072"></polygon>
-                            </g>
-                            </svg>
-                                                            </div>
-                    </div>
-                                                <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
-                        
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title4__1485818976579">
-                                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <circle fill="#F24611" cx="12" cy="12" r="12"></circle>
-                                <polygon fill="#FFFFFF" points="17.28 7.32 16.8 6.84 12.072 11.592 7.32 6.84 6.84 7.32 11.592 12.072 6.84 16.8 7.32 17.28 12.072 12.528 16.8 17.28 17.28 16.8 12.528 12.072"></polygon>
-                            </g>
-                            </svg>
-                                                            </div>
-                    </div>
-                                                </div>
-                                                    <div class="t614__middle_item " style="background-color: #efefef;">
-                    <div class="t614__left t-valign_middle" style="min-width: 260px;width: 260px;">
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title__1485824433720">Short-Term Storage</div>              </div>
-                                    <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
-                        
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title2__1485824433720">
-                                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <circle fill="#25B309" cx="12" cy="12" r="12"></circle>
-                                <polygon fill="#FFFFFF" points="10.776 16.32 5.184 10.728 5.688 10.2 10.776 15.288 18.792 7.272 19.296 7.8"></polygon>
-                                </g>
-                            </svg>
-                                                            </div>
-                    </div>
-                                                <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
-                        
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title3__1485824433720">
-                                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <circle fill="#F24611" cx="12" cy="12" r="12"></circle>
-                                <polygon fill="#FFFFFF" points="17.28 7.32 16.8 6.84 12.072 11.592 7.32 6.84 6.84 7.32 11.592 12.072 6.84 16.8 7.32 17.28 12.072 12.528 16.8 17.28 17.28 16.8 12.528 12.072"></polygon>
-                            </g>
-                            </svg>
-                                                            </div>
-                    </div>
-                                                <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
-                        
-                        <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title4__1485824433720">
-                                            <span style="font-size: 20px;">Maybe</span>
-                                        </div>
-                    </div>
-                                                </div>
+                    <div class="t614__body" style="border-radius: 8px;">
+                    <div class="t614__middle">
+                        <div class="t614__middle_item " style="background-color: #efefef;">
+                        <div class="t614__left t-valign_middle" style="min-width: 260px;width: 260px;">
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title__1485805746242">Same Day Delivery</div>              </div>
+                                        <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
+                            
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title2__1485805746242">
+                                                                        <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <circle fill="#25B309" cx="12" cy="12" r="12"></circle>
+                                    <polygon fill="#FFFFFF" points="10.776 16.32 5.184 10.728 5.688 10.2 10.776 15.288 18.792 7.272 19.296 7.8"></polygon>
+                                    </g>
+                                </svg>
+                                                                </div>
                         </div>
+                                                    <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
+                            
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title3__1485805746242">
+                                                <div style="font-size:20px;" data-customstyle="yes">Maybe</div>
+                                            </div>
+                        </div>
+                                                    <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
+                            
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title4__1485805746242">
+                                                                        <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <circle fill="#F24611" cx="12" cy="12" r="12"></circle>
+                                    <polygon fill="#FFFFFF" points="17.28 7.32 16.8 6.84 12.072 11.592 7.32 6.84 6.84 7.32 11.592 12.072 6.84 16.8 7.32 17.28 12.072 12.528 16.8 17.28 17.28 16.8 12.528 12.072"></polygon>
+                                </g>
+                                </svg>
+                                                                </div>
+                        </div>
+                                                    </div>
+                                                        <div class="t614__middle_item t614__middle_item-secondchild" style="background-color:#fff ;">
+                        <div class="t614__left t-valign_middle" style="min-width: 260px;width: 260px;">
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title__1485805780697">Affordable Price / Flat Rate</div>              </div>
+                                        <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
+                            
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title2__1485805780697">
+                                                                        <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <circle fill="#25B309" cx="12" cy="12" r="12"></circle>
+                                    <polygon fill="#FFFFFF" points="10.776 16.32 5.184 10.728 5.688 10.2 10.776 15.288 18.792 7.272 19.296 7.8"></polygon>
+                                    </g>
+                                </svg>
+                                                                </div>
+                        </div>
+                                                    <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
+                            
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title3__1485805780697">
+                                                                        <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <circle fill="#25B309" cx="12" cy="12" r="12"></circle>
+                                    <polygon fill="#FFFFFF" points="10.776 16.32 5.184 10.728 5.688 10.2 10.776 15.288 18.792 7.272 19.296 7.8"></polygon>
+                                    </g>
+                                </svg>
+                                                                </div>
+                        </div>
+                                                    <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
+                            
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title4__1485805780697">
+                                                <span style="font-size: 20px;">Maybe</span>
+                                            </div>
+                        </div>
+                                                    </div>
+                                                        <div class="t614__middle_item " style="background-color: #efefef;">
+                        <div class="t614__left t-valign_middle" style="min-width: 260px;width: 260px;">
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title__1485818956543">Same Professional Team</div>              </div>
+                                        <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
+                            
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title2__1485818956543">
+                                                                        <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <circle fill="#25B309" cx="12" cy="12" r="12"></circle>
+                                    <polygon fill="#FFFFFF" points="10.776 16.32 5.184 10.728 5.688 10.2 10.776 15.288 18.792 7.272 19.296 7.8"></polygon>
+                                    </g>
+                                </svg>
+                                                                </div>
+                        </div>
+                                                    <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
+                            
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title3__1485818956543">
+                                                                        <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <circle fill="#F24611" cx="12" cy="12" r="12"></circle>
+                                    <polygon fill="#FFFFFF" points="17.28 7.32 16.8 6.84 12.072 11.592 7.32 6.84 6.84 7.32 11.592 12.072 6.84 16.8 7.32 17.28 12.072 12.528 16.8 17.28 17.28 16.8 12.528 12.072"></polygon>
+                                </g>
+                                </svg>
+                                                                </div>
+                        </div>
+                                                    <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
+                            
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title4__1485818956543">
+                                                                        <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <circle fill="#F24611" cx="12" cy="12" r="12"></circle>
+                                    <polygon fill="#FFFFFF" points="17.28 7.32 16.8 6.84 12.072 11.592 7.32 6.84 6.84 7.32 11.592 12.072 6.84 16.8 7.32 17.28 12.072 12.528 16.8 17.28 17.28 16.8 12.528 12.072"></polygon>
+                                </g>
+                                </svg>
+                                                                </div>
+                        </div>
+                                                    </div>
+                                                        <div class="t614__middle_item t614__middle_item-secondchild" style="background-color:#fff ;">
+                        <div class="t614__left t-valign_middle" style="min-width: 260px;width: 260px;">
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title__1485818976579">Highest level of protection</div>              </div>
+                                        <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
+                            
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title2__1485818976579">
+                                                                        <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <circle fill="#25B309" cx="12" cy="12" r="12"></circle>
+                                    <polygon fill="#FFFFFF" points="10.776 16.32 5.184 10.728 5.688 10.2 10.776 15.288 18.792 7.272 19.296 7.8"></polygon>
+                                    </g>
+                                </svg>
+                                                                </div>
+                        </div>
+                                                    <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
+                            
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title3__1485818976579">
+                                                                        <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <circle fill="#F24611" cx="12" cy="12" r="12"></circle>
+                                    <polygon fill="#FFFFFF" points="17.28 7.32 16.8 6.84 12.072 11.592 7.32 6.84 6.84 7.32 11.592 12.072 6.84 16.8 7.32 17.28 12.072 12.528 16.8 17.28 17.28 16.8 12.528 12.072"></polygon>
+                                </g>
+                                </svg>
+                                                                </div>
+                        </div>
+                                                    <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
+                            
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title4__1485818976579">
+                                                                        <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <circle fill="#F24611" cx="12" cy="12" r="12"></circle>
+                                    <polygon fill="#FFFFFF" points="17.28 7.32 16.8 6.84 12.072 11.592 7.32 6.84 6.84 7.32 11.592 12.072 6.84 16.8 7.32 17.28 12.072 12.528 16.8 17.28 17.28 16.8 12.528 12.072"></polygon>
+                                </g>
+                                </svg>
+                                                                </div>
+                        </div>
+                                                    </div>
+                                                        <div class="t614__middle_item " style="background-color: #efefef;">
+                        <div class="t614__left t-valign_middle" style="min-width: 260px;width: 260px;">
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title__1485824433720">Short-Term Storage</div>              </div>
+                                        <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
+                            
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title2__1485824433720">
+                                                                        <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <circle fill="#25B309" cx="12" cy="12" r="12"></circle>
+                                    <polygon fill="#FFFFFF" points="10.776 16.32 5.184 10.728 5.688 10.2 10.776 15.288 18.792 7.272 19.296 7.8"></polygon>
+                                    </g>
+                                </svg>
+                                                                </div>
+                        </div>
+                                                    <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
+                            
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title3__1485824433720">
+                                                                        <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <circle fill="#F24611" cx="12" cy="12" r="12"></circle>
+                                    <polygon fill="#FFFFFF" points="17.28 7.32 16.8 6.84 12.072 11.592 7.32 6.84 6.84 7.32 11.592 12.072 6.84 16.8 7.32 17.28 12.072 12.528 16.8 17.28 17.28 16.8 12.528 12.072"></polygon>
+                                </g>
+                                </svg>
+                                                                </div>
+                        </div>
+                                                    <div class="t614__col t614__width_33 t-align_center t-valign_middle" style="border-color: #8c8c8c;">
+                            
+                            <div class="t614__title t614__middle_title t-descr t-descr_xs" style="" field="li_title4__1485824433720">
+                                                <span style="font-size: 20px;">Maybe</span>
+                                            </div>
+                        </div>
+                                                    </div>
+                            </div>
+
+                            </div>
 
                         </div>
-
                     </div>
                 </div>
             </div>
