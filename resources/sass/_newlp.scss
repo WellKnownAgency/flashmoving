@@ -1,4 +1,42 @@
+.pl-0 {
+	padding-left:0px;
+	padding-right: 0px;
+}
+.pt-50 {
+	padding-top:50px;
+}
 .newlp {
+	&-block-grey {
+		background-color: #f5f5f5;
+		padding: 40px;
+		font-size: 18px;
+		font-family: 'Open Sans',Arial,sans-serif;
+    	font-weight: 300;
+	}
+	&-block-image {
+		object-fit: cover;
+    	height: auto;
+	}
+	&-block-heading {
+		line-height: 1.17;
+		font-weight: 600;
+		padding-bottom: 15px;
+		font-size: 26px;
+	}
+	&-block-icon {
+		width: 65px;
+		height: 65px;
+		max-width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	&-bg-image {
+		background: url(/images/hero/IMG_79081.jpg);
+		background-repeat: no-repeat;
+		background-size: 200px 300px;
+	}
+
 	&-main-title {
 		&-bg-o {
 			background-color: #db4623;
@@ -133,4 +171,100 @@
 	}
 }
 
+}
+
+@media screen and (max-width: 960px){
+	.t614__mobile {
+		padding: 40px 20px;
+	}
+}
+.t614__wrapper {
+    overflow: hidden;
+}
+.t614__header {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.t614__body {
+    border-radius: 5px;
+    overflow: hidden;
+}
+.t614__middle_item {
+    display: table;
+    width: 100%;
+	table-layout: fixed;
+	background-color: #efefef;
+}
+.t614__middle_item {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.t614__left, .t614__col {
+    display: table-cell;
+    overflow: hidden;
+}
+.t-valign_middle {
+    vertical-align: middle;
+}
+.t614__title {
+    padding: 22px 20px;
+}
+@media screen and (max-width: 640px){
+	.t-descr_xs {
+		font-size: 12px;
+		line-height: 1.45;
+	}
+}
+@media screen and (max-width: 1200px){
+		.t-descr_xs {
+		font-size: 14px;
+	}
+}
+.t-descr_xs {
+    font-size: 16px;
+    line-height: 1.55;
+}
+.t614__col {
+	border-left: 1px solid #eee;
+	border-color: #8c8c8c;
+}
+#allrecords {
+    -webkit-font-smoothing: antialiased;
+    background-color: none;
+}
+.t-align_center {
+    text-align: center;
+}
+.t614 .t-align_center svg {
+    margin: 0 auto;
+}
+.t614__header .t614__col {
+    border-left: none;
+}
+
+.t-col_10 {
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 920px;
+}
+
+@media screen and (max-width: 960px){
+.t-col_10 {
+    width: 780px;
+    max-width: 780px;
+    padding: 0;
+}
+}
+
+@media screen and (max-width: 960px) {
+	.tcontainer {
+		overflow-x: scroll;
+	}
+}
+@media screen and (max-width: 960px) {
+	.content-blocks-item__img {
+		display: none;
+	}
 }
