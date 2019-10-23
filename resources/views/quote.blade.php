@@ -17,9 +17,12 @@ iframe .btn-primary {
 
 <div class="contact">
   <div class="container">
-  <div class="move-calc-wrapper elromco-desktop">
-            <move-Calculator></move-Calculator>
-        </div> 
+  <div class="ultra-form-wrapper">
+        <ultrasmall-form></ultrasmall-form>
+    </div>
+    <div class="move-calc-wrapper elromco-desktop">
+        <move-Calculator></move-Calculator>
+    </div>   
   </div>
 </div>
 
