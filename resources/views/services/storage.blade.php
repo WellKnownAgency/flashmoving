@@ -36,7 +36,7 @@
             <a class="tabs-nav__item tabs-nav__link" id="storage-overnight-tab" data-toggle="tab" href="#storage-overnight" role="tab" aria-controls="nav-overnight" aria-selected="false"><span class="tabs-nav__text tabs-nav__text--upper">Overnight storage</span></a>
         </div>
         <div class="tab-content" id="prices-nav-tabContent">
-            <div class="tab-pane fade show active" id="storage-short" role="tabpanel" aria-labelledby="storage-short-tab">
+            <div class="tab-pane fade show active" style="opacity: 1;" id="storage-short" role="tabpanel" aria-labelledby="storage-short-tab">
                 {{-- Short-term storage --}}
                 <div class="section container-fluid">
                     <div class="row content-blocks-item">
@@ -69,7 +69,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="storage-long" role="tabpanel" aria-labelledby="storage-long-tab">
+            <div class="tab-pane fade" style="opacity: 1;" id="storage-long" role="tabpanel" aria-labelledby="storage-long-tab">
                 {{-- Long-term storage --}}
                 <div class="section">
                     <div class="row content-blocks-item">
@@ -99,7 +99,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="storage-overnight" role="tabpanel" aria-labelledby="storage-overnight-tab">
+            <div class="tab-pane fade" style="opacity: 1;" id="storage-overnight" role="tabpanel" aria-labelledby="storage-overnight-tab">
                 {{-- Overnight storage --}}
                 <div class="section">
                     <div class="row content-blocks-item">

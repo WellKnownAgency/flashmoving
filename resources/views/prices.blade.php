@@ -38,8 +38,8 @@
             <a class="tabs-nav__item tabs-nav__link" id="prices-storage-tab" data-toggle="tab" href="#prices-storage" role="tab" aria-controls="nav-storage" aria-selected="false"><span class="tabs-nav__text">Storage</span></a>
             <a class="tabs-nav__item tabs-nav__link" id="prices-services-tab" data-toggle="tab" href="#prices-services" role="tab" aria-controls="nav-services" aria-selected="false"><span class="tabs-nav__text">Additional Sevices</span></a>
         </div>
-        <div class="tab-content" id="prices-nav-tabContent">
-            <div class="tab-pane fade show active" id="prices-local" role="tabpanel" aria-labelledby="prices-local-tab">
+        <div class="tab-content" id="prices-nav-tabContent" >
+            <div class="tab-pane fade show active" style="opacity: 1;" id="prices-local"  role="tabpanel" aria-labelledby="prices-local-tab">
                 {{-- Local Moving --}}
                 <div class="section">
                     <div class="container">
@@ -154,7 +154,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="prices-distance" role="tabpanel" aria-labelledby="prices-distance-tab">
+            <div class="tab-pane fade" style="opacity: 1;" id="prices-distance" role="tabpanel" aria-labelledby="prices-distance-tab">
                 {{-- Long distance --}}
                 <div class="section">
                     <div class="container">
@@ -252,7 +252,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="prices-storage" role="tabpanel" aria-labelledby="prices-storage-tab">
+            <div class="tab-pane fade" style="opacity: 1;" id="prices-storage" role="tabpanel" aria-labelledby="prices-storage-tab">
                 {{-- Storage --}}
                 <div class="section mb-5">
                     <div class="container">
@@ -327,7 +327,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="prices-services" role="tabpanel" aria-labelledby="prices-services-tab">
+            <div class="tab-pane fade" style="opacity: 1;" id="prices-services" role="tabpanel" aria-labelledby="prices-services-tab">
                 <div class="section mb-5">
                     <div class="container">
                         <div class="section-header">
