@@ -11,6 +11,43 @@
 <img src="/images/services/interstate/nyc.jpg" alt="" class="hero__img hero__img--brightness-high">
 @stop
 
+@section('faqhead')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How much does it cost to move to New York?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Average cost for moving to New York is $1200. It includes labor, truck, tolls, gas and wrapping materials.</p>"
+    }
+  }, {
+    "@type": "Question",
+    "name": "How long from Boston to New York?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The average time for driving from Boston to New York is 5 hours."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How much is overnight storage?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Overnight Storage cost for one truck is $150.</p>"
+    }
+  }, {
+    "@type": "Question",
+    "name": "How to travel from Boston to New York?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can get from Boston to New York by plane, train, bus or car."
+    }
+  }]
+  }
+</script>
+@stop
 
 @section('content-list')
     <div class="content-blocks__item" >
@@ -73,7 +110,7 @@
 @endsection
 @section('content-faq')
 <section>
-    <div class="container">
+    <div class="container" >
     <h2 class="section__title section__title--uppercase">FAQ</h2>
     </div>
     <div class="container">
@@ -82,14 +119,14 @@
                 {{--1--}}
                 <div class="accordion-content__item col-md-6">
                     <div class="accordion-content-item">
-                        <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingHourlyRate" data-toggle="collapse" data-target="#collapseHourlyRate" aria-expanded="true" aria-controls="collapseHourlyRate" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                        <span style="font-size: 20px!important;" itemprop="name">How much does it cost to move to New York</span>
+                        <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingHourlyRate" data-toggle="collapse" data-target="#collapseHourlyRate" aria-expanded="true" aria-controls="collapseHourlyRate">
+                        <span style="font-size: 20px!important;">How much does it cost to move to New York</span>
                             <div class="accordion-content-item__button">
                                 <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
                             </div>
                         </div>
-                        <div class="collapse accordion-content-item__body" id="collapseHourlyRate" aria-labelledby="headingHourlyRate" data-parent="#accordionPricesFaq" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                            <div class="accordion-content-item__text" itemprop="text">
+                        <div class="collapse accordion-content-item__body" id="collapseHourlyRate" aria-labelledby="headingHourlyRate" data-parent="#accordionPricesFaq">
+                            <div class="accordion-content-item__text">
                                 The Average cost for moving to New York is $1200. It includes labor, truck, tolls, gas and wrapping materials.
                             </div>
                         </div>
