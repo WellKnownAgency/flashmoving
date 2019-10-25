@@ -33,3 +33,4 @@ display:none;
 
 @yield('preload')
 @yield('customcss')
+@yield('faqhead')
