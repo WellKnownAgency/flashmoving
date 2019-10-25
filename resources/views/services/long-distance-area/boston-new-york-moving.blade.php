@@ -121,7 +121,7 @@
                     <div class="accordion-content-item">
                         <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingHourlyRate" data-toggle="collapse" data-target="#collapseHourlyRate" aria-expanded="true" aria-controls="collapseHourlyRate">
                         <span style="font-size: 20px!important;">How much does it cost to move to New York</span>
-                            <div class="accordion-content-item__button">
+                            <div class="accordion-content-item__button mobile-hide">
                                 <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
                             </div>
                         </div>
@@ -137,7 +137,7 @@
                     <div class="accordion-content-item">
                         <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingLaborTime" data-toggle="collapse" data-target="#collapseLaborTime" aria-expanded="true" aria-controls="collapseLaborTime" >
                         <span style="font-size: 20px!important;">How long from Boston to New York</span>
-                            <div class="accordion-content-item__button">
+                            <div class="accordion-content-item__button mobile-hide">
                                 <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
                             </div>
                         </div>
@@ -153,7 +153,7 @@
                     <div class="accordion-content-item">
                         <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingTravelTime" data-toggle="collapse" data-target="#collapseTravelTime" aria-expanded="true" aria-controls="collapseTravelTime">
                         <span style="font-size: 20px!important;">How much is overnight storage</span>
-                            <div class="accordion-content-item__button">
+                            <div class="accordion-content-item__button mobile-hide">
                                 <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                     <div class="accordion-content-item">
                         <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingCharge" data-toggle="collapse" data-target="#collapseCharge" aria-expanded="true" aria-controls="collapseCharge">
                         <span style="font-size: 20px!important;">How to travel from Boston to New York</span>
-                            <div class="accordion-content-item__button">
+                            <div class="accordion-content-item__button mobile-hide">
                                 <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
                             </div>
                         </div>
