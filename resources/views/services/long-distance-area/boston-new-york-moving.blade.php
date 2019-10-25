@@ -80,9 +80,9 @@
     <div class="accordion-content theme-white" id="accordionPricesFaq" >
             <div class="accordion-content__list row">
                 {{--1--}}
-                <div class="accordion-content__item col-md-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <div class="accordion-content__item col-md-6">
                     <div class="accordion-content-item">
-                        <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingHourlyRate" data-toggle="collapse" data-target="#collapseHourlyRate" aria-expanded="true" aria-controls="collapseHourlyRate">
+                        <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingHourlyRate" data-toggle="collapse" data-target="#collapseHourlyRate" aria-expanded="true" aria-controls="collapseHourlyRate" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
                         <span style="font-size: 20px!important;" itemprop="name">How much does it cost to move to New York</span>
                             <div class="accordion-content-item__button">
                                 <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
