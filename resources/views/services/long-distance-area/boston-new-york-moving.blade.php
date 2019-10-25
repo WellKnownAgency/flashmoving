@@ -73,7 +73,7 @@
 @endsection
 @section('content-faq')
 <section>
-    <div class="container" itemscope itemtype="https://schema.org/FAQPage">
+    <div class="container">
     <h2 class="section__title section__title--uppercase">FAQ</h2>
     </div>
     <div class="container">
