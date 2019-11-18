@@ -1,4 +1,4 @@
-@section('title', 'Mover from Boston to Chicago, Chicago to Boston Moving')
+@section('title', 'Movers from Boston to Chicago, Chicago to Boston Moving')
 @section('dscr', 'Fully Licensed Moving Company from Boston to Chicago. Our reliable movers will make your move from Chicago to Boston simple and with no stress. Get a FREE Moving Estimate.')
 @section('keywords', '')
 @section('mainimg', '')
