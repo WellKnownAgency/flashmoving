@@ -28,6 +28,7 @@
                             <div class="hero__title" style="padding-top:38px;">
                                 <div class="hero-title" style="line-height: 0.2em">
                                     <span class="hero-title__dynamic">Flash Moving</span>
+                                    <br>
                                 </div>
                             </div>
                             <div class="hero__description hero__description--big"><b class="dynamic_licensed"></b> Movers in Boston Area<br>
