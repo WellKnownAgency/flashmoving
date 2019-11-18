@@ -35,7 +35,7 @@
     "name": "How much is overnight storage?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Overnight Storage cost for one truck is $150.</p>"
+      "text": "Overnight Storage cost for one truck is $150."
     }
   }, {
     "@type": "Question",
