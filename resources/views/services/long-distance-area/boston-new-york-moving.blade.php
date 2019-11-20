@@ -21,7 +21,7 @@
     "name": "How much does it cost to move to New York?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The Average cost for moving to New York is $1200. It includes labor, truck, tolls, gas and wrapping materials.</p>"
+      "text": "The Average cost for moving to New York is $1200. It includes labor, truck, tolls, gas and wrapping materials."
     }
   }, {
     "@type": "Question",
