@@ -11,6 +11,44 @@
 <img src="/images/services/interstate/IMG_7929.jpg" alt="" class="hero__img hero__img--brightness-high">
 @stop
 
+@section('faqhead')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How much does it cost to move to Washington, DC?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Average cost for moving to Washington, DC is $2500. It includes labor, truck, tolls, gas and wrapping materials."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How long from Boston to Washington, DC?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The average time for driving from Boston to Washington, DC is 8 hours."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How much is overnight storage?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Overnight Storage cost for one truck is $150."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How to travel from Boston to Washington, DC?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can get from Boston to Washington, DC by plane, train, bus or car."
+    }
+  }]
+  }
+</script>
+@stop
+
 @section('content-list')
     <div class="content-blocks__item" >
         <div class="row content-blocks-item">
@@ -72,7 +110,7 @@
 
 @endsection
 @section('content-faq')
-<!-- <section>
+<section>
     <div class="container">
     <h2 class="section__title section__title--uppercase">FAQ</h2>
     </div>
@@ -83,14 +121,14 @@
                 <div class="accordion-content__item col-md-6">
                     <div class="accordion-content-item">
                         <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingHourlyRate" data-toggle="collapse" data-target="#collapseHourlyRate" aria-expanded="true" aria-controls="collapseHourlyRate">
-                            Hourly rate
+                        How much does it cost to move to Washington, DC?
                             <div class="accordion-content-item__button">
                                 <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
                             </div>
                         </div>
                         <div class="collapse accordion-content-item__body" id="collapseHourlyRate" aria-labelledby="headingHourlyRate" data-parent="#accordionPricesFaq">
                             <div class="accordion-content-item__text">
-                                Hourly rate includes professional movers, clean and fully equipped moving truck, moving blankets/pads, disassembling/reassembling of furniture, tolls, gas, mileage, taxes, and basic insurance<br>.<br> <strong>All wrapping supplies will be charged additionally based on the actual usage. </strong><br>
+                            The Average cost for moving to Washington, DC is $2500. It includes labor, truck, tolls, gas and wrapping materials.<br>
                             </div>
                         </div>
                     </div>
@@ -99,15 +137,14 @@
                 <div class="accordion-content__item col-md-6">
                     <div class="accordion-content-item">
                         <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingLaborTime" data-toggle="collapse" data-target="#collapseLaborTime" aria-expanded="true" aria-controls="collapseLaborTime">
-                            Labor time
+                        How long from Boston to Washington, DC?
                             <div class="accordion-content-item__button">
                                 <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
                             </div>
                         </div>
                         <div class="collapse accordion-content-item__body" id="collapseLaborTime" aria-labelledby="headingLaborTime" data-parent="#accordionPricesFaq">
                             <div class="accordion-content-item__text">
-                                <img src="{{asset('images/prices/Laborexplainded.jpg')}}">
-                                <strong>Total Moving Time = Labor Time + Travel Time. </strong><br><br>Labor Time starts once movers arrive to your origin address and ends when movers finish unloading at the destination address. Lunch breaks will be deducted of your Total Moving Time.<br><br><strong>Total moving time can vary in case of undisclosed or unpredicted circumstances.</strong><strong></strong><br>
+                            The average time for driving from Boston to Washington, DC is 8 hours.<br>
                             </div>
                         </div>
                     </div>
@@ -116,15 +153,14 @@
                 <div class="accordion-content__item col-md-6">
                     <div class="accordion-content-item">
                         <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingTravelTime" data-toggle="collapse" data-target="#collapseTravelTime" aria-expanded="true" aria-controls="collapseTravelTime">
-                            Travel time
+                        How much is overnight storage?
                             <div class="accordion-content-item__button">
                                 <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
                             </div>
                         </div>
                         <div class="collapse accordion-content-item__body" id="collapseTravelTime" aria-labelledby="headingTravelTime" data-parent="#accordionPricesFaq">
                             <div class="accordion-content-item__text">
-                                <img src="{{asset('images/prices/Laborexplainded.jpg')}}">
-                                <strong>Travel time</strong> is the <strong>FIXED TIME</strong> which our crew spent to get from our parking to your location and back to our parking from your last destination. This fixed time will be added at the end of the job additionally to the actual time of the move. <br><br> Up to 1 hour Travel Time is applied to all jobs in Greater Boston area and minimum 30 min. (15 min for our movers to get to your address from our parking plus 15 min to get back when the move is finished). <br>
+                            Overnight Storage cost for one truck is $150.<br>
                             </div>
                         </div>
                     </div>
@@ -133,14 +169,14 @@
                 <div class="accordion-content__item col-md-6">
                     <div class="accordion-content-item">
                         <div class="accordion-content-item__header accordion-content-item__header--upper" id="headingCharge" data-toggle="collapse" data-target="#collapseCharge" aria-expanded="true" aria-controls="collapseCharge">
-                            Minimum charge
+                        How to travel from Boston to Washington, DC?
                             <div class="accordion-content-item__button">
                                 <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square"> <g transform="translate(1.000000, 1.000000)" stroke="#222222"> <path d="M0,11 L22,11"></path> <path d="M11,0 L11,22"></path> </g> </g> </svg>
                             </div>
                         </div>
                         <div class="collapse accordion-content-item__body" id="collapseCharge" aria-labelledby="headingCharge" data-parent="#accordionPricesFaq">
                             <div class="accordion-content-item__text">
-                                We have 3 hours minimum charge policy which includes travel time, in case your move takes less then 3 hours of the Total Time. Then our Rates are hourly based with 15 min. increment charge policy. <br>
+                            You can get from Boston to Washington, DC by plane, train, bus or car.<br>
                             </div>
                         </div>
                     </div>
@@ -148,7 +184,7 @@
             </div>
         </div>
     </div>
-</section> -->
+</section>
 @stop
 @section('content-list-2')
 <p>

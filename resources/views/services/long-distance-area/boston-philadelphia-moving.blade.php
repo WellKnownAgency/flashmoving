@@ -185,7 +185,7 @@
             </div>
         </div>
     </div>
-</section> -->
+</section>
 @stop
 @section('content-list-2')
 <p>
