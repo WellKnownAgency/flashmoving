@@ -35,7 +35,6 @@
       <a href="/privacy-policy" style="opacity: 0.7;">Privacy policy</a>
       <br>
       by <a href="https://taraskim.com" target="_blank" style="opacity: 0.7;">Web Development & Digital Marketing</a><br>
-			<a href="https://goborntomove.com" target="_blank" style="opacity: 0.7; color: #000;">Boston Movers</a>
     </div>
   </div>
 </div>
