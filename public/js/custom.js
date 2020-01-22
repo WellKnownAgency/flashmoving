@@ -1,15 +1,4 @@
-$(document).ready(function() {
- var feed = new Instafeed({
-         get: 'user',
-         userId: '5984022668',
-         clientId: 'db89b57f2b5042b382ecb0f277313e9d',
-         accessToken: '5984022668.1677ed0.9f169a77adba4754826206898008c0e5',
-         sortBy: 'most-recent',
-         limit: 8,
-         template: '<div class="col-sm-6 col-md-4 col-lg-3 photo-collection__item"><a href="{{link}}" target="_blank" class="photo-collection__link"><img src="{{model.images.standard_resolution.url}}" {{square}} alt="" class="photo-collection__img"></a></div>',
-     });
-     feed.run();
-});
+
 //custom js
 (function ($)  {
   $(document).ready(function(){

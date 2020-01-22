@@ -3,7 +3,7 @@
     @include('partials/_head')
     @yield('extracss')
   </head>
-  <body itemscope itemtype="http://schema.org/LocalBusiness" ng-app="movecalc" ng-controller="movecalController" ng-cloak>
+  <body itemscope itemtype="http://schema.org/LocalBusiness">
 		@include('partials/_alert')
     <div class="progress-bar"></div>
     <div class="page">
