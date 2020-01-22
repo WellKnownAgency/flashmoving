@@ -79,7 +79,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="prices-collection-item__button">
-                                                    <a class="btn-simple" href="/moving-quote">Book now</a>
+                                                    <a class="btn-simple" href="https://oncueapp.com/flash-moving">Book now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -111,7 +111,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="prices-collection-item__button">
-                                                    <a class="btn-simple" href="/moving-quote">Book now</a>
+                                                    <a class="btn-simple" href="https://oncueapp.com/flash-moving">Book now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -143,7 +143,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="prices-collection-item__button">
-                                                    <a class="btn-simple" href="/moving-quote">Book now</a>
+                                                    <a class="btn-simple" href="https://oncueapp.com/flash-moving">Book now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -247,7 +247,7 @@
                             </div>
                         </div>
                         <div class="section__button">
-                            <a href="/moving-quote" class="btn-simple btn-simple--medium">Get free Estimate</a>
+                            <a href="https://oncueapp.com/flash-moving" class="btn-simple btn-simple--medium">Get free Estimate</a>
                         </div>
                     </div>
                 </div>
@@ -322,7 +322,7 @@
                             </div>
                         </div>
                         <div class="section__button">
-                            <a href="/moving-quote" class="btn-simple btn-simple--medium">Book storage</a>
+                            <a href="https://oncueapp.com/flash-moving" class="btn-simple btn-simple--medium">Book storage</a>
                         </div>
                     </div>
                 </div>
@@ -418,7 +418,7 @@
                             </div>
                         </div>
                         <div class="section__button">
-                            <a href="/moving-quote" class="btn-simple btn-simple--medium">Request free Estimate</a>
+                            <a href="https://oncueapp.com/flash-moving" class="btn-simple btn-simple--medium">Request free Estimate</a>
                         </div>
                     </div>
                 </div>
@@ -817,7 +817,7 @@
             </div>
             <br>
             <div class="section__button">
-                <a href="/moving-quote" class="btn-simple btn-simple--medium">Get free Estimate</a>
+                <a href="https://oncueapp.com/flash-moving" class="btn-simple btn-simple--medium">Get free Estimate</a>
             </div>
         </div>
     </section>

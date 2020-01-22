@@ -23,7 +23,7 @@
                                 </div>
                             </div>
                             <div class="hero__abutton-wrapper">
-                                <a href="/moving-quote" class="hero__abutton">
+                                <a href="https://oncueapp.com/flash-moving" class="hero__abutton">
                                     Get a Free Estimate
                                 </a>
                             </div>
@@ -137,7 +137,7 @@
         </div>
     </div>
     <div class="section__button">
-        <a href="/moving-quote" class="btn-simple btn-simple--medium">Get free Estimate</a>
+        <a href="https://oncueapp.com/flash-moving" class="btn-simple btn-simple--medium">Get free Estimate</a>
     </div>
     <br>
     <br>
@@ -450,13 +450,8 @@
     <br>
     <br>
     <section class="section">
-        <div class="container">
-        <div class="ultra-form-wrapper">
-        	<ultrasmall-form></ultrasmall-form>
-        </div>
-        <div class="move-calc-wrapper elromco-desktop">
-            <move-Calculator></move-Calculator>
-        </div>       
+        <div class="container text-center">
+            <iframe src="https://oncueapp.com/flash-moving?short=1&iframe=1" width=600 height=510></iframe>      
         </div>
     </section>
 

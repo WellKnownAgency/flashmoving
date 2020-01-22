@@ -29,7 +29,7 @@
                         </div>
                     </div>
                     <div class="hero__button">
-                        <a class="btn-hero" href="/moving-quote">Join</a>
+                        <a class="btn-hero" href="https://oncueapp.com/flash-moving">Join</a>
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@
             </div>
         </div>
         <div class="section__button">
-            <a href="/moving-quote" class="btn-simple btn-simple--border btn-simple--medium">Join</a>
+            <a href="https://oncueapp.com/flash-moving" class="btn-simple btn-simple--border btn-simple--medium">Join</a>
         </div>
     </div>
 </section>

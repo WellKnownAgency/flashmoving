@@ -116,7 +116,7 @@
                 </div>
             </div>
             <div class="section__button">
-                <a href="/moving-quote" class="btn-simple btn-simple--medium">Get free Estimate</a>
+                <a href="https://oncueapp.com/flash-moving" class="btn-simple btn-simple--medium">Get free Estimate</a>
             </div>
         </div>
     </section>
@@ -456,7 +456,7 @@
             </div>
             <br>
             <div class="section__button">
-                <a href="/moving-quote" class="btn-simple btn-simple--medium">Get free Estimate</a>
+                <a href="https://oncueapp.com/flash-moving" class="btn-simple btn-simple--medium">Get free Estimate</a>
             </div>
         </div>
     </section>

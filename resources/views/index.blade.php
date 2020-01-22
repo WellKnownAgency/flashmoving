@@ -38,7 +38,7 @@
                     </div>
 										<div class="hero__row">
 											<div class="col-md-12 text-center">
-												<a href="/moving-quote" class="btn-hero btn-hero-nav btn-hero--large btn-hero--hover-green">Free Estimate</a>
+												<a href="https://oncueapp.com/flash-moving" class="btn-hero btn-hero-nav btn-hero--large btn-hero--hover-green">Free Estimate</a>
 											</div>
 										</div>
 
@@ -173,7 +173,7 @@
                                         </div>
                                     </div>
                                     <div class="prices-collection-item__button">
-                                        <a class="btn-simple" href="/moving-quote">Book now</a>
+                                        <a class="btn-simple" href="https://oncueapp.com/flash-moving">Book now</a>
                                     </div>
                                 </div>
                             </div>
@@ -205,7 +205,7 @@
                                         </div>
                                     </div>
                                     <div class="prices-collection-item__button">
-                                        <a class="btn-simple" href="/moving-quote">Book now</a>
+                                        <a class="btn-simple" href="https://oncueapp.com/flash-moving">Book now</a>
                                     </div>
                                 </div>
                             </div>
@@ -237,7 +237,7 @@
                                         </div>
                                     </div>
                                     <div class="prices-collection-item__button">
-                                        <a class="btn-simple" href="/moving-quote">Book now</a>
+                                        <a class="btn-simple" href="https://oncueapp.com/flash-moving">Book now</a>
                                     </div>
                                 </div>
                             </div>
@@ -443,13 +443,8 @@
 
 
     <section class="section">
-        <div class="container">
-            <div class="ultra-form-wrapper">
-        	<ultrasmall-form></ultrasmall-form>
-            </div>
-            <div class="move-calc-wrapper elromco-desktop">
-                <move-Calculator></move-Calculator>
-            </div>   
+        <div class="container text-center">
+        <iframe src="https://oncueapp.com/flash-moving?short=1&iframe=1" width=600 height=510></iframe>  
         </div>
     </section>
     <br>

@@ -24,7 +24,7 @@
         </div>
         <div class="col-md-3">
             <div class="blog-single-sidebar">
-                <a href="/moving-quote">
+                <a href="https://oncueapp.com/flash-moving">
                 <img src="/images/blog/123.png" />
                 </a>
             </div>

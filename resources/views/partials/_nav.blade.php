@@ -117,7 +117,7 @@
         <a href="tel:+18572418778" class="nav-link" style="font-size:1.25em; margin-top:-5px;">+1 (857) 241-8778</a>
       </li>
       <li class="nav-item" style="margin-left: 10px">
-        <a href="/moving-quote" class="btn-hero btn-hero-nav btn-hero--small btn-hero--hover-green">Book Now</a>
+        <a href="https://oncueapp.com/flash-moving" class="btn-hero btn-hero-nav btn-hero--small btn-hero--hover-green">Book Now</a>
       </li>
     </ul>
   </div>
