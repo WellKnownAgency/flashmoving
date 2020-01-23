@@ -49,7 +49,7 @@
                 <textarea class="form-control" name="body" id="body" placeholder="Your comments"></textarea>
             </div>
 						@if ($errors->has('g-recaptcha-response'))
-						    <span class="help-block">
+						    <span class="help-block" style="margin-bottom:70px;">
 						        <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
 						    </span>
 						@endif
