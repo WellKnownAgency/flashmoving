@@ -60,6 +60,7 @@
               <button type="submit" class="btn btn-default btn-mob">Send</button>
             </form>
         </div>
+        <br>
         <p>I agree to the Privacy Policy</p>
       </div>
     </div>
