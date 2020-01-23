@@ -53,8 +53,11 @@
 						        <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
 						    </span>
 						@endif
-							{!! NoCaptcha::display() !!}
-              <button type="submit" class="btn btn-default btn-mob" style="margin-top:70px;">Send</button>
+              {!! NoCaptcha::display() !!}
+              <br>
+              <br>
+              <br>
+              <button type="submit" class="btn btn-default btn-mob">Send</button>
             </form>
         </div>
         <p>I agree to the Privacy Policy</p>
