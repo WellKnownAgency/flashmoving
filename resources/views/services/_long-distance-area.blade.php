@@ -451,7 +451,7 @@
     <br>
     <section class="section">
         <div class="container text-center">
-            <iframe src="https://oncueapp.com/flash-moving?short=1&iframe=1" width=600 height=510></iframe>      
+            <iframe src="https://oncueapp.com/flash-moving?short=1&iframe=1" class="mob-width" width=600 height=510></iframe>      
         </div>
     </section>
 

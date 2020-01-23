@@ -10,12 +10,6 @@
 .testt {
     background-color: #EBEBEB !important;
 }
-@media only screen and (max-width: 960px) {
-    .mob-width {
-      width:300px;
-      height: 530px;
-    }
-  }
 </style>
 @stop
 

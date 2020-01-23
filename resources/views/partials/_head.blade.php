@@ -29,6 +29,12 @@ display:block;
 display:none;
 }
 }
+@media only screen and (max-width: 960px) {
+    .mob-width {
+      width:300px;
+      height: 530px;
+    }
+  }
 </style>
 
 @yield('preload')
