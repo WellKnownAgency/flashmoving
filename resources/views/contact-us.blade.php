@@ -61,6 +61,7 @@
             </form>
         </div>
         <br>
+        <br>
         <p>I agree to the Privacy Policy</p>
       </div>
     </div>
