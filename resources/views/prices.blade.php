@@ -31,7 +31,7 @@
     </section>
 
     {{-- Prices country --}}
-    <div class="tabs container">
+    {{-- <div class="tabs container">
         <div class="nav mb-3 tabs-nav" id="prices-nav-tab" role="tablist">
             <a class="tabs-nav__item tabs-nav__link active" id="prices-local-tab" data-toggle="tab" href="#prices-local" role="tab" aria-controls="nav-local" aria-selected="true"><span class="tabs-nav__text">Local Moving</span></a>
             <a class="tabs-nav__item tabs-nav__link" id="prices-distance-tab" data-toggle="tab" href="#prices-distance" role="tab" aria-controls="nav-distance" aria-selected="false"><span class="tabs-nav__text">Long distance</span></a>
@@ -424,7 +424,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     {{-- Prices FAQ --}}
     <section class="section mb-5">
