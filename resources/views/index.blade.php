@@ -135,7 +135,7 @@
     </section>
 
     {{-- Prices --}}
-    <section class="section">
+    {{-- <section class="section">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title section-title--upper">Boston Movers</h2>
@@ -256,7 +256,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     {{-- Advantages --}}
     <section class="section advantages mb-5">
