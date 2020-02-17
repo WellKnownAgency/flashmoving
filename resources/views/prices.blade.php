@@ -40,7 +40,6 @@
         </div>
         <div class="tab-content" id="prices-nav-tabContent" >
             <div class="tab-pane fade show active" style="opacity: 1;" id="prices-local"  role="tabpanel" aria-labelledby="prices-local-tab">
-                {{-- Local Moving --}}
                 <div class="section">
                     <div class="container">
                         <div class="section-header">
@@ -155,7 +154,6 @@
                 </div>
             </div>
             <div class="tab-pane fade" style="opacity: 1;" id="prices-distance" role="tabpanel" aria-labelledby="prices-distance-tab">
-                {{-- Long distance --}}
                 <div class="section">
                     <div class="container">
                         <div class="section-header">
@@ -253,7 +251,6 @@
                 </div>
             </div>
             <div class="tab-pane fade" style="opacity: 1;" id="prices-storage" role="tabpanel" aria-labelledby="prices-storage-tab">
-                {{-- Storage --}}
                 <div class="section mb-5">
                     <div class="container">
                         <div class="section-header">
