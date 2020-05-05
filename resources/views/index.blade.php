@@ -32,19 +32,19 @@
                                 </div>
                             </div>
                             <div class="hero__description hero__description--big"><b class="dynamic_licensed"></b> Movers in Boston Area<br>
-                                Without any hidden fees and extra chargers</div>
+                            Reserve you Summer Move now and save up to <strong style="color:#d14221;">22%</strong>!</div>
 
                         </div>
                     </div>
-										<div class="hero__row">
-											<div class="col-md-12 text-center">
-												<a href="https://oncueapp.com/flash-moving" class="btn-hero btn-hero-nav btn-hero--large btn-hero--hover-green">Free Estimate</a>
-											</div>
-										</div>
+                        <div class="hero__row">
+                            <div class="col-md-12 text-center">
+                                <a href="https://oncueapp.com/flash-moving" class="btn-hero btn-hero-nav btn-hero--large btn-hero--hover-green">Free Estimate</a>
+                            </div>
+                        </div>
 
                 </div>
 
-            </div>
+            </div>  
         </div>
     </section>
 		{{-- Modal --}}
@@ -464,7 +464,7 @@
     <script>
         // Hero section
         new Typed('.dynamic_licensed', {
-            strings: ["Licensed", "Insured"],
+            strings: ["Local", "Efficient", "Reliable", "Friendly", "Experienced", "Nice", "Fast", "Communicative"],
             typeSpeed: 200,
             backSpeed: 10,
             startDelay: 600,
