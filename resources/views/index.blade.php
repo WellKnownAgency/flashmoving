@@ -32,7 +32,7 @@
                                 </div>
                             </div>
                             <div class="hero__description hero__description--big"><b class="dynamic_licensed"></b> Movers in Boston Area<br>
-                            Reserve you Summer Move now and save up to <strong style="color:#d14221;">22%</strong>!</div>
+                            Reserve your Summer Move now <br>and save up to <strong style="color:#d14221;">22%</strong>!</div>
 
                         </div>
                     </div>
