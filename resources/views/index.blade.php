@@ -31,8 +31,8 @@
                                     <br>
                                 </div>
                             </div>
-                            <div class="hero__description hero__description--big"><b class="dynamic_licensed"></b> Movers in Boston Area<br>
-                            Reserve your Summer Move now <br>and save up to <strong style="color:#d14221;">22%</strong>!</div>
+                            <div class="hero__description hero__description--big"><b class="dynamic_licensed" style="background-color: #fff; color: #000; font-weight:600;"> </b> <span style="background-color: #fff; color: #000; font-weight:600;">Movers in Boston Area</span><br>
+                            <span style="background-color: #fff; color: #000; font-weight:600;">Reserve your Summer Move now</span> <br><span style="background-color:#d14221; color:#fff; font-weight:600;">and save up to 22%!</span></div>
 
                         </div>
                     </div>
@@ -464,7 +464,7 @@
     <script>
         // Hero section
         new Typed('.dynamic_licensed', {
-            strings: ["Local", "Efficient", "Reliable", "Friendly", "Experienced", "Nice", "Fast", "Communicative"],
+            strings: ["Licensed", "Insured"],
             typeSpeed: 200,
             backSpeed: 10,
             startDelay: 600,
