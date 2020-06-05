@@ -4,7 +4,7 @@
 
 @extends('layouts.main')
 @section('preload')
-<link rel="canonical" href="https://www.flashmoving.com/blog" /> 
+<link rel="canonical" href="https://www.flashmoving.com/blog/{{$post->slug}}" /> 
 @stop
 @section('content')
 
