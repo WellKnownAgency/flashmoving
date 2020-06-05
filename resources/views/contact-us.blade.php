@@ -5,7 +5,7 @@
 
 @extends('layouts.main')
 @section('preload')
-<link rel="canonical" href="https://www.flashmoving.com/contact-us" /> 
+<link rel="canonical" href="https://www.flashmoving.net/contact-us" /> 
 @stop
 @section('content')
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>

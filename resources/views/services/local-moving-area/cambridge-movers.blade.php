@@ -5,12 +5,12 @@
 
 @extends('services._local-moving-area')
 @section('canonical')
-<link rel="canonical" href="https://www.flashmoving.com/local-moving/cambridge-movers" />
+<link rel="canonical" href="https://www.flashmoving.net/local-moving/cambridge-movers" />
 @stop
 @section('hero-title', 'Cambridge Movers')
 @section('hero-description', 'Without any hidden fees and extra chargers')
 @section('hero-image')
-<img src="/images/services/interstate/IMG_7929.jpg" alt="" style="min-height: 550px;" class="hero__img hero__img--brightness-high">
+<img src="/images/services/interstate/IMG_7929.jpg" alt="Cambridge Movers" style="min-height: 550px;" class="hero__img hero__img--brightness-high">
 @stop
 
 @section('faqhead')
@@ -55,7 +55,7 @@
     <div class="content-blocks__item" >
         <div class="row content-blocks-item">
             <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
-                <img src="{{asset('images/services/local/content/IMG_7828.jpg')}}" alt="" class="content-blocks-item__img">
+                <img src="{{asset('images/services/local/content/IMG_7828.jpg')}}" alt="Cambridge Movers" class="content-blocks-item__img">
             </div>
             <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                 <div class="content-blocks-item__body-inner">

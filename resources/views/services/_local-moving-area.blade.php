@@ -75,7 +75,7 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-6">
-                                <img src="{{asset('images/hero/IMG_79081.jpg')}}" alt="" class="newlp-block-image">
+                                <img src="{{asset('images/hero/IMG_79081.jpg')}}" alt="Local Moving" class="newlp-block-image">
                             </div>
                             <div class="col-lg-6" style="margin-top: auto; margin-bottom: auto;">
                                 <div class="row">

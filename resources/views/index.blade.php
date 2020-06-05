@@ -1,12 +1,12 @@
-@section('title', 'Flash Moving Company | Boston Movers')
-@section('dscr', 'Flash Moving Company is fully Licensed and Insured movers serving local Boston area and Long Distance moves across United States. Call for a Free Estimate now.')
+@section('title', 'Flash Moving Company Boston Massachusets')
+@section('dscr', 'Flash Moving Company is fully Licensed and Insured movers serving local Boston area and Long Distance moves across United States. Call us for a Free Estimate now.')
 @section('keywords', '')
 @section('mainimg', '')
 
 @extends('layouts.main')
 @section('preload')
 <link rel="preload" href="/images/hero/IMG_7828.jpg" as="image">
-<link rel="canonical" href="https://www.flashmoving.com" /> 
+<link rel="canonical" href="https://www.flashmoving.net" /> 
 @stop
 @section('extracss')
 <style>
@@ -21,7 +21,7 @@
     {{-- Hero --}}
     <section class="hero">
         <div class="hero__preview">
-            <img src="/images/hero/IMG_7828.jpg" alt="" class="hero__img hero__img--brightness-high">
+            <img src="/images/hero/IMG_7828.jpg" alt="Flash Moving Company" class="hero__img hero__img--brightness-high">
         </div>
         <div class="hero__wrapper-content">
             <div class="hero__container">

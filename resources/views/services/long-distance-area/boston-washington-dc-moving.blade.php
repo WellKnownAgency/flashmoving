@@ -5,12 +5,12 @@
 
 @extends('services._long-distance-area')
 @section('canonical')
-<link rel="canonical" href="https://www.flashmoving.com/long-distance-movers/boston-washington-dc-moving" />
+<link rel="canonical" href="https://www.flashmoving.net/long-distance-movers/boston-washington-dc-moving" />
 @stop
 @section('hero-title', 'Movers from Boston to Washington, DC')
 @section('hero-description', 'Reliable and fully licensed movers.')
 @section('hero-image')
-<img src="/images/services/interstate/IMG_7929.jpg" alt="" class="hero__img hero__img--brightness-high">
+<img src="/images/services/interstate/IMG_7929.jpg" alt="Movers from Boston to Washington DC" class="hero__img hero__img--brightness-high">
 @stop
 
 @section('faqhead')
@@ -55,7 +55,7 @@
     <div class="content-blocks__item" >
         <div class="row content-blocks-item">
             <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
-                <img src="{{asset('images/services/local/content/IMG_7828.jpg')}}" alt="" class="content-blocks-item__img">
+                <img src="{{asset('images/services/local/content/IMG_7828.jpg')}}" alt="Movers from Boston to Washington DC" class="content-blocks-item__img">
             </div>
             <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                 <div class="content-blocks-item__body-inner">

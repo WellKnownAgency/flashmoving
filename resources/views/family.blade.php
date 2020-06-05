@@ -6,7 +6,7 @@
 @extends('layouts.main')
 @section('preload')
 <link rel="preload" href="/images/hero/erda-estremera-58145.jpg" as="image">
-<link rel="canonical" href="https://www.flashmoving.com/family" /> 
+<link rel="canonical" href="https://www.flashmoving.net/family" /> 
 @stop
 @section('content')
 
@@ -17,7 +17,7 @@
 {{-- Hero Start--}}
 <section class="hero hero--big">
     <div class="hero__preview">
-        <img src="/images/hero/erda-estremera-58145.jpg" alt="" class="hero__img hero__img--brightness-high">
+        <img src="/images/hero/erda-estremera-58145.jpg" alt="Flash Moving Family" class="hero__img hero__img--brightness-high">
     </div>
     <div class="hero__wrapper-content">
         <div class="hero__container">
@@ -221,7 +221,7 @@
     <div class="modal-dialog modal-dialog-centered modal-md" role="document">
         <div class="modal-content modal-content-site">
             <div class="modal-header modal-content-site__header">
-                <img src="{{asset('images/family/Registration_bonus_1.png')}}" alt="">
+                <img src="{{asset('images/family/Registration_bonus_1.png')}}" alt="Flash Moving Family">
             </div>
             <div class="modal-body modal-content-site__body">
                 <ul> <li> Flash Moving Loyalty Program is applied to Local Moves; <br> </li> <li> Bonus discounts do not expire;<br> </li> <li> You can use Loyalty Program Bonuses yourself or you can transfer them to your friend's and family member's Accounts;<br> </li> <li> You should contact Flash Moving Company manager directly to transfer your Bonuses;<br> </li> <li> You should contact Flash Moving Company manager two weeks, prior to the move, to redeem your Bonuses;<br> </li> <li> Welcome bonus is a one-time bonus discount which is applied to the very first move with Flash Moving Company;<br> </li> <li> Flash Moving Loyalty Program Bonuses cannot be combined with special offers and deals; A Referral Bonus cannot be combined with a Registration Bonus; </li> <li> Bonuses cannot be applied during High- Peak Season ( 08/27 - 09/03 and 12/24 - 12/25);<br> </li> <li> A Giveaway contest is held the last day of each month;<br> </li> <li> Only Client's Phone Number can be used as a Referral ID <br> </li></ul>

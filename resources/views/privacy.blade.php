@@ -5,7 +5,7 @@
 
 @extends('layouts.main')
 @section('preload')
-<link rel="canonical" href="https://www.flashmoving.com/privacy-policy" /> 
+<link rel="canonical" href="https://www.flashmoving.net/privacy-policy" /> 
 @stop
 @section('content')
 

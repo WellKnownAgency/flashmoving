@@ -7,7 +7,7 @@
 
 @section('preload')
 <link rel="preload" href="/images/hero/IMG_7938.jpg" as="image">
-<link rel="canonical" href="https://www.flashmoving.com/storage" /> 
+<link rel="canonical" href="https://www.flashmoving.net/storage" /> 
 @stop
 
 @section('content')
@@ -15,7 +15,7 @@
     {{-- Hero --}}
     <section class="hero mb-5">
         <div class="hero__preview">
-            <img src="/images/hero/IMG_7938.jpg" alt="" class="hero__img hero__img--brightness-high">
+            <img src="/images/hero/IMG_7938.jpg" alt="Moving and Storage" class="hero__img hero__img--brightness-high">
         </div>
         <div class="hero__wrapper-content">
             <div class="hero__container">
@@ -46,7 +46,7 @@
                 <div class="section container-fluid">
                     <div class="row content-blocks-item">
                         <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
-                            <img src="{{asset('images/storage/steve-johnson-541507.jpg')}}" alt="" class="content-blocks-item__img content-blocks-item__img--height-limit">
+                            <img src="{{asset('images/storage/steve-johnson-541507.jpg')}}" alt="Moving and Storage" class="content-blocks-item__img content-blocks-item__img--height-limit">
                         </div>
                         <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                             <div class="content-blocks-item__body-inner">
@@ -79,7 +79,7 @@
                 <div class="section">
                     <div class="row content-blocks-item">
                         <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
-                            <img src="{{asset('images/storage/steve-johnson-541507.jpg')}}" alt="" class="content-blocks-item__img content-blocks-item__img--height-limit">
+                            <img src="{{asset('images/storage/steve-johnson-541507.jpg')}}" alt="Moving and Storage" class="content-blocks-item__img content-blocks-item__img--height-limit">
                         </div>
                         <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                             <div class="content-blocks-item__body-inner">
@@ -109,7 +109,7 @@
                 <div class="section">
                     <div class="row content-blocks-item">
                         <div class="col-lg-6 order-lg-1 content-blocks-item__preview">
-                            <img src="{{asset('images/storage/IMG_7925.jpg')}}" alt="" class="content-blocks-item__img content-blocks-item__img--height-limit">
+                            <img src="{{asset('images/storage/IMG_7925.jpg')}}" alt="Moving and Storage" class="content-blocks-item__img content-blocks-item__img--height-limit">
                         </div>
                         <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                             <div class="content-blocks-item__body-inner">
@@ -176,7 +176,7 @@
                             </div>
                             <div class="collapse accordion-content-item__body" id="collapseLaborTime" aria-labelledby="headingLaborTime" data-parent="#accordionPricesFaq">
                                 <div class="accordion-content-item__text">
-                                    <img src="{{asset('images/prices/Laborexplainded.jpg')}}">
+                                    <img src="{{asset('images/prices/Laborexplainded.jpg')}}" alt="Moving and Storage">
                                     <strong>Total Moving Time = Labor Time + Travel Time. </strong><br><br>Labor Time starts once movers arrive to your origin address and ends when movers finish unloading at the destination address. Lunch breaks will be deducted of your Total Moving Time.<br><br><strong>Total moving time can vary in case of undisclosed or unpredicted circumstances.</strong><strong></strong><br>
                                 </div>
                             </div>
@@ -193,7 +193,7 @@
                             </div>
                             <div class="collapse accordion-content-item__body" id="collapseTravelTime" aria-labelledby="headingTravelTime" data-parent="#accordionPricesFaq">
                                 <div class="accordion-content-item__text">
-                                    <img src="{{asset('images/prices/Laborexplainded.jpg')}}">
+                                    <img src="{{asset('images/prices/Laborexplainded.jpg')}}" alt="Moving and Storage">
                                     <strong>Travel time</strong> is the <strong>FIXED TIME</strong> which our crew spent to get from our parking to your location and back to our parking from your last destination. This fixed time will be added at the end of the job additionally to the actual time of the move. <br><br> Up to 1 hour Travel Time is applied to all jobs in Greater Boston area and minimum 30 min. (15 min for our movers to get to your address from our parking plus 15 min to get back when the move is finished). <br>
                                 </div>
                             </div>

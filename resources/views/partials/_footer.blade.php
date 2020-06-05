@@ -23,7 +23,7 @@
     </div>
     <div class="pad-30 center">
       <a href="/">
-        <img src="/images/logo2.png" width="150px"/>
+        <img src="/images/logo2.png" alt="Flash Moving logo" width="150px"/>
       </a>
     </div>
     <div class="pad-30 center">
@@ -34,7 +34,7 @@
 
       <a href="/privacy-policy" style="opacity: 0.7;">Privacy policy</a>
       <br>
-      by <a href="https://taraskim.com" target="_blank" style="opacity: 0.7;">Web Development & Digital Marketing</a><br>
+      by <a href="https://wknown.com" target="_blank" style="opacity: 0.7;">Web Development & Digital Marketing</a><br>
     </div>
   </div>
 </div>

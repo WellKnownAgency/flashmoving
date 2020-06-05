@@ -5,109 +5,109 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <url>
-            <loc>https://flashmoving.net</loc>
+            <loc>https://www.flashmoving.net</loc>
             <lastmod>2019-02-08</lastmod>
 						<priority>1.00</priority>
         </url>
         <url>
-            <loc>https://flashmoving.net/local-moving</loc>
+            <loc>https://www.flashmoving.net/local-moving</loc>
             <lastmod>2019-02-08</lastmod>
 						<priority>1.00</priority>
         </url>
 				<url>
-            <loc>https://flashmoving.net/packers-and-movers</loc>
+            <loc>https://www.flashmoving.net/packers-and-movers</loc>
             <lastmod>2019-03-25</lastmod>
 						<priority>1.00</priority>
         </url>
         <url>
-            <loc>https://flashmoving.net/long-distance-movers</loc>
+            <loc>https://www.flashmoving.net/long-distance-movers</loc>
             <lastmod>2019-02-19</lastmod>
 						<priority>1.00</priority>
         </url>
 				<url>
-            <loc>https://flashmoving.net/long-distance-movers/boston-miami-florida-moving</loc>
+            <loc>https://www.flashmoving.net/long-distance-movers/boston-miami-florida-moving</loc>
             <lastmod>2019-02-19</lastmod>
 						<priority>1.00</priority>
         </url>
 				<url>
-            <loc>https://flashmoving.net/long-distance-movers/boston-new-york-moving</loc>
+            <loc>https://www.flashmoving.net/long-distance-movers/boston-new-york-moving</loc>
             <lastmod>2019-02-19</lastmod>
 						<priority>1.00</priority>
         </url>
 				<url>
-            <loc>https://flashmoving.net/long-distance-movers/boston-philadelphia-moving</loc>
+            <loc>https://www.flashmoving.net/long-distance-movers/boston-philadelphia-moving</loc>
             <lastmod>2019-03-25</lastmod>
 						<priority>1.00</priority>
         </url>
 				<url>
-            <loc>https://flashmoving.net/long-distance-movers/boston-chicago-movers</loc>
+            <loc>https://www.flashmoving.net/long-distance-movers/boston-chicago-movers</loc>
             <lastmod>2019-04-08</lastmod>
 						<priority>1.00</priority>
         </url>
 				<url>
-            <loc>https://flashmoving.net/long-distance-movers/boston-miami-florida-moving</loc>
+            <loc>https://www.flashmoving.net/long-distance-movers/boston-miami-florida-moving</loc>
             <lastmod>2019-05-23</lastmod>
 						<priority>1.00</priority>
         </url>
         <url>
-            <loc>https://flashmoving.net/long-distance-movers/moving-boston-to-los-angeles</loc>
+            <loc>https://www.flashmoving.net/long-distance-movers/moving-boston-to-los-angeles</loc>
             <lastmod>2019-09-02</lastmod>
 						<priority>1.00</priority>
         </url>
         <url>
-            <loc>https://flashmoving.net/long-distance-movers/moving-boston-to-san-frncisco</loc>
+            <loc>https://www.flashmoving.net/long-distance-movers/moving-boston-to-san-frncisco</loc>
             <lastmod>2019-10-23</lastmod>
 						<priority>1.00</priority>
         </url>
 				<url>
-            <loc>https://flashmoving.net/local-moving/newton-movers</loc>
+            <loc>https://www.flashmoving.net/local-moving/newton-movers</loc>
             <lastmod>2019-03-03</lastmod>
 						<priority>1.00</priority>
         </url>
         <url>
-            <loc>https://flashmoving.net/local-moving/brookline-movers</loc>
+            <loc>https://www.flashmoving.net/local-moving/brookline-movers</loc>
             <lastmod>2019-10-10</lastmod>
 						<priority>1.00</priority>
         </url>
         <url>
-            <loc>https://flashmoving.net/local-moving/cambridge-movers</loc>
+            <loc>https://www.flashmoving.net/local-moving/cambridge-movers</loc>
             <lastmod>2019-10-10</lastmod>
 						<priority>1.00</priority>
         </url>
         
         <url>
-            <loc>https://flashmoving.net/storage</loc>
+            <loc>https://www.flashmoving.net/storage</loc>
             <lastmod>2019-02-08</lastmod>
 						<priority>1.00</priority>
         </url>
         <url>
-            <loc>https://flashmoving.net/prices</loc>
+            <loc>https://www.flashmoving.net/prices</loc>
             <lastmod>2019-02-08</lastmod>
 						<priority>1.00</priority>
         </url>
         <url>
-            <loc>https://flashmoving.net/family</loc>
+            <loc>https://www.flashmoving.net/family</loc>
             <lastmod>2019-02-08</lastmod>
 						<priority>1.00</priority>
         </url>
         <url>
-            <loc>https://flashmoving.net/about-us</loc>
+            <loc>https://www.flashmoving.net/about-us</loc>
             <lastmod>2019-02-08</lastmod>
 						<priority>1.00</priority>
         </url>
 				<url>
-            <loc>https://flashmoving.net/contact-us</loc>
+            <loc>https://www.flashmoving.net/contact-us</loc>
             <lastmod>2019-02-08</lastmod>
 						<priority>1.00</priority>
         </url>
         <url>
-            <loc>https://flashmoving.net/blog</loc>
+            <loc>https://www.flashmoving.net/blog</loc>
             <lastmod>2019-09-30</lastmod>
 						<priority>1.00</priority>
         </url>
         @foreach ($posts as $post)
         <url>
-            <loc>https://flashmoving.net/blog/{{$post->slug}}</loc>
+            <loc>https://www.flashmoving.net/blog/{{$post->slug}}</loc>
             <lastmod>{{ date('Y-m-d', strtotime($post->updated_at)) }}</lastmod>
 						<priority>0.80</priority>
         </url>

@@ -5,7 +5,7 @@
 
 @extends('layouts.main')
 @section('preload')
-<link rel="canonical" href="https://www.flashmoving.com/get-a-quote" /> 
+<link rel="canonical" href="https://www.flashmoving.net/get-a-quote" /> 
 @stop
 @section('customcss')
 <style>

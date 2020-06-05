@@ -6,7 +6,7 @@
 
 @section('preload')
 <link rel="preload" href="/images/hero/IMG_7908.jpg" as="image">
-<link rel="canonical" href="https://www.flashmoving.com/local-moving" />    
+<link rel="canonical" href="https://www.flashmoving.net/local-moving" />    
 @stop
 
 @section('content')
@@ -14,7 +14,7 @@
     {{-- Hero --}}
     <section class="hero mb-5">
         <div class="hero__preview">
-            <img src="/images/hero/IMG_7908.jpg" alt="" class="hero__img hero__img--brightness-high">
+            <img src="/images/hero/IMG_7908.jpg" alt="Local Moving" class="hero__img hero__img--brightness-high">
         </div>
         <div class="hero__wrapper-content">
             <div class="hero__container">

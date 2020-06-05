@@ -13,7 +13,7 @@
     <div class="col-md-4" style="padding: 0;">
       <div class="top-logo">
         <a href="/">
-          <img itemprop="image" src="/images/logo.png" width="200px"/>
+          <img itemprop="image" src="/images/logo.png" alt="Flash Moving logo" width="200px"/>
         </a>
       </div>
     </div>
@@ -75,7 +75,7 @@
 
 <!-- Scrolling Navigation -->
 <nav class="navbar navbar-expand-lg navbar-our-scroll fixed-top" id="scroll-nav" style="height=50px;">
-  <a class="navbar-brand" href="/"><img src="/images/logo3.png" width="100px"/></a>
+  <a class="navbar-brand" href="/"><img src="/images/logo3.png" alt="Flash Moving logo" width="100px"/></a>
   <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
   </button>

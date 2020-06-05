@@ -3,7 +3,9 @@
 @section('keywords', '')
 
 @extends('layouts.main')
-
+@section('preload')
+<link rel="canonical" href="https://www.flashmoving.com/blog" /> 
+@stop
 @section('content')
 
 <div class="container" style="margin-top: 20px;">
