@@ -464,7 +464,7 @@
     <script>
         // Hero section
         new Typed('.dynamic_licensed', {
-            strings: ["Licensed", "Insured"],
+            strings: ["Licensed", "Insured", "Licensed", "Local", "Efficient", "Reliable", "Friendly", "Experienced", "Nice", "Fast", "Communicative"],
             typeSpeed: 200,
             backSpeed: 10,
             startDelay: 600,
