@@ -4,7 +4,9 @@
 @section('mainimg', '')
 
 @extends('layouts.main')
-
+@section('preload')
+<link rel="canonical" href="https://www.flashmoving.com/contact-us" /> 
+@stop
 @section('content')
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <div class="contact" style="padding-bottom: 0px;">

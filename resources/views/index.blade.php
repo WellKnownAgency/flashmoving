@@ -4,7 +4,10 @@
 @section('mainimg', '')
 
 @extends('layouts.main')
-
+@section('preload')
+<link rel="preload" href="/images/hero/IMG_7828.jpg" as="image">
+<link rel="canonical" href="https://www.flashmoving.com" /> 
+@stop
 @section('extracss')
 <style>
 .testt {

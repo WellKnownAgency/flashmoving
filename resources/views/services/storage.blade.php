@@ -5,6 +5,11 @@
 
 @extends('layouts.main')
 
+@section('preload')
+<link rel="preload" href="/images/hero/IMG_7938.jpg" as="image">
+<link rel="canonical" href="https://www.flashmoving.com/storage" /> 
+@stop
+
 @section('content')
 
     {{-- Hero --}}

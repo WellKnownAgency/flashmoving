@@ -4,7 +4,9 @@
 @section('mainimg', '')
 
 @extends('services._long-distance-area')
-
+@section('canonical')
+<link rel="canonical" href="https://www.flashmoving.com/long-distance-movers/boston-miami-florida-moving" />
+@stop
 @section('hero-title', 'Movers from Boston to Miami')
 @section('hero-description', 'Reliable and fully licensed movers.')
 @section('hero-image')

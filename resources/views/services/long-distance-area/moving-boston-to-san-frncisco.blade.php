@@ -4,7 +4,9 @@
 @section('mainimg', '')
 
 @extends('services._long-distance-area')
-
+@section('canonical')
+<link rel="canonical" href="https://www.flashmoving.com/long-distance-movers/moving-boston-to-san-frncisco" />
+@stop
 @section('hero-title', 'Moving Boston to San Francisco')
 @section('hero-description', 'Reliable and fully licensed movers')
 @section('hero-image')

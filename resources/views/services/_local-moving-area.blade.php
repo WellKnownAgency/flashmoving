@@ -1,5 +1,7 @@
 @extends('layouts.main')
-
+@section('extracss')
+@yield('canonical')
+@stop
 @section('content')
 
     {{-- Hero --}}

@@ -6,6 +6,7 @@
 
 @section('preload')
 <link rel="preload" href="/images/hero/IMG_7908.jpg" as="image">
+<link rel="canonical" href="https://www.flashmoving.com/local-moving" />    
 @stop
 
 @section('content')

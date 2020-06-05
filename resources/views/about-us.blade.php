@@ -4,7 +4,10 @@
 @section('mainimg', '')
 
 @extends('layouts.main')
-
+@section('preload')
+<link rel="preload" href="/images/about/about-back-opt.jpg" as="image">
+<link rel="canonical" href="https://www.flashmoving.com/about-us" /> 
+@stop
 @section('content')
 <!-- Header starts -->
 <section class="about" style="padding-top: 0px;">

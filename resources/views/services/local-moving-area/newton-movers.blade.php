@@ -4,7 +4,9 @@
 @section('mainimg', '')
 
 @extends('services._local-moving-area')
-
+@section('canonical')
+<link rel="canonical" href="https://www.flashmoving.com/local-moving/newton-movers" />
+@stop
 @section('hero-title', 'Newton Movers')
 @section('hero-description', 'Without any hidden fees and extra chargers')
 @section('hero-image')

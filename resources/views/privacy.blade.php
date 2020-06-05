@@ -4,6 +4,9 @@
 @section('mainimg', '')
 
 @extends('layouts.main')
+@section('preload')
+<link rel="canonical" href="https://www.flashmoving.com/privacy-policy" /> 
+@stop
 @section('content')
 
 <div class="contact">

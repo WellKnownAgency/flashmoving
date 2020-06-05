@@ -4,7 +4,10 @@
 @section('mainimg', '')
 
 @extends('layouts.main')
-
+@section('preload')
+<link rel="preload" href="/images/hero/erda-estremera-58145.jpg" as="image">
+<link rel="canonical" href="https://www.flashmoving.com/family" /> 
+@stop
 @section('content')
 
 
