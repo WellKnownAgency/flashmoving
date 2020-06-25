@@ -214,3 +214,22 @@ The secret of making unmistakable decision lies at the heart of understanding th
 Before making any decisions, don’t hesitate to ask a manager about materials they use to protect your belongings, tracking system and insurance used to make sure your items are safe and secured, and whether or not they are licensed to perform interstate moving services.
 </p>
 @stop
+@section('stars')
+<script type="application/ld+json">
+    {
+    "@context":"http://schema.org",
+    "@type":"Product",
+    "name":"Flash Moving Company",
+    "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "ratingCount": "25"
+    },
+    "offers": {
+    "@type":"AggregateOffer",
+    "lowPrice":"99 an hour",
+    "priceCurrency":"USD"
+    }
+    }
+</script>
+@stop
