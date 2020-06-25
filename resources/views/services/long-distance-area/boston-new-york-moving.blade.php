@@ -222,12 +222,11 @@ Before making any decisions, don’t hesitate to ask a manager about materials t
     "name":"Flash Moving Company",
     "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "ratingCount": "25"
+    "ratingValue": "5",
+    "ratingCount": "70"
     },
     "offers": {
     "@type":"AggregateOffer",
-    "lowPrice":"99 an hour",
     "priceCurrency":"USD"
     }
     }
