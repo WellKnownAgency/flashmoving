@@ -227,6 +227,7 @@ Before making any decisions, don’t hesitate to ask a manager about materials t
     },
     "offers": {
     "@type":"AggregateOffer",
+    "lowPrice":"$950",
     "priceCurrency":"USD"
     }
     }
