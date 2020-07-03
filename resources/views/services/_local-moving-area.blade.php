@@ -553,14 +553,73 @@
             </div>
         </div>
     </section>
-    <br>
-    <br>
-    <br>
+    <br/>
+    <br/>
     <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title section-title--upper">How to start move with us</h2>
+            </div>
+
+            <div class="tree-to-start">
+                <div class="tree-to-start__list">
+                    <div class="tree-to-start__item">
+                        <div class="tree-to-start-item">
+                            <div class="tree-to-start-item__preview">
+                                <div class="tree-to-start-item__icon tree-to-start-item__icon--call"></div>
+                            </div>
+                            <div class="content">
+                                <div class="tree-to-start-item__title">Call us at <span class="tree-to-start-item__text-red">857.241.8778</span></div>
+                                <div class="tree-to-start-item__description">Our manager will ask a few questions<br> regarding the move</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tree-to-start__item">
+                        <div class="tree-to-start-item">
+                            <div class="tree-to-start-item__preview">
+                                <div class="tree-to-start-item__icon tree-to-start-item__icon--calendar"></div>
+                            </div>
+                            <div class="content">
+                                <div class="tree-to-start-item__title">Choose date & time <br> for you move</div>
+                                <div class="tree-to-start-item__description">Select a desired moving date and time</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tree-to-start__item">
+                        <div class="tree-to-start-item">
+                            <div class="tree-to-start-item__preview">
+                                <div class="tree-to-start-item__icon tree-to-start-item__icon--calc"></div>
+                            </div>
+                            <div class="content">
+                                <div class="tree-to-start-item__title">Get your <span class="tree-to-start-item__text-red">free</span> estimate</div>
+                                <div class="tree-to-start-item__description">You'll get a free estimate by phone or via e-mail</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tree-to-start__item">
+                        <div class="tree-to-start-item">
+                            <div class="tree-to-start-item__preview">
+                                <div class="tree-to-start-item__icon tree-to-start-item__icon--delivery"></div>
+                            </div>
+                            <div class="content">
+                                <div class="tree-to-start-item__title">Start your move with us</div>
+                                <div class="tree-to-start-item__description">Are you ready? Excellent! We are on our way!</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="section__button">
+                <a href="https://oncueapp.com/flash-moving" class="btn-simple btn-simple--medium">Get free Estimate</a>
+            </div>
+        </div>
+    </section>
+    {{-- <section class="section">
         <div class="container text-center">
         <iframe src="https://oncueapp.com/flash-moving?short=1&iframe=1" class="mob-width" width=600 height=510></iframe>        
         </div>
-    </section>
+    </section> --}}
 @stop
 
 
