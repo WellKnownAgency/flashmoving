@@ -7,7 +7,7 @@
 <meta name="description" content="@yield('dscr')" />
 
 <!-- CSS -->
-<link rel="stylesheet" href="/css/app.css" >
+<link rel="stylesheet" href="{{ mix('/css/app.css') }}" >
 <link rel="stylesheet" href="/css/custom.css" >
 
 <link rel="stylesheet" type="text/css" href="/css/tooltipster.bundle.min.css" />
