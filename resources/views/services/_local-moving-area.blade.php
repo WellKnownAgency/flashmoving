@@ -54,7 +54,7 @@
             </div> --}}
         </div>
     </section>
-
+    @yield('crumbs')
     {{-- Seo text --}}
     <section class="section" style="padding-top:0px;">
         <div class="container-fluid" style="background-color: #ebebeb;">

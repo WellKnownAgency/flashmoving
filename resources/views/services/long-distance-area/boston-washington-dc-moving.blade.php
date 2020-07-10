@@ -50,7 +50,30 @@
   }
 </script>
 @stop
-
+@section('crumbs')
+<div id="crumbs">
+    <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+        <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage"
+                href="https://www.flashmoving.net/">
+            <span property="name">Home</span></a>
+            <meta property="position" content="1">
+        </li>
+        ›
+        <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage"
+                href="https://www.flashmoving.net/long-distance-movers">
+            <span property="name">Long Distance Moving</span></a>
+            <meta property="position" content="2">
+        </li>
+        ›
+        <li property="itemListElement" typeof="ListItem">
+            <span property="name">Boston to Washington, DC Movers</span>
+            <meta property="position" content="3">
+        </li>
+    </ul>
+</div>   
+@endsection
 @section('content-list')
     <div class="content-blocks__item" >
         <div class="row content-blocks-item">
