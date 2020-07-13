@@ -12,7 +12,7 @@
     <div class="row">
         <div class="col-md-9">
             <div class="blog-single-image">
-                <img src="/images/blog/{{$post->image}}" style="max-width: 100%; height:auto;"/>
+                <img src="/images/blog/{{$post->image}}" alt="{{$post->title}}" style="max-width: 100%; height:auto;"/>
             </div> 
             <div class="blog-single-title">
                 <h1>{{$post->title}}</h1>
@@ -27,7 +27,7 @@
         <div class="col-md-3">
             <div class="blog-single-sidebar">
                 <a href="https://oncueapp.com/flash-moving">
-                <img src="/images/blog/123.png" />
+                <img src="/images/blog/123.png"  alt="Get a moving quote with Flash Moving/>
                 </a>
             </div>
         </div>

@@ -450,10 +450,11 @@
     </section>
     <br/>
     <br/>
+    @yield('prices')
     <section class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title section-title--upper">How to start move with us</h2>
+                <h2 class="section-title section-title--upper">How to start a move with us</h2>
             </div>
 
             <div class="tree-to-start">

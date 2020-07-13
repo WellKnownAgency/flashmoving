@@ -6,7 +6,7 @@
 
 @section('preload')
 <link rel="preload" href="/images/hero/IMG_7908.jpg" as="image">
-<link rel="canonical" href="https://www.flashmoving.com/packers-and-movers" /> 
+<link rel="canonical" href="https://www.flashmoving.net/packers-and-movers" /> 
 @stop
 
 @section('content')

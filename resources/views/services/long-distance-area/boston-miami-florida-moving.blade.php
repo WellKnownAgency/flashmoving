@@ -1,5 +1,5 @@
-@section('title', 'Movers from Boston to Miami, Florida | Miami to Boston Moving')
-@section('dscr', 'Fully Licensed Moving Company from Boston to Miami, Florida. Our professional movers will make your move from rainy Boston to sunny Miami, Florida in 3 days.')
+@section('title', 'Movers from Boston to Miami, Florida - Flash Moving Company')
+@section('dscr', 'Fully Licensed Movers from Boston to Miami, Florida. Our professional moving crew will make your move from Boston to Miami in 3 days stress-free. Get a Moving Quote now. ')
 @section('keywords', '')
 @section('mainimg', '')
 
@@ -86,10 +86,10 @@
                         <h2 class="content-blocks-item__title-primary">Moving from Boston to Miami</h2>
                     </div>
                     <div class="content-blocks-item__text">
-                    <p>If you are <b>moving to Miami</b>, don’t bother yourself thinking about anything, but packing a swimsuit.
-						Flash Moving Company will pack all your belongings here in Boston and will carefully perform a next-day delivery to Miami. Whether you are planning to move your favorite king-size bed and a TV screen or are moving an entire 4-bedroom house, we’ll pack and protect every single piece of furniture and every item you wish to take down there. By the way, we’ll also pack your 	swimsuit, if needed.
-						Flash Movers have moved people to a variety of different destinations throughout the States so many times so that we could be qualified as travel bloggers without a doubt.
-						We manage to perform a safe and secure express <b>moving from Boston to Miami</b>, based on your specific needs, circumstances, schedule, and budget. 
+                    <p>If you are <b>moving to Miami from Boston</b>, don’t bother yourself thinking about anything, but packing a swimsuit.
+						Our Boston to Miami movers will pack all your belongings here in Boston and will carefully perform a moving to Miami. Whether you are planning to move your favorite king-size bed and a TV screen or are moving an entire 4-bedroom house, we’ll pack and protect every single piece of furniture and every item you wish to take down there. By the way, we’ll also pack your swimsuit, if needed.
+						Flash Movers have moved people to a variety of different destinations throughout the United States so many times so that we could be qualified as long-distancce moving company without a doubt.
+						We manage to perform a safe and secure express <b>moving from Boston to Miami</b>, based on your specific needs, circumstances, schedule, and budget.
 					</p>
 					<p>
 						Choosing Flash Movers as the <a href="https://flashmoving.net/long-distance-movers">long-distance moving service</a> providers, you select quality, efficiency and guaranteed security in addition to excellent customer service and  24-hour assistance in the moving process.
@@ -231,5 +231,23 @@
 	As for professionals and those seeking career opportunities, Miami offers an impressive concentration of international and national banks and companies, as well as infinitely growing and incredibly attractive tourism and real estate business.
 </p>											
 @stop
-
+@section('stars')
+<script type="application/ld+json">
+    {
+    "@context":"http://schema.org",
+    "@type":"Product",
+    "name":"Flash Moving Company",
+    "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "ratingCount": "70"
+    },
+    "offers": {
+    "@type":"AggregateOffer",
+    "lowPrice":"$5000",
+    "priceCurrency":"USD"
+    }
+    }
+</script>
+@stop
 

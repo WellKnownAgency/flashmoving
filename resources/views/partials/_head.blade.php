@@ -14,27 +14,6 @@
 <link rel="stylesheet" type="text/css" href="/css/tooltipster-sideTip-borderless.min.css" />
 <meta name="csrf-token" content="{{ csrf_token() }}">
 
-
-<style>
-.move-calc-wrapper.elromco-mobile {
-display:none;
-}
-@media(max-width:1100px) {
-.move-calc-wrapper.elromco-mobile {
-display:block;
-}
-.move-calc-wrapper.elromco-desktop {
-display:none;
-}
-}
-@media only screen and (max-width: 960px) {
-    .mob-width {
-      width:300px;
-      height: 530px;
-    }
-  }
-</style>
-
 @yield('preload')
 @yield('customcss')
 @yield('faqhead')

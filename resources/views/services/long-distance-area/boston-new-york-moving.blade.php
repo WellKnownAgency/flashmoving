@@ -237,6 +237,117 @@ The secret of making unmistakable decision lies at the heart of understanding th
 Before making any decisions, don’t hesitate to ask a manager about materials they use to protect your belongings, tracking system and insurance used to make sure your items are safe and secured, and whether or not they are licensed to perform interstate moving services.
 </p>
 @stop
+@section('prices')
+<div class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title section-title--upper">Boston to New York moving prices</h2>
+        </div>
+
+        <div class="section__collection">
+            <div class="prices-collection">
+                <div class="prices-collection__list">
+                    <div class="row prices-collection__row">
+                        <div class="col-md-4 prices-collection__item prices-collection__item--narrow">
+                            <div class="prices-collection-item">
+                                <h3 class="prices-collection-item__title">1 bedroom apartment</h3>
+                                <div class="prices-collection-item__prices">
+                                    <div class="prices-collection-item__price">from $1250</div>
+                                </div>
+                                <div class="prices-collection-item__features">
+                                    <div class="prices-collection-item__btn-more">
+                                        <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice1" aria-expanded="false" aria-controls="collapsePrice1">More</button>
+                                    </div>
+                                    <div class="collapse prices-collection-item-features" id="collapsePrice1">
+                                        <div class="prices-collection-item-features__title">What's included?</div>
+                                        <ul class="prices-collection-item-features__list">
+                                            <li class="prices-collection-item-features__item">2 Professional Movers</li>
+                                            <li class="prices-collection-item-features__item">Clean 18' Box Truck</li>
+                                            <li class="prices-collection-item-features__item">Wrapping and Protection of All Furniture</li>
+                                            <li class="prices-collection-item-features__item">Miles / Gas / Tolls / Taxes</li>
+                                            <li class="prices-collection-item-features__item">Disassembling / Reassembling of Furniture</li>
+                                            <li class="prices-collection-item-features__item">Additional Pick up / Drop off</li>
+                                            <li class="prices-collection-item-features__item">Doors, Walls and Floor Protection</li>
+                                            <li class="prices-collection-item-features__item">Packing / Unpacking</li>
+                                            <li class="prices-collection-item-features__item">Basic Insurance</li>
+                                            <li class="prices-collection-item-features__item">Dollies / Tools / Straps</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="prices-collection-item__button">
+                                    <a class="btn-simple" href="https://oncueapp.com/flash-moving">Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 prices-collection__item prices-collection__item--wide">
+                            <div class="prices-collection-item prices-collection-item--big">
+                                <h3 class="prices-collection-item__title">2 bedroom apartment</h3>
+                                <div class="prices-collection-item__prices">
+                                    <div class="prices-collection-item__price">from $1650</div>
+                                </div>
+                                <div class="prices-collection-item__features">
+                                    <div class="prices-collection-item__btn-more">
+                                        <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice2" aria-expanded="false" aria-controls="collapsePrice2">More</button>
+                                    </div>
+                                    <div class="collapse prices-collection-item-features" id="collapsePrice2">
+                                        <div class="prices-collection-item-features__title">What's included?</div>
+                                        <ul class="prices-collection-item-features__list">
+                                            <li class="prices-collection-item-features__item">3 Professional Movers</li>
+                                            <li class="prices-collection-item-features__item">Clean 20' Box Truck</li>
+                                            <li class="prices-collection-item-features__item">Wrapping and Protection of All Furniture</li>
+                                            <li class="prices-collection-item-features__item">Miles / Gas / Tolls / Taxes</li>
+                                            <li class="prices-collection-item-features__item">Disassembling / Reassembling of Furniture</li>
+                                            <li class="prices-collection-item-features__item">Additional Pick up / Drop off</li>
+                                            <li class="prices-collection-item-features__item">Doors, Walls and Floor Protection</li>
+                                            <li class="prices-collection-item-features__item">Packing / Unpacking</li>
+                                            <li class="prices-collection-item-features__item">Basic Insurance</li>
+                                            <li class="prices-collection-item-features__item">Dollies / Tools / Straps</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="prices-collection-item__button">
+                                    <a class="btn-simple" href="https://oncueapp.com/flash-moving">Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 prices-collection__item prices-collection__item--narrow">
+                            <div class="prices-collection-item">
+                                <h3 class="prices-collection-item__title">3-4+ bedroom house</h3>
+                                <div class="prices-collection-item__prices">
+                                    <div class="prices-collection-item__price">from $2350</div>
+                                </div>
+                                <div class="prices-collection-item__features">
+                                    <div class="prices-collection-item__btn-more">
+                                        <button type="button" class="btn-more" data-toggle="collapse" data-target="#collapsePrice3" aria-expanded="false" aria-controls="collapsePrice3">More</button>
+                                    </div>
+                                    <div class="collapse prices-collection-item-features" id="collapsePrice3">
+                                        <div class="prices-collection-item-features__title">What's included?</div>
+                                        <ul class="prices-collection-item-features__list">
+                                            <li class="prices-collection-item-features__item">4 Professional Movers</li>
+                                            <li class="prices-collection-item-features__item">Clean 26' Box Truck</li>
+                                            <li class="prices-collection-item-features__item">Wrapping and Protection of All Furniture</li>
+                                            <li class="prices-collection-item-features__item">Miles / Gas / Tolls / Taxes</li>
+                                            <li class="prices-collection-item-features__item">Disassembling / Reassembling of Furniture</li>
+                                            <li class="prices-collection-item-features__item">Additional Pick up / Drop off</li>
+                                            <li class="prices-collection-item-features__item">Doors, Walls and Floor Protection</li>
+                                            <li class="prices-collection-item-features__item">Packing / Unpacking</li>
+                                            <li class="prices-collection-item-features__item">Basic Insurance</li>
+                                            <li class="prices-collection-item-features__item">Dollies / Tools / Straps</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="prices-collection-item__button">
+                                    <a class="btn-simple" href="https://oncueapp.com/flash-moving">Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@stop
 @section('stars')
 <script type="application/ld+json">
     {
@@ -250,7 +361,7 @@ Before making any decisions, don’t hesitate to ask a manager about materials t
     },
     "offers": {
     "@type":"AggregateOffer",
-    "lowPrice":"$950",
+    "lowPrice":"$1250",
     "priceCurrency":"USD"
     }
     }
