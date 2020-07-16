@@ -27,7 +27,7 @@
         <div class="col-md-3">
             <div class="blog-single-sidebar">
                 <a href="https://oncueapp.com/flash-moving">
-                <img src="/images/blog/123.png"  alt="Get a moving quote with Flash Moving/>
+                <img src="/images/blog/123.png"  alt="Get a moving quote with Flash Moving"/>
                 </a>
             </div>
         </div>
@@ -38,6 +38,3 @@
 <br>
 @stop
 
-<!-- @section('comments')
-<script id="dsq-count-scr" src="//borntomove.disqus.com/count.js" async></script>
-@stop -->
