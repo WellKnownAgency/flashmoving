@@ -292,3 +292,10 @@
     background: #d14221 !important;
     border-color: #d142 !important;
 }
+
+@media screen and (max-width: 960px) {
+    .mob-width {
+        width: 100%;
+        height: 600px;
+    }
+}
