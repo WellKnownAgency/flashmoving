@@ -1,6 +1,6 @@
 <script src="{{ mix('/js/app.js') }}"></script>
 <script src="/js/custom.js"></script>
-<script>
+{{-- <script>
 jQuery(document).ready(function () {
    jQuery.ajax({
        type: "GET",
@@ -18,7 +18,7 @@ jQuery(document).ready(function () {
 
    // END OF READY FUN
 });
-</script>
+</script> --}}
 @yield('customjs')
 <!-- Scripts -->  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
