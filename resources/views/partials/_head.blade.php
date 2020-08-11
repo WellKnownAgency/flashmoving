@@ -8,7 +8,6 @@
 
 <!-- CSS -->
 <link rel="stylesheet" href="{{ mix('/css/app.css') }}" >
-<link rel="stylesheet" href="/css/custom.css" >
 
 <link rel="stylesheet" type="text/css" href="/css/tooltipster.bundle.min.css" />
 <link rel="stylesheet" type="text/css" href="/css/tooltipster-sideTip-borderless.min.css" />
