@@ -1,11 +1,27 @@
-@section('title', 'Movers from Boston to Chicago, Chicago to Boston Moving')
-@section('dscr', 'Fully Licensed Moving Company from Boston to Chicago. Our reliable movers will make your move from Chicago to Boston simple and with no stress. Get a FREE Moving Estimate.')
+@section('title', 'Movers from Boston to Chicago - Flash Moving Company')
+@section('dscr', 'Fully Licensed Moving Company from Boston to Chicago. Our reliable movers will make your move from Chicago to Boston smooth and stress-free. Free Estimate.')
 @section('keywords', '')
 @section('mainimg', '')
 
 @extends('services._long-distance-area')
 @section('canonical')
 <link rel="canonical" href="https://www.flashmoving.net/long-distance-movers/boston-chicago-movers" />
+{{-- Twitter Card --}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@flashmoversma">
+<meta name="twitter:creator" content="@taras_kim">
+<meta name="twitter:title" content="Movers from Boston to Chicago - Flash Moving Company">
+<meta name="twitter:description" content="Fully Licensed Moving Company from Boston to Chicago. Our reliable movers will make your move from Chicago to Boston smooth and stress-free. Free Estimate.">
+<meta name="twitter:image" content="/images/services/interstate/IMG_7929.jpg">
+{{-- Open Graph --}}
+<meta property=”og:type” content=”website” />
+<meta property="og:url" content="https://www.flashmoving.net/long-distance-movers/boston-chicago-movers" />
+<meta property="og:image" content="http://www.flashmoving.net/images/services/interstate/IMG_7929.jpg" />
+<meta property="og:image:secure_url" content="https://www.flashmoving.net/images/services/interstate/IMG_7929.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="2500" />
+<meta property="og:image:height" content="1300" />
+<meta property="og:image:alt" content="Movers from Boston to Chicago" />
 @stop
 @section('hero-title', 'Boston to Chicago Movers')
 @section('hero-description', 'Reliable and fully licensed moving company.')
@@ -87,16 +103,14 @@
                     </div>
                     <div class="content-blocks-item__text">
                     <p>
-						If you are looking for <strong>Boston to Chicago movers</strong> or <strong>Chicago to Boston movers</strong>, do not ever look for the cheapest movers out there in the market. Look for a reliable and trusted moving company, which offers professional moving service and help.
-						If your move is poorly planned or incorrectly calculated, you can end up paying for add-ons and extra services you were not aware of.
+						If you are looking for reliable moving company to help you <strong>move from Boston to Chicago</strong> you at the right place. Flash moving is a licensed Boston based moving company that provides local and long distance moving services for their clients.
 					</p>
 					<p>
-						To avoid getting trapped, consider hiring Flash Moving Company as your long-distance provider.
-Flash movers will calculate a flat rate fee for any long-distance move, whether it is a pure Boston to Chicago or Chicago to Boston move or a more complicated moving service that requires additional stops, pick-up, and drop-off locations.
+                        Our movers are professionals with years of experience and they know how to make your move smooth and stress-free. 
+                        We understand that moving long distance from <strong>Boston to Chicago</strong> is very complicated task, that's why from move to move we try to improve the way we book our clients, how we provide customer service and  do the move.
 					</p>
 					<p>
-						Please fill out a free estimate quote or call us to schedule an on-site visual estimate.
-Our moving managers will do their best to plan the smoothest and most cost-efficient move for you in advance.
+						The Booking process is really simple. Fill out a <a target="blank" href="https://oncueapp.com/flash-moving?_ga=2.258371722.1498457201.1597369726-470656002.1597369726">moving form</a> or call us to get a moving quote. We will ask you few questions about the size of the move and the desired moving dates. In some cases to choose a right truck and moving crew size we will have to visit you to make a visual estimate. 
 					</p>			
                     </div>
                 </div>
@@ -211,26 +225,11 @@ Our moving managers will do their best to plan the smoothest and most cost-effic
 @stop
 @section('content-list-2')
 <p>
-	No matter how small or how huge your belongings are, moving them from one city to another will seem like one of the most complicated and confusing tasks you’ve ever had.
-</p>
-<p>
-	That is why Flash Moving Company offers its moving service to plan, coordinate and complete your Boston to Chicago to Boston move</strong>.
-</p>
-<p>
-	Specializing in <a href="/long-distance-movers">Long Distance Moving Services</a> between Chicago and Boston for many years, we provide you with free on-site estimates and consulting on an upcoming move with absolutely no obligations. We also offer a 100% safe, cost-efficient and guaranteed on-time delivery.
-</p>
-<p>
-	Flash Moving Team will take care of every step of your Chicago to Boston move, making sure to provide you full packing services and supply with wrapping and packing materials needed to get your stuff ready for the upcoming journey; offer disassembling and reassembling furniture services for free; loading and unloading your belongings safe and secure.
-We’ll also offer a live GPS tracking with no charge and will make sure all fuel, mileage, and tolls fees are already included in the flat rate provided well in advance.
-</p>
-<p>
-	Chicago and Boston are big multicultural cities popular among young professionals and families with children.<br>
-You will be impressed by museums, world-class architecture and top-ranked universities both cities can offer.<br>
-When moving to Chicago or moving to Boston, consider your upcoming journey as a life-changing opportunity and a life-long investment into a bright future.
-
-</p>
-<p>
-	Flash Moving Company will be more than happy to join you on your first and most important steps towards a new life. We will do our best to make the relocation an exciting and memorable experience that would mark the beginning of an unforgettable journey.
+	The moving process from Boston to Chicago is doesn't require a lot from you. First of all you have to make sure that everything is properly packed into the boxes. It's especially important to pack with extra care for Long Distance move. If you are not sure you can handle this task our company provides packing solutions. 
+After everything packed our crew will show up at time and day you booked you move with us and we will start carefully wrapping all your furniture. Do not worry about disassembling tables or beds, we will handle this for you. 
+Then we store all the items into the truck, so it will be safe during the long drive. The next step is delivering to Chicago at the day and time you booked.
+After arriving to Chicago we will carefully bring all your items from truck into you new home and unpack them.</br>
+<strong>Flash Moving Boston to Chicago moving Company is fully licensed and insured<strong>.
 </p>
 @stop
 @section('prices')
