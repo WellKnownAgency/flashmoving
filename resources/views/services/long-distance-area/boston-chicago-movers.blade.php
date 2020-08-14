@@ -99,7 +99,7 @@
             <div class="col-lg-6 order-lg-0 content-blocks-item__body">
                 <div class="content-blocks-item__body-inner">
                     <div class="content-blocks-item__header">
-                        <h2 class="content-blocks-item__title-primary">Boston to Chicago Movers</h2>
+                        <h2 class="content-blocks-item__title-primary">Moving from Boston to Chciago</h2>
                     </div>
                     <div class="content-blocks-item__text">
                     <p>
