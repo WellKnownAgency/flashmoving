@@ -12,7 +12,7 @@
 <meta name="twitter:creator" content="@taras_kim">
 <meta name="twitter:title" content="Movers from Boston to Chicago - Flash Moving Company">
 <meta name="twitter:description" content="Fully Licensed Moving Company from Boston to Chicago. Our reliable movers will make your move from Chicago to Boston smooth and stress-free. Free Estimate.">
-<meta name="twitter:image" content="/images/services/interstate/IMG_7929.jpg">
+<meta name="twitter:image" content="https://www.flashmoving.net/images/services/interstate/IMG_7929.jpg">
 {{-- Open Graph --}}
 <meta property=”og:type” content=”website” />
 <meta property="og:url" content="https://www.flashmoving.net/long-distance-movers/boston-chicago-movers" />
