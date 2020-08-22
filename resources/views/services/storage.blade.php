@@ -97,7 +97,7 @@
 																			Flash Moving and Storage Company provides competitive and affordable long term storage fees. The prices are already pre-calculated and, in most cases, depend only on the size of the storage required and duration of using a storage unit.
 																			Despite a forever growing demand for long-term storage units in Boston and its neighborhood, Flash Moving storage facilities are committed to their prices that do not change throughout the entire storage period.
 																		</p>
-                                    <div class="content-blocks-item__price">By request <br><span class="text-danger text-uppercase">FIRST MONTH FREE</span></div>
+                                    <div class="content-blocks-item__price">By request</div>
                                 </div>
                             </div>
                         </div>
